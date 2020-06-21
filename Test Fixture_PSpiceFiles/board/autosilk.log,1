@@ -1,0 +1,142 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : test_fixture_3.brd                            )
+(    Software Version : 16.3p006                                      )
+(    Date/Time        : Fri Jun 19 20:26:09 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for the top of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.00
+Max Text displacement is 100.00
+Min Line Length is 0.00
+Allowing 0, 90, 180 and 270 degree text rotations.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : Silkscreen
+ Component Value      : Silkscreen
+ Device Type          : Silkscreen
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : Silkscreen
+ User Part Number     : Silkscreen
+
+Text string '***' is not at a suitable location
+(location: 2205.00, 2030.00)
+Text string '***' is not at a suitable location
+(location: 2205.00, 1990.00)
+Text string '***' is not at a suitable location
+(location: 675.00, 2785.00)
+Text string '***' is not at a suitable location
+(location: 1180.00, 2805.00)
+Text string 'D2' is not at a suitable location
+(location: 925.00, 2940.00)
+Text string '***' is not at a suitable location
+(location: 935.00, 2830.00)
+Text string '***' is not at a suitable location
+(location: 935.00, 2790.00)
+Text string '***' is not at a suitable location
+(location: 1735.00, 1940.00)
+Text string '***' is not at a suitable location
+(location: 1960.00, 1980.00)
+Text string '***' is not at a suitable location
+(location: 1960.00, 1940.00)
+Text string '***' is not at a suitable location
+(location: 1260.00, 2055.00)
+Text string '***' is not at a suitable location
+(location: 1260.00, 2015.00)
+Text string '***' is not at a suitable location
+(location: 810.00, 2015.00)
+Text string '***' is not at a suitable location
+(location: 1035.00, 2055.00)
+Text string '***' is not at a suitable location
+(location: 1035.00, 2015.00)
+Text string '***' is not at a suitable location
+(location: 560.00, 1865.00)
+Text string '***' is not at a suitable location
+(location: 560.00, 1640.00)
+Text string '***' is not at a suitable location
+(location: 1085.00, 3480.00)
+Text string '***' is not at a suitable location
+(location: 1085.00, 3440.00)
+Text string '***' is not at a suitable location
+(location: 1190.00, 3495.00)
+Text string '***' is not at a suitable location
+(location: 1190.00, 3535.00)
+Text string '***' is not at a suitable location
+(location: 1335.00, 3480.00)
+Text string '***' is not at a suitable location
+(location: 1335.00, 3440.00)
+Text string '***' is not at a suitable location
+(location: 810.00, 3855.00)
+Text string 'C3' is not at a suitable location
+(location: 800.00, 3780.00)
+Text string '***' is not at a suitable location
+(location: 1585.00, 3480.00)
+Text string '***' is not at a suitable location
+(location: 1585.00, 3440.00)
+Text string '***' is not at a suitable location
+(location: 783.00, 2786.00)
+Text string '***' is not at a suitable location
+(location: 783.00, 2751.00)
+Text string '***' is not at a suitable location
+(location: 1777.00, 749.00)
+Text string '***' is not at a suitable location
+(location: 2323.00, 3676.00)
+Text string '***' is not at a suitable location
+(location: 2073.00, 3676.00)
+Text string '100k' is not at a suitable location
+(location: 899.00, 3892.00)
+Text string '***' is not at a suitable location
+(location: 898.00, 3826.00)
+Text string '***' is not at a suitable location
+(location: 2198.00, 3711.00)
+Text string '***' is not at a suitable location
+(location: 2198.00, 3676.00)
+Text string '***' is not at a suitable location
+(location: 768.00, 3861.00)
+Text string '***' is not at a suitable location
+(location: 768.00, 3826.00)
+Text string 'CON10A_CONN10_CON10A' is not at a suitable location
+(location: 2615.00, 885.00)
+Text string '***' is not at a suitable location
+(location: 2605.00, 825.00)
+Text string 'LM124A_DIP14_3_LM124A' is not at a suitable location
+(location: 1475.00, 4140.00)
+Text string 'LM124A' is not at a suitable location
+(location: 1575.00, 4140.00)
+Text string 'MAX550ACPA_3_DIP8_3_MAX550ACPA' is not at a suitable location
+(location: 2418.00, 1677.00)
+Text string 'max550acpa' is not at a suitable location
+(location: 2418.00, 1627.00)
+Text string '***' is not at a suitable location
+(location: 2418.00, 1577.00)
+Text string '***' is not at a suitable location
+(location: 2418.00, 1527.00)
+Text string 'CAT24C02_3_DIP8_3_CAT24C02' is not at a suitable location
+(location: 2418.00, 1202.00)
+Text string 'CAT24C02' is not at a suitable location
+(location: 2418.00, 1152.00)
+Text string '***' is not at a suitable location
+(location: 2418.00, 1102.00)
+Text string '***' is not at a suitable location
+(location: 2418.00, 1052.00)
+Text string 'MAX3222_2_DIP18_3_MAX3222' is not at a suitable location
+(location: 1550.00, 1475.00)
+Text string 'MAX3222' is not at a suitable location
+(location: 1375.00, 1475.00)
+Text string '***' is not at a suitable location
+(location: 1450.00, 1475.00)
+Text string '***' is not at a suitable location
+(location: 1300.00, 1475.00)
+
+Total Failures: 54
+
+Log End
+

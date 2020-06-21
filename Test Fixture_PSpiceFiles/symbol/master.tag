@@ -1,0 +1,1 @@
+32_pins_cir_conn_right_angle.dra

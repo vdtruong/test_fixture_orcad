@@ -1,0 +1,952 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+<meta name="GENERATOR" content="Quadralay WebWorks Publisher AutoMap 6.0.7">
+<meta name="TEMPLATEBASE" content="CadencePubs_HelpTopics">
+<meta name="LASTUPDATED" content="Fri Sep 26 14:43:26 2008">
+
+<script TYPE="text/javascript" LANGUAGE="JavaScript" >
+  <!--
+  // Dummy script statement to get rid of Netscape timing errors which may
+  // print garbage JavaScript code at the top in Unix 4.x Netscape browser.
+  // -->
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Browser.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Cookies.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Search.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript">
+  <!--
+  function window_resized(){
+    window.location.reload();
+  }
+  window.onresize=window_resized;
+                                                                                                                                                                
+  /*
+  * Initializes before submitting query
+  */
+  function initOnSubmit() {
+    storeStateAndQuery();
+  }
+                                                                                                                                                                
+  setCookie("DocumentTitle", "Part Developer Tutorial");
+  setCookie("Chapter", "N/A");
+  setCookie("Keyword", "search");
+  setCookie("Version", "Product Version 2.2");
+
+  // -->
+  </script>
+
+
+<title>Part Developer Tutorial -- 3. Creating a Flat Part</title>
+<META NAME="Approver" CONTENT="Technical Publications">
+<META NAME="Author" CONTENT="Technical Publications">
+<META NAME="CreateDate" CONTENT="2008-09-26">
+<META NAME="CreateTime" CONTENT="1222420432">
+<META NAME="DataType" CONTENT="Manuals">
+<META NAME="Description" CONTENT="Describes key library-creation tasks in Part Developer">
+<META NAME="DocTitle" CONTENT="Part Developer Tutorial">
+<META NAME="DocType" CONTENT="Manual">
+<META NAME="FileTitle" CONTENT="3. Creating a Flat Part">
+<META NAME="FileType" CONTENT="Chapter">
+<META NAME="Keyword" CONTENT="pdv_tut">
+<META NAME="Language" CONTENT="English">
+<META NAME="ModifiedDate" CONTENT="2008-09-26">
+<META NAME="ModifiedTime" CONTENT="1222420432">
+<META NAME="NextFile" CONTENT="chap3.html">
+<META NAME="PageCount" CONTENT="23">
+<META NAME="Platform" CONTENT="ALL">
+<META NAME="PrevFile" CONTENT="getting_started.html">
+<META NAME="Product" CONTENT="Concept, PCB Design Infrastructure, TDD">
+<META NAME="ProductFamily" CONTENT="PCB Design, PCB Design, PCB Design">
+<META NAME="ProductVersion" CONTENT="16.2">
+<META NAME="RightsManagement" CONTENT="Copyright 1998-2008 Cadence Design Systems Inc.">
+<META NAME="Title" CONTENT="Part Developer Tutorial -- 3. Creating a Flat Part">
+<META NAME="TopicTags" CONTENT="FALSE">
+<META NAME="Version" CONTENT="16.2">
+</head>
+
+<body bgcolor="#ffffff">
+<a name="firstpage"></a>
+<a name="pagetop"></a>
+
+<p>
+<!-- Begin Buttons -->
+
+<form name="advancedform" action="/vtopic.isapi" method="GET" onSubmit="initOnSubmit()">
+<input type=hidden name="action" value="FilterSearch">
+<input type=hidden name="Filter" value="altsearchfilter.hts">
+<input type=hidden name="resulttemplate" value="altsearchresults.hts">
+<input type=hidden name="resultcount" value="10">
+<input type=hidden name="resultmaxdocs" value="-1">
+<input type=hidden name="queryhidden" value="null">
+<input type=hidden name="queryitemselected" value="no">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="36" width="650" colspan="10"><img src="../support/header_doc.gif" WIDTH="650" HEIGHT="36"></td>
+</tr>
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="getting_started.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="chap3.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><img src="../support/nav2_black.gif" height="20" width="61"></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+ <tr>
+    <td colspan="10">
+      <script type="text/javascript">
+      <!--// We wrap all this inside javascript because we only want to display  -->
+      <!--// the search bar if the http server is running. If it is not running  -->
+      <!--// the search bar should not be visible to the user                    -->
+      <!-- BEGIN SEARCH BAR -->
+      var isloaded = isLoaded();
+      var enteredquery = getCookie("enteredquery");
+      if(enteredquery) {
+        enteredquery = enteredquery.replace(/</g,"&lt ");
+        enteredquery = enteredquery.replace(/>/g,"&gt ");
+      } else {
+         enteredquery = "";
+      }
+                                                                                                                                                                
+      <!-- Only display search bar if server is running -->
+      if(isloaded) {
+                                                                                                                                                                
+        display_search_bar(enteredquery);
+                                                                                                                                                                
+      }
+      <!-- END SEARCH BAR -->
+      </script>
+    </td>
+  </tr>
+</table>
+</form>
+
+<!-- End Buttons -->
+<p>
+<p>
+<hr>
+<p>
+<h3><center>Part Developer Tutorial&#0044; Product Version 16.2</center></h3><br>
+<p>
+
+
+<blockquote>
+
+  
+<div align="right">
+<h1 align="left">
+  <a name="1032139"> </a>3</h1>
+</div>
+
+<hr>
+<h1>
+  <a name="1032140"> </a>Creating a Flat Part</h1>
+
+
+
+
+
+
+<br><br><br>
+<h2>
+  <a name="1032719"> </a>Objective</h2>
+
+
+<p>
+  <a name="1032738"> </a>To become familiar with the steps in creating a single-slot flat part.</p>
+
+
+<p>
+  <a name="1032747"> </a>In this chapter, you will learn to:</p>
+
+<ul>
+  <a name="1032748"></a><li><p>Set up Part Developer</p>
+
+  <a name="1032755"></a><li><p>Specify the logical and physical pin information</p>
+
+  <a name="1032756"></a><li><p>Create packages:</p>
+<ul>
+  <a name="1035103"> </a><li><p>Understand several techniques in Part Developer for the quick development of parts 
+and the views
+</p>
+
+  <a name="1035104"> </a><li><p>Access Allegro footprints to specify the <code>JEDEC_TYPE</code> property
+</p>
+
+  <a name="1035105"> </a><li><p>Use filters
+</p>
+
+  <a name="1032758"> </a><li><p>Extract pin numbers from the Allegro footprint
+</p>
+
+  <a name="1034189"> </a><li><p>Move global pins from the <em>Logical Pins</em> grid to the <em>Global Pins</em> grid
+</p>
+
+  <a name="1032780"> </a><li><p>Verify the part with the selected footprint
+</p>
+</ul>
+  <a name="1032781"></a><li><p>Create symbols</p>
+</ul>
+<br><br><br>
+<h2>
+  <a name="1032789"> </a>Overview</h2>
+
+
+<p>
+  <a name="1032812"> </a>The n87c196nt part is used to describe the steps in creating a flat part. The datasheet (<code>n87c196nt.pdf</code>) is available at <code><em>&lt;your_inst_dir&gt;</code></em><code>/doc/pdv_tut/tutorial_data/datasheets</code>. It is a 68-pin part and comes in the PLCC package.</p>
+
+
+<p>
+  <a name="1032811"> </a>A partial snapshot of the datasheet is displayed below:</p>
+
+
+<p>
+  <a name="1032816"> </a><img src="images/N87CDS.gif">
+</p>
+
+
+<br><br><br>
+<h2>
+  <a name="1032825"> </a>Setting Up Part Developer</h2>
+
+
+<p>
+  <a name="1032829"> </a>The first step toward creating a part is to set up Part Developer to provide default values to various fields, such as input and output loads, and user-defined properties to packages and symbols. For more information, see the <em>Configuring Part Developer</em> chapter in <em>Part Developer User Guide</em>.</p>
+
+
+<br><br>
+<h3>
+  <a name="1032893"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1032874"> </a>Set up Part Developer to do the following:</p>
+
+<ul>
+  <a name="1033144"></a><li><p>Associate and display a property called Library_Name with the value my_library for all packages and symbols.</p>
+
+  <a name="1033148"></a><li><p>All the packages should have a property called PACKAGE_CREATOR with value as ?.</p>
+
+  <a name="1033151"></a><li><p>Symbols should display the pin text in 0.08 inches.</p>
+</ul>
+<br><br>
+<h3>
+  <a name="1032888"> </a>Steps</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1032900"> </a>Choose <em>Tools - Setup</em>.</p>
+<dl>
+<p>
+  <a name="1032904"> </a>The Setup dialog box appears.</p>
+
+</dl></ol>
+
+<p>
+  <a name="1032908"> </a><img src="images/setup_options.gif">
+</p>
+
+<ol type="1">
+  <li value="2"><p><a name="1032922"> </a>Click on the <em>Package</em> node in the <em>Setup</em> <em>Options</em> tree.</p>
+<dl>
+<p>
+  <a name="1032926"> </a>The <em>Package</em> options appear in the Setup dialog box.</p>
+
+
+<p>
+  <a name="1032943"> </a>	 <img src="images/setup_package.gif">
+</p>
+
+</dl>  <li value="3"><p><a name="1032954"> </a>Type <code>LIBRARY_NAME</code> and <code>my_library</code> in the <em>Name</em> and <em>Value</em> columns, respectively.</p>
+  <li value="4"><p><a name="1032963"> </a>Press Ctrl + I to create a blank row in the <em>Additional Package Properties</em> grid.</p>
+  <li value="5"><p><a name="1032973"> </a>Type <code>PACKAGE_CREATOR</code> and <code>?</code> in the <em>Name</em> and <em>Value</em> columns, respectively.</p>
+<dl>
+<p>
+  <a name="1032983"> </a>The <em>Package</em> panel should appear as follows:</p>
+
+
+<p>
+  <a name="1033005"> </a>	 <img src="images/setup_package_filled.gif">
+</p>
+
+
+<p>
+  <a name="1032889"> </a>Next, you need to add the <code>LIBRARY_NAME</code> property to the symbols and configure the symbol pin text to display pin text in 0.08 inches.</p>
+
+</dl>  <li value="6"><p><a name="1033036"> </a>Click on the <em>Symbol</em> node in the <em>Setup</em> <em>Options</em> tree.</p>
+<dl>
+<p>
+  <a name="1033050"> </a>The <em>Symbol</em> panel appears in the Setup dialog box.</p>
+
+
+<p>
+  <a name="1033057"> </a>	 <img src="images/setup_symbol.gif">
+</p>
+
+</dl>  <li value="7"><p><a name="1033047"> </a>Enter <code>LIBRARY_NAME</code> and <code>my_library</code> in the <em>Name</em> and <em>Value</em> columns, respectively, in the <em>Symbol Properties</em> grid.</p>
+<dl>
+<p>
+  <a name="1033045"> </a>Next, you need to determine the display parameters.</p>
+
+</dl>  <li value="8"><p><a name="1033083"> </a>Select <em>Both</em> in the <em>Visibility</em> column to ensure that both the property name and its value are visible in the symbol.</p>
+  <li value="9"><p><a name="1033087"> </a>Select <em>Mono</em> in the <em>Color</em> field.</p>
+  <li value="10"><p><a name="1033088"> </a>Select 90 in the <em>Rotation</em> field.</p>
+<dl>
+<p>
+  <a name="1035120"> </a>This ensures that the property is displayed at an angle of 90 degrees to the symbol.</p>
+
+</dl>  <li value="11"><p><a name="1033095"> </a>Select <em>Top-Left</em> in the <em>Location</em> field. </p>
+<dl>
+<p>
+  <a name="1035125"> </a>This ensures that the property is displayed in the top-left corner of the symbol.</p>
+
+
+<p>
+  <a name="1033107"> </a>The filled <em>Symbol</em> panel is as follows:</p>
+
+
+<p>
+  <a name="1033111"> </a>	 <img src="images/setup_symbol_filled.gif">
+</p>
+
+
+<p>
+  <a name="1033143"> </a>Next, set up Part Developer so that pin text appears in 0.08 inches.</p>
+
+</dl>  <li value="12"><p><a name="1033166"> </a>Click on <em>Symbol Pins</em> in the <em>Setup</em> <em>Options</em> tree.</p>
+  <li value="13"><p><a name="1033170"> </a>Change the value in the <em>Pin Text Height</em> column to <code>0.0800</code>.</p>
+  <li value="14"><p><a name="1033199"> </a>Click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1033203"> </a>Next, you will create the part.</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1033209"> </a>Creating the n87c196nt Part</h2>
+
+
+<br><br>
+<h3>
+  <a name="1033213"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1033217"> </a>Create the n87c196nt part in the <code>my_lib</code> library.</p>
+
+
+<br><br>
+<h3>
+  <a name="1033222"> </a>Steps</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1033236"> </a>Choose <em>File - New - Cell</em>.</p>
+<dl>
+<p>
+  <a name="1033240"> </a>The New Cell<em> </em>dialog box appears.</p>
+
+
+<p>
+  <a name="1033247"> </a>	 <img src="images/new_cell.gif">
+</p>
+
+</dl>  <li value="2"><p><a name="1035172"> </a>Select the <code>my_lib</code> library.</p>
+  <li value="3"><p><a name="1033261"> </a>Type <code>n87c196nt</code> in the <em>Cell</em> field and click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1033274"> </a>The part n87c196nt appears in the Cell Editor.</p>
+
+
+<p>
+  <a name="1033287"> </a>	 <img src="images/n87c196nt_empty.gif">
+</p>
+
+
+<p>
+  <a name="1033281"> </a>Next, you enter the logical and physical pins. </p>
+
+
+<p>
+  <a name="1033300"> </a>First, you create either a package or a symbol. In creating a package first, you have the benefit of specifying the logical and physical pins and the footprint information and doing the logical-to-physical pin mapping in a single step. Creating symbols is useful when you want to enter sizeable pins. </p>
+
+
+<p>
+  <a name="1033303"> </a>You will create the package first because n87c196nt does not have any sizeable pins.</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1033311"> </a>Creating a Package</h2>
+
+
+<br><br>
+<h3>
+  <a name="1033315"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1033322"> </a>Create a package to facilitate pin entry.</p>
+
+
+<br><br>
+<h3>
+  <a name="1033323"> </a>Steps</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1033327"> </a>Right-click on the <em>Packages</em> entry in the cell tree and select <em>New</em>.</p>
+<dl>
+<p>
+  <a name="1033395"> </a>A new package gets created. By default, the package name has the same name as the cell name. </p>
+
+
+<p>
+  <a name="1033398"> </a>On the General page, the <em>Logical</em> &amp; <em>Physical Parts </em>tree shows the logical and physical parts for a part. A logical part defines the logical pins for a part and is mapped to one or more physical parts. A physical part consists of the logical-to-physical pin mapping and a set of physical properties. Each primitive entry in the chips file represents a physical part. The name of a physical part is either the same as the logical part or the logical part name suffixed by a package type. The default physical part has the same name as the logical part. The packages that are valid for the specified <em>PART_NAME</em> appear under the <em>Pack_Type</em> entry of the tree.</p>
+
+
+<p>
+  <a name="1033426"> </a>For more information about logical and physical parts, see the chapter <em>How Packager-XL Selects and Names Parts</em> in the <i>Packager-XL Reference</i>.</p>
+
+
+<p>
+  <a name="1033343"> </a>	 <img src="images/new_pkg_n87c196nt.gif">
+</p>
+
+
+<p>
+  <a name="1033359"> </a>Notice that the properties that you have specified in <em>Setup</em> appear in the <em>Additional Properties </em>grid.</p>
+
+</dl>  <li value="2"><p><a name="1033820"> </a>Because the PLCC package has the same pin configuration as the default package, right-click on the <em>Physical Parts (Pack Types)</em> entry in the <em>Logical &amp; Physical Parts </em>tree and select <em>New</em>.</p>
+<dl>
+<p>
+  <a name="1033833"> </a>The Add Physical Part dialog box appears.</p>
+
+
+<p>
+  <a name="1033848"> </a>	 <img src="images/add_physical_part.gif">
+</p>
+
+</dl>  <li value="3"><p><a name="1033851"> </a>Specify PLCC in the <em>Pack Type</em> field and click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1033855"> </a>The new package appears in the <em>Logical &amp; Physical Parts </em>tree.</p>
+
+
+<p>
+  <a name="1033872"> </a>	 <img src="images/pkg_editor_with_plcc.gif">
+</p>
+
+
+<p>
+  <a name="1033449"> </a>Next, you need to enter the logical pins.</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1033450"> </a>Entering the Logical Pins</h2>
+
+
+<br><br>
+<h3>
+  <a name="1033454"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1033455"> </a>Enter the logical pins as per the datasheet.</p>
+
+
+<br><br>
+<h3>
+  <a name="1033459"> </a>Steps</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1033463"> </a>Click the <em>Package Pin</em> tab.</p>
+<dl>
+<p>
+  <a name="1033467"> </a>The Package Pin page appears.</p>
+
+
+<p>
+  <a name="1033474"> </a>	 <img src="images/n87c196nt_pkg_pin_empty.gif">
+</p>
+
+</dl>  <li value="2"><p><a name="1033489"> </a>To add logical pins, choose <em>Pins - Add</em>.</p>
+<dl>
+<p>
+  <a name="1033495"> </a>The Add Pin dialog box appears.</p>
+
+
+<p>
+  <a name="1033525"> </a>Enter the pin information as given in the datasheet into Part Developer. Open the datasheet and go to the Pin Descriptions table.</p>
+
+</dl>  <li value="3"><p><a name="1033548"> </a>The first few pins in the Pin Descriptions table are power pins. To enter a power pin, select POWER in the Type drop-down list box.</p>
+  <li value="4"><p><a name="1033550"> </a>Enter vcc in the <em>Prefix</em> field and click <em>Add</em>.</p>
+<dl>
+<p>
+  <a name="1033584"> </a>Similarly, add Vss,Vss1, VREF, VPP, and ANGND as power pins.</p>
+
+</dl></ol>
+
+  <a name="1033552"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>Note that the Pin Descriptions table has multiple entries for the Vss1 power pin. In Part Developer, you need to enter the name only once in the logical pins list. Later, you can map multiple physical pins to a power pin.</td></table>
+
+<ol type="1">
+  <li value="5"><p><a name="1033555"> </a>Next, to enter an input pin, select INPUT from the Type drop-down list box.</p>
+  <li value="6"><p><a name="1033558"> </a>Enter XTAL1 in the Prefix field and click Add.</p>
+  <li value="7"><p><a name="1033559"> </a>The next couple of pins in the Pin Descriptions table are output pins. To enter an output pin, select OUTPUT from the Type drop-down list box.</p>
+  <li value="8"><p><a name="1033539"> </a>Enter XTAL2 in the Prefix field box and click Add.</p>
+<dl>
+<p>
+  <a name="1033649"> </a>Similarly, add P2.7 as an output pin.</p>
+
+</dl>  <li value="9"><p><a name="1033679"> </a>RESET, the next pin in the table, is an active low input pin. To add an active low input pin, select INPUT from the Type drop-down list box.</p>
+  <li value="10"><p><a name="1033681"> </a>Enter RESET in the Prefix field.</p>
+  <li value="11"><p><a name="1033674"> </a>To make a pin active low, enter * in the <em>Suffix</em> field and click Add.</p>
+<dl>
+<p>
+  <a name="1033723"> </a>Similarly, add all the pins up to P6.3 specified in the Pin Descriptions table of the datasheet.</p>
+
+</dl>  <li value="12"><p><a name="1033727"> </a>The pins <code>EPA0-9 </code>are <em>BIDIR</em> pins. To add pins such as these, enter <code>EPA</code> in the <em>Prefix</em> field, <code>0</code> in the <em>From</em> field, and <code>9</code> in the <em>To</em> field.</p>
+  <li value="13"><p><a name="1033731"> </a>Select <em>BIDIR</em> in the <em>Type</em> drop-down list box and click <em>Add</em>.</p>
+<dl>
+<p>
+  <a name="1033732"> </a>Similarly, enter all the pins as specified in the datasheet.</p>
+
+
+<p>
+  <a name="1033771"> </a>The filled Add Pin dialog box should appear as follows (displayed partially):</p>
+
+
+<p>
+  <a name="1034918"> </a>	 <img src="images/add_pin_filled.gif">
+</p>
+
+
+<p>
+  <a name="1033787"> </a>Note that by default, the check box in the <em>Select</em> column is selected for all pins. This implies that all the pins will get added to the package. </p>
+
+</dl>  <li value="14"><p><a name="1033791"> </a>Click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1033798"> </a>The pins appear in the <em>Logical Pins</em> grid of the Package Editor.</p>
+
+
+<p>
+  <a name="1033805"> </a>	 <img src="images/pkg_editor_with_lgcl_pins.gif">
+</p>
+
+</dl></ol>
+
+<p>
+  <a name="1033534"> </a>Next, you need to specify the physical pins. Physical pins can be entered in one of the two ways:</p>
+
+<ul>
+  <a name="1033884"></a><li><p>Manually</p>
+
+  <a name="1033894"></a><li><p>By specifying a footprint and then extracting the pins from the footprint</p>
+</ul>
+<p>
+  <a name="1033895"> </a>We will be using the second option to add the physical pins.</p>
+
+
+<br><br><br>
+<h2>
+  <a name="1033902"> </a>Specifying the Footprints</h2>
+
+
+<br><br>
+<h3>
+  <a name="1033911"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1033912"> </a>Specify the JEDEC_TYPE and ALT_SYMBOLS properties for the package.</p>
+
+
+<br><br>
+<h3>
+  <a name="1033916"> </a>Steps</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1033917"> </a>Click on the <em>General</em> tab.</p>
+  <li value="2"><p><a name="1033924"> </a>To specify the JEDEC_TYPE, click on the browse button next to the <em>Jedec Type</em> field in the <em>Associated Footprints </em>group box.</p>
+<dl>
+<p>
+  <a name="1034708"> </a>The Browse Jedec Type dialog box appears.</p>
+
+
+<p>
+  <a name="1035149"> </a>	 <img src="images/browse_jedec_type.gif">
+</p>
+
+
+<p>
+  <a name="1035159"> </a>As you can see, this is a big list and you need to scroll down to get to the required data. To view only a select set of footprints, you can set filters.</p>
+
+</dl></ol>
+
+  <a name="1035160"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>Filters can be set in any of the grids, such as <em>Logical Pins</em>, <em>Physical Pins,</em> and so on.</td></table>
+
+
+<br><br>
+<h3>
+  <a name="1033956"> </a>Setting a Filter</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1033963"> </a>Right-click on any one of the rows in the Browse Jedec Type dialog box and select <em>Filter Rows</em>.</p>
+<dl>
+<p>
+  <a name="1034723"> </a>The Filter Rows dialog box appears.</p>
+
+
+<p>
+  <a name="1033967"> </a>	 <img src="images/filter_rows.gif">
+</p>
+
+</dl>  <li value="2"><p><a name="1033985"> </a>Enter <code>PLCC* </code>in the <em>Name</em> column and click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1033989"> </a>The Browse Jedec Type dialog box displays only the PLCC footprints.</p>
+
+
+<p>
+  <a name="1034010"> </a>	 <img src="images/browse_jedec_type_filter.gif">
+</p>
+
+</dl>  <li value="3"><p><a name="1034020"> </a>Select <em>plcc68</em> and click <em>OK</em>.</p>
+  <li value="4"><p><a name="1034842"> </a>Similarly, select the Alt_Symbols for the part.</p>
+</ol>
+
+<p>
+<strong>Note:&nbsp;</strong>
+<a name="1034892"> </a>To remove filter, you need to right-click on the filtered grid and select the <em>Unhide All Rows</em> options.
+</p>
+
+<p>
+  <a name="1034843"> </a>Next, you will extract the physical pins from the footprint.</p>
+
+
+<br><br><br>
+<h2>
+  <a name="1034844"> </a>Entering Physical Pins</h2>
+
+
+<br><br>
+<h3>
+  <a name="1034040"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1034038"> </a>Extract physical pin information from the footprint.</p>
+
+
+<br><br>
+<h3>
+  <a name="1034049"> </a>Steps</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1034054"> </a>Click on the <em>Package Pin </em>tab.</p>
+<dl>
+<p>
+  <a name="1034061"> </a>The Package Pin page appears.</p>
+
+</dl>  <li value="2"><p><a name="1034082"> </a>Select <em>Footprint - Extract from Footprint</em>.</p>
+<dl>
+<p>
+  <a name="1034083"> </a>The Part Developer message box appears. This message box states that all physical pins that exist in the package but are not available in the selected footprint will be deleted.</p>
+
+</dl>  <li value="3"><p><a name="1034092"> </a>Because there are no existing physical pins, click <em>Yes</em>.</p>
+<dl>
+<p>
+  <a name="1034146"> </a>The physical pins get extracted from the footprint and appear in the <em>Physical Pins</em> grid. Note that the pin numbers are not sorted.</p>
+
+
+<p>
+  <a name="1034106"> </a>	 <img src="images/after_extraction.gif">
+</p>
+
+</dl>  <li value="4"><p><a name="1034131"> </a>To sort the physical pins, click on the Number column heading.</p>
+<dl>
+<p>
+  <a name="1034171"> </a>Notice that the power pins are listed in the <em>Logical Pins</em> grid. This implies that when a symbol is generated from the package, the power pins will be visible in the symbol. To avoid that, you need to move the pins to the <em>Global Pins</em> grid. The pin types that are considered global pins are as follows:</p>
+
+</dl><ul>
+  <a name="1034387"> </a><li><p>POWER
+</p>
+
+  <a name="1034391"> </a><li><p>GROUND
+</p>
+
+  <a name="1034392"> </a><li><p>NC
+</p>
+</ul></ol>
+
+<br><br><br>
+<h2>
+  <a name="1034193"> </a>Moving Pins from Logical Pins to Global Pins</h2>
+
+
+<br><br>
+<h3>
+  <a name="1034197"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1034198"> </a>Move the power pins to the <em>Global Pins</em> grid.</p>
+
+
+<br><br>
+<h3>
+  <a name="1034209"> </a>Steps</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1034210"> </a>Click on the <em>Type</em> heading to sort the pins by their type.</p>
+  <li value="2"><p><a name="1034222"> </a>Select all the power pins and select <em>Move - Logical Pins to Global</em>.</p>
+<dl>
+<p>
+  <a name="1034229"> </a>The selected power pins move to the <em>Global Pins</em> grid.</p>
+
+
+<p>
+  <a name="1034248"> </a>	 <img src="images/logical_2_global_mv.gif">
+</p>
+
+
+<p>
+  <a name="1034190"> </a>Next, you need to do the logical-to-physical and global-to-physical pin mapping. </p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1034185"> </a>Pin Mapping</h2>
+
+
+<br><br>
+<h3>
+  <a name="1034259"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1034124"> </a>Do logical-to-physical and global-to-physical pin mappings.</p>
+
+
+<br><br>
+<h3>
+  <a name="1034265"> </a>Steps</h3>
+
+
+<p>
+  <a name="1034327"> </a>The general method to map physical pins with logical pins is to select the slots in which the logical pins are present and then select the pins from the Physical Pins list, and click Map. The mapping is done in the order in which the logical and physical pins were selected.</p>
+
+
+<p>
+  <a name="1034336"> </a>Because n87c196nt is a flat part, there is only one slot. Therefore, for all the pin mappings will be done for the slot S1.</p>
+
+
+<p>
+  <a name="1034284"> </a>For global-to-physical pin mapping, you need to select the required global pins and corresponding physical pins, and click <em>Map</em>. It is possible to map one global pin to more than one physical pin.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1034286"> </a>As per the datasheet, physical pin 1 is mapped to logical pin P5.4. Therefore, select 1 in the Physical Pins list and slot S1 for logical pin P5.4 in the Logical Pins list, and click <em>Map</em>.</p>
+<dl>
+<p>
+  <a name="1034302"> </a>The physical pin 1 is mapped to the logical pin P5.4.</p>
+
+
+<p>
+  <a name="1034317"> </a>Next, we will map multiple pins in a single step.</p>
+
+</dl>  <li value="2"><p><a name="1034339"> </a>Select the slots next to pins P5.6, P5.1, and P5.0 and then select physical pins 2,3, and 4 and click <em>Map</em>. The pins get mapped in the order in which the slots were selected.</p>
+<dl>
+<p>
+  <a name="1034357"> </a>The next two physical pins are mapped to power pins. </p>
+
+</dl></ol>
+
+  <a name="1034361"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>Unlike logical pins, global pin mapping can be done for only one pin at a time. This is because one global pin can be mapped to multiple physical pins.</td></table>
+
+<ol type="1">
+  <li value="3"><p><a name="1034365"> </a>Select <em>VSS</em> in the <em>Global Pins</em> grid and 5 in the <em>Physical Pins</em> grid and click <em>Map</em>.</p>
+<dl>
+<p>
+  <a name="1034398"> </a>As you do the pin mappings, the logical and the physical pins grid will keep getting filled up. This can be disconcerting when dealing with a large number of pins. Using an RMB option, you can configure Part Developer to hide the mapped pins.</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1034402"> </a>Hiding Mapped Pins</h2>
+
+
+<br><br>
+<h3>
+  <a name="1034406"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1034407"> </a>Hide the mapped pins.</p>
+
+
+<br><br>
+<h3>
+  <a name="1034411"> </a>Steps</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1034412"> </a>Right-click on the <em>Logical Pins</em> grid and select <em>Hide Mapped Pins</em>.</p>
+  <li value="2"><p><a name="1034419"> </a>Right-click on the <em>Physical Pins</em> grid and select <em>Hide Mapped Pins</em>.</p>
+<dl>
+<p>
+  <a name="1034420"> </a>The mapped pins are hidden from the <em>Logical</em> and <em>Physical Pins</em> grids. You may do this as many number of times as required.</p>
+
+</dl></ol>
+
+  <a name="1034456"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>The first header of a grid provides a visual indication of whether all the rows and columns are displayed in the grid. If all the rows/columns are visible, the filter viewer appears in blue. In case some rows and columns are hidden, the viewer appears in green. </td></table>
+
+
+<br><br>
+<h3>
+  <a name="1034472"> </a>Continuing Pin Mapping</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1034393"> </a>Complete the pin mapping by following the methods mentioned above.</p>
+  <li value="2"><p><a name="1034489"> </a>Save the part.</p>
+<dl>
+<p>
+  <a name="1034397"> </a>Next, you will create the symbol.</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1034484"> </a>Creating Symbols</h2>
+
+
+<p>
+  <a name="1034506"> </a>A symbol represents a unique function group in a package. There are multiple ways to create symbols for a package.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1034527"> </a>Use the <em>Generate Symbols</em> pop-up menu option in the cell tree on the package name or the function group.</p>
+  <li value="2"><p><a name="1034534"> </a>Use the <em>Generate Symbol(s)</em> button on the Package Pin page of the Package Editor.</p>
+</ol>
+
+<br><br>
+<h3>
+  <a name="1034490"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1034549"> </a>Create the symbol using the <em>Generate Symbol(s)</em> button in the <em>Package Pin</em> page of the Package Editor.</p>
+
+
+<br><br>
+<h3>
+  <a name="1034495"> </a>Steps</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1034496"> </a>Click <em>Generate Symbol(s)</em>.</p>
+<dl>
+<p>
+  <a name="1034564"> </a>The Generate Symbol(s) for Package N87C196NT dialog box appears.</p>
+
+
+<p>
+  <a name="1034568"> </a>	 <img src="images/generate_symbols.gif">
+</p>
+
+</dl>  <li value="2"><p><a name="1034488"> </a>Click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1034592"> </a>The symbol is created and appears in the cell tree.</p>
+
+
+<p>
+  <a name="1034599"> </a>	 <img src="images/chap2x1.png" border="0">
+</p>
+
+</dl>  <li value="3"><p><a name="1034617"> </a>To view the symbol, click on <em>sym_1.</em></p>
+<dl>
+<p>
+  <a name="1034626"> </a>The symbol details appear in the Symbol Pins panel and the symbol graphics are shown on the Symbol Editor canvas.</p>
+
+
+<p>
+  <a name="1034637"> </a>	 <img src="images/n87c196nt_symbol.gif">
+</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1034645"> </a>Summary</h2>
+
+
+<p>
+  <a name="1034649"> </a>This completes the task of creating a single-slot flat part.</p>
+
+
+  
+
+</blockquote>
+
+<br>
+<a href="#pagetop">Return to top of page</a>
+<hr>
+<p>
+<!-- Begin Buttons -->
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="getting_started.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="chap3.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><a href="/search.htm"><img src="../support/nav2_search.gif" border="0"  alt="Search Cadence Library" height="20" width="61"></a></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+</table>
+<!-- End Buttons -->
+<p>
+<p>
+
+
+<!-- NOTES; -->
+
+<!-- /address -->
+<p>
+<br>
+<font size="-1">
+For support, see <a href=http://www.cadence.com/support>http://www.cadence.com/support</a>
+or try Cadence's <a href=http://sourcelink.cadence.com target=_blank>SourceLink</a> service.
+<br><br>
+<i>Copyright &#169; 2008, <a href=http://www.cadence.com>Cadence Design Systems, Inc.</a></i> 
+<br>
+All rights reserved.
+<br>
+<a href="titlecopy.html">Legal notices and trademark attributions</a>
+<br>
+<!-- This file was created with Quadralay WebWorks Publisher AutoMap 6.0.7 -->
+<!-- -->
+<!-- Last updated: Fri Sep 26 14:43:26 2008 -->
+</font>
+</body>
+</html>
+
+

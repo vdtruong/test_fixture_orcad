@@ -1,0 +1,775 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+<meta name="GENERATOR" content="Quadralay WebWorks Publisher AutoMap 6.0.7">
+<meta name="TEMPLATEBASE" content="CadencePubs_HelpTopics">
+<meta name="LASTUPDATED" content="Fri Sep 26 14:43:47 2008">
+
+<script TYPE="text/javascript" LANGUAGE="JavaScript" >
+  <!--
+  // Dummy script statement to get rid of Netscape timing errors which may
+  // print garbage JavaScript code at the top in Unix 4.x Netscape browser.
+  // -->
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Browser.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Cookies.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Search.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript">
+  <!--
+  function window_resized(){
+    window.location.reload();
+  }
+  window.onresize=window_resized;
+                                                                                                                                                                
+  /*
+  * Initializes before submitting query
+  */
+  function initOnSubmit() {
+    storeStateAndQuery();
+  }
+                                                                                                                                                                
+  setCookie("DocumentTitle", "Part Developer Tutorial");
+  setCookie("Chapter", "N/A");
+  setCookie("Keyword", "search");
+  setCookie("Version", "Product Version 2.2");
+
+  // -->
+  </script>
+
+
+<title>Part Developer Tutorial -- 13. Importing and Exporting</title>
+<META NAME="Approver" CONTENT="Technical Publications">
+<META NAME="Author" CONTENT="Technical Publications">
+<META NAME="CreateDate" CONTENT="2008-09-26">
+<META NAME="CreateTime" CONTENT="1222420433">
+<META NAME="DataType" CONTENT="Manuals">
+<META NAME="Description" CONTENT="Describes key library-creation tasks in Part Developer">
+<META NAME="DocTitle" CONTENT="Part Developer Tutorial">
+<META NAME="DocType" CONTENT="Manual">
+<META NAME="FileTitle" CONTENT="13. Importing and Exporting">
+<META NAME="FileType" CONTENT="Chapter">
+<META NAME="Keyword" CONTENT="pdv_tut">
+<META NAME="Language" CONTENT="English">
+<META NAME="ModifiedDate" CONTENT="2008-09-26">
+<META NAME="ModifiedTime" CONTENT="1222420433">
+<META NAME="NextFile" CONTENT="part_log.html">
+<META NAME="PageCount" CONTENT="10">
+<META NAME="Platform" CONTENT="ALL">
+<META NAME="PrevFile" CONTENT="editing_symgraphics.html">
+<META NAME="Product" CONTENT="Concept, PCB Design Infrastructure, TDD">
+<META NAME="ProductFamily" CONTENT="PCB Design, PCB Design, PCB Design">
+<META NAME="ProductVersion" CONTENT="16.2">
+<META NAME="RightsManagement" CONTENT="Copyright 1998-2008 Cadence Design Systems Inc.">
+<META NAME="Title" CONTENT="Part Developer Tutorial -- 13. Importing and Exporting">
+<META NAME="TopicTags" CONTENT="FALSE">
+<META NAME="Version" CONTENT="16.2">
+</head>
+
+<body bgcolor="#ffffff">
+<a name="firstpage"></a>
+<a name="pagetop"></a>
+
+<p>
+<!-- Begin Buttons -->
+
+<form name="advancedform" action="/vtopic.isapi" method="GET" onSubmit="initOnSubmit()">
+<input type=hidden name="action" value="FilterSearch">
+<input type=hidden name="Filter" value="altsearchfilter.hts">
+<input type=hidden name="resulttemplate" value="altsearchresults.hts">
+<input type=hidden name="resultcount" value="10">
+<input type=hidden name="resultmaxdocs" value="-1">
+<input type=hidden name="queryhidden" value="null">
+<input type=hidden name="queryitemselected" value="no">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="36" width="650" colspan="10"><img src="../support/header_doc.gif" WIDTH="650" HEIGHT="36"></td>
+</tr>
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="editing_symgraphics.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="part_log.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><img src="../support/nav2_black.gif" height="20" width="61"></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+ <tr>
+    <td colspan="10">
+      <script type="text/javascript">
+      <!--// We wrap all this inside javascript because we only want to display  -->
+      <!--// the search bar if the http server is running. If it is not running  -->
+      <!--// the search bar should not be visible to the user                    -->
+      <!-- BEGIN SEARCH BAR -->
+      var isloaded = isLoaded();
+      var enteredquery = getCookie("enteredquery");
+      if(enteredquery) {
+        enteredquery = enteredquery.replace(/</g,"&lt ");
+        enteredquery = enteredquery.replace(/>/g,"&gt ");
+      } else {
+         enteredquery = "";
+      }
+                                                                                                                                                                
+      <!-- Only display search bar if server is running -->
+      if(isloaded) {
+                                                                                                                                                                
+        display_search_bar(enteredquery);
+                                                                                                                                                                
+      }
+      <!-- END SEARCH BAR -->
+      </script>
+    </td>
+  </tr>
+</table>
+</form>
+
+<!-- End Buttons -->
+<p>
+<p>
+<hr>
+<p>
+<h3><center>Part Developer Tutorial&#0044; Product Version 16.2</center></h3><br>
+<p>
+
+
+<blockquote>
+
+  
+<div align="right">
+<h1 align="left">
+  <a name="1032955"> </a>13</h1>
+</div>
+
+<hr>
+<h1>
+  <a name="1034744"> </a>Importing and Exporting</h1>
+
+
+
+
+
+
+<br><br><br>
+<h2>
+  <a name="1039834"> </a>Objective</h2>
+
+
+<p>
+  <a name="1041029"> </a>To become familiar with commonly used import and export procedures.</p>
+
+
+<p>
+  <a name="1041622"> </a>In this chapter, you will learn to:</p>
+
+<ul>
+  <a name="1042115"></a><li><p>Import pin information from a CSV file to create a part.</p>
+
+  <a name="1045022"></a><li><p>Import changed pin information (Import ECO) from a CSV file to update an existing part.</p>
+
+  <a name="1045023"></a><li><p>Export part information to save in CSV format.</p>
+
+  <a name="1042101"></a><li><p>Import pin information from an FPGA component to create a part.</p>
+
+  <a name="1042177"></a><li><p>Import pin information from a die file to create a part.</p>
+
+  <a name="1043568"></a><li><p>Export part information to create a Capture part.</p>
+
+  <a name="1042105"></a><li><p>Export part information to save in ViewLogic format.</p>
+</ul>
+<br><br><br>
+<h2>
+  <a name="1041644"> </a>Overview</h2>
+
+
+<p>
+  <a name="1043604"> </a>Support for a wide variety of file import and export in Part Developer makes Part Developer a powerful library-development tool. The Import and Export wizard of Part Developer not only speeds up logical-part creation but also eliminates the errors that are often introduced inadvertently when information is copied from one tool to another. </p>
+
+
+<p>
+  <a name="1045049"> </a>This chapter covers some of the import and export procedures that are commonly used by librarians.</p>
+
+
+<p>
+  <a name="1043637"> </a>The data files that you can use to try the import procedures covered in this chapter are stored in a directory called <code>import_files</code> at <code><em>&lt;your_inst_dir&gt;</code></em><code>/doc/pdv_tut/tutorial_data.</code></p>
+
+
+<br><br><br>
+<h2>
+  <a name="1045032"> </a>CSV Import and Export</h2>
+
+
+<p>
+  <a name="1045149"> </a>CSV format enables you to maintain data in tool-independent format. If you need to support design teams that use multiple schematic editors with a layout tool, such as Allegro PCB Editor, you can single-source part data with CSV import and export support.</p>
+
+
+<p>
+  <a name="1045166"> </a>In this tutorial, you will:</p>
+
+<ul>
+  <a name="1045174"></a><li><p>Import the pentium4_3Ghz.csv file to create a part named p4_3ghz.</p>
+
+  <a name="1045390"></a><li><p>Update the <code>p4_3ghz</code> part by importing changed pin information from the CSV file that was used to create the part<code>.</code></p>
+
+  <a name="1045391"></a><li><p>Export the part details of the <code>p4_3ghz</code> part to a CSV file, <code>p4_3Ghz</code>.csv.</p>
+</ul>
+<br><br><br>
+<h2>
+  <a name="1045392"> </a>Importing a CSV File</h2>
+
+
+<p>
+  <a name="1045151"> </a>Import the pentium4_3Ghz.csv file to create a part named p4_3ghz.</p>
+
+
+<br><br>
+<h3>
+  <a name="1044651"> </a>Import File Description</h3>
+
+
+<p>
+  <a name="1044652"> </a>The pentium4_3Ghz.csv file contains information about logical and physical pins and symbols. When creating a part from this information, Part Developer maps the logical and physical pins and generates symbols for the part.</p>
+
+
+<br><br>
+<h3>
+  <a name="1044243"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1044119"> </a>When creating the <code>p4_3ghz</code> part from the <code>pentium4_3Ghz.csv</code> file, do the following:</p>
+
+<ul>
+  <a name="1043916"></a><li><p>Convert the duplicate <code>BIDIR</code> pins to the bits of a vector pin.</p>
+
+  <a name="1043911"></a><li><p>Move the duplicate <code>POWER</code> pins to the global pin list.</p>
+
+  <a name="1045269"></a><li><p>Change the type of the <code>UNSPEC</code> pins to <code>INPUT</code>.</p>
+</ul>
+<br><br>
+<h3>
+  <a name="1043860"> </a>Steps</h3>
+
+
+<p>
+  <a name="1043998"> </a>The steps are as follows:</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1043999"> </a>Open the <code>tutorial_project.cpm</code> project from the <code>library_project </code>folder in <code>tutorial_data</code>.</p>
+  <li value="2"><p><a name="1044000"> </a>Choose <em>File - Import and Export</em>.</p>
+<dl>
+<p>
+  <a name="1044001"> </a>The Import and Export wizard appears.</p>
+
+</dl>  <li value="3"><p><a name="1044002"> </a>Choose the <em>Import Comma Separated Value (.csv) file</em> option and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1044003"> </a>The Select Source page appears.</p>
+
+</dl>  <li value="4"><p><a name="1044004"> </a>Browse to select the input CSV file <code>pentium4_3Ghz.csv</code> from the <code>import_files</code> folder and click <em>Open</em>.</p>
+  <li value="5"><p><a name="1045614"> </a>Click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1044005"> </a>The Select Destination page appears.</p>
+
+
+<p>
+  <a name="1044054"> </a>The name of the part to be created is seeded automatically from the CSV filename. </p>
+
+</dl>  <li value="6"><p><a name="1044055"> </a>Change the part name to <code>p4_3ghz</code> by deleting the necessary characters in the displayed part name.</p>
+  <li value="7"><p><a name="1044056"> </a>Select the library <code>my_lib</code> and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1044008"> </a>The Preview of Import Data page appears.</p>
+
+</dl>  <li value="8"><p><a name="1045274"> </a>Change the type of pin <code>P100</code> from <code>UNSPEC</code> to <code>INPUT</code> by choosing the <em>INPUT</em> option from the <em>Type</em> drop-down list.</p>
+  <li value="9"><p><a name="1044009"> </a>Click <em>Finish</em> to complete the part creation process.</p>
+<dl>
+<p>
+  <a name="1044010"> </a>Duplicate Pin Resolver Dialog displays the duplicate pins in the CSV file and provides options to resolve the duplicate pins. You can convert the duplicate pins into the bits of a vector pin, define them as individual scalar pins, or move them to the global pin list.</p>
+
+</dl>  <li value="10"><p><a name="1044079"> </a>To convert the six <code>BPM</code> pins into a vector pin of six bits, retain the <em>Vector</em> option in the <em>Convert</em> column.</p>
+  <li value="11"><p><a name="1044096"> </a>To move the duplicate POWER pins VCC_1 and VSS_1 to the global pin list, select the <em>Global</em> option from the <em>Convert</em> list for each pin.</p>
+  <li value="12"><p><a name="1044097"> </a>Click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1043996"> </a>The Cell Editor appears with the part information.</p>
+
+</dl>  <li value="13"><p><a name="1045820"> </a>Save the imported part and close the Cell Editor.</p>
+</ol>
+
+<br><br><br>
+<h2>
+  <a name="1045188"> </a>Importing a CSV File to Update a Part</h2>
+
+
+<p>
+  <a name="1045189"> </a>Import pin information from a CSV file, <code>pentium4_3Ghz_eco.csv, </code>in the ECO process to update the <code>p4_3ghz</code> part<code>.</code></p>
+
+
+<br><br>
+<h3>
+  <a name="1045191"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1045192"> </a>When updating the <code>p4_3ghz</code> part, do the following:</p>
+
+<ul>
+  <a name="1045193"></a><li><p>Make sure that all symbol graphic modifications that have been done during ECO are retained.</p>
+</ul>
+<br><br>
+<h3>
+  <a name="1045194"> </a>Steps</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1045196"> </a>Choose <em>File - Import and Export</em>.</p>
+<dl>
+<p>
+  <a name="1045197"> </a>The Import and Export wizard appears.</p>
+
+</dl>  <li value="2"><p><a name="1045198"> </a>Choose the <em>Import ECO - Comma Separated Value (.csv)</em> file option and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1045199"> </a>The Select Source for ECO page appears.</p>
+
+</dl>  <li value="3"><p><a name="1045200"> </a>Browse to select the CSV file <code>pentium4_3Ghz_eco.csv </code>and click <em>Open</em>.</p>
+  <li value="4"><p><a name="1045618"> </a>Click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1045201"> </a>The Select Destination for ECO page appears.</p>
+
+</dl>  <li value="5"><p><a name="1045202"> </a>Select <code>my_lib </code>as<code> </code>the library and <code>p4_3ghz</code> as the destination cell and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1045655"> </a>The Preview of Import Data page appears. </p>
+
+</dl>  <li value="6"><p><a name="1045650"> </a>Click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1045686"> </a>Duplicate Pin Resolver Dialog displays the duplicate pins in the CSV file.</p>
+
+</dl>  <li value="7"><p><a name="1045702"> </a>Resolve the duplicate pins and click <em>OK</em>.</p>
+  <li value="8"><p><a name="1046202"> </a>Click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1045699"> </a>The ECO Messages page appears. You can review the list of differences and select only those that you want to import</p>
+
+</dl>  <li value="9"><p><a name="1045204"> </a>To retain all symbol graphic modifications that have been done during ECO, make sure that the <em>Graphic modifications</em> check box in the Ignore section is not selected.</p>
+  <li value="10"><p><a name="1045205"> </a>Click <em>Finish</em>.</p>
+<dl>
+<p>
+  <a name="1045206"> </a>The Cell Editor appears with the part information.</p>
+
+</dl>  <li value="11"><p><a name="1045831"> </a>Save the updated part and close the Cell Editor.</p>
+</ol>
+
+<br><br><br>
+<h2>
+  <a name="1045207"> </a>Exporting to a CSV File</h2>
+
+
+<p>
+  <a name="1045208"> </a>Export the details of a part named <code>p4_3ghz</code> to a CSV file, <code>p4_3Ghz</code>.csv.</p>
+
+
+<br><br>
+<h3>
+  <a name="1045210"> </a>Steps</h3>
+
+
+<p>
+  <a name="1045211"> </a>The steps are as follows:</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1045212"> </a>Choose <em>File - Import and Export</em>.</p>
+<dl>
+<p>
+  <a name="1045213"> </a>The Import and Export wizard appears.</p>
+
+</dl>  <li value="2"><p><a name="1045214"> </a>Choose the <em>Export Comma Separated Value (.csv) file </em>option<em> </em>and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1045215"> </a>The Select Source page appears.</p>
+
+</dl>  <li value="3"><p><a name="1045216"> </a>Select <code>my_lib </code>as<code> </code>the source library and <code>p4_3ghz </code>as<code> </code>the cell to be exported and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1045752"> </a>The Select Package page appears.</p>
+
+</dl>  <li value="4"><p><a name="1045217"> </a>Select <code>P4_3GHZ </code>as<code> </code>the package and click <em>Next</em>.</p>
+  <li value="5"><p><a name="1045218"> </a>Specify <code>import_files</code> as the directory in which to save the CSV file and click <em>Finish</em>.</p>
+<dl>
+<p>
+  <a name="1045759"> </a>The <code>p4_3ghz </code>part<code> </code>is exported.</p>
+
+</dl><dl>
+<p>
+<strong>Note:&nbsp;</strong>
+<a name="1045219"> </a>The CSV filename is derived from the package name of the part.
+</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1042189"> </a>Importing an FPGA Component</h2>
+
+
+<p>
+  <a name="1043940"> </a>Import the Xilinx place-and-route file <code>xilinx_7x.pad</code> to create a library part named <code>xilinx_7x</code>.</p>
+
+
+<br><br>
+<h3>
+  <a name="1044697"> </a>Task Overview</h3>
+
+<ul>
+  <a name="1044698"></a><li><p>Make sure that you create a new schematic symbol for the imported FPGA.</p>
+
+  <a name="1044725"></a><li><p>Specify the default values for the following properties:</p>
+<ul>
+  <a name="1045296"> </a><li><p>DESCRIPTION
+</p>
+
+  <a name="1045313"> </a><li><p>JEDEC_TYPE
+</p>
+</ul></ul>
+<br><br>
+<h3>
+  <a name="1044699"> </a>Steps</h3>
+
+
+<p>
+  <a name="1043979"> </a>The steps are as follows:</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1043981"> </a>Choose <em>File - Import and Export</em>.</p>
+<dl>
+<p>
+  <a name="1043982"> </a>The<em> </em>Import and Export wizard appears.</p>
+
+</dl>  <li value="2"><p><a name="1043983"> </a>Choose the <em>Import FPGA</em> option and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1044162"> </a>The Select Source page appears. On this page, you choose the vendor for the place-and-route tool you used to create the place-and-route file for an FPGA.</p>
+
+</dl>  <li value="3"><p><a name="1044163"> </a>Choose <em>Xilinx</em> from the Vendor list.</p>
+  <li value="4"><p><a name="1044171"> </a>Click the browse button to select the <code>xilinx_7x.pad</code> file in the <code>import_files</code> folder and click <em>Open</em>.</p>
+  <li value="5"><p><a name="1044705"> </a>Click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1045783"> </a>The Select Destination page appears.</p>
+
+</dl>  <li value="6"><p><a name="1044183"> </a>To create a new schematic symbol for the FPGA, choose the <em>Generate Custom Component</em> option.</p>
+  <li value="7"><p><a name="1044192"> </a>Click <em>Default Properties</em> to display the Default Properties dialog box.</p>
+<dl>
+<p>
+  <a name="1046343"> </a>In this dialog box, you specify the default values for the following properties as tabulated below:</p>
+
+</dl></ol>
+
+<p>
+  <a name="1046357"> </a><p>
+<br>
+<table valign="top" border="1" bordercolorlight="#FFFFFF" bordercolordark="#000000"
+       cellpadding="5" cellspacing="0">
+<div align="left"></div>
+  <tr bgcolor="#CCCCCC"><div align="center">
+    <th><font face="Verdana, Arial, Helvetica, sans-serif" color="#003366"><div align="left"><p><strong><a name="1046346"> </a>Name</strong></p></div></font></th>
+    <th><font face="Verdana, Arial, Helvetica, sans-serif" color="#003366"><div align="left"><p><strong><a name="1046348"> </a>Value</strong></p></div></font></th>
+  </div></tr>
+  <tr>
+    <td valign="top"><p>
+<a name="1046350"> </a>DESCRIPTION</p>
+</td>
+    <td valign="top"><p>
+<a name="1046352"> </a>Xilinx pad file</p>
+</td>
+  </tr>
+  <tr>
+    <td valign="top"><p>
+<a name="1046354"> </a>JEDEC_TYPE</p>
+</td>
+    <td valign="top"><p>
+<a name="1046356"> </a>ff668</p>
+</td>
+  </tr>
+</table>
+<br>
+
+
+</p>
+</p>
+
+<ol type="1">
+  <li value="8"><p><a name="1046358"> </a>To specify the value for a property, select a property from the <em>Name</em> drop-down list and then enter its value in the <em>Value</em> field.</p>
+</ol>
+
+  <a name="1046367"> </a><table border="0"><tr><td valign="top"><img src="../support/tip.gif"></td><td>After adding the information for one property, press <code>Ctrl +I</code> to add a new row.</td></table>
+
+<ol type="1">
+  <li value="9"><p><a name="1045797"> </a>To close the Default Properties dialog box, click <em>OK</em>.</p>
+  <li value="10"><p><a name="1044225"> </a>Select <code>my_lib</code> as the library in which you want the FPGA component to be created and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1044227"> </a>The Preview of Import Data<em> </em>page appears.</p>
+
+</dl>  <li value="11"><p><a name="1044228"> </a>Click <em>Finish</em>.</p>
+<dl>
+<p>
+  <a name="1044733"> </a>The Cell Editor appears with the part information.</p>
+
+</dl>  <li value="12"><p><a name="1045814"> </a>Save the imported part and close the Cell Editor.</p>
+<dl>
+<p>
+  <a name="1044230"> </a>You can now use the Component Browser to add the FPGA component or the block instantiating the FPGA component in your design.</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1044164"> </a>Importing a Die File</h2>
+
+
+<p>
+  <a name="1044341"> </a>Import the die file <code>transceiver.txt </code>from<code> </code>the<code> import_files </code>folder<code> </code>to create a library part named <code>transceiver</code>.</p>
+
+
+<br><br>
+<h3>
+  <a name="1044342"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1044343"> </a>When creating the <code>transceiver </code>part<code> </code>from the <code>transceiver.txt </code>die file, do the following:</p>
+
+<ul>
+  <a name="1044349"></a><li><p>Change the type of the <code>UNSPEC</code> logical pins to <code>INPUT</code>.</p>
+</ul>
+<br><br>
+<h3>
+  <a name="1043823"> </a>Steps</h3>
+
+
+<p>
+  <a name="1044298"> </a>The steps are as follows:</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1044299"> </a>Choose <em>File - Import and Export</em>.</p>
+<dl>
+<p>
+  <a name="1044300"> </a>The Import and Export wizard appears.</p>
+
+</dl>  <li value="2"><p><a name="1044301"> </a>Choose the <em>Import Die Text</em> option and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1044302"> </a>The Select Source page appears.</p>
+
+</dl>  <li value="3"><p><a name="1044303"> </a>Click the browse button to select the die file<em> </em><code>transceiver.txt </code>and click Open.</p>
+  <li value="4"><p><a name="1046427"> </a>Click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1044304"> </a>The Select Destination page appears.</p>
+
+
+<p>
+  <a name="1044305"> </a>The name of the part to be created is seeded automatically from the name of the die file.</p>
+
+</dl>  <li value="5"><p><a name="1044306"> </a>Select<code> my_lib </code>as<code> </code>the destination library and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1044307"> </a>The Preview of Derived Data page appears.</p>
+
+
+<p>
+  <a name="1045863"> </a>All the pins are of the UNSPEC type.</p>
+
+</dl>  <li value="6"><p><a name="1045864"> </a>To change the type of all the pins to INPUT, select all the values in the <em>Type</em> column.</p>
+  <li value="7"><p><a name="1045889"> </a>Type <code>i</code>.</p>
+<dl>
+<p>
+  <a name="1045899"> </a>The types of all the pins are changed to <code>INPUT</code>.</p>
+
+</dl>  <li value="8"><p><a name="1044308"> </a>Click <em>Finish</em> to complete the part creation process.</p>
+<dl>
+<p>
+  <a name="1045906"> </a>Duplicate Pin Resolver Dialog displays the duplicate pins in the die file.</p>
+
+</dl>  <li value="9"><p><a name="1045920"> </a>To convert the duplicate pins to vector pins, retain the <em>Vector</em> option in the Convert column and click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1044313"> </a>The Cell Editor appears with the part information.</p>
+
+</dl>  <li value="10"><p><a name="1045953"> </a>Save the imported part and close the Cell Editor.</p>
+</ol>
+
+<br><br><br>
+<h2>
+  <a name="1042192"> </a>Exporting to a Capture Part</h2>
+
+
+<p>
+  <a name="1044491"> </a>Export the details of a part named <code>p4_3ghz_sym</code> to create a Capture part.</p>
+
+
+<br><br>
+<h3>
+  <a name="1043813"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1044496"> </a>Make sure that the symbol port names are used to represent the pins in Capture.</p>
+
+
+<br><br>
+<h3>
+  <a name="1043849"> </a>Steps</h3>
+
+
+<p>
+  <a name="1044503"> </a>The steps are as follows:</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1044504"> </a>Choose <em>File - Import and Export</em>.</p>
+<dl>
+<p>
+  <a name="1044505"> </a>The Import and Export wizard appears.</p>
+
+</dl>  <li value="2"><p><a name="1044506"> </a>Choose the <em>Export</em> <em>Capture Part (Windows Only)</em> option and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1044507"> </a>The Select Source page appears.</p>
+
+</dl>  <li value="3"><p><a name="1044508"> </a>Select <code>my_lib </code>as<code> </code>the source library and <code>p4_3ghz_sym </code>as<code> </code>the part to be exported and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1046006"> </a>The Select Package and Symbol(s) page appears.</p>
+
+</dl>  <li value="4"><p><a name="1044509"> </a>Select the <code>P4_3GHZ_SYM </code>package.</p>
+  <li value="5"><p><a name="1044513"> </a>To use the symbol port names as pin names in Capture, select the <em>Use Pin Name to write Capture Port name</em> check box.</p>
+  <li value="6"><p><a name="1046118"> </a>Click <em>Next</em>.</p>
+  <li value="7"><p><a name="1044535"> </a>Browse to the <code>import_files</code> folder, specify <code>export_p4_3ghz</code> as the name of the Capture library in which the part is to be created, and click <em>Open</em>.</p>
+  <li value="8"><p><a name="1046412"> </a>Click <em>Finish</em>.</p>
+<dl>
+<p>
+  <a name="1045452"> </a>The part details have been exported to a file called <code>EXPORT_P4_3GHZ.OLB </code>in the<code> import_files</code> folder. You can launch Capture and view the part.</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1042193"> </a>Exporting to a ViewLogic Part</h2>
+
+
+<p>
+  <a name="1044590"> </a>Export the details of a part named <code>p4_3ghz_sym</code> to save in ViewLogic format.</p>
+
+
+<br><br>
+<h3>
+  <a name="1043850"> </a>Steps</h3>
+
+
+<p>
+  <a name="1044544"> </a>The steps are as follows:</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1044545"> </a>Choose <em>File - Import and Export</em>.</p>
+<dl>
+<p>
+  <a name="1044546"> </a>The Import and Export wizard appears.</p>
+
+</dl>  <li value="2"><p><a name="1044547"> </a>Choose the <em>Export ViewLogic(VL) Part </em>option<em> </em>and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1044548"> </a>The Select Source page appears.</p>
+
+</dl>  <li value="3"><p><a name="1044549"> </a>Select <code>my_lib </code>as<code> </code>the source library and <code>p4_3ghz_sym </code>as<code> </code>the cell to be exported and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1044550"> </a>The Select Associated Package(s) or Unassociated Symbol(s) page appears.</p>
+
+</dl>  <li value="4"><p><a name="1044551"> </a>Select the <code>P4_3GHZ_SYM </code>package, specify the type of the ViewLogic part as <em>Non-Hetero,</em> and click <em>Next</em>.</p>
+<dl>
+<p>
+  <a name="1044552"> </a>The Select Destination page appears.</p>
+
+</dl>  <li value="5"><p><a name="1044558"> </a>Specify the destination directory and click <em>Finish</em>.</p>
+<dl>
+<p>
+  <a name="1045448"> </a>The part is exported. If you have ViewLogic installed, you can open the newly created part.</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1042158"> </a>Summary</h2>
+
+
+<p>
+  <a name="1043432"> </a>In this chapter, you learned how to use Part Developer to import pin information from various formats for creating Design HDL parts and export pin information from Design HDL parts to various formats.</p>
+
+
+  
+
+</blockquote>
+
+<br>
+<a href="#pagetop">Return to top of page</a>
+<hr>
+<p>
+<!-- Begin Buttons -->
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="editing_symgraphics.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="part_log.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><a href="/search.htm"><img src="../support/nav2_search.gif" border="0"  alt="Search Cadence Library" height="20" width="61"></a></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+</table>
+<!-- End Buttons -->
+<p>
+<p>
+
+
+<!-- NOTES; -->
+
+<!-- /address -->
+<p>
+<br>
+<font size="-1">
+For support, see <a href=http://www.cadence.com/support>http://www.cadence.com/support</a>
+or try Cadence's <a href=http://sourcelink.cadence.com target=_blank>SourceLink</a> service.
+<br><br>
+<i>Copyright &#169; 2008, <a href=http://www.cadence.com>Cadence Design Systems, Inc.</a></i> 
+<br>
+All rights reserved.
+<br>
+<a href="titlecopy.html">Legal notices and trademark attributions</a>
+<br>
+<!-- This file was created with Quadralay WebWorks Publisher AutoMap 6.0.7 -->
+<!-- -->
+<!-- Last updated: Fri Sep 26 14:43:47 2008 -->
+</font>
+</body>
+</html>
+
+

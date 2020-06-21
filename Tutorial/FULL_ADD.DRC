@@ -1,0 +1,187 @@
+
+--------------------------------------------------
+Checking Schematic:  FULLADD
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    CARRY_OUT
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC
+    GND
+    0
+
+Reporting Net Names
+    0
+    CARRY_OUT
+    N00524
+    N00210
+    N00380
+    N00368
+    N00424
+    GND
+    N00235
+    N00532
+    N00579
+    VCC
+    N00364
+    N00528
+
+Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: HALFADD_A1 HALFADD
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    X
+    Y
+    SUM
+    CARRY
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC
+    GND
+
+Reporting Net Names
+    CARRY
+    X
+    N02351
+    N02216
+    VCC
+    N02209
+    N02338
+    GND
+    SUM
+    Y
+
+Check Bus width mismatch
+
+--------------------------------------------------
+Checking Schematic: HALFADD_B1 HALFADD
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+    X
+    Y
+    SUM
+    CARRY
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC
+    GND
+
+Reporting Net Names
+    CARRY
+    X
+    N02351
+    N02216
+    VCC
+    N02209
+    N02338
+    GND
+    SUM
+    Y
+
+Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic:  FULLADD
+--------------------------------------------------
+
+Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: HALFADD_A1 HALFADD
+--------------------------------------------------
+
+Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Schematic: HALFADD_B1 HALFADD
+--------------------------------------------------
+
+Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Entire Design: FULL_ADD 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+
+Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+
+Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+Check High Speed Properties Syntax
+
+Check Power Ground Mismatch
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
+   7404	                       2	                       U3: F  E  
+   7408	                       2	                       U4: D  C  
+   7432	                       1	                       U1: D  

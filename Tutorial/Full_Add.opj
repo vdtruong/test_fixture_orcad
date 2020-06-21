@@ -1,0 +1,225 @@
+(ExpressProject "Full_Add"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\full_add.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File "C:\CADENCE\PROJECTS\TUTORIAL\FULL_ADD.DRC")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "TRUE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "TRUE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "0")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (CrossRef_Scope "0")
+    (Crossref__Mode "1")
+    (CrossRef_Sorting "0")
+    (CrossRef_Destination_File "C:\CADENCE\PROJECTS\TUTORIAL\FULL_ADD.XRF")
+    (CrossRef_XY "FALSE")
+    (CrossRef_Unused "FALSE")
+    (XRF_View_Output "TRUE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "TRUE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" "allegro\full_add.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCAD")
+    ("Allegro Setup Configuration File"
+       "C:\Cadence\SPB_16.3\tools\capture\allegro.cfg")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    (BOM_Scope "0")
+    (BOM_Mode "1")
+    (BOM_Report_File "C:\CADENCE\PROJECTS\TUTORIAL\FULL_ADD.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "C:\CADENCE\PROJECTS\TUTORIAL\FULL_ADD.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "TRUE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "TRUE")
+    (Board_sim_option "VHDL_flow")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File" "allegro\full_add.brd")
+    ("Allegro Backannotation Netlist Directory" "allegro")
+    ("Allegro Backannotation Output File" "allegro\full_add.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "TRUE")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name "C:\CADENCE\PROJECTS\TUTORIAL\FULL_ADD.SWP")
+    (Backannotation_TAB "0"))
+  (Folder "Outputs"
+    (File ".\full_add.drc"
+      (Type "Report"))
+    (File ".\full_add.xrf"
+      (Type "Report"))
+    (File ".\full_add.bom"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\allegro\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\allegro\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\allegro\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\allegro\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat"))
+    (File ".\allegro\full_add.swp"
+      (Type "Report")
+      (DisplayName "full_add.swp")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (Q2N2222
+      (FullPartName "Q2N2222.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DigStim1
+      (FullPartName "DigStim1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (7432
+      (FullPartName "7432.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
+      (DeviceIndex "0"))
+    (TitleBlock0
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (7404
+      (FullPartName "7404.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
+      (DeviceIndex "0"))
+    (7408
+      (FullPartName "7408.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_16.3\tools\capture\library\pspice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\Cadence\Projects\Tutorial\full_add.dsn")
+      (Path "Design Resources" "C:\Cadence\Projects\Tutorial\full_add.dsn"
+         "HALFADD")
+      (Path "Outputs")
+      (Path "PSpice Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 0 200 0 258"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 800 411 -4 -30 0 763 0 541")
+        (Scroll "0 14")
+        (Zoom "100")
+        (Occurrence "/HALFADD_A1"))
+      (Frame
+        (Placement "44 0 1 640 411 -4 -30 88 1187 116 528")
+        (Scroll "0 436")
+        (Zoom "200")
+        (Occurrence "/HALFADD_B1"))
+      (Path "C:\CADENCE\PROJECTS\TUTORIAL\FULL_ADD.DSN")
+      (Schematic "HALFADD")
+      (Page "HALFADD")))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "Van"))

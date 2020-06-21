@@ -1,0 +1,75 @@
+\t (00:00:22) allegro 16.3 p006 (v16-3-85F) i86
+\t (00:00:22) 
+
+\t (00:00:22) Opening existing drawing...
+\d (00:00:23) Database opened: C:/Cadence/Projects/Tutorial/allegro/full_add.brd
+\i (00:00:23) trapsize 967
+\i (00:00:23) trapsize 936
+\i (00:00:23) trapsize 923
+\i (00:00:24) trapsize 951
+\i (00:00:24) trapsize 951
+\i (00:00:25) generaledit 
+\i (00:00:31) open 
+\i (00:02:37) fillin "menu_cancel"
+\i (00:02:38) generaledit 
+\i (00:03:35) xhilite 
+\i (00:03:36) xname_flush 
+\i (00:03:36) done 
+\i (00:03:36) generaledit 
+\i (38:44:57) open 
+\f (38:44:57) Do you want to save the changes you made to full_add.brd?
+\i (38:44:59) fillin no 
+\i (38:45:10) fillin "C:\Cadence\Projects\Test Fixture-PSpiceFiles\board\test_fixture.brd"
+\i (38:45:10) cd "C:\Cadence\Projects\Test Fixture-PSpiceFiles\board"
+\t (38:45:10) Opening existing drawing...
+\w (38:45:13) WARNING(SPMHDB-214): OrCAD PCB Designer Basics opening an Allegro Expert design.
+\w (38:45:13) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (38:45:13) WARNING(SPMHOD-33): Database was last saved by a higher tier tool ... Allegro Expert. There may be constraints, rules and other design data that may be ignored in this tool.
+\i (38:45:26) fillin confirm
+\i (38:45:26) trapsize 3004
+\d (38:45:26) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/board/test_fixture.brd
+\i (38:45:27) generaledit 
+\i (38:45:43) zoom in 1 
+\i (38:45:43) setwindow pcb
+\i (38:45:43) zoom in 2775.27 2174.56
+\i (38:45:43) trapsize 1502
+\i (38:45:45) zoom in 1 
+\i (38:45:45) setwindow pcb
+\i (38:45:45) zoom in 2775.27 2174.56
+\i (38:45:45) trapsize 751
+\i (38:45:47) zoom out 1 
+\i (38:45:47) setwindow pcb
+\i (38:45:47) zoom out 2775.28 2174.56
+\i (38:45:47) trapsize 1502
+\i (38:45:51) move 
+\t (38:45:51) Select element(s) to move.
+\i (38:45:52) drag_start grid 1847.18 2841.34
+\i (38:45:53) drag_stop 2420.86 2874.38
+\t (38:45:53) last pick:  725.00  2775.00
+\t (38:45:53) Moving U4 / MC9S08QE128_6_MC9S08QE128_V2_MC / MC9S08QE128_V2.
+\t (38:45:53) Pick new location for the element(s).
+\i (38:45:54) Esc 
+\i (38:45:55) Esc 
+\i (38:45:56) Esc 
+\i (38:45:58) pick grid 1760.08 2841.34
+\t (38:45:58) last pick:  1750.00  2850.00
+\i (38:45:59) undo 
+\i (38:46:00) trapsize 1502
+\i (38:46:00) generaledit 
+\i (38:46:20) zoom out 1 
+\i (38:46:20) setwindow pcb
+\i (38:46:20) zoom out 3231.81 2048.41
+\i (38:46:20) trapsize 3004
+\i (38:46:22) zoom in 1 
+\i (38:46:22) setwindow pcb
+\i (38:46:22) zoom in 1129.33 1183.39
+\i (38:46:22) trapsize 1502
+\i (38:46:26) zoom out 1 
+\i (38:46:26) setwindow pcb
+\i (38:46:26) zoom out 1132.34 1183.40
+\i (38:46:26) trapsize 3004
+\i (38:46:29) save 
+\f (38:46:29) C:/Cadence/Projects/Test Fixture-PSpiceFiles/board/test_fixture.brd: File Exists. Overwrite? 
+\i (38:46:37) fillin yes 
+\i (38:46:37) generaledit 
+\i (38:46:44) exit 

@@ -1,0 +1,23 @@
+
+--------------------------------------------------
+Checking Schematic:  SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING:  [DRC0004]  Possible pin type conflict U4,PTC6/RxD2/ACMP2+ Bidirectional Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (9.40, 4.70) 
+WARNING:  [DRC0004]  Possible pin type conflict U4,PTC7/TxD2/ACMP2- Bidirectional Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (9.40, 4.60) 
+WARNING:  [DRC0005]  Unconnected pin U6,LDAC_N
+                    SCHEMATIC1, Microcontroller  (12.30, 8.60) 
+WARNING:  [DRC0007]  Net has no driving source SS1_N
+                    SCHEMATIC1, Microcontroller  (10.90, 8.60) 
+WARNING:  [DRC0007]  Net has no driving source R2IN
+                    SCHEMATIC1, Microcontroller  (3.60, 4.10) 
+WARNING:  [DRC0007]  Net has no driving source R1IN
+                    SCHEMATIC1, Microcontroller  (3.60, 4.00) 
+
+Checking For Single Node Nets
+WARNING:  [DRC0006]  Net has fewer than two connections VSS
+                    SCHEMATIC1, Microcontroller  (14.30, 3.00) 
+
+Checking For Unconnected Bus Nets

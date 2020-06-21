@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : R0603_1.dra                                   )
+(    Software Version : 16.3p003                                      )
+(    Date/Time        : Sat Sep 16 13:59:59 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol
+    Name      = r0603_1.psm
+    User      = Van
+    Machine   = COMPUTERROOM
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

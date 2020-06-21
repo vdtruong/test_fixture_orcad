@@ -1,0 +1,184 @@
+(Cell	n87c196nt
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/10/11,15:12:31)
+
+			(User	Van)
+
+			(Path	my_lib.n87c196nt)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/10/11,23:50:42)
+
+			(User	Van)
+
+			(Path	my_lib.n87c196nt)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000000168f991)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/10/11,23:44:48)
+
+							(User	Van)
+
+							(Path	my_lib.n87c196nt)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ae90359)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000005d728bbe)
+
+			(Primitives	1
+
+				(Primitive	N87C196NT
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/10/11,15:17:10)
+
+							(User	Van)
+
+							(Path	my_lib.n87c196nt)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	N87C196NT
+
+							(PackType	N87C196NT)
+
+							(PackType	N87C196NT_PLCC)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	plcc68)
+
+							)
+
+							(AltSymbolsFootPrints	)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001be3038d)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.3-p002 (v16-3-85A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c9003ab)
+
+)
+

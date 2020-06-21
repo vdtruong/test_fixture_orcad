@@ -1,0 +1,87 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Netrev Allegro Import Logic                                      )
+(                                                                     )
+(    Drawing          : test_fixture_3.brd                            )
+(    Software Version : 16.3p004                                      )
+(    Date/Time        : Sun Jun 21 01:05:25 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'C:\CADENCE\PROJECTS\TEST FIXTURE-PSPICEFILES\BOARD';
+BOARD_DIRECTORY 'C:/Cadence/Projects/Test Fixture-PSpiceFiles/board';
+OLD_BOARD_NAME 'C:/Cadence/Projects/Test Fixture-PSpiceFiles/board/test_fixture_3.brd';
+NEW_BOARD_NAME 'C:/Cadence/Projects/Test Fixture-PSpiceFiles/board/test_fixture_3.brd';
+
+CmdLine: netrev.exe -5 -y 1 -i C:\CADENCE\PROJECTS\TEST FIXTURE-PSPICEFILES\BOARD C:\Cadence\Projects\Test Fixture-PSpiceFiles\board\test_fixture_3.brd C:\Cadence\Projects\Test Fixture-PSpiceFiles\board\test_fixture_3.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD/pstchip.dat 
+   Finished reading C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD/pstchip.dat (00:00:00.09)
+Starting to read C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD/pstxprt.dat 
+   Finished reading C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD/pstxprt.dat (00:00:00.00)
+Starting to read C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD/pstxnet.dat 
+   Finished reading C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_16.3/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.3/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.3/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.3/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jun 21 1:05:25 2020
+   DESIGN NAME : 'TEST FIXTURE'
+   PACKAGING ON Nov 17 2009 03:09:43
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:01:54
+elapsed time  0:00:01
+

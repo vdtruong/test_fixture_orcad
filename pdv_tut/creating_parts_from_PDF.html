@@ -1,0 +1,396 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+<meta name="GENERATOR" content="Quadralay WebWorks Publisher AutoMap 6.0.7">
+<meta name="TEMPLATEBASE" content="CadencePubs_HelpTopics">
+<meta name="LASTUPDATED" content="Fri Sep 26 14:43:34 2008">
+
+<script TYPE="text/javascript" LANGUAGE="JavaScript" >
+  <!--
+  // Dummy script statement to get rid of Netscape timing errors which may
+  // print garbage JavaScript code at the top in Unix 4.x Netscape browser.
+  // -->
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Browser.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Cookies.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Search.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript">
+  <!--
+  function window_resized(){
+    window.location.reload();
+  }
+  window.onresize=window_resized;
+                                                                                                                                                                
+  /*
+  * Initializes before submitting query
+  */
+  function initOnSubmit() {
+    storeStateAndQuery();
+  }
+                                                                                                                                                                
+  setCookie("DocumentTitle", "Part Developer Tutorial");
+  setCookie("Chapter", "N/A");
+  setCookie("Keyword", "search");
+  setCookie("Version", "Product Version 2.2");
+
+  // -->
+  </script>
+
+
+<title>Part Developer Tutorial -- 6. Creating Parts from PDFs</title>
+<META NAME="Approver" CONTENT="Technical Publications">
+<META NAME="Author" CONTENT="Technical Publications">
+<META NAME="CreateDate" CONTENT="2008-09-26">
+<META NAME="CreateTime" CONTENT="1222420433">
+<META NAME="DataType" CONTENT="Manuals">
+<META NAME="Description" CONTENT="Describes key library-creation tasks in Part Developer">
+<META NAME="DocTitle" CONTENT="Part Developer Tutorial">
+<META NAME="DocType" CONTENT="Manual">
+<META NAME="FileTitle" CONTENT="6. Creating Parts from PDFs">
+<META NAME="FileType" CONTENT="Chapter">
+<META NAME="Keyword" CONTENT="pdv_tut">
+<META NAME="Language" CONTENT="English">
+<META NAME="ModifiedDate" CONTENT="2008-09-26">
+<META NAME="ModifiedTime" CONTENT="1222420433">
+<META NAME="NextFile" CONTENT="creating_asymmetrical_parts.html">
+<META NAME="PageCount" CONTENT="6">
+<META NAME="Platform" CONTENT="ALL">
+<META NAME="PrevFile" CONTENT="chap4.html">
+<META NAME="Product" CONTENT="Concept, PCB Design Infrastructure, TDD">
+<META NAME="ProductFamily" CONTENT="PCB Design, PCB Design, PCB Design">
+<META NAME="ProductVersion" CONTENT="16.2">
+<META NAME="RightsManagement" CONTENT="Copyright 1998-2008 Cadence Design Systems Inc.">
+<META NAME="Title" CONTENT="Part Developer Tutorial -- 6. Creating Parts from PDFs">
+<META NAME="TopicTags" CONTENT="FALSE">
+<META NAME="Version" CONTENT="16.2">
+</head>
+
+<body bgcolor="#ffffff">
+<a name="firstpage"></a>
+<a name="pagetop"></a>
+
+<p>
+<!-- Begin Buttons -->
+
+<form name="advancedform" action="/vtopic.isapi" method="GET" onSubmit="initOnSubmit()">
+<input type=hidden name="action" value="FilterSearch">
+<input type=hidden name="Filter" value="altsearchfilter.hts">
+<input type=hidden name="resulttemplate" value="altsearchresults.hts">
+<input type=hidden name="resultcount" value="10">
+<input type=hidden name="resultmaxdocs" value="-1">
+<input type=hidden name="queryhidden" value="null">
+<input type=hidden name="queryitemselected" value="no">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="36" width="650" colspan="10"><img src="../support/header_doc.gif" WIDTH="650" HEIGHT="36"></td>
+</tr>
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="chap4.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="creating_asymmetrical_parts.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><img src="../support/nav2_black.gif" height="20" width="61"></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+ <tr>
+    <td colspan="10">
+      <script type="text/javascript">
+      <!--// We wrap all this inside javascript because we only want to display  -->
+      <!--// the search bar if the http server is running. If it is not running  -->
+      <!--// the search bar should not be visible to the user                    -->
+      <!-- BEGIN SEARCH BAR -->
+      var isloaded = isLoaded();
+      var enteredquery = getCookie("enteredquery");
+      if(enteredquery) {
+        enteredquery = enteredquery.replace(/</g,"&lt ");
+        enteredquery = enteredquery.replace(/>/g,"&gt ");
+      } else {
+         enteredquery = "";
+      }
+                                                                                                                                                                
+      <!-- Only display search bar if server is running -->
+      if(isloaded) {
+                                                                                                                                                                
+        display_search_bar(enteredquery);
+                                                                                                                                                                
+      }
+      <!-- END SEARCH BAR -->
+      </script>
+    </td>
+  </tr>
+</table>
+</form>
+
+<!-- End Buttons -->
+<p>
+<p>
+<hr>
+<p>
+<h3><center>Part Developer Tutorial&#0044; Product Version 16.2</center></h3><br>
+<p>
+
+
+<blockquote>
+
+  
+<div align="right">
+<h1 align="left">
+  <a name="1032955"> </a>6</h1>
+</div>
+
+<hr>
+<h1>
+  <a name="1034744"> </a>Creating Parts from PDFs</h1>
+
+
+
+
+
+
+<br><br><br>
+<h2>
+  <a name="1039834"> </a>Objective</h2>
+
+
+<p>
+  <a name="1041029"> </a>To become familiar with the steps involved in creating parts from PDFs.</p>
+
+
+<p>
+  <a name="1041030"> </a>In this chapter, you will learn to:</p>
+
+<ul>
+  <a name="1041031"></a><li><p>Enter pin information directly from a PDF file to the <em>Logical Pins</em> grid in the Package Editor.</p>
+
+  <a name="1041035"></a><li><p>Use a spreadsheet to manipulate pin information and then use it to create parts.</p>
+</ul>
+<br><br><br>
+<h2>
+  <a name="1041028"> </a>Overview</h2>
+
+
+<p>
+  <a name="1039618"> </a>Part Developer helps you create parts from datasheets available in the PDF format. From the datasheet, you can do a text-copy of pin information and paste directly into the <em>Logical</em> <em>Pins</em> grid and the <em>Physical</em> <em>Pins</em> grid. </p>
+
+
+<br><br><br>
+<h2>
+  <a name="1041102"> </a>Creating Parts from PDFs</h2>
+
+
+<br><br>
+<h3>
+  <a name="1041103"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1040567"> </a>Create the part from the Pentium datasheet (<code>24919805.pdf</code>) located in <code><em>&lt;your_inst_dir&gt;</code></em><code>/doc/pdv_tut/tutorial_data/datasheets</code>.</p>
+
+
+
+
+<h4>
+  <a name="1040594"> </a>Pentium Datasheet</h4>
+
+
+<p>
+  <a name="1040600"> </a>Given below is the relevant portion from the datasheet of the Pentium processor. The pin list is displayed partially.</p>
+
+
+<p>
+  <a name="1040602"> </a><img src="images/pentium_ds.gif">
+</p>
+
+
+<br><br>
+<h3>
+  <a name="1040601"> </a>Steps</h3>
+
+
+<p>
+  <a name="1040779"> </a>There are two ways in which you can enter pin information into Part Developer:</p>
+
+<ul>
+  <a name="1040637"></a><li><p>Directly into Part Developer</p>
+<dl>
+<p>
+  <a name="1040642"> </a>This method requires you to individually copy the <em>Pin Name</em> and <em>Pin Number</em> columns in Part Developer and then manually update the pin type information.</p>
+
+</dl>
+  <a name="1040641"></a><li><p>Copying into Excel/Star Office and then copying the information into Part Developer</p>
+<dl>
+<p>
+  <a name="1040653"> </a>This method provides the benefit of copying the entire pin name, type, and mapping information into Part Developer in a single step. The pin type information is also updated automatically.</p>
+
+</dl></ul>
+  <a name="1041230"> </a><table border="0"><tr><td valign="top"><img src="../support/tip.gif"></td><td>Acrobat Reader 5.1 should be used to read the PDF files. It has a <em>Column Select</em> option, which ensures pin names that are copied from the PDF are pasted as individual pins in the pin grid. Copying pin information from earlier versions of Acrobat Reader results in all the pin names appearing as a single pin name in the <em>Logical Pins</em> grid. To fix this, use the <em>Edit - Paste Special(Grid) - Convert Whitespaces to NewLine</em> option when pasting data into Part Developer.</td></table>
+
+
+
+
+<h4>
+  <a name="1040661"> </a>Directly into Part Developer</h4>
+
+<ol type="1">
+  <li value="1"><p><a name="1040607"> </a>Open the datasheet in Acrobat Reader.</p>
+  <li value="2"><p><a name="1040614"> </a>Select the <em>Column Select Tool</em> option. </p>
+  <li value="3"><p><a name="1040621"> </a>Select the <em>Pin Name </em>column and press Ctrl + C.</p>
+  <li value="4"><p><a name="1040668"> </a>Launch Part Developer and create a new part and package.</p>
+  <li value="5"><p><a name="1040672"> </a>Go to the <em>Package Pin</em> page of the Package Editor.</p>
+  <li value="6"><p><a name="1040673"> </a>Press Ctrl + I to insert a new row in the <em>Logical Pins</em> grid.</p>
+  <li value="7"><p><a name="1040679"> </a>Select the empty cell under the <em>Name</em> column and press Ctrl + V to paste the pin names into the <em>Logical Pins</em> grid.</p>
+<dl>
+<p>
+  <a name="1040693"> </a>The pin names appear under the <em>Name</em> column.</p>
+
+
+<p>
+  <a name="1040680"> </a><img src="images/name_4m_pdf.gif">
+</p>
+
+
+<p>
+  <a name="1040723"> </a>Next, you need to copy the pin numbers that are mapped to the pin names.</p>
+
+</dl>  <li value="8"><p><a name="1040729"> </a>Select the <em>Pin Number</em> column in the datasheet and press Ctrl + C.</p>
+  <li value="9"><p><a name="1040733"> </a>Select the first cell under the <em>S1</em> column and press Ctrl + V.</p>
+<dl>
+<p>
+  <a name="1040737"> </a>The physical pin numbers are copied into the <em>Logical Pins</em> grid. The <em>Physical Pins</em> grid is also updated automatically with the pin-mapping information.</p>
+
+
+<p>
+  <a name="1040744"> </a><img src="images/pdf_after_copy.gif">
+</p>
+
+
+<p>
+  <a name="1041155"> </a>Next, you need to copy the direction information from the PDF into the Type column to determine the pin types. In case the direction is missing in the PDF, you will need to manually determine the pin type in Part Developer.</p>
+
+</dl>  <li value="10"><p><a name="1041166"> </a>Select the <em>Direction</em> column in the datasheet and press Ctrl + C.</p>
+  <li value="11"><p><a name="1041167"> </a>Select the first cell under the <em>Type</em> column and press Ctrl + V.</p>
+<dl>
+<p>
+  <a name="1041161"> </a>In the datasheet, the direction of the pins is specified as <code>Input/Output</code>. However, on copying, the pin type is changed to <code>BIDIR</code>. This automatic translation is handled through the entries in the <code>propfile.prop</code> file located at <code><em>&lt;your_inst_dir&gt;</code></em><code>/share/cdssetup/LMAN</code>. For more information, see the <em>Advanced Tasks</em> chapter in <em>Part Developer User Guide.</em></p>
+
+
+<p>
+  <a name="1041217"> </a><img src="images/fromXL.gif">
+</p>
+
+</dl></ol>
+
+
+
+<h4>
+  <a name="1040802"> </a>Copying First into Excel/Star Office and then into Part Developer</h4>
+
+<ol type="1">
+  <li value="1"><p><a name="1040826"> </a>Open the datasheet in Acrobat Reader.</p>
+  <li value="2"><p><a name="1040831"> </a>Select the <em>Column Select Tool</em> option. </p>
+  <li value="3"><p><a name="1040832"> </a>Select the <em>Pin Name</em> column and press Ctrl + C.</p>
+  <li value="4"><p><a name="1040810"> </a>Open an Excel or Star Office spreadsheet and press Ctrl + V to paste the data in the first column.</p>
+  <li value="5"><p><a name="1040837"> </a>Next, copy the <em>Direction</em> and <em>Pin Number</em> columns and paste into the columns adjacent to the pin names column.</p>
+<dl>
+<p>
+  <a name="1040859"> </a>The filled spreadsheet should appear like the one displayed below:</p>
+
+
+<p>
+  <a name="1040858"> </a><img src="images/xlsheet.gif">
+</p>
+
+</dl>  <li value="6"><p><a name="1040866"> </a>Select the three columns in the spreadsheet and press Ctrl + C.</p>
+  <li value="7"><p><a name="1040870"> </a>Press Ctrl + I to insert a blank row in the <em>Logical Pins</em> grid.</p>
+  <li value="8"><p><a name="1040912"> </a>Select the empty cell under the <em>Name</em> column in <em>Logical Pins</em> grid and press Ctrl + V.</p>
+<dl>
+<p>
+  <a name="1041212"> </a>The pin information along with the pin type and the mapping information is copied into the <em>Logical Pins</em> grid. The <em>Physical Pins</em> grid is also updated automatically. Note that the <code>Input/Output</code><em> </em>pin type is automatically converted to the <code>BIDIR</code> type in the <em>Logical Pins </em>grid. This translation is controlled through the <code>propfile.prop</code> file located at <code><em>&lt;your_inst_dir&gt;</code></em><code>/share/cdssetup/LMAN</code>. For more information, see the <em>Advanced Tasks</em> chapter in <em>Part Developer User Guide.</em></p>
+
+
+<p>
+  <a name="1040888"> </a><img src="images/fromXL.gif">
+</p>
+
+</dl></ol>
+
+  <a name="1040943"> </a><table border="0"><tr><td valign="top"><img src="../support/caution.gif"></td><td><strong><i>When copying data from PDFs, invalid characters in pin names need to be fixed manually. Part Developer will generate errors if an attempt is made to save a part with invalid characters in pin names.</i></strong></td></table>
+
+<ol type="1">
+  <li value="9"><p><a name="1041315"> </a>Choose <em>File - Save </em>to save the part.</p>
+</ol>
+
+<br><br><br>
+<h2>
+  <a name="1041070"> </a>Summary</h2>
+
+
+<p>
+  <a name="1041077"> </a>In this chapter, you learned to create parts from PDF datasheets.</p>
+
+
+  
+
+</blockquote>
+
+<br>
+<a href="#pagetop">Return to top of page</a>
+<hr>
+<p>
+<!-- Begin Buttons -->
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="chap4.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="creating_asymmetrical_parts.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><a href="/search.htm"><img src="../support/nav2_search.gif" border="0"  alt="Search Cadence Library" height="20" width="61"></a></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+</table>
+<!-- End Buttons -->
+<p>
+<p>
+
+
+<!-- NOTES; -->
+
+<!-- /address -->
+<p>
+<br>
+<font size="-1">
+For support, see <a href=http://www.cadence.com/support>http://www.cadence.com/support</a>
+or try Cadence's <a href=http://sourcelink.cadence.com target=_blank>SourceLink</a> service.
+<br><br>
+<i>Copyright &#169; 2008, <a href=http://www.cadence.com>Cadence Design Systems, Inc.</a></i> 
+<br>
+All rights reserved.
+<br>
+<a href="titlecopy.html">Legal notices and trademark attributions</a>
+<br>
+<!-- This file was created with Quadralay WebWorks Publisher AutoMap 6.0.7 -->
+<!-- -->
+<!-- Last updated: Fri Sep 26 14:43:34 2008 -->
+</font>
+</body>
+</html>
+
+

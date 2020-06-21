@@ -1,0 +1,43 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : R0603_1.dra                                   )
+(    Software Version : 16.3p003                                      )
+(    Date/Time        : Sat Sep 16 13:39:30 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sat Sep 16 13:39:30 2017				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+OLD_LAYOUT_NAME = 'R0603_1.dra';
+NEW_LAYOUT_NAME = '';
+REFRESH_SYMBOL_TEXT_LOCATIONS = 'NO';
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.3/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.3/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.3/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.3/share/pcb/allegrolib/symbols 
+           C:\Cadence\Projects\Test Fixture-PSpiceFiles\symbol\ 
+
+
+------ Pad Stack Refresh Messages ------
+
+Completed refreshing all pad stacks successfully.

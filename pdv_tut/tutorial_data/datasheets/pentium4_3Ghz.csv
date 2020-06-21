@@ -1,0 +1,480 @@
+BODY_NAME,pentium4_3Ghz,,
+pin_name,pin_type,pin_number,signal_description
+A10#,BIDIR,M3,Source Synch
+A11#,BIDIR,M4,Source Synch
+A12#,BIDIR,N1,Source Synch
+A13#,BIDIR,M1,Source Synch
+A14#,BIDIR,N2,Source Synch
+A15#,BIDIR,N4,Source Synch
+A16#,BIDIR,N5,Source Synch
+A17#,BIDIR,T1,Source Synch
+A18#,BIDIR,R2,Source Synch
+A19#,BIDIR,P3,Source Synch
+A20#,BIDIR,P4,Source Synch
+A20M#,INPUT,C6,Asynch GTL+
+A21#,BIDIR,R3,Source Synch
+A22#,BIDIR,T2,Source Synch
+A23#,BIDIR,U1,Source Synch
+A24#,BIDIR,P6,Source Synch
+A25#,BIDIR,U3,Source Synch
+A26#,BIDIR,T4,Source Synch
+A27#,BIDIR,V2,Source Synch
+A28#,BIDIR,R6,Source Synch
+A29#,BIDIR,W1,Source Synch
+A3#,BIDIR,K2,Source Synch
+A30#,BIDIR,T5,Source Synch
+A31#,BIDIR,U4,Source Synch
+A32#,BIDIR,V3,Source Synch
+A33#,BIDIR,W2,Source Synch
+A34#,BIDIR,Y1,Source Synch
+A35#,BIDIR,AB1,Source Synch
+A4#,BIDIR,K4,Source Synch
+A5#,BIDIR,L6,Source Synch
+A6#,BIDIR,K1,Source Synch
+A7#,BIDIR,L3,Source Synch
+A8#,BIDIR,M6,Source Synch
+A9#,BIDIR,L2,Source Synch
+ADS#,BIDIR,G1,Common Clock
+ADSTB0#,BIDIR,L5,Source Synch
+ADSTB1#,BIDIR,R5,Source Synch
+AP0#,BIDIR,AC1,Common Clock
+AP1#,BIDIR,V5,Common Clock
+BCLK0,INPUT,AF22,Bus Clock
+BCLK1,INPUT,AF23,Bus Clock
+BINIT#,BIDIR,AA3,Common Clock
+BNR#,BIDIR,G2,Common Clock
+BPM0#,BIDIR,AC6,Common Clock
+BPM1#,BIDIR,AB5,Common Clock
+BPM2#,BIDIR,AC4,Common Clock
+BPM3#,BIDIR,Y6,Common Clock
+BPM4#,BIDIR,AA5,Common Clock
+BPM5#,BIDIR,AB4,Common Clock
+BPRI#,INPUT,D2,Common Clock
+BR0#,BIDIR,H6,Common Clock
+BSEL0,OUTPUT,AD6,Power/Other
+BSEL1,OUTPUT,AD5,Power/Other
+COMP0,BIDIR,L24,Power/Other
+COMP1,BIDIR,P1,Power/Other
+D0#,BIDIR,B21,Source Synch
+D1#,BIDIR,B22,Source Synch
+D10#,BIDIR,G22,Source Synch
+D11#,BIDIR,H21,Source Synch
+D12#,BIDIR,C26,Source Synch
+D13#,BIDIR,D23,Source Synch
+D14#,BIDIR,J21,Source Synch
+D15#,BIDIR,D25,Source Synch
+D16#,BIDIR,H22,Source Synch
+D17#,BIDIR,E24,Source Synch
+D18#,BIDIR,G23,Source Synch
+D19#,BIDIR,F23,Source Synch
+D2#,BIDIR,A23,Source Synch
+D20#,BIDIR,F24,Source Synch
+D21#,BIDIR,E25,Source Synch
+D22#,BIDIR,F26,Source Synch
+D23#,BIDIR,D26,Source Synch
+D24#,BIDIR,L21,Source Synch
+D25#,BIDIR,G26,Source Synch
+D26#,BIDIR,H24,Source Synch
+D27#,BIDIR,M21,Source Synch
+D28#,BIDIR,L22,Source Synch
+D29#,BIDIR,J24,Source Synch
+D3#,BIDIR,A25,Source Synch
+D30#,BIDIR,K23,Source Synch
+D31#,BIDIR,H25,Source Synch
+D32#,BIDIR,M23,Source Synch
+D33#,BIDIR,N22,Source Synch
+D34#,BIDIR,P21,Source Synch
+D35#,BIDIR,M24,Source Synch
+D36#,BIDIR,N23,Source Synch
+D37#,BIDIR,M26,Source Synch
+D38#,BIDIR,N26,Source Synch
+D39#,BIDIR,N25,Source Synch
+D4#,BIDIR,C21,Source Synch
+D40#,BIDIR,R21,Source Synch
+D41#,BIDIR,P24,Source Synch
+D42#,BIDIR,R25,Source Synch
+D43#,BIDIR,R24,Source Synch
+D44#,BIDIR,T26,Source Synch
+D45#,BIDIR,T25,Source Synch
+D46#,BIDIR,T22,Source Synch
+D47#,BIDIR,T23,Source Synch
+D48#,BIDIR,U26,Source Synch
+D49#,BIDIR,U24,Source Synch
+D5#,BIDIR,D22,Source Synch
+D50#,BIDIR,U23,Source Synch
+D51#,BIDIR,V25,Source Synch
+D52#,BIDIR,U21,Source Synch
+D53#,BIDIR,V22,Source Synch
+D54#,BIDIR,V24,Source Synch
+D55#,BIDIR,W26,Source Synch
+D56#,BIDIR,Y26,Source Synch
+D57#,BIDIR,W25,Source Synch
+D58#,BIDIR,Y23,Source Synch
+D59#,BIDIR,Y24,Source Synch
+D6#,BIDIR,B24,Source Synch
+D60#,BIDIR,Y21,Source Synch
+D61#,BIDIR,AA25,Source Synch
+D62#,BIDIR,AA22,Source Synch
+D63#,BIDIR,AA24,Source Synch
+D7#,BIDIR,C23,Source Synch
+D8#,BIDIR,C24,Source Synch
+D9#,BIDIR,B25,Source Synch
+DBI0#,BIDIR,E21,Source Synch
+DBI1#,BIDIR,G25,Source Synch
+DBI2#,BIDIR,P26,Source Synch
+DBI3#,BIDIR,V21,Source Synch
+DBR#,OUTPUT,AE25,Power/Other
+DBSY#,BIDIR,H5,Common Clock
+DEFER#,INPUT,E2,Common Clock
+DP0#,BIDIR,J26,Common Clock
+DP1#,BIDIR,K25,Common Clock
+DP2#,BIDIR,K26,Common Clock
+DP3#,BIDIR,L25,Common Clock
+DRDY#,BIDIR,H2,Common Clock
+DSTBN0#,BIDIR,E22,Source Synch
+DSTBN1#,BIDIR,K22,Source Synch
+DSTBN2#,BIDIR,R22,Source Synch
+DSTBN3#,BIDIR,W22,Source Synch
+DSTBP0#,BIDIR,F21,Source Synch
+DSTBP1#,BIDIR,J23,Source Synch
+DSTBP2#,BIDIR,P23,Source Synch
+DSTBP3#,BIDIR,W23,Source Synch
+FERR#,OUTPUT,B6,Asynch AGL+
+GTLREF0,INPUT,AA21,Power/Other
+GTLREF1,INPUT,AA6,Power/Other
+GTLREF2,INPUT,F20,Power/Other
+GTLREF3,INPUT,F6,Power/Other
+HIT#,BIDIR,F3,Common Clock
+HITM#,BIDIR,E3,Common Clock
+IERR#,OUTPUT,AC3,Common Clock
+IGNNE#,INPUT,B2,Asynch GTL+
+INIT#,INPUT,W5,Asynch GTL+
+ITP_CLK0,INPUT,AC26,TAP
+ITP_CLK1,INPUT,AD26,TAP
+ITPCLKOUT0,OUTPUT,AA20,Power/Other
+ITPCLKOUT1,OUTPUT,AB22,Power/Other
+LINT0,INPUT,D1,Asynch GTL+
+LINT1,INPUT,E5,Asynch GTL+
+LOCK#,BIDIR,G4,Common Clock
+MCERR#,BIDIR,V6,Common Clock
+NC,NC,A22,
+NC,NC,A7,
+NC,NC,AD2,
+NC,NC,AD3,
+NC,NC,AE21,
+NC,NC,AF3,
+NC,NC,AF24,
+NC,NC,AF25,
+PROCHOT#,BIDIR,C3,Asynch GTL+
+PWRGOOD,INPUT,AB23,Power/Other
+REQ0#,BIDIR,J1,Source Synch
+REQ1#,BIDIR,K5,Source Synch
+REQ2#,BIDIR,J4,Source Synch
+REQ3#,BIDIR,J3,Source Synch
+REQ4#,BIDIR,H3,Source Synch
+RESET#,INPUT,AB25,Common Clock
+RS0#,INPUT,F1,Common Clock
+RS1#,INPUT,G5,Common Clock
+RS2#,INPUT,F4,Common Clock
+RSP#,INPUT,AB2,Common Clock
+SKTOCC#,OUTPUT,AF26,Power/Other
+SLP#,INPUT,AB26,Asynch GTL+
+SMI#,INPUT,B5,Asynch GTL+
+STPCLK#,INPUT,Y4,Asynch GTL+
+TCK,INPUT,D4,TAP
+TDI,INPUT,C1,TAP
+TDO,OUTPUT,D5,TAP
+TESTHI0,INPUT,AD24,Power/Other
+TESTHI1,INPUT,AA2,Power/Other
+TESTHI10,INPUT,Y3,Power/Other
+TESTHI11,INPUT,A6,Power/Other
+TESTHI12,INPUT,AD25,Power/Other
+TESTHI2,INPUT,AC21,Power/Other
+TESTHI3,INPUT,AC20,Power/Other
+TESTHI4,INPUT,AC24,Power/Other
+TESTHI5,INPUT,AC23,Power/Other
+TESTHI8,INPUT,U6,Power/Other
+TESTHI9,INPUT,W4,Power/Other
+THERMDA,POWER,B3,Power/Other
+THERMDC,POWER,C4,Power/Other
+THERMTRIP#,OUTPUT,A2,Asynch GTL+
+TMS,INPUT,F7,TAP
+TRDY#,INPUT,J6,Common Clock
+TRST#,INPUT,E6,TAP
+VCC,POWER,A10,Power/Other
+VCC,POWER,A12,Power/Other
+VCC,POWER,A14,Power/Other
+VCC,POWER,A16,Power/Other
+VCC,POWER,A18,Power/Other
+VCC,POWER,A20,Power/Other
+VCC,POWER,A8,Power/Other
+VCC,POWER,AA10,Power/Other
+VCC,POWER,AA12,Power/Other
+VCC,POWER,AA14,Power/Other
+VCC,POWER,AA16,Power/Other
+VCC,POWER,AA18,Power/Other
+VCC,POWER,AA8,Power/Other
+VCC,POWER,AB11,Power/Other
+VCC,POWER,AB13,Power/Other
+VCC,POWER,AB15,Power/Other
+VCC,POWER,AB17,Power/Other
+VCC,POWER,AB19,Power/Other
+VCC,POWER,AB7,Power/Other
+VCC,POWER,AB9,Power/Other
+VCC,POWER,AC10,Power/Other
+VCC,POWER,AC12,Power/Other
+VCC,POWER,AC14,Power/Other
+VCC,POWER,AC16,Power/Other
+VCC,POWER,AC18,Power/Other
+VCC,POWER,AC8,Power/Other
+VCC,POWER,AD11,Power/Other
+VCC,POWER,AD13,Power/Other
+VCC,POWER,AD15,Power/Other
+VCC,POWER,AD17,Power/Other
+VCC,POWER,AD19,Power/Other
+VCC,POWER,AD7,Power/Other
+VCC,POWER,AD9,Power/Other
+VCC,POWER,AE10,Power/Other
+VCC,POWER,AE12,Power/Other
+VCC,POWER,AE14,Power/Other
+VCC,POWER,AE16,Power/Other
+VCC,POWER,AE18,Power/Other
+VCC,POWER,AE20,Power/Other
+VCC,POWER,AE6,Power/Other
+VCC,POWER,AE8,Power/Other
+VCC,POWER,AF11,Power/Other
+VCC,POWER,AF13,Power/Other
+VCC,POWER,AF15,Power/Other
+VCC,POWER,AF17,Power/Other
+VCC,POWER,AF19,Power/Other
+VCC,POWER,AF2,Power/Other
+VCC,POWER,AF21,Power/Other
+VCC,POWER,AF5,Power/Other
+VCC,POWER,AF7,Power/Other
+VCC,POWER,AF9,Power/Other
+VCC,POWER,B11,Power/Other
+VCC,POWER,B13,Power/Other
+VCC,POWER,B15,Power/Other
+VCC,POWER,B17,Power/Other
+VCC,POWER,B19,Power/Other
+VCC,POWER,B7,Power/Other
+VCC,POWER,B9,Power/Other
+VCC,POWER,C10,Power/Other
+VCC,POWER,C12,Power/Other
+VCC,POWER,C14,Power/Other
+VCC,POWER,C16,Power/Other
+VCC,POWER,C18,Power/Other
+VCC,POWER,C20,Power/Other
+VCC,POWER,C8,Power/Other
+VCC,POWER,D11,Power/Other
+VCC,POWER,D13,Power/Other
+VCC,POWER,D15,Power/Other
+VCC,POWER,D17,Power/Other
+VCC,POWER,D19,Power/Other
+VCC,POWER,D7,Power/Other
+VCC,POWER,D9,Power/Other
+VCC,POWER,E10,Power/Other
+VCC,POWER,E12,Power/Other
+VCC,POWER,E14,Power/Other
+VCC,POWER,E16,Power/Other
+VCC,POWER,E18,Power/Other
+VCC,POWER,E20,Power/Other
+VCC,POWER,E8,Power/Other
+VCC,POWER,F11,Power/Other
+VCC,POWER,F13,Power/Other
+VCC,POWER,F15,Power/Other
+VCC,POWER,F17,Power/Other
+VCC,POWER,F19,Power/Other
+VCC,POWER,F9,Power/Other
+VCCA,POWER,AD20,Power/Other
+VCCIOPLL,POWER,AE23,Power/Other
+VCCSENSE,OUTPUT,A5,Power/Other
+VCCVID,INPUT,AF4,Power/Other
+VID0,OUTPUT,AE5,Power/Other
+VID1,OUTPUT,AE4,Power/Other
+VID2,OUTPUT,AE3,Power/Other
+VID3,OUTPUT,AE2,Power/Other
+VID4,OUTPUT,AE1,Power/Other
+VSS,POWER,D10,Power/Other
+VSS,POWER,A11,Power/Other
+VSS,POWER,A13,Power/Other
+VSS,POWER,A15,Power/Other
+VSS,POWER,A17,Power/Other
+VSS,POWER,A19,Power/Other
+VSS,POWER,A21,Power/Other
+VSS,POWER,A24,Power/Other
+VSS,POWER,A26,Power/Other
+VSS,POWER,A3,Power/Other
+VSS,POWER,A9,Power/Other
+VSS,POWER,AA1,Power/Other
+VSS,POWER,AA11,Power/Other
+VSS,POWER,AA13,Power/Other
+VSS,POWER,AA15,Power/Other
+VSS,POWER,AA17,Power/Other
+VSS,POWER,AA19,Power/Other
+VSS,POWER,AA23,Power/Other
+VSS,POWER,AA26,Power/Other
+VSS,POWER,AA4,Power/Other
+VSS,POWER,AA7,Power/Other
+VSS,POWER,AA9,Power/Other
+VSS,POWER,AB10,Power/Other
+VSS,POWER,AB12,Power/Other
+VSS,POWER,AB14,Power/Other
+VSS,POWER,AB16,Power/Other
+VSS,POWER,AB18,Power/Other
+VSS,POWER,AB20,Power/Other
+VSS,POWER,AB21,Power/Other
+VSS,POWER,AB24,Power/Other
+VSS,POWER,AB3,Power/Other
+VSS,POWER,AB6,Power/Other
+VSS,POWER,AB8,Power/Other
+VSS,POWER,AC11,Power/Other
+VSS,POWER,AC13,Power/Other
+VSS,POWER,AC15,Power/Other
+VSS,POWER,AC17,Power/Other
+VSS,POWER,AC19,Power/Other
+VSS,POWER,AC2,Power/Other
+VSS,POWER,AC22,Power/Other
+VSS,POWER,AC25,Power/Other
+VSS,POWER,AC5,Power/Other
+VSS,POWER,AC7,Power/Other
+VSS,POWER,AC9,Power/Other
+VSS,POWER,AD1,Power/Other
+VSS,POWER,AD10,Power/Other
+VSS,POWER,AD12,Power/Other
+VSS,POWER,AD14,Power/Other
+VSS,POWER,AD16,Power/Other
+VSS,POWER,AD18,Power/Other
+VSS,POWER,AD21,Power/Other
+VSS,POWER,AD23,Power/Other
+VSS,POWER,AD4,Power/Other
+VSS,POWER,AD8,Power/Other
+VSS,POWER,AE11,Power/Other
+VSS,POWER,AE13,Power/Other
+VSS,POWER,AE15,Power/Other
+VSS,POWER,AE17,Power/Other
+VSS,POWER,AE19,Power/Other
+VSS,POWER,AE22,Power/Other
+VSS,POWER,AE24,Power/Other
+VSS,POWER,AE26,Power/Other
+VSS,POWER,AE7,Power/Other
+VSS,POWER,AE9,Power/Other
+VSS,POWER,AF1,Power/Other
+VSS,POWER,AF10,Power/Other
+VSS,POWER,AF12,Power/Other
+VSS,POWER,AF14,Power/Other
+VSS,POWER,AF16,Power/Other
+VSS,POWER,AF18,Power/Other
+VSS,POWER,AF20,Power/Other
+VSS,POWER,AF6,Power/Other
+VSS,POWER,AF8,Power/Other
+VSS,POWER,B10,Power/Other
+VSS,POWER,B12,Power/Other
+VSS,POWER,B14,Power/Other
+VSS,POWER,B16,Power/Other
+VSS,POWER,B18,Power/Other
+VSS,POWER,B20,Power/Other
+VSS,POWER,B23,Power/Other
+VSS,POWER,B26,Power/Other
+VSS,POWER,B4,Power/Other
+VSS,POWER,B8,Power/Other
+VSS,POWER,C11,Power/Other
+VSS,POWER,C13,Power/Other
+VSS,POWER,C15,Power/Other
+VSS,POWER,C17,Power/Other
+VSS,POWER,C19,Power/Other
+VSS,POWER,C2,Power/Other
+VSS,POWER,C22,Power/Other
+VSS,POWER,C25,Power/Other
+VSS,POWER,C5,Power/Other
+VSS,POWER,C7,Power/Other
+VSS,POWER,C9,Power/Other
+VSS,POWER,D12,Power/Other
+VSS,POWER,D14,Power/Other
+VSS,POWER,D16,Power/Other
+VSS,POWER,D18,Power/Other
+VSS,POWER,D20,Power/Other
+VSS,POWER,D21,Power/Other
+VSS,POWER,D24,Power/Other
+VSS,POWER,D3,Power/Other
+VSS,POWER,D6,Power/Other
+VSS,POWER,D8,Power/Other
+VSS,POWER,E1,Power/Other
+VSS,POWER,E11,Power/Other
+VSS,POWER,E13,Power/Other
+VSS,POWER,E15,Power/Other
+VSS,POWER,E17,Power/Other
+VSS,POWER,E19,Power/Other
+VSS,POWER,E23,Power/Other
+VSS,POWER,E26,Power/Other
+VSS,POWER,E4,Power/Other
+VSS,POWER,E7,Power/Other
+VSS,POWER,E9,Power/Other
+VSS,POWER,F10,Power/Other
+VSS,POWER,F12,Power/Other
+VSS,POWER,F14,Power/Other
+VSS,POWER,F16,Power/Other
+VSS,POWER,F18,Power/Other
+VSS,POWER,F2,Power/Other
+VSS,POWER,F22,Power/Other
+VSS,POWER,F25,Power/Other
+VSS,POWER,F5,Power/Other
+VSS,POWER,F8,Power/Other
+VSS,POWER,G21,Power/Other
+VSS,POWER,G24,Power/Other
+VSS,POWER,G3,Power/Other
+VSS,POWER,G6,Power/Other
+VSS,POWER,H1,Power/Other
+VSS,POWER,H23,Power/Other
+VSS,POWER,H26,Power/Other
+VSS,POWER,H4,Power/Other
+VSS,POWER,J2,Power/Other
+VSS,POWER,J22,Power/Other
+VSS,POWER,J25,Power/Other
+VSS,POWER,J5,Power/Other
+VSS,POWER,K21,Power/Other
+VSS,POWER,K24,Power/Other
+VSS,POWER,K3,Power/Other
+VSS,POWER,K6,Power/Other
+VSS,POWER,L1,Power/Other
+VSS,POWER,L23,Power/Other
+VSS,POWER,L26,Power/Other
+VSS,POWER,L4,Power/Other
+VSS,POWER,M2,Power/Other
+VSS,POWER,M22,Power/Other
+VSS,POWER,M25,Power/Other
+VSS,POWER,M5,Power/Other
+VSS,POWER,N21,Power/Other
+VSS,POWER,N24,Power/Other
+VSS,POWER,N3,Power/Other
+VSS,POWER,N6,Power/Other
+VSS,POWER,P2,Power/Other
+VSS,POWER,P22,Power/Other
+VSS,POWER,P25,Power/Other
+VSS,POWER,P5,Power/Other
+VSS,POWER,R1,Power/Other
+VSS,POWER,R23,Power/Other
+VSS,POWER,R26,Power/Other
+VSS,POWER,R4,Power/Other
+VSS,POWER,T21,Power/Other
+VSS,POWER,T24,Power/Other
+VSS,POWER,T3,Power/Other
+VSS,POWER,T6,Power/Other
+VSS,POWER,U2,Power/Other
+VSS,POWER,U22,Power/Other
+VSS,POWER,U25,Power/Other
+VSS,POWER,U5,Power/Other
+VSS,POWER,V1,Power/Other
+VSS,POWER,V23,Power/Other
+VSS,POWER,V26,Power/Other
+VSS,POWER,V4,Power/Other
+VSS,POWER,W21,Power/Other
+VSS,POWER,W24,Power/Other
+VSS,POWER,W3,Power/Other
+VSS,POWER,W6,Power/Other
+VSS,POWER,Y2,Power/Other
+VSS,POWER,Y22,Power/Other
+VSS,POWER,Y25,Power/Other
+VSS,POWER,Y5,Power/Other
+VSSA,POWER,AD22,Power/Other
+VSSSENSE,OUTPUT,A4,Power/Other

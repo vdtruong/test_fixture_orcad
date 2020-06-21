@@ -1,0 +1,481 @@
+BODY_NAME,pentium4_3Ghz,,,,
+pin_name,pin_type,pin_number,signal_description,pin_delay,symbol
+A10#,BIDIR,M3,Source Synch,0.002 ns,1
+A11#,BIDIR,M4,Source Synch,0.002 ns,1
+A12#,BIDIR,N1,Source Synch,0.002 ns,1
+A13#,BIDIR,M1,Source Synch,0.002 ns,1
+A14#,BIDIR,N2,Source Synch,0.002 ns,1
+A15#,BIDIR,N4,Source Synch,0.002 ns,1
+A16#,BIDIR,N5,Source Synch,0.002 ns,1
+A17#,BIDIR,T1,Source Synch,0.002 ns,1
+A18#,BIDIR,R2,Source Synch,0.002 ns,1
+A19#,BIDIR,P3,Source Synch,0.002 ns,1
+A20#,BIDIR,P4,Source Synch,0.002 ns,1
+A20M#,INPUT,C6,Asynch GTL+,0.002 ns,1
+A21#,BIDIR,R3,Source Synch,0.002 ns,1
+A22#,BIDIR,T2,Source Synch,0.002 ns,1
+A23#,BIDIR,U1,Source Synch,0.002 ns,1
+A24#,BIDIR,P6,Source Synch,0.002 ns,1
+A25#,BIDIR,U3,Source Synch,0.002 ns,1
+A26#,BIDIR,T4,Source Synch,0.002 ns,1
+A27#,BIDIR,V2,Source Synch,0.002 ns,1
+A28#,BIDIR,R6,Source Synch,0.002 ns,1
+A29#,BIDIR,W1,Source Synch,0.002 ns,1
+A3#,BIDIR,K2,Source Synch,0.002 ns,1
+A30#,BIDIR,T5,Source Synch,0.002 ns,1
+A31#,BIDIR,U4,Source Synch,0.002 ns,1
+A32#,BIDIR,V3,Source Synch,0.002 ns,1
+A33#,BIDIR,W2,Source Synch,0.002 ns,1
+A34#,BIDIR,Y1,Source Synch,0.002 ns,1
+A35#,BIDIR,AB1,Source Synch,0.002 ns,1
+A4#,BIDIR,K4,Source Synch,0.002 ns,1
+A5#,BIDIR,L6,Source Synch,0.002 ns,1
+A6#,BIDIR,K1,Source Synch,0.002 ns,1
+A7#,BIDIR,L3,Source Synch,0.002 ns,1
+A8#,BIDIR,M6,Source Synch,0.002 ns,1
+A9#,BIDIR,L2,Source Synch,0.002 ns,1
+ADS#,BIDIR,G1,Common Clock,0.002 ns,1
+ADSTB0#,BIDIR,L5,Source Synch,0.002 ns,1
+ADSTB1#,BIDIR,R5,Source Synch,0.002 ns,1
+AP0#,BIDIR,AC1,Common Clock,0.002 ns,2
+AP1#,BIDIR,V5,Common Clock,0.002 ns,2
+BCLK0,INPUT,AF22,Bus Clock,0.002 ns,2
+BCLK1,INPUT,AF23,Bus Clock,0.002 ns,2
+BINIT#,BIDIR,AA3,Common Clock,0.002 ns,2
+BNR#,BIDIR,G2,Common Clock,0.002 ns,2
+BPM,BIDIR,AC6,Common Clock,0.002 ns,2
+BPM,BIDIR,AB5,Common Clock,0.002 ns,2
+BPM,BIDIR,AC4,Common Clock,0.002 ns,2
+BPM,BIDIR,Y6,Common Clock,0.002 ns,2
+BPM,BIDIR,AA5,Common Clock,0.002 ns,2
+BPM,BIDIR,AB4,Common Clock,0.002 ns,2
+BPRI#,INPUT,D2,Common Clock,0.002 ns,2
+BR0#,BIDIR,H6,Common Clock,0.002 ns,2
+BSEL0,OUTPUT,AD6,Power/Other,0.002 ns,2
+BSEL1,OUTPUT,AD5,Power/Other,0.002 ns,2
+COMP0,BIDIR,L24,Power/Other,0.002 ns,2
+COMP1,BIDIR,P1,Power/Other,0.002 ns,3
+D0#,BIDIR,B21,Source Synch,0.002 ns,3
+D1#,BIDIR,B22,Source Synch,0.002 ns,3
+D10#,BIDIR,G22,Source Synch,0.002 ns,3
+D11#,BIDIR,H21,Source Synch,0.002 ns,3
+D12#,BIDIR,C26,Source Synch,0.002 ns,3
+D13#,BIDIR,D23,Source Synch,0.002 ns,3
+D14#,BIDIR,J21,Source Synch,0.002 ns,3
+D15#,BIDIR,D25,Source Synch,0.002 ns,3
+D16#,BIDIR,H22,Source Synch,0.002 ns,3
+D17#,BIDIR,E24,Source Synch,0.002 ns,3
+D18#,BIDIR,G23,Source Synch,0.002 ns,3
+D19#,BIDIR,F23,Source Synch,0.002 ns,3
+D2#,BIDIR,A23,Source Synch,0.002 ns,3
+D20#,BIDIR,F24,Source Synch,0.002 ns,3
+D21#,BIDIR,E25,Source Synch,0.002 ns,3
+D22#,BIDIR,F26,Source Synch,0.002 ns,3
+D23#,BIDIR,D26,Source Synch,0.002 ns,3
+D24#,BIDIR,L21,Source Synch,0.002 ns,3
+D25#,BIDIR,G26,Source Synch,0.002 ns,3
+D26#,BIDIR,H24,Source Synch,0.002 ns,3
+D27#,BIDIR,M21,Source Synch,0.002 ns,3
+D28#,BIDIR,L22,Source Synch,0.002 ns,3
+D29#,BIDIR,J24,Source Synch,0.002 ns,3
+D3#,BIDIR,A25,Source Synch,0.002 ns,3
+D30#,BIDIR,K23,Source Synch,0.002 ns,3
+D31#,BIDIR,H25,Source Synch,0.002 ns,3
+D32#,BIDIR,M23,Source Synch,0.002 ns,3
+D33#,BIDIR,N22,Source Synch,0.002 ns,3
+D34#,BIDIR,P21,Source Synch,0.002 ns,3
+D35#,BIDIR,M24,Source Synch,0.002 ns,3
+D36#,BIDIR,N23,Source Synch,0.002 ns,3
+D37#,BIDIR,M26,Source Synch,0.002 ns,3
+D38#,BIDIR,N26,Source Synch,0.002 ns,3
+D39#,BIDIR,N25,Source Synch,0.002 ns,3
+D4#,BIDIR,C21,Source Synch,0.002 ns,3
+D40#,BIDIR,R21,Source Synch,0.002 ns,3
+D41#,BIDIR,P24,Source Synch,0.002 ns,3
+D42#,BIDIR,R25,Source Synch,0.002 ns,3
+D43#,BIDIR,R24,Source Synch,0.002 ns,3
+D44#,BIDIR,T26,Source Synch,0.002 ns,3
+D45#,BIDIR,T25,Source Synch,0.002 ns,3
+D46#,BIDIR,T22,Source Synch,0.002 ns,3
+D47#,BIDIR,T23,Source Synch,0.002 ns,3
+D48#,BIDIR,U26,Source Synch,0.002 ns,3
+D49#,BIDIR,U24,Source Synch,0.002 ns,3
+D5#,BIDIR,D22,Source Synch,0.002 ns,3
+D50#,BIDIR,U23,Source Synch,0.002 ns,3
+D51#,BIDIR,V25,Source Synch,0.002 ns,3
+D52#,BIDIR,U21,Source Synch,0.002 ns,3
+D53#,BIDIR,V22,Source Synch,0.002 ns,3
+D54#,BIDIR,V24,Source Synch,0.002 ns,3
+D55#,BIDIR,W26,Source Synch,0.002 ns,3
+D56#,BIDIR,Y26,Source Synch,0.002 ns,3
+D57#,BIDIR,W25,Source Synch,0.002 ns,3
+D58#,BIDIR,Y23,Source Synch,0.002 ns,3
+D59#,BIDIR,Y24,Source Synch,0.002 ns,4
+D6#,BIDIR,B24,Source Synch,0.002 ns,4
+D60#,BIDIR,Y21,Source Synch,0.002 ns,4
+D61#,BIDIR,AA25,Source Synch,0.002 ns,4
+D62#,BIDIR,AA22,Source Synch,0.002 ns,4
+D63#,BIDIR,AA24,Source Synch,0.002 ns,4
+D7#,BIDIR,C23,Source Synch,0.002 ns,4
+D8#,BIDIR,C24,Source Synch,0.002 ns,4
+D9#,BIDIR,B25,Source Synch,0.002 ns,4
+DBI0#,BIDIR,E21,Source Synch,0.002 ns,4
+DBI1#,BIDIR,G25,Source Synch,0.002 ns,4
+DBI2#,BIDIR,P26,Source Synch,0.002 ns,4
+DBI3#,BIDIR,V21,Source Synch,0.002 ns,4
+DBR#,OUTPUT,AE25,Power/Other,0.002 ns,4
+DBSY#,BIDIR,H5,Common Clock,0.002 ns,4
+DEFER#,INPUT,E2,Common Clock,0.002 ns,4
+DP0#,BIDIR,J26,Common Clock,0.002 ns,4
+DP1#,BIDIR,K25,Common Clock,0.002 ns,4
+DP2#,BIDIR,K26,Common Clock,0.002 ns,4
+DP3#,BIDIR,L25,Common Clock,0.002 ns,4
+DRDY#,BIDIR,H2,Common Clock,0.002 ns,4
+DSTBN0#,BIDIR,E22,Source Synch,0.002 ns,4
+DSTBN1#,BIDIR,K22,Source Synch,0.002 ns,4
+DSTBN2#,BIDIR,R22,Source Synch,0.002 ns,4
+DSTBN3#,BIDIR,W22,Source Synch,0.002 ns,4
+DSTBP0#,BIDIR,F21,Source Synch,0.002 ns,4
+DSTBP1#,BIDIR,J23,Source Synch,0.002 ns,4
+DSTBP2#,BIDIR,P23,Source Synch,0.002 ns,4
+DSTBP3#,BIDIR,W23,Source Synch,0.002 ns,4
+FERR#,OUTPUT,B6,Asynch AGL+,0.002 ns,4
+GTLREF0,INPUT,AA21,Power/Other,0.002 ns,4
+GTLREF1,INPUT,AA6,Power/Other,0.002 ns,4
+GTLREF2,INPUT,F20,Power/Other,0.002 ns,4
+GTLREF3,INPUT,F6,Power/Other,0.002 ns,4
+HIT#,BIDIR,F3,Common Clock,0.002 ns,4
+HITM#,BIDIR,E3,Common Clock,0.002 ns,4
+IERR#,OUTPUT,AC3,Common Clock,0.002 ns,4
+IGNNE#,INPUT,B2,Asynch GTL+,0.002 ns,4
+INIT#,INPUT,W5,Asynch GTL+,0.002 ns,4
+ITP_CLK0,INPUT,AC26,TAP,0.002 ns,4
+ITP_CLK1,INPUT,AD26,TAP,0.002 ns,4
+ITPCLKOUT0,OUTPUT,AA20,Power/Other,0.002 ns,4
+ITPCLKOUT1,OUTPUT,AB22,Power/Other,0.002 ns,4
+LINT0,INPUT,D1,Asynch GTL+,0.002 ns,4
+LINT1,INPUT,E5,Asynch GTL+,0.002 ns,4
+LOCK#,BIDIR,G4,Common Clock,0.002 ns,4
+MCERR#,BIDIR,V6,Common Clock,0.002 ns,4
+P100,UNSPEC,P100,Asynch GTL+,0.002 ns,4
+NC,NC,A22,,,
+NC,NC,A7,,,
+NC,NC,AD2,,,
+NC,NC,AD3,,,
+NC,NC,AE21,,,
+NC,NC,AF3,,,
+NC,NC,AF24,,,
+NC,NC,AF25,,,
+PROCHOT#,BIDIR,C3,Asynch GTL+,0.002 ns,5
+PWRGOOD,INPUT,AB23,Power/Other,0.002 ns,5
+REQ0#,BIDIR,J1,Source Synch,0.002 ns,5
+REQ1#,BIDIR,K5,Source Synch,0.002 ns,5
+REQ2#,BIDIR,J4,Source Synch,0.002 ns,5
+REQ3#,BIDIR,J3,Source Synch,0.002 ns,5
+REQ4#,BIDIR,H3,Source Synch,0.002 ns,5
+RESET#,INPUT,AB25,Common Clock,0.002 ns,5
+RS0#,INPUT,F1,Common Clock,0.002 ns,5
+RS1#,INPUT,G5,Common Clock,0.002 ns,5
+RS2#,INPUT,F4,Common Clock,0.002 ns,5
+RSP#,INPUT,AB2,Common Clock,0.002 ns,5
+SKTOCC#,OUTPUT,AF26,Power/Other,0.002 ns,5
+SLP#,INPUT,AB26,Asynch GTL+,0.002 ns,5
+SMI#,INPUT,B5,Asynch GTL+,0.002 ns,5
+STPCLK#,INPUT,Y4,Asynch GTL+,0.002 ns,5
+TCK,INPUT,D4,TAP,0.002 ns,5
+TDI,INPUT,C1,TAP,0.002 ns,5
+TDO,OUTPUT,D5,TAP,0.002 ns,5
+TESTHI0,INPUT,AD24,Power/Other,0.002 ns,5
+TESTHI1,INPUT,AA2,Power/Other,0.002 ns,5
+TESTHI10,INPUT,Y3,Power/Other,0.002 ns,5
+TESTHI11,INPUT,A6,Power/Other,0.002 ns,5
+TESTHI12,INPUT,AD25,Power/Other,0.002 ns,5
+TESTHI2,INPUT,AC21,Power/Other,0.002 ns,5
+TESTHI3,INPUT,AC20,Power/Other,0.002 ns,5
+TESTHI4,INPUT,AC24,Power/Other,0.002 ns,5
+TESTHI5,INPUT,AC23,Power/Other,0.002 ns,5
+TESTHI8,INPUT,U6,Power/Other,0.002 ns,5
+TESTHI9,INPUT,W4,Power/Other,0.002 ns,5
+THERMDA,POWER,B3,Power/Other,,
+THERMDC,POWER,C4,Power/Other,,
+THERMTRIP#,OUTPUT,A2,Asynch GTL+,0.002 ns,6
+TMS,INPUT,F7,TAP,0.002 ns,6
+TRDY#,INPUT,J6,Common Clock,0.002 ns,6
+TRST#,INPUT,E6,TAP,0.002 ns,6
+VCC_1,POWER,A10,Power/Other,,6
+VCC_1,POWER,A12,Power/Other,,6
+VCC_1,POWER,A14,Power/Other,,6
+VCC_1,POWER,A16,Power/Other,,6
+VCC_1,POWER,A18,Power/Other,,6
+VCC_1,POWER,A20,Power/Other,,6
+VCC_1,POWER,A8,Power/Other,,6
+VCC_1,POWER,AA10,Power/Other,,6
+VCC_1,POWER,AA12,Power/Other,,6
+VCC_1,POWER,AA14,Power/Other,,6
+VCC_1,POWER,AA16,Power/Other,,6
+VCC_1,POWER,AA18,Power/Other,,6
+VCC_1,POWER,AA8,Power/Other,,6
+VCC_1,POWER,AB11,Power/Other,,6
+VCC_1,POWER,AB13,Power/Other,,6
+VCC_1,POWER,AB15,Power/Other,,6
+VCC_1,POWER,AB17,Power/Other,,6
+VCC_1,POWER,AB19,Power/Other,,6
+VCC_1,POWER,AB7,Power/Other,,6
+VCC_1,POWER,AB9,Power/Other,,6
+VCC_1,POWER,AC10,Power/Other,,6
+VCC_1,POWER,AC12,Power/Other,,6
+VCC_1,POWER,AC14,Power/Other,,6
+VCC_1,POWER,AC16,Power/Other,,6
+VCC_1,POWER,AC18,Power/Other,,6
+VCC_1,POWER,AC8,Power/Other,,6
+VCC_1,POWER,AD11,Power/Other,,6
+VCC_1,POWER,AD13,Power/Other,,6
+VCC_1,POWER,AD15,Power/Other,,6
+VCC_1,POWER,AD17,Power/Other,,6
+VCC_1,POWER,AD19,Power/Other,,6
+VCC_1,POWER,AD7,Power/Other,,6
+VCC_1,POWER,AD9,Power/Other,,6
+VCC_1,POWER,AE10,Power/Other,,6
+VCC_1,POWER,AE12,Power/Other,,6
+VCC_1,POWER,AE14,Power/Other,,6
+VCC_1,POWER,AE16,Power/Other,,6
+VCC_1,POWER,AE18,Power/Other,,6
+VCC_1,POWER,AE20,Power/Other,,6
+VCC_1,POWER,AE6,Power/Other,,6
+VCC_1,POWER,AE8,Power/Other,,6
+VCC_1,POWER,AF11,Power/Other,,6
+VCC_1,POWER,AF13,Power/Other,,6
+VCC_1,POWER,AF15,Power/Other,,6
+VCC_1,POWER,AF17,Power/Other,,6
+VCC_1,POWER,AF19,Power/Other,,6
+VCC_1,POWER,AF2,Power/Other,,6
+VCC_1,POWER,AF21,Power/Other,,6
+VCC_1,POWER,AF5,Power/Other,,6
+VCC_1,POWER,AF7,Power/Other,,6
+VCC_1,POWER,AF9,Power/Other,,6
+VCC_1,POWER,B11,Power/Other,,6
+VCC_1,POWER,B13,Power/Other,,6
+VCC_1,POWER,B15,Power/Other,,6
+VCC_1,POWER,B17,Power/Other,,6
+VCC_1,POWER,B19,Power/Other,,6
+VCC_1,POWER,B7,Power/Other,,6
+VCC_1,POWER,B9,Power/Other,,6
+VCC_1,POWER,C10,Power/Other,,6
+VCC_1,POWER,C12,Power/Other,,6
+VCC_1,POWER,C14,Power/Other,,6
+VCC_1,POWER,C16,Power/Other,,6
+VCC_1,POWER,C18,Power/Other,,6
+VCC_1,POWER,C20,Power/Other,,6
+VCC_1,POWER,C8,Power/Other,,6
+VCC_1,POWER,D11,Power/Other,,6
+VCC_1,POWER,D13,Power/Other,,6
+VCC_1,POWER,D15,Power/Other,,6
+VCC_1,POWER,D17,Power/Other,,6
+VCC_1,POWER,D19,Power/Other,,6
+VCC_1,POWER,D7,Power/Other,,6
+VCC_1,POWER,D9,Power/Other,,6
+VCC_1,POWER,E10,Power/Other,,6
+VCC_1,POWER,E12,Power/Other,,6
+VCC_1,POWER,E14,Power/Other,,6
+VCC_1,POWER,E16,Power/Other,,6
+VCC_1,POWER,E18,Power/Other,,6
+VCC_1,POWER,E20,Power/Other,,6
+VCC_1,POWER,E8,Power/Other,,6
+VCC_1,POWER,F11,Power/Other,,6
+VCC_1,POWER,F13,Power/Other,,6
+VCC_1,POWER,F15,Power/Other,,6
+VCC_1,POWER,F17,Power/Other,,6
+VCC_1,POWER,F19,Power/Other,,6
+VCC_1,POWER,F9,Power/Other,,6
+VCCA,POWER,AD20,Power/Other,,
+VCCIOPLL,POWER,AE23,Power/Other,,
+VCCSENSE,OUTPUT,A5,Power/Other,0.002 ns,6
+VCCVID,INPUT,AF4,Power/Other,0.002 ns,6
+VID0,OUTPUT,AE5,Power/Other,0.002 ns,6
+VID1,OUTPUT,AE4,Power/Other,0.002 ns,6
+VID2,OUTPUT,AE3,Power/Other,0.002 ns,6
+VID3,OUTPUT,AE2,Power/Other,0.002 ns,6
+VID4,OUTPUT,AE1,Power/Other,0.002 ns,6
+VSS_1,POWER,D10,Power/Other,,5
+VSS_1,POWER,A11,Power/Other,,5
+VSS_1,POWER,A13,Power/Other,,5
+VSS_1,POWER,A15,Power/Other,,5
+VSS_1,POWER,A17,Power/Other,,5
+VSS_1,POWER,A19,Power/Other,,5
+VSS_1,POWER,A21,Power/Other,,5
+VSS_1,POWER,A24,Power/Other,,5
+VSS_1,POWER,A26,Power/Other,,5
+VSS_1,POWER,A3,Power/Other,,5
+VSS_1,POWER,A9,Power/Other,,5
+VSS_1,POWER,AA1,Power/Other,,5
+VSS_1,POWER,AA11,Power/Other,,5
+VSS_1,POWER,AA13,Power/Other,,5
+VSS_1,POWER,AA15,Power/Other,,5
+VSS_1,POWER,AA17,Power/Other,,5
+VSS_1,POWER,AA19,Power/Other,,5
+VSS_1,POWER,AA23,Power/Other,,5
+VSS_1,POWER,AA26,Power/Other,,5
+VSS_1,POWER,AA4,Power/Other,,5
+VSS_1,POWER,AA7,Power/Other,,5
+VSS_1,POWER,AA9,Power/Other,,5
+VSS_1,POWER,AB10,Power/Other,,5
+VSS_1,POWER,AB12,Power/Other,,5
+VSS_1,POWER,AB14,Power/Other,,5
+VSS_1,POWER,AB16,Power/Other,,5
+VSS_1,POWER,AB18,Power/Other,,5
+VSS_1,POWER,AB20,Power/Other,,5
+VSS_1,POWER,AB21,Power/Other,,5
+VSS_1,POWER,AB24,Power/Other,,5
+VSS_1,POWER,AB3,Power/Other,,5
+VSS_1,POWER,AB6,Power/Other,,5
+VSS_1,POWER,AB8,Power/Other,,5
+VSS_1,POWER,AC11,Power/Other,,5
+VSS_1,POWER,AC13,Power/Other,,5
+VSS_1,POWER,AC15,Power/Other,,5
+VSS_1,POWER,AC17,Power/Other,,5
+VSS_1,POWER,AC19,Power/Other,,5
+VSS_1,POWER,AC2,Power/Other,,5
+VSS_1,POWER,AC22,Power/Other,,5
+VSS_1,POWER,AC25,Power/Other,,5
+VSS_1,POWER,AC5,Power/Other,,5
+VSS_1,POWER,AC7,Power/Other,,5
+VSS_1,POWER,AC9,Power/Other,,5
+VSS_1,POWER,AD1,Power/Other,,5
+VSS_1,POWER,AD10,Power/Other,,5
+VSS_1,POWER,AD12,Power/Other,,5
+VSS_1,POWER,AD14,Power/Other,,5
+VSS_1,POWER,AD16,Power/Other,,5
+VSS_1,POWER,AD18,Power/Other,,5
+VSS_1,POWER,AD21,Power/Other,,5
+VSS_1,POWER,AD23,Power/Other,,5
+VSS_1,POWER,AD4,Power/Other,,5
+VSS_1,POWER,AD8,Power/Other,,5
+VSS_1,POWER,AE11,Power/Other,,5
+VSS_1,POWER,AE13,Power/Other,,5
+VSS_1,POWER,AE15,Power/Other,,5
+VSS_1,POWER,AE17,Power/Other,,5
+VSS_1,POWER,AE19,Power/Other,,5
+VSS_1,POWER,AE22,Power/Other,,5
+VSS_1,POWER,AE24,Power/Other,,5
+VSS_1,POWER,AE26,Power/Other,,5
+VSS_1,POWER,AE7,Power/Other,,5
+VSS_1,POWER,AE9,Power/Other,,5
+VSS_1,POWER,AF1,Power/Other,,5
+VSS_1,POWER,AF10,Power/Other,,5
+VSS_1,POWER,AF12,Power/Other,,5
+VSS_1,POWER,AF14,Power/Other,,5
+VSS_1,POWER,AF16,Power/Other,,5
+VSS_1,POWER,AF18,Power/Other,,5
+VSS_1,POWER,AF20,Power/Other,,5
+VSS_1,POWER,AF6,Power/Other,,5
+VSS_1,POWER,AF8,Power/Other,,5
+VSS_1,POWER,B10,Power/Other,,5
+VSS_1,POWER,B12,Power/Other,,5
+VSS_1,POWER,B14,Power/Other,,5
+VSS_1,POWER,B16,Power/Other,,5
+VSS_1,POWER,B18,Power/Other,,5
+VSS_1,POWER,B20,Power/Other,,5
+VSS_1,POWER,B23,Power/Other,,5
+VSS_1,POWER,B26,Power/Other,,5
+VSS_1,POWER,B4,Power/Other,,5
+VSS_1,POWER,B8,Power/Other,,5
+VSS_1,POWER,C11,Power/Other,,5
+VSS_1,POWER,C13,Power/Other,,5
+VSS_1,POWER,C15,Power/Other,,5
+VSS_1,POWER,C17,Power/Other,,5
+VSS_1,POWER,C19,Power/Other,,5
+VSS_1,POWER,C2,Power/Other,,5
+VSS_1,POWER,C22,Power/Other,,5
+VSS_1,POWER,C25,Power/Other,,5
+VSS_1,POWER,C5,Power/Other,,5
+VSS_1,POWER,C7,Power/Other,,5
+VSS_1,POWER,C9,Power/Other,,5
+VSS_1,POWER,D12,Power/Other,,5
+VSS_1,POWER,D14,Power/Other,,5
+VSS_1,POWER,D16,Power/Other,,5
+VSS_1,POWER,D18,Power/Other,,5
+VSS_1,POWER,D20,Power/Other,,5
+VSS_1,POWER,D21,Power/Other,,5
+VSS_1,POWER,D24,Power/Other,,5
+VSS_1,POWER,D3,Power/Other,,5
+VSS_1,POWER,D6,Power/Other,,5
+VSS_1,POWER,D8,Power/Other,,5
+VSS_1,POWER,E1,Power/Other,,5
+VSS_1,POWER,E11,Power/Other,,5
+VSS_1,POWER,E13,Power/Other,,5
+VSS_1,POWER,E15,Power/Other,,5
+VSS_1,POWER,E17,Power/Other,,5
+VSS_1,POWER,E19,Power/Other,,5
+VSS_1,POWER,E23,Power/Other,,5
+VSS_1,POWER,E26,Power/Other,,5
+VSS_1,POWER,E4,Power/Other,,5
+VSS_1,POWER,E7,Power/Other,,5
+VSS_1,POWER,E9,Power/Other,,5
+VSS_1,POWER,F10,Power/Other,,5
+VSS_1,POWER,F12,Power/Other,,5
+VSS_1,POWER,F14,Power/Other,,5
+VSS_1,POWER,F16,Power/Other,,5
+VSS_1,POWER,F18,Power/Other,,5
+VSS_1,POWER,F2,Power/Other,,5
+VSS_1,POWER,F22,Power/Other,,5
+VSS_1,POWER,F25,Power/Other,,5
+VSS_1,POWER,F5,Power/Other,,5
+VSS_1,POWER,F8,Power/Other,,5
+VSS_1,POWER,G21,Power/Other,,5
+VSS_1,POWER,G24,Power/Other,,5
+VSS_1,POWER,G3,Power/Other,,5
+VSS_1,POWER,G6,Power/Other,,5
+VSS_1,POWER,H1,Power/Other,,5
+VSS_1,POWER,H23,Power/Other,,5
+VSS_1,POWER,H26,Power/Other,,5
+VSS_1,POWER,H4,Power/Other,,5
+VSS_1,POWER,J2,Power/Other,,5
+VSS_1,POWER,J22,Power/Other,,5
+VSS_1,POWER,J25,Power/Other,,5
+VSS_1,POWER,J5,Power/Other,,5
+VSS_1,POWER,K21,Power/Other,,5
+VSS_1,POWER,K24,Power/Other,,5
+VSS_1,POWER,K3,Power/Other,,5
+VSS_1,POWER,K6,Power/Other,,5
+VSS_1,POWER,L1,Power/Other,,5
+VSS_1,POWER,L23,Power/Other,,5
+VSS_1,POWER,L26,Power/Other,,5
+VSS_1,POWER,L4,Power/Other,,5
+VSS_1,POWER,M2,Power/Other,,5
+VSS_1,POWER,M22,Power/Other,,5
+VSS_1,POWER,M25,Power/Other,,5
+VSS_1,POWER,M5,Power/Other,,5
+VSS_1,POWER,N21,Power/Other,,5
+VSS_1,POWER,N24,Power/Other,,5
+VSS_1,POWER,N3,Power/Other,,5
+VSS_1,POWER,N6,Power/Other,,5
+VSS_1,POWER,P2,Power/Other,,5
+VSS_1,POWER,P22,Power/Other,,5
+VSS_1,POWER,P25,Power/Other,,5
+VSS_1,POWER,P5,Power/Other,,5
+VSS_1,POWER,R1,Power/Other,,5
+VSS_1,POWER,R23,Power/Other,,5
+VSS_1,POWER,R26,Power/Other,,5
+VSS_1,POWER,R4,Power/Other,,5
+VSS_1,POWER,T21,Power/Other,,5
+VSS_1,POWER,T24,Power/Other,,5
+VSS_1,POWER,T3,Power/Other,,5
+VSS_1,POWER,T6,Power/Other,,5
+VSS_1,POWER,U2,Power/Other,,5
+VSS_1,POWER,U22,Power/Other,,5
+VSS_1,POWER,U25,Power/Other,,5
+VSS_1,POWER,U5,Power/Other,,5
+VSS_1,POWER,V1,Power/Other,,5
+VSS_1,POWER,V23,Power/Other,,5
+VSS_1,POWER,V26,Power/Other,,5
+VSS_1,POWER,V4,Power/Other,,5
+VSS_1,POWER,W21,Power/Other,,5
+VSS_1,POWER,W24,Power/Other,,5
+VSS_1,POWER,W3,Power/Other,,5
+VSS_1,POWER,W6,Power/Other,,5
+VSS_1,POWER,Y2,Power/Other,,5
+VSS_1,POWER,Y22,Power/Other,,5
+VSS_1,POWER,Y25,Power/Other,,5
+VSS_1,POWER,Y5,Power/Other,,5
+VSSA,POWER,AD22,Power/Other,,
+VSSSENSE,OUTPUT,A4,Power/Other,0.002 ns,6

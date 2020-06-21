@@ -1,0 +1,634 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+<meta name="GENERATOR" content="Quadralay WebWorks Publisher AutoMap 6.0.7">
+<meta name="TEMPLATEBASE" content="CadencePubs_HelpTopics">
+<meta name="LASTUPDATED" content="Fri Sep 26 14:43:43 2008">
+
+<script TYPE="text/javascript" LANGUAGE="JavaScript" >
+  <!--
+  // Dummy script statement to get rid of Netscape timing errors which may
+  // print garbage JavaScript code at the top in Unix 4.x Netscape browser.
+  // -->
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Browser.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Cookies.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Search.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript">
+  <!--
+  function window_resized(){
+    window.location.reload();
+  }
+  window.onresize=window_resized;
+                                                                                                                                                                
+  /*
+  * Initializes before submitting query
+  */
+  function initOnSubmit() {
+    storeStateAndQuery();
+  }
+                                                                                                                                                                
+  setCookie("DocumentTitle", "Part Developer Tutorial");
+  setCookie("Chapter", "N/A");
+  setCookie("Keyword", "search");
+  setCookie("Version", "Product Version 2.2");
+
+  // -->
+  </script>
+
+
+<title>Part Developer Tutorial -- 11. Modifying Symbols</title>
+<META NAME="Approver" CONTENT="Technical Publications">
+<META NAME="Author" CONTENT="Technical Publications">
+<META NAME="CreateDate" CONTENT="2008-09-26">
+<META NAME="CreateTime" CONTENT="1222420433">
+<META NAME="DataType" CONTENT="Manuals">
+<META NAME="Description" CONTENT="Describes key library-creation tasks in Part Developer">
+<META NAME="DocTitle" CONTENT="Part Developer Tutorial">
+<META NAME="DocType" CONTENT="Manual">
+<META NAME="FileTitle" CONTENT="11. Modifying Symbols">
+<META NAME="FileType" CONTENT="Chapter">
+<META NAME="Keyword" CONTENT="pdv_tut">
+<META NAME="Language" CONTENT="English">
+<META NAME="ModifiedDate" CONTENT="2008-09-26">
+<META NAME="ModifiedTime" CONTENT="1222420433">
+<META NAME="NextFile" CONTENT="editing_symgraphics.html">
+<META NAME="PageCount" CONTENT="14">
+<META NAME="Platform" CONTENT="ALL">
+<META NAME="PrevFile" CONTENT="modifying_parts.html">
+<META NAME="Product" CONTENT="Concept, PCB Design Infrastructure, TDD">
+<META NAME="ProductFamily" CONTENT="PCB Design, PCB Design, PCB Design">
+<META NAME="ProductVersion" CONTENT="16.2">
+<META NAME="RightsManagement" CONTENT="Copyright 1998-2008 Cadence Design Systems Inc.">
+<META NAME="Title" CONTENT="Part Developer Tutorial -- 11. Modifying Symbols">
+<META NAME="TopicTags" CONTENT="FALSE">
+<META NAME="Version" CONTENT="16.2">
+</head>
+
+<body bgcolor="#ffffff">
+<a name="firstpage"></a>
+<a name="pagetop"></a>
+
+<p>
+<!-- Begin Buttons -->
+
+<form name="advancedform" action="/vtopic.isapi" method="GET" onSubmit="initOnSubmit()">
+<input type=hidden name="action" value="FilterSearch">
+<input type=hidden name="Filter" value="altsearchfilter.hts">
+<input type=hidden name="resulttemplate" value="altsearchresults.hts">
+<input type=hidden name="resultcount" value="10">
+<input type=hidden name="resultmaxdocs" value="-1">
+<input type=hidden name="queryhidden" value="null">
+<input type=hidden name="queryitemselected" value="no">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="36" width="650" colspan="10"><img src="../support/header_doc.gif" WIDTH="650" HEIGHT="36"></td>
+</tr>
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="modifying_parts.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="editing_symgraphics.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><img src="../support/nav2_black.gif" height="20" width="61"></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+ <tr>
+    <td colspan="10">
+      <script type="text/javascript">
+      <!--// We wrap all this inside javascript because we only want to display  -->
+      <!--// the search bar if the http server is running. If it is not running  -->
+      <!--// the search bar should not be visible to the user                    -->
+      <!-- BEGIN SEARCH BAR -->
+      var isloaded = isLoaded();
+      var enteredquery = getCookie("enteredquery");
+      if(enteredquery) {
+        enteredquery = enteredquery.replace(/</g,"&lt ");
+        enteredquery = enteredquery.replace(/>/g,"&gt ");
+      } else {
+         enteredquery = "";
+      }
+                                                                                                                                                                
+      <!-- Only display search bar if server is running -->
+      if(isloaded) {
+                                                                                                                                                                
+        display_search_bar(enteredquery);
+                                                                                                                                                                
+      }
+      <!-- END SEARCH BAR -->
+      </script>
+    </td>
+  </tr>
+</table>
+</form>
+
+<!-- End Buttons -->
+<p>
+<p>
+<hr>
+<p>
+<h3><center>Part Developer Tutorial&#0044; Product Version 16.2</center></h3><br>
+<p>
+
+
+<blockquote>
+
+  
+<div align="right">
+<h1 align="left">
+  <a name="1032955"> </a>11</h1>
+</div>
+
+<hr>
+<h1>
+  <a name="1034744"> </a>Modifying Symbols</h1>
+
+
+
+
+
+
+<br><br><br>
+<h2>
+  <a name="1039834"> </a>Objective</h2>
+
+
+<p>
+  <a name="1041029"> </a>To become familiar with the steps involved in modifying symbols.</p>
+
+
+<p>
+  <a name="1041622"> </a>In this chapter, you will learn to:</p>
+
+<ul>
+  <a name="1042115"></a><li><p>Add a pin to a symbol.</p>
+
+  <a name="1042101"></a><li><p>Add a property to a symbol.</p>
+
+  <a name="1042177"></a><li><p>Add a symbol pin property.</p>
+
+  <a name="1042863"></a><li><p>Modify a symbol pin property.</p>
+
+  <a name="1042103"></a><li><p>Delete a pin from a symbol.</p>
+
+  <a name="1042105"></a><li><p>Add symbol text.</p>
+
+  <a name="1043555"></a><li><p>Move a symbol pin.</p>
+
+  <a name="1043556"></a><li><p>Modify a symbol outline.</p>
+
+  <a name="1043557"></a><li><p>Expand and collapse vector pins.</p>
+
+  <a name="1043308"></a><li><p>Modify the PIN_TEXT property.</p>
+</ul>
+<br><br><br>
+<h2>
+  <a name="1041644"> </a>Overview</h2>
+
+
+<p>
+  <a name="1042074"> </a>Often, you may need to modify a symbol to meet changed requirements. Using Part Developer, symbol modifications can be done quickly and effectively. This chapter will cover some of the common part modification tasks. You will use the library part <code>mypart</code> in the <code>my_lib</code> library to perform part modification tasks.</p>
+
+
+<p>
+  <a name="1042273"> </a>The part has two packages, <code>MYPART</code> and <code>MYPART_1</code>, and two symbols, sym_1 and <code>sym_2</code>. The symbols <code>sym_1</code> and <code>sym_2</code> are associated with the packages <code>MYPART</code> and <code>MYPART_1</code>, respectively.</p>
+
+
+<br><br><br>
+<h2>
+  <a name="1042188"> </a>Adding Pins to a Symbol</h2>
+
+
+<p>
+  <a name="1042549"> </a>Add an input pin, <code>A1</code>, to <code>sym_1</code>.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042550"> </a>Select the symbol <em>sym_1</em> in the cell tree.</p>
+<dl>
+<p>
+  <a name="1042557"> </a>The symbol is loaded in the Symbol Editor.</p>
+
+</dl>  <li value="2"><p><a name="1042587"> </a>Choose <em>Pins - Add</em>.</p>
+<dl>
+<p>
+  <a name="1042593"> </a>The Add Pin dialog box appears.</p>
+
+</dl>  <li value="3"><p><a name="1042615"> </a>Ensure that the <em>Scalar</em> option is selected and enter <code>A1</code> in the <em>Prefix</em> field.</p>
+  <li value="4"><p><a name="1042637"> </a>Select <em>INPUT</em> from the <em>Type</em> drop-down list.</p>
+  <li value="5"><p><a name="1042619"> </a>Click <em>Add</em>.</p>
+<dl>
+<p>
+  <a name="1042644"> </a>The input pin A1 is added to the pin grid.</p>
+
+</dl>  <li value="6"><p><a name="1042633"> </a>Click <em>OK.</em></p>
+<dl>
+<p>
+  <a name="1042651"> </a>The input pin A1 gets added to the symbol.</p>
+
+
+<p>
+  <a name="1042655"> </a><img src="images/sym1_after_a1.gif">
+</p>
+
+</dl></ol>
+
+  <a name="1042663"> </a><table border="0"><tr><td valign="top"><img src="../support/caution.gif"></td><td><strong><i>Changes to the symbol pin list results in breaking symbol-package associations. You will need to update the package pin list to ensure that the symbol is usable in the flow. You can use Interface Comparator to synchronize the pin lists of packages and symbols. See <a href="Interface_Comparator.html#1033512">Interface Comparator</a> for more details on interface comparison.</i></strong></td></table>
+
+
+  <a name="1042963"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>The <em>Preserve Pin Position</em> option determines whether the pin positions and their associated properties and pin text will be preserved when the symbol outline is modified. If the option is not selected, the pin positions, their properties, and the pin text are adjusted dynamically when the symbol outline changes. Otherwise, the pin positions, their properties and pin text do not change with the change in the symbol outline.</td></table>
+
+     <dl><dl>
+<p>
+  <a name="1042968"> </a>When a new symbol is created, this option is deselected by default. This allows Part Developer to dynamically shift the pins on the symbol outline as and when new pins are added.</p>
+
+</dl><dl>
+<p>
+<strong>Note:&nbsp;</strong>
+<a name="1042971"> </a>Part Developer extends the symbol outline when new pins are added. However, no symbol outline contraction is done when symbol pins are deleted. You need to manually resize the symbol outline. When an existing symbol is loaded, this option is selected by default. This is done to ensure that graphics associated with a symbol pin are not destroyed by the automatic movement of pins. This also ensures that in the case of horizontal or vertical extension of the symbol outline due to the addition of pins, the pins at the top or bottom or on the left or right of the symbol remain bounded to the symbol outline.
+</p>
+
+</dl>     </dl>
+<br><br><br>
+<h2>
+  <a name="1042189"> </a>Adding Properties to a Symbol</h2>
+
+
+<p>
+  <a name="1042678"> </a>Add the property <code>my_symbol_prop</code> with value <code>sym_val</code> in <code>sym_1</code>.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042679"> </a>Select <em>sym_1</em> in the cell tree.</p>
+<dl>
+<p>
+  <a name="1042697"> </a>The symbol is loaded in the Symbol Editor.</p>
+
+</dl>  <li value="2"><p><a name="1042691"> </a>Click on the <em>General</em> tab.</p>
+  <li value="3"><p><a name="1042693"> </a>Right-click on the Properties grid and select <em>Insert Row After</em>.</p>
+<dl>
+<p>
+  <a name="1042703"> </a>A blank row is added to the <em>Properties</em> grid.</p>
+
+</dl>  <li value="4"><p><a name="1042710"> </a>Enter <code>my_symbol_prop</code> in the <em>Name</em> column and <code>sym_val</code> in the <em>Value</em> column.</p>
+<dl>
+<p>
+  <a name="1042717"> </a>Next, you need to determine the appearance of the property and its value on the symbol.</p>
+
+</dl>  <li value="5"><p><a name="1042733"> </a>To make both the property and its value visible, select <em>Both</em> from the <em>Visibility</em> drop-down list.</p>
+  <li value="6"><p><a name="1042737"> </a>To make the property appear in the top-right corner of the symbol, select <em>Top-Right </em>from the <em>Location</em> drop-down field.</p>
+<dl>
+<p>
+  <a name="1042744"> </a>Similarly, you can specify other values, such as rotation, alignment, and so on. Notice that the changes you make are immediately visible on the Symbol Editor canvas.</p>
+
+
+<p>
+  <a name="1042755"> </a><img src="images/symbol_viewer.gif">
+</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1042190"> </a>Adding Symbol Pin Properties</h2>
+
+
+<p>
+  <a name="1042769"> </a>Add the symbol pin property <code>VHDL_TYPE</code> with the value <code>lN</code> to pins <code>A2</code> and <code>A3</code>.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042770"> </a>Select <em>sym_1</em> in the cell tree.</p>
+<dl>
+<p>
+  <a name="1042774"> </a>The symbol is loaded in the Symbol Editor.</p>
+
+</dl>  <li value="2"><p><a name="1043612"> </a>Click on the <em>Symbol Pins </em>tab.</p>
+  <li value="3"><p><a name="1042778"> </a>Select <em>Properties - Add</em>.</p>
+<dl>
+<p>
+  <a name="1042782"> </a>The Add Properties dialog box appears.</p>
+
+
+<p>
+  <a name="1042786"> </a><img src="images/add_properties.gif">
+</p>
+
+</dl>  <li value="4"><p><a name="1042813"> </a>Enter <code>VHDL_TYPE</code> in the <em>Name</em> column and click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1042817"> </a>The <code>VHDL_TYPE</code> property is added. By default, the property will get added to only those pins that have a value. A null value results in the property being omitted from the pins. </p>
+
+</dl>  <li value="5"><p><a name="1042827"> </a>To add the value of IN to the pin A2, enter <code>IN </code>in the A2 row in the <code>VHDL_TYPE</code> column.</p>
+  <li value="6"><p><a name="1042831"> </a>Similarly, specify <code>IN </code>as the <code>VHDL_TYPE</code> property value for the pin A3.</p>
+<dl>
+<p>
+  <a name="1042832"> </a>The <em>Logical Pins</em> grid should appear as follows:</p>
+
+
+<p>
+  <a name="1042849"> </a><img src="images/add_symbol_prop.gif">
+</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1042191"> </a>Modifying Symbol Pin Properties</h2>
+
+
+<p>
+  <a name="1042865"> </a>Modify the <code>VHDL_TYPE</code> symbol pin property to make it visible on the symbol pins.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042866"> </a>Select <em>sym_1</em> in the cell tree.</p>
+<dl>
+<p>
+  <a name="1042875"> </a>The symbol gets loaded in the Symbol Editor.</p>
+
+</dl>  <li value="2"><p><a name="1042879"> </a>Select the <code>VHDL_TYPE</code> column in the <em>Logical Pins</em> grid.</p>
+  <li value="3"><p><a name="1042883"> </a>Select <em>Properties - Attributes.</em></p>
+<dl>
+<p>
+  <a name="1042894"> </a>The Symbol Pin Property Attributes dialog box appears.</p>
+
+
+<p>
+  <a name="1042890"> </a><img src="images/sym_pin_prop_attr.gif">
+</p>
+
+</dl>  <li value="4"><p><a name="1042912"> </a>For pins A2 and A3, select <em>Both</em> from the <em>Visibility</em> drop-down list box.</p>
+<dl>
+<p>
+  <a name="1042926"> </a>Similarly, you can modify the other attributes through this dialog box.</p>
+
+</dl>  <li value="5"><p><a name="1042930"> </a>Click <em>Close</em>.</p>
+<dl>
+<p>
+  <a name="1042934"> </a>The symbol pin properties appear next to the pins A2 and A3.</p>
+
+
+<p>
+  <a name="1042941"> </a><img src="images/pin_prop_visible.gif">
+</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1042864"> </a>Deleting Pins from a Symbol</h2>
+
+
+<p>
+  <a name="1042953"> </a>Delete the pin A2 from sym_2.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042954"> </a>Select <em>sym_2</em> in the cell tree.</p>
+<dl>
+<p>
+  <a name="1043034"> </a>The symbol gets loaded in the Symbol Viewer.</p>
+
+</dl>  <li value="2"><p><a name="1043038"> </a>Right-click on the pin A2 and select <em>Delete Selected Rows</em>.</p>
+<dl>
+<p>
+  <a name="1043045"> </a>The pin gets deleted from sym_2.</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1042192"> </a>Adding Symbol Text</h2>
+
+
+<p>
+  <a name="1043049"> </a>Add the text <em>CADENCE</em> to sym_1.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1043058"> </a>Select <em>sym_1</em> in the cell tree.</p>
+<dl>
+<p>
+  <a name="1043059"> </a>The symbol gets loaded in the Symbol Viewer.</p>
+
+</dl>  <li value="2"><p><a name="1043050"> </a>Click on the <em>General</em> tab.</p>
+  <li value="3"><p><a name="1043064"> </a>Right-click on the Text grid and select <em>Insert Row After</em>.</p>
+<dl>
+<p>
+  <a name="1043068"> </a>A blank row is inserted in the <em>Text</em> grid.</p>
+
+</dl>  <li value="4"><p><a name="1043075"> </a>Enter <em>CADENCE</em> in the text column.</p>
+  <li value="5"><p><a name="1043085"> </a>To make the text appear in the top-left location of the symbol, select <em>Top-Left</em> from the <em>Location</em> drop-down box.</p>
+<dl>
+<p>
+  <a name="1043093"> </a>The symbol text appears in the top-left corner of the symbol.</p>
+
+
+<p>
+  <a name="1043097"> </a><img src="images/modifying_symbolsx1.png" border="0">
+</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1042193"> </a>Moving Symbol Pins</h2>
+
+
+<p>
+  <a name="1043105"> </a>Move the pins A2 and A3 by 1 grid to the left and pin A4 by 4 grids to the right.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1043115"> </a>Select <em>sym_1</em> in the cell tree.</p>
+<dl>
+<p>
+  <a name="1043116"> </a>The symbol gets loaded in the Symbol Editor.</p>
+
+</dl>  <li value="2"><p><a name="1043110"> </a>Select the pins A2 and A3.</p>
+<dl>
+<p>
+  <a name="1043123"> </a>The Symbol Editor shows the selected pins.</p>
+
+
+<p>
+  <a name="1043127"> </a><img src="images/cross.gif">
+</p>
+
+</dl>  <li value="3"><p><a name="1043139"> </a>To move the pins by one grid to the left, click the left arrow button in the Move Pins grid.</p>
+<dl>
+<p>
+  <a name="1043143"> </a>The selected pins move to the left by one grid.</p>
+
+</dl>  <li value="4"><p><a name="1043150"> </a>Next, select pin A4.</p>
+  <li value="5"><p><a name="1043154"> </a>To move pins by more than one grid at a time, click <em>Move</em>.</p>
+<dl>
+<p>
+  <a name="1043155"> </a>The Move Pin dialog box appears.</p>
+
+
+<p>
+  <a name="1043167"> </a><img src="images/move_pin.gif">
+</p>
+
+</dl>  <li value="6"><p><a name="1043175"> </a>Select <em>Right</em> from the <em>Direction</em> drop-down list box.</p>
+  <li value="7"><p><a name="1043179"> </a>Enter <code>4 </code>in the <em>Grid units to move</em> field.</p>
+  <li value="8"><p><a name="1043186"> </a>Click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1043196"> </a>The pin A4 moves to the right by 4 grid units.</p>
+
+</dl></ol>
+
+<p>
+  <a name="1043203"> </a><img src="images/move_pin_a4.gif">
+</p>
+
+
+<br><br><br>
+<h2>
+  <a name="1042194"> </a>Modifying Symbol Outline</h2>
+
+
+<p>
+  <a name="1043213"> </a>Increase the left and right outline of sym_2 by 5 grids.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1043221"> </a>Select sym_2 in the cell tree.</p>
+<dl>
+<p>
+  <a name="1043237"> </a>The symbol loads in the Symbol Editor.</p>
+
+</dl>  <li value="2"><p><a name="1043241"> </a>Enter the value <code>-10</code> in the <em>Left</em> field in the <em>Symbol Outline</em> group box.</p>
+  <li value="3"><p><a name="1043245"> </a>Enter the value <code>10</code> in the <em>Right</em> field in the <em>Symbol Outline</em> group box.</p>
+<dl>
+<p>
+  <a name="1043254"> </a>The symbol outline changes as specified. Note that the symbol pin positions are not changing automatically with the change in the symbol outline. This is because the <em>Preserve Pin Position</em> option is selected. If you want to move the pin automatically with the symbol outline, deselect the <em>Preserve Pin Position</em> option.</p>
+
+
+<p>
+  <a name="1043258"> </a><img src="images/symbol_outline_change.gif">
+</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1042538"> </a>Expanding and Collapsing Vector Pins</h2>
+
+
+<p>
+  <a name="1042539"> </a>Collapse the bits of the vector pin B.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042541"> </a>Select all the bits of the vector pin B.</p>
+  <li value="2"><p><a name="1042542"> </a>Right-click on the selection and select <em>Collapse</em>.</p>
+<dl>
+<p>
+  <a name="1043276"> </a>Part Developer gives an error message saying that bit-specific properties might get lost on collapsing.</p>
+
+</dl>  <li value="3"><p><a name="1043280"> </a>Click <em>Yes</em>.</p>
+<dl>
+<p>
+  <a name="1043287"> </a>The bits collapse to form a vector pin.</p>
+
+
+<p>
+  <a name="1043293"> </a><img src="images/collapse_bits.gif">
+</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1043281"> </a>Modifying the PIN_TEXT Property</h2>
+
+
+<p>
+  <a name="1043312"> </a>The value in the <em>Text</em> column shows the value of the PIN_TEXT property for the symbol pins. To change the values, simply edit the value for a particular pin.</p>
+
+
+<p>
+  <a name="1043319"> </a>To change the display attributes of the PIN_TEXT property:</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1043320"> </a>Select <em>Pin - Pin Text Attributes</em>.</p>
+<dl>
+<p>
+  <a name="1043324"> </a>The Symbol Pin Property Attributes dialog box appears.</p>
+
+
+<p>
+  <a name="1043331"> </a><img src="images/pin_text.gif">
+</p>
+
+</dl>  <li value="2"><p><a name="1042159"> </a>Change the display attributes as required and click <em>Close</em>.</p>
+</ol>
+
+<br><br><br>
+<h2>
+  <a name="1042158"> </a>Summary</h2>
+
+
+<p>
+  <a name="1043432"> </a>In this chapter, you learned how to modify symbols.</p>
+
+
+  
+
+</blockquote>
+
+<br>
+<a href="#pagetop">Return to top of page</a>
+<hr>
+<p>
+<!-- Begin Buttons -->
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="modifying_parts.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="editing_symgraphics.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><a href="/search.htm"><img src="../support/nav2_search.gif" border="0"  alt="Search Cadence Library" height="20" width="61"></a></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+</table>
+<!-- End Buttons -->
+<p>
+<p>
+
+
+<!-- NOTES; -->
+
+<!-- /address -->
+<p>
+<br>
+<font size="-1">
+For support, see <a href=http://www.cadence.com/support>http://www.cadence.com/support</a>
+or try Cadence's <a href=http://sourcelink.cadence.com target=_blank>SourceLink</a> service.
+<br><br>
+<i>Copyright &#169; 2008, <a href=http://www.cadence.com>Cadence Design Systems, Inc.</a></i> 
+<br>
+All rights reserved.
+<br>
+<a href="titlecopy.html">Legal notices and trademark attributions</a>
+<br>
+<!-- This file was created with Quadralay WebWorks Publisher AutoMap 6.0.7 -->
+<!-- -->
+<!-- Last updated: Fri Sep 26 14:43:43 2008 -->
+</font>
+</body>
+</html>
+
+

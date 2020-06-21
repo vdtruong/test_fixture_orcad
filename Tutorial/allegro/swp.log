@@ -1,0 +1,30 @@
+{ Using PSTWRITER 16.3.0 p002Aug-13-2017 at 14:51:05 }
+
+Starting the Swp file dumping process ...
+Loading netlist files ...
+Loading... C:\Cadence\Projects\Tutorial\allegro/pstchip.dat
+
+Loading... C:\Cadence\Projects\Tutorial\allegro/pstxprt.dat
+
+Loading... C:\Cadence\Projects\Tutorial\allegro/pstxnet.dat
+packaging the design view...Loading physical design view ...Loading... C:\Cadence\Projects\Tutorial\allegro/funcview.dat
+#546 ERROR(SPCODD-546): FUNC_PRIM_FILE must be specified in line 11 of funcview.dat, re-run Netrev to update the board
+#546 ERROR(SPCODD-546): FUNC_PRIM_FILE must be specified in line 18 of funcview.dat, re-run Netrev to update the board
+#546 ERROR(SPCODD-546): FUNC_PRIM_FILE must be specified in line 19 of funcview.dat, re-run Netrev to update the board
+#546 ERROR(SPCODD-546): FUNC_PRIM_FILE must be specified in line 24 of funcview.dat, re-run Netrev to update the board
+#546 ERROR(SPCODD-546): FUNC_PRIM_FILE must be specified in line 25 of funcview.dat, re-run Netrev to update the board
+Loading... C:\Cadence\Projects\Tutorial\allegro/compview.dat
+Loading... C:\Cadence\Projects\Tutorial\allegro/netview.dat
+Loading... C:\Cadence\Projects\Tutorial\allegro/pinview.dat
+packaging the design view...
+Generating the design view differenceAnalyzing Gate and Pin Swaps ...
+
+Analyzing Refdes Changes ...
+
+Analyzing Instance Property Differences ...
+
+Analyzing Net Property Differences ...
+
+Analyzing Pin Property Differences ...
+
+Exiting the Swp file dumping process ...

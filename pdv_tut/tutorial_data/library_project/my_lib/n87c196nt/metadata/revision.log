@@ -1,0 +1,14 @@
+	(Comment
+		(Time 09/10/11,15:17:10)
+		(User Van)
+		(MsgId ECO_021)
+		(Text "Package N87C196NT added to cell")
+		(Param1 N87C196NT)
+	)
+	(Comment
+		(Time 09/10/11,23:44:48)
+		(User Van)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)

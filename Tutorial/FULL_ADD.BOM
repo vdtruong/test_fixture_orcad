@@ -1,0 +1,22 @@
+  Revised: Saturday, August 05, 2017
+          Revision: ?
+
+
+
+
+
+
+
+Bill Of Materials         August 5,2017      0:47:12	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	J1	CON2
+2	1	Q1	Q2N2222
+3	2	R1	1k
+		R2	1k
+4	2	U1	7432
+		U2	7432
+5	1	U1	7408
+6	1	U3	7404

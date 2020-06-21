@@ -1,0 +1,190 @@
+\t (00:00:25) allegro 16.3 p006 (v16-3-85F) i86
+\t (00:00:25) 
+
+\t (00:00:29) Starting new drawing...
+\i (00:00:33) trapsize 823
+\i (00:00:34) trapsize 846
+\i (00:00:34) trapsize 856
+\i (00:00:34) trapsize 1088
+\i (00:00:34) trapsize 878
+\i (00:00:36) trapsize 1086
+\i (00:00:39) generaledit 
+\i (00:01:09) open 
+\i (00:01:29) fillin "menu_cancel"
+\i (00:01:30) generaledit 
+\i (00:02:18) xhilite 
+\i (00:02:18) xname_flush 
+\i (00:02:18) done 
+\i (00:02:18) generaledit 
+\i (00:03:47) xhilite 
+\i (00:03:47) xname_flush 
+\i (00:03:47) done 
+\i (00:03:47) generaledit 
+\i (00:57:40) xhilite 
+\i (00:57:41) xname_flush 
+\i (00:57:41) done 
+\i (00:57:41) generaledit 
+\i (00:57:42) xdehilite 
+\i (00:57:42) xname_flush 
+\i (00:57:42) done 
+\i (00:57:42) generaledit 
+\i (00:57:43) xhilite 
+\i (00:57:44) xname_flush 
+\i (00:57:44) done 
+\i (00:57:44) generaledit 
+\i (00:59:48) xdehilite 
+\i (00:59:48) xname_flush 
+\i (00:59:48) done 
+\i (00:59:49) generaledit 
+\i (01:00:07) xhilite 
+\i (01:00:08) xname_flush 
+\i (01:00:08) done 
+\i (01:00:08) generaledit 
+\i (01:01:24) xdehilite 
+\i (01:01:24) xname_flush 
+\i (01:01:24) done 
+\i (01:01:25) xhilite 
+\i (01:01:25) xname_flush 
+\i (01:01:25) done 
+\i (01:01:25) generaledit 
+\i (01:02:03) place manual 
+\i (01:02:07) setwindow form.plc_manual
+\i (01:02:07) FORM plc_manual advanced_settings  
+\i (01:02:09) FORM plc_manual library YES 
+\i (01:02:14) FORM plc_manual placement_list  
+\i (01:02:20) FORM plc_manual categories Package symbols 
+\i (01:02:42) FORM plc_manual tree  TO220AA 'Package symbols' 
+\i (01:02:44) FORM plc_manual tree  TO220AB 'Package symbols' 
+\i (01:02:48) FORM plc_manual tree  TO220AA 'Package symbols' 
+\i (01:02:49) FORM plc_manual tree 'MULTISEL YES' TO220AA 'Package symbols' 
+\w (01:02:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:02:50) WARNING(SPMHUT-127): Could not find padstack PAD80CIR55D.
+\i (01:03:19) FORM plc_manual tree 'MULTISEL NO' TO220AA 'Package symbols' 
+\i (01:03:20) FORM plc_manual tree 'MULTISEL YES' TO220AB 'Package symbols' 
+\w (01:03:20) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:03:20) WARNING(SPMHUT-127): Could not find padstack PAD80CIR55D.
+\i (01:03:21) FORM plc_manual tree  TO220AB 'Package symbols' 
+\i (01:03:24) FORM plc_manual tree 'MULTISEL NO' TO220AB 'Package symbols' 
+\i (01:03:26) FORM plc_manual tree 'MULTISEL YES' TO18 'Package symbols' 
+\w (01:03:26) WARNING(SPMHUT-127): Could not find padstack PAD50CIR30D.
+\i (01:03:26) FORM plc_manual tree  TO18 'Package symbols' 
+\i (01:03:29) FORM plc_manual tree 'MULTISEL NO' TO18 'Package symbols' 
+\i (01:03:30) FORM plc_manual tree 'MULTISEL YES' TO127 'Package symbols' 
+\w (01:03:30) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:03:30) WARNING(SPMHUT-127): Could not find padstack PAD80CIR65D.
+\i (01:03:30) FORM plc_manual tree  TO127 'Package symbols' 
+\i (01:03:39) FORM plc_manual tree 'MULTISEL NO' TO127 'Package symbols' 
+\i (01:03:41) FORM plc_manual advanced_settings  
+\i (01:03:43) FORM plc_manual library NO 
+\i (01:03:49) FORM plc_manual placement_list  
+\i (01:03:58) FORM plc_manual categories Module instances 
+\i (01:04:00) FORM plc_manual categories Module definition 
+\i (01:04:03) FORM plc_manual categories Mechanical symbols 
+\i (01:04:05) FORM plc_manual categories Format symbols 
+\i (01:04:06) FORM plc_manual advanced_settings  
+\i (01:04:07) FORM plc_manual library YES 
+\i (01:04:10) FORM plc_manual database NO 
+\i (01:04:12) FORM plc_manual placement_list  
+\i (01:04:13) FORM plc_manual tree  'Format symbols' 
+\i (01:04:15) FORM plc_manual tree  TARGET 'Format symbols' 
+\i (01:04:17) FORM plc_manual tree 'MULTISEL YES' TARGET 'Format symbols' 
+\i (01:04:19) FORM plc_manual tree 'MULTISEL YES' ESIZE 'Format symbols' 
+\e (01:04:19) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (01:04:19) Cannot load symbol 'ESIZE'
+\e (01:04:19)   because WARNING(SPMHUT-127): Could not find padstack PAD80CIR65D.
+\i (01:04:19) FORM plc_manual tree  ESIZE 'Format symbols' 
+\i (01:04:20) FORM plc_manual tree 'MULTISEL NO' TARGET 'Format symbols' 
+\i (01:04:20) FORM plc_manual tree  TARGET 'Format symbols' 
+\i (01:04:21) FORM plc_manual tree 'MULTISEL NO' ESIZE 'Format symbols' 
+\i (01:04:21) FORM plc_manual tree  ESIZE 'Format symbols' 
+\i (01:04:23) FORM plc_manual categories Package symbols 
+\i (01:04:26) FORM plc_manual tree 'MULTISEL YES' 1210RF_WV_12D 'Package symbols' 
+\w (01:04:26) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:04:26) WARNING(SPMHUT-127): Could not find padstack 60X100.
+\i (01:04:26) FORM plc_manual tree  1210RF_WV_12D 'Package symbols' 
+\i (01:04:28) FORM plc_manual tree 'MULTISEL NO' 1210RF_WV_12D 'Package symbols' 
+\i (01:04:29) FORM plc_manual tree 'MULTISEL YES' 0603RF_WV_12D 'Package symbols' 
+\w (01:04:29) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:04:29) WARNING(SPMHUT-127): Could not find padstack 40X30.
+\i (01:04:29) FORM plc_manual tree  0603RF_WV_12D 'Package symbols' 
+\i (01:04:29) FORM plc_manual tree 'MULTISEL NO' 0603RF_WV_12D 'Package symbols' 
+\i (01:04:49) FORM plc_manual tree 'MULTISEL YES' TO220AA 'Package symbols' 
+\w (01:04:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:04:49) WARNING(SPMHUT-127): Could not find padstack PAD80CIR55D.
+\i (01:04:49) FORM plc_manual tree  TO220AA 'Package symbols' 
+\i (01:04:59) FORM plc_manual cancel  
+\i (01:04:59) setwindow pcb
+\i (01:04:59) generaledit 
+\i (01:05:35) xdehilite 
+\i (01:05:36) xname_flush 
+\i (01:05:36) done 
+\i (01:05:36) xhilite 
+\i (01:05:36) xname_flush 
+\i (01:05:36) done 
+\i (01:05:36) generaledit 
+\i (01:06:09) place manual 
+\i (01:06:15) setwindow form.plc_manual
+\i (01:06:15) FORM plc_manual cancel  
+\i (01:06:15) setwindow pcb
+\i (01:06:15) generaledit 
+\i (01:06:18) open 
+\f (01:06:18) Do you want to save the changes you made to test fixture.brd?
+\i (01:06:20) fillin no 
+\i (01:07:13) fillin "menu_cancel"
+\i (01:07:13) generaledit 
+\i (01:28:13) open 
+\f (01:28:14) Do you want to save the changes you made to test fixture.brd?
+\i (01:28:15) fillin no 
+\i (01:28:32) fillin "C:\Cadence\Projects\Tutorial\allegro\full_add.brd"
+\i (01:28:32) cd "C:\Cadence\Projects\Tutorial\allegro"
+\t (01:28:32) Opening existing drawing...
+\w (01:28:33) WARNING(SPMHDB-214): Allegro PCB Design GXL opening an Allegro Librarian design.
+\w (01:28:33) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (01:28:33) WARNING(SPMHOD-34): Database was last saved by lower tier tool ... Allegro Librarian. DRC is set out-of-date so you may wish to update DRC to insure design rules are being followed.
+\i (01:28:44) fillin confirm
+\i (01:28:44) trapsize 960
+\d (01:28:45) Database opened: C:/Cadence/Projects/Tutorial/allegro/full_add.brd
+\i (01:28:45) generaledit 
+\i (01:42:08) cdsdoc allegro allegrolaunch 
+\i (01:44:23) zoom in 1 
+\i (01:44:23) setwindow pcb
+\i (01:44:23) zoom in 10723.98 13950.86
+\i (01:44:23) trapsize 480
+\i (01:44:28) zoom out 1 
+\i (01:44:28) setwindow pcb
+\i (01:44:28) zoom out 10910.31 13910.53
+\i (01:44:28) trapsize 960
+\i (01:44:29) zoom out 1 
+\i (01:44:29) setwindow pcb
+\i (01:44:29) zoom out 10910.31 13910.52
+\i (01:44:29) trapsize 1921
+\i (01:44:31) pick grid 11697.89 13795.27
+\t (01:44:31) last pick:  11700.00  13800.00
+\i (01:44:40) pick grid 9104.66 14759.57
+\t (01:44:40) last pick:  9100.00  14750.00
+\i (01:44:46) pick grid 9246.81 14198.66
+\t (01:44:46) last pick:  9250.00  14200.00
+\i (01:45:40) open 
+\i (01:46:34) fillin "menu_cancel"
+\i (01:46:34) generaledit 
+\i (01:51:44) cdsdoc allegro allegrolaunch 
+\i (02:17:04) place manual 
+\i (02:17:15) setwindow form.plc_manual
+\i (02:17:15) FORM plc_manual advanced_settings  
+\i (02:17:16) FORM plc_manual library YES 
+\i (02:17:17) FORM plc_manual placement_list  
+\i (02:17:20) FORM plc_manual tree 'MULTISEL YES' AT_35UX 'Package symbols' 
+\w (02:17:20) WARNING(SPMHUT-127): Could not find padstack SMD250REC46.
+\i (02:17:20) FORM plc_manual tree  AT_35UX 'Package symbols' 
+\i (02:17:24) FORM plc_manual tree 'MULTISEL YES' CAP1000 'Package symbols' 
+\i (02:17:24) FORM plc_manual tree  CAP1000 'Package symbols' 
+\i (02:17:25) FORM plc_manual tree 'MULTISEL NO' AT_35UX 'Package symbols' 
+\i (02:17:25) FORM plc_manual tree  AT_35UX 'Package symbols' 
+\i (02:17:29) FORM plc_manual advanced_settings  
+\i (02:17:34) FORM plc_manual browse  
+\i (02:17:42) fillin "menu_cancel"
+\i (02:17:44) FORM plc_manual cancel  
+\i (02:17:45) setwindow pcb
+\i (02:17:45) generaledit 
+\i (02:18:10) cdsdoc allegro allegrolaunch 
+\i (02:18:38) exit 

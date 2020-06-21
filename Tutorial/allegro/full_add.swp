@@ -1,0 +1,13 @@
+;*********************************************************
+;                                                        *
+; OrCAD Backannotation File                              *
+; Using  PSTWRITER 16.3.0 p002                            *
+; Aug-13-2017 at 14:51:05                                *
+;                                                        *
+;*********************************************************
+
+
+.Section1 Flags
+DesignName=C:\Cadence\Projects\Tutorial\full_add.dsn
+.End
+

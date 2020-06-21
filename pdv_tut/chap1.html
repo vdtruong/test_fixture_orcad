@@ -1,0 +1,438 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+<meta name="GENERATOR" content="Quadralay WebWorks Publisher AutoMap 6.0.7">
+<meta name="TEMPLATEBASE" content="CadencePubs_HelpTopics">
+<meta name="LASTUPDATED" content="Fri Sep 26 14:43:22 2008">
+
+<script TYPE="text/javascript" LANGUAGE="JavaScript" >
+  <!--
+  // Dummy script statement to get rid of Netscape timing errors which may
+  // print garbage JavaScript code at the top in Unix 4.x Netscape browser.
+  // -->
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Browser.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Cookies.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Search.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript">
+  <!--
+  function window_resized(){
+    window.location.reload();
+  }
+  window.onresize=window_resized;
+                                                                                                                                                                
+  /*
+  * Initializes before submitting query
+  */
+  function initOnSubmit() {
+    storeStateAndQuery();
+  }
+                                                                                                                                                                
+  setCookie("DocumentTitle", "Part Developer Tutorial");
+  setCookie("Chapter", "N/A");
+  setCookie("Keyword", "search");
+  setCookie("Version", "Product Version 2.2");
+
+  // -->
+  </script>
+
+
+<title>Part Developer Tutorial -- 1. Introduction</title>
+<META NAME="Approver" CONTENT="Technical Publications">
+<META NAME="Author" CONTENT="Technical Publications">
+<META NAME="CreateDate" CONTENT="2008-09-26">
+<META NAME="CreateTime" CONTENT="1222420432">
+<META NAME="DataType" CONTENT="Manuals">
+<META NAME="Description" CONTENT="Describes key library-creation tasks in Part Developer">
+<META NAME="DocTitle" CONTENT="Part Developer Tutorial">
+<META NAME="DocType" CONTENT="Manual">
+<META NAME="FileTitle" CONTENT="1. Introduction">
+<META NAME="FileType" CONTENT="Chapter">
+<META NAME="Keyword" CONTENT="pdv_tut">
+<META NAME="Language" CONTENT="English">
+<META NAME="ModifiedDate" CONTENT="2008-09-26">
+<META NAME="ModifiedTime" CONTENT="1222420432">
+<META NAME="NextFile" CONTENT="getting_started.html">
+<META NAME="PageCount" CONTENT="4">
+<META NAME="Platform" CONTENT="ALL">
+<META NAME="PrevFile" CONTENT="pdv_tutTOC.html">
+<META NAME="Product" CONTENT="Concept, PCB Design Infrastructure, TDD">
+<META NAME="ProductFamily" CONTENT="PCB Design, PCB Design, PCB Design">
+<META NAME="ProductVersion" CONTENT="16.2">
+<META NAME="RightsManagement" CONTENT="Copyright 1998-2008 Cadence Design Systems Inc.">
+<META NAME="Title" CONTENT="Part Developer Tutorial -- 1. Introduction">
+<META NAME="TopicTags" CONTENT="FALSE">
+<META NAME="Version" CONTENT="16.2">
+</head>
+
+<body bgcolor="#ffffff">
+<a name="firstpage"></a>
+<a name="pagetop"></a>
+
+<p>
+<!-- Begin Buttons -->
+
+<form name="advancedform" action="/vtopic.isapi" method="GET" onSubmit="initOnSubmit()">
+<input type=hidden name="action" value="FilterSearch">
+<input type=hidden name="Filter" value="altsearchfilter.hts">
+<input type=hidden name="resulttemplate" value="altsearchresults.hts">
+<input type=hidden name="resultcount" value="10">
+<input type=hidden name="resultmaxdocs" value="-1">
+<input type=hidden name="queryhidden" value="null">
+<input type=hidden name="queryitemselected" value="no">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="36" width="650" colspan="10"><img src="../support/header_doc.gif" WIDTH="650" HEIGHT="36"></td>
+</tr>
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="pdv_tutTOC.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="getting_started.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><img src="../support/nav2_black.gif" height="20" width="61"></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+ <tr>
+    <td colspan="10">
+      <script type="text/javascript">
+      <!--// We wrap all this inside javascript because we only want to display  -->
+      <!--// the search bar if the http server is running. If it is not running  -->
+      <!--// the search bar should not be visible to the user                    -->
+      <!-- BEGIN SEARCH BAR -->
+      var isloaded = isLoaded();
+      var enteredquery = getCookie("enteredquery");
+      if(enteredquery) {
+        enteredquery = enteredquery.replace(/</g,"&lt ");
+        enteredquery = enteredquery.replace(/>/g,"&gt ");
+      } else {
+         enteredquery = "";
+      }
+                                                                                                                                                                
+      <!-- Only display search bar if server is running -->
+      if(isloaded) {
+                                                                                                                                                                
+        display_search_bar(enteredquery);
+                                                                                                                                                                
+      }
+      <!-- END SEARCH BAR -->
+      </script>
+    </td>
+  </tr>
+</table>
+</form>
+
+<!-- End Buttons -->
+<p>
+<p>
+<hr>
+<p>
+<h3><center>Part Developer Tutorial&#0044; Product Version 16.2</center></h3><br>
+<p>
+
+
+<blockquote>
+
+  
+<div align="right">
+<h1 align="left">
+  <a name="1032139"> </a>1</h1>
+</div>
+
+<hr>
+<h1>
+  <a name="1032140"> </a>Introduction</h1>
+
+
+
+
+
+
+<p>
+  <a name="1032141"> </a>Part Developer is used to create parts. Its suite of features include:</p>
+
+<ul>
+  <a name="1032524"></a><li><p>An Integrated Development Environment (IDE)</p>
+
+  <a name="1032530"></a><li><p>Support for all part types</p>
+
+  <a name="1032528"></a><li><p>Ability to create parts from PDFs</p>
+
+  <a name="1032529"></a><li><p>Ability to import data from a variety of data formats, such as:</p>
+<ul>
+  <a name="1032531"> </a><li><p>Capture
+</p>
+
+  <a name="1032535"> </a><li><p>EDA XML
+</p>
+
+  <a name="1032536"> </a><li><p>Si2 PinPak XML
+</p>
+
+  <a name="1032537"> </a><li><p>Comma-Separated Value (CSV) file
+</p>
+
+  <a name="1032538"> </a><li><p>Synopsis PTM model
+</p>
+
+  <a name="1032539"> </a><li><p>Verilog model
+</p>
+
+  <a name="1032540"> </a><li><p>VHDL model
+</p>
+</ul>
+  <a name="1032541"></a><li><p>Ability to do engineering change order (ECO) updates from supported data formats</p>
+
+  <a name="1032545"></a><li><p>Ability to export data in a variety of formats, such as:</p>
+<ul>
+  <a name="1032546"> </a><li><p>Capture
+</p>
+
+  <a name="1032550"> </a><li><p>EDA XML
+</p>
+
+  <a name="1032551"> </a><li><p>Comma-Separated Value (CSV) file
+</p>
+</ul>
+  <a name="1032552"></a><li><p>Creation and maintenance of part log and version information</p>
+
+  <a name="1032556"></a><li><p>Interface Comparator, an easy-to-use tool for correcting part errors</p>
+
+  <a name="1032942"></a><li><p>Powerful graphics-editing capabilities</p>
+</ul>
+<p>
+  <a name="1032570"> </a>This tutorial teaches you how to use Part Developer to quickly and effectively create and modify library parts. </p>
+
+
+<br><br><br>
+<h2>
+  <a name="1032597"> </a>Audience Profile</h2>
+
+
+<p>
+  <a name="1032598"> </a>The intended audience profile for this tutorial includes users who maintain and modify digital libraries for design entry.</p>
+
+
+<br><br><br>
+<h2>
+  <a name="1032600"> </a>Pre-Requisites</h2>
+
+
+<p>
+  <a name="1032601"> </a>The tutorial assumes familiarity with the following products:</p>
+
+<ul>
+  <a name="1032602"></a><li><p> Project Manager</p>
+
+  <a name="1032603"></a><li><p> Allegro Design Entry HDL</p>
+
+  <a name="1032604"></a><li><p> PCB Symbol Editor</p>
+</ul>
+  <a name="1032731"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>This tutorial provides a step-by-step instruction on how to use Part Developer. For a detailed explanation of the features, see <em>Part Developer User Guide</em>.</td></table>
+
+
+<br><br><br>
+<h2>
+  <a name="1032595"> </a>How to Use This Tutorial</h2>
+
+
+<p>
+  <a name="1032630"> </a>This tutorial provides a hands-on exercise on creating and modifying library parts. To gain the most from this tutorial, you should try out all the steps as documented in the tutorial. The tutorial is based on data provided through parts and datasheets in various formats, such as PDF, XML, and CSV.</p>
+
+
+<br><br><br>
+<h2>
+  <a name="1032660"> </a>Using the Samples</h2>
+
+
+<p>
+  <a name="1032661"> </a>The tutorial works with the samples that are installed along with the software. The samples are stored in the following location:</p>
+
+
+<p>
+  <a name="1032673"> </a><code><em>&lt;your_install_dir&gt;/doc/pdv_tut/tutorial_data</code></em></p>
+
+
+<p>
+  <a name="1032689"> </a>This directory has the following subdirectories that are required for the successful completion of the tutorial.</p>
+
+
+<p>
+  <a name="1032698"> </a><p>
+<br>
+<table valign="top" border="1" bordercolorlight="#FFFFFF" bordercolordark="#000000"
+       cellpadding="5" cellspacing="0">
+<div align="left"></div>
+  <tr bgcolor="#CCCCCC"><div align="center">
+    <th><font face="Verdana, Arial, Helvetica, sans-serif" color="#003366"><div align="left"><p><strong><a name="1032705"> </a>Directory</strong></p></div></font></th>
+    <th><font face="Verdana, Arial, Helvetica, sans-serif" color="#003366"><div align="left"><p><strong><a name="1032707"> </a>Contents</strong></p></div></font></th>
+  </div></tr>
+  <tr>
+    <td valign="top"><p>
+<a name="1032709"> </a><code>datasheets</code></p>
+</td>
+    <td valign="top"><p>
+<a name="1032711"> </a>Contains the datasheets used in the tutorial</p>
+</td>
+  </tr>
+  <tr>
+    <td valign="top"><p>
+<a name="1032713"> </a><code>import_files</code></p>
+</td>
+    <td valign="top"><p>
+<a name="1032715"> </a>Contains the files for use in import procedures</p>
+</td>
+  </tr>
+  <tr>
+    <td valign="top"><p>
+<a name="1032880"> </a><code>library_project</code></p>
+</td>
+    <td valign="top"><p>
+<a name="1032882"> </a>Contains the project files <code>library_project.cpm</code> and <code>dp_proj.cpm</code> and the libraries <code>my_lib</code> and <code>dp_lib</code> used in the tutorial</p>
+</td>
+  </tr>
+</table>
+<br>
+
+
+</p>
+</p>
+
+
+<p>
+  <a name="1032973"> </a>Before starting the tutorial, do the following:</p>
+
+<ul>
+  <a name="1033009"></a><li><p>Copy the samples to a local directory for which you have write permissions</p>
+<dl>
+<p>
+  <a name="1033012"> </a>For the commands specified in the tutorial, you need to replace <code>your_work_area </code>with the name of the local directory in which you have copied the samples.</p>
+
+</dl>
+  <a name="1033042"></a><li><p>Unset the <code>CDS_SITE</code> environment variable on your computer if it is set</p>
+</ul>
+<br><br><br>
+<h2>
+  <a name="1033044"> </a>Chapter Overviews</h2>
+
+
+<p>
+  <a name="1032719"> </a><a href="getting_started.html#1032140">Chapter 2, "Getting Started,"</a> gets your started with the tutorial.</p>
+
+
+<p>
+  <a name="1032824"> </a><a href="chap2.html#1032140">Chapter 3, "Creating a Flat Part,"</a> provides step-by-step instructions on how to create a flat part.</p>
+
+
+<p>
+  <a name="1032782"> </a><a href="chap3.html#1032140">Chapter 4, "Creating Parts from CSV Files,"</a> describes how to create a part from data stored in a CSV file.</p>
+
+
+<p>
+  <a name="1032786"> </a><a href="chap4.html#1032140">Chapter 5, "Creating Split Parts,"</a> details the methodology and steps in creating split parts.</p>
+
+
+<p>
+  <a name="1032790"> </a><a href="creating_parts_from_PDF.html#1034744">Chapter 6, "Creating Parts from PDFs,"</a> describes the steps involved in creating parts from PDF datasheets.</p>
+
+
+<p>
+  <a name="1032794"> </a><a href="creating_asymmetrical_parts.html#1034744">Chapter 7, "Creating Asymmetrical Parts,"</a> provides step-by-step instructions on how to create asymmetrical parts.</p>
+
+
+<p>
+  <a name="1032959"> </a><a href="working_with_diffpair.html#1043280">Chapter 8, "Working with Differential Pairs,"</a> describes how to create differential pairs in different ways and remove differential pair information when required.</p>
+
+
+<p>
+  <a name="1032804"> </a><a href="creating_sizeable_symbols.html#1034744">Chapter 9, "Creating Sizeable and HAS_FIXED_SIZE Symbols,"</a> details the methodology and steps involved in creating sizeable and HAS_FIXED_SIZE symbols.</p>
+
+
+<p>
+  <a name="1032808"> </a><a href="modifying_parts.html#1034744">Chapter 10, "Modifying Packages,"</a> details the steps involved in modifying packages.</p>
+
+
+<p>
+  <a name="1032812"> </a><a href="modifying_symbols.html#1034744">Chapter 11, "Modifying Symbols,"</a> describes the steps involved in modifying symbols.</p>
+
+
+<p>
+  <a name="1032859"> </a><a href="editing_symgraphics.html#1035484">Chapter 12, "Editing Symbol Graphics,"</a> describes the steps to edit symbol graphics through the Symbol Editor.</p>
+
+
+<p>
+  <a name="1032863"> </a><a href="import_export.html#1034744">Chapter 13, "Importing and Exporting,"</a> covers commonly used import and export procedures.</p>
+
+
+<p>
+  <a name="1032816"> </a><a href="part_log.html#1033512">Chapter 14, "Part Logging and Versioning,"</a> describes the methodology and steps in maintaining part versions and part logs.</p>
+
+
+<p>
+  <a name="1032820"> </a><a href="Interface_Comparator.html#1033512">Chapter 15, "Interface Comparator,"</a> describes how to use the Interface Comparison feature to validate and correct parts.</p>
+
+
+  
+
+</blockquote>
+
+<br>
+<a href="#pagetop">Return to top of page</a>
+<hr>
+<p>
+<!-- Begin Buttons -->
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="pdv_tutTOC.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="getting_started.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><a href="/search.htm"><img src="../support/nav2_search.gif" border="0"  alt="Search Cadence Library" height="20" width="61"></a></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+</table>
+<!-- End Buttons -->
+<p>
+<p>
+
+
+<!-- NOTES; -->
+
+<!-- /address -->
+<p>
+<br>
+<font size="-1">
+For support, see <a href=http://www.cadence.com/support>http://www.cadence.com/support</a>
+or try Cadence's <a href=http://sourcelink.cadence.com target=_blank>SourceLink</a> service.
+<br><br>
+<i>Copyright &#169; 2008, <a href=http://www.cadence.com>Cadence Design Systems, Inc.</a></i> 
+<br>
+All rights reserved.
+<br>
+<a href="titlecopy.html">Legal notices and trademark attributions</a>
+<br>
+<!-- This file was created with Quadralay WebWorks Publisher AutoMap 6.0.7 -->
+<!-- -->
+<!-- Last updated: Fri Sep 26 14:43:22 2008 -->
+</font>
+</body>
+</html>
+
+

@@ -1,0 +1,36 @@
+{ Using PSTWRITER 16.3.0 p002May-06-2020 at 03:09:33 }
+
+#1 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C2: SCHEMATIC1, Friend_BPF (6.90, 4.10) .
+#2 Error   [ALG0081] Illegal character "Dot(.)" found in "PCB Footprint" property for component instance C12: SCHEMATIC1, Microcontroller (2.30, 7.20) .
+#3 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C3: SCHEMATIC1, Friend_BPF (2.00, 4.30) .
+#4 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R1: SCHEMATIC1, Friend_BPF (1.50, 3.80) .
+#5 Error   [ALG0081] Illegal character "Dot(.)" found in "PCB Footprint" property for component instance C13: SCHEMATIC1, Microcontroller (3.10, 7.40) .
+#6 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R2: SCHEMATIC1, Friend_BPF (4.50, 4.20) .
+#7 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C4: SCHEMATIC1, Friend_BPF (3.70, 4.30) .
+#8 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C14: SCHEMATIC1, Microcontroller (12.50, 8.70) .
+#9 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C5: SCHEMATIC1, Friend_BPF (5.10, 4.40) .
+#10 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R3: SCHEMATIC1, Friend_BPF (1.50, 4.50) .
+#11 Error   [ALG0081] Illegal character "Dot(.)" found in "PCB Footprint" property for component instance C15: SCHEMATIC1, Microcontroller (8.80, 11.90) .
+#12 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C6: SCHEMATIC1, Friend_BPF (3.80, 5.20) .
+#13 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R4: SCHEMATIC1, Friend_BPF (5.50, 5.00) .
+#14 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C16: SCHEMATIC1, Microcontroller (6.20, 12.40) .
+#15 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C17: SCHEMATIC1, Microcontroller (12.00, 3.70) .
+#16 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C7: SCHEMATIC1, Friend_BPF (5.10, 5.20) .
+#17 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R5: SCHEMATIC1, Friend_BPF (4.30, 5.20) .
+#18 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R6: SCHEMATIC1, Microcontroller (8.30, 11.90) .
+#19 Error   [ALG0081] Illegal character "Dot(.)" found in "PCB Footprint" property for component instance C9: SCHEMATIC1, Microcontroller (1.10, 6.10) .
+#20 Error   [ALG0012] Property "PCB Footprint" missing from instance R8: SCHEMATIC1, Microcontroller (6.80, 4.30).
+#21 Error   [ALG0012] Property "PCB Footprint" missing from instance R9: SCHEMATIC1, Microcontroller (7.20, 4.30).
+#22 Error   [ALG0012] Property "PCB Footprint" missing from instance J1: SCHEMATIC1, Microcontroller (16.10, 4.80).
+#23 Error   [ALG0012] Property "PCB Footprint" missing from instance J3: SCHEMATIC1, Microcontroller (6.00, 4.80).
+#24 Error   [ALG0012] Property "PCB Footprint" missing from instance J4: SCHEMATIC1, Microcontroller (16.10, 9.10).
+#25 Error   [ALG0012] Property "PCB Footprint" missing from instance R10: SCHEMATIC1, Microcontroller (14.30, 3.50).
+#26 Error   [ALG0012] Property "PCB Footprint" missing from instance R11: SCHEMATIC1, Microcontroller (12.90, 3.50).
+#27 Error   [ALG0081] Illegal character "Dot(.)" found in "PCB Footprint" property for component instance C10: SCHEMATIC1, Microcontroller (1.60, 6.30) .
+#28 Error   [ALG0081] Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C1: SCHEMATIC1, Friend_BPF (6.40, 3.50) .
+#29 Error   [ALG0081] Illegal character "Dot(.)" found in "PCB Footprint" property for component instance C11: SCHEMATIC1, Microcontroller (1.80, 6.50) .
+#30 Error   [ALG0050] Duplicate Pin Name "VDD" found on Package MC9S08QE128_10 , U4 Pin Number 40: SCHEMATIC1, Microcontroller (9.60, 4.90). Please renumber one of these.
+#31 Error   [ALG0050] Duplicate Pin Name "VSS" found on Package MC9S08QE128_10 , U4 Pin Number 41: SCHEMATIC1, Microcontroller (9.60, 4.90). Please renumber one of these.
+#32 Info: PCB Editor does not support Dots(.), Forward Slash(/) and White space in footprint names. The supported characters include Alphabets, Numerics, Underscore(_) and Hyphen(-).
+
+#33 Aborting Netlisting... Please correct the above errors and retry.

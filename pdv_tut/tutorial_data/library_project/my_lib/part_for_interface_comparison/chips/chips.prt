@@ -1,0 +1,27 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'PART_FOR_INTERFACE_COMPARISON';
+  pin
+    'A':
+      PIN_NUMBER='(1,0)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'B':
+      PIN_NUMBER='(2,0)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'C':
+      PIN_NUMBER='(0,3)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'D':
+      PIN_NUMBER='(0,4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+  end_pin;
+  body
+    PART_NAME='PART_FOR_INTERFACE_COMPARISON';
+    LIBRARY_NAME='my_library';
+    PACKAGE_CREATOR='?';
+    BODY_NAME='PART_FOR_INTERFACE_COMPARISON';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+  end_body;
+end_primitive;
+
+END.

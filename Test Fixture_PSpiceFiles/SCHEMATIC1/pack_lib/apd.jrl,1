@@ -1,0 +1,10 @@
+\t (00:00:19) apd 16.3 p006 (v16-3-85F) i86
+\t (00:00:19) 
+
+\t (00:00:21) Opening existing drawing...
+\d (00:00:22) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/SCHEMATIC1/pack_lib/DEMOQE128_PAK.dra
+\i (00:00:23) trapsize 8
+\i (00:00:23) trapsize 7
+\i (00:00:23) trapsize 7
+\i (00:00:25) generaledit 
+\i (00:14:09) exit 

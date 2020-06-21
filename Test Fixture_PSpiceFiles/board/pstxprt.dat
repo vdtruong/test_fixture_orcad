@@ -1,0 +1,457 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.3.0 p002Jun-21-2020 at 01:05:22 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='TEST FIXTURE';
+ POST_TIME='Nov 17 2009 03:09:43';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19785@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19785@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19785@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS100431@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins100431@discrete.\cap.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins100431@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS100447@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins100447@discrete.\cap.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins100447@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS100463@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins100463@discrete.\cap.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins100463@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'CAP_CAP196_1N':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS100479@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins100479@discrete.\cap.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins100479@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'C_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS4866@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins4866@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins4866@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'C_CAP196_2U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS9600@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins9600@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins9600@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'C_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS54741@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins54741@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins54741@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'C_CAP196_10U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS76296@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins76296@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins76296@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_CAP196_10U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19562@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19562@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19562@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C22 'C_CAP196_0.47U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS76669@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins76669@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins76669@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'C_CAP196_33U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS76705@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins76705@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins76705@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19016@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19016@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19016@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19192@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19192@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19192@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19514@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19514@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19514@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_CAP196_10U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19530@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19530@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19530@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19546@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19546@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19546@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS100395@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins100395@discrete.\cap.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins100395@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS77692@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins77692@discrete.\led.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins77692@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS77710@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins77710@discrete.\led.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins77710@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS77726@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins77726@discrete.\led.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins77726@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'HEADER 32_32_PINS_CIR_CONN_RIGH':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS22587@CONNECTOR.HEADER 32.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins22587@connector.\header 32.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins22587@connector.\header 32.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'HEADER 32_32_PINS_CIR_CONN_RIGH':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS41605@CONNECTOR.HEADER 32.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins41605@connector.\header 32.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins41605@connector.\header 32.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'CON10A_CONN10_CON10A':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS83276@CONNECTOR.CON10A.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins83276@connector.\con10a.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins83276@connector.\con10a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CON2_CAP196_CON2':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS113719@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins113719@connector.\con2.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins113719@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES400_100K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS18887@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins18887@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins18887@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'RESISTOR_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS50205@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins50205@discrete.\resistor.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins50205@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'RESISTOR_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS50221@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins50221@discrete.\resistor.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins50221@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS77643@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins77643@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins77643@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES400_1.26K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19424@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19424@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19424@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RES400_100K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS18903@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins18903@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins18903@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES400_22.17K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19440@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19440@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19440@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RES400_11.1K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19456@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19456@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19456@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS8888@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins8888@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins8888@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS77228@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins77228@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins77228@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'RESISTOR_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS49203@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins49203@discrete.\resistor.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins49203@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'RESISTOR_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS49219@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins49219@discrete.\resistor.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins49219@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'LM124A_DIP14_3_LM124A':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS18848@OPAMP.LM124A.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins18848@opamp.\lm124a.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins18848@opamp.\lm124a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19290@OPAMP.LM124A.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19290@opamp.\lm124a.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19290@opamp.\lm124a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U3 'MAX3222_2_DIP18_3_MAX3222':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS14884@TEST FIXTURE.MAX3222_2.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins14884@\test fixture\.\max3222_2.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins14884@\test fixture\.\max3222_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'MC9S08QE128_11_MC9S08QE128_V2_M':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS4358@TEST FIXTURE.MC9S08QE128_11.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins4358@\test fixture\.\mc9s08qe128_11.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins4358@\test fixture\.\mc9s08qe128_11.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'CAT24C02_3_DIP8_3_CAT24C02':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS103743@TEST FIXTURE.CAT24C02_3.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins103743@\test fixture\.\cat24c02_3.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins103743@\test fixture\.\cat24c02_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'MAX550ACPA_3_DIP8_3_MAX550ACPA':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS53160@TEST FIXTURE.MAX550ACPA_3.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins53160@\test fixture\.\max550acpa_3.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins53160@\test fixture\.\max550acpa_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'LT323/TO220_0_TO220AB_LT323/TO2':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS75963@TEST FIXTURE.LT323/TO220_0.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins75963@\test fixture\.\lt323/to220_0.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins75963@\test fixture\.\lt323/to220_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'LM3940/TO220_0_TO220AB_LM3940/T':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS75997@TEST FIXTURE.LM3940/TO220_0.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins75997@\test fixture\.\lm3940/to220_0.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins75997@\test fixture\.\lm3940/to220_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

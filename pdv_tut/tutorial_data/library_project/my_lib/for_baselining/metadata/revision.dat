@@ -1,0 +1,95 @@
+(Cell	for_baselining
+
+	(RevisionInfoBlock
+
+		(Baselined	0)
+
+		(Revision	1.0)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo
+
+			(Time	05/08/03,07:05:34)
+
+			(User	aoyon)
+
+			(Path	my_lib.for_baselining)
+
+		)
+
+	)
+
+	(Views
+
+		(View Chips
+			(Primitives	1
+				(Primitive	FOR_BASELINING
+					(RevisionInfoBlock
+						(Baselined	0)
+						(Revision	1.0)
+						(ModificationStatus	NULL)
+						(Status	Created)
+						(ErrorStatus	0)
+						(CreateInfo
+							(Time	05/08/03,07:05:34)
+							(User	aoyon)
+							(Path	my_lib.for_baselining)
+						)
+					)
+
+					(LogicalPhysicalPartRelation
+						(LogicalPart	FOR_BASELINING
+							(PackType	FOR_BASELINING)
+						)
+					)
+
+					(Packages	1
+						(FunctionGroups	1
+							(FunctionGroup	1[1]
+								(Linkages
+									(Linkage	Symbol
+										(Name	sym_1)
+									)
+								)
+							)
+						)
+						(Linkages
+						)
+					)
+				)
+			)
+		)
+
+		(View	Symbol
+			(Symbols	1
+				(Symbol	sym_1
+					(RevisionInfoBlock
+						(Baselined	0)
+						(Revision	1.0)
+						(ModificationStatus	NULL)
+						(Status	Created)
+						(ErrorStatus	0)
+						(CreateInfo
+							(Time	05/08/03,07:05:34)
+							(User	aoyon)
+							(Path	my_lib.for_baselining)
+						)
+					)
+				)
+			)
+		)
+
+
+
+
+
+
+	)
+
+)
+

@@ -1,0 +1,410 @@
+(Cell	p4_3ghz_sym
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/31/06,14:01:18)
+
+			(User	nandinig)
+
+			(Path	my_lib.p4_3ghz_sym)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/31/06,14:01:18)
+
+			(User	nandinig)
+
+			(Path	my_lib.p4_3ghz_sym)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	000000000ff88751)
+
+			(Primitives	1
+
+				(Primitive	p4_3ghz_sym
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/31/06,14:01:18)
+
+							(User	nandinig)
+
+							(Path	my_lib.p4_3ghz_sym)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	p4_3ghz_sym
+
+							(PackType	p4_3ghz_sym)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	6
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+							(FunctionGroup	2[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+								)
+
+							)
+
+							(FunctionGroup	3[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_3)
+
+									)
+
+								)
+
+							)
+
+							(FunctionGroup	4[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_4)
+
+									)
+
+								)
+
+							)
+
+							(FunctionGroup	5[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_5)
+
+									)
+
+								)
+
+							)
+
+							(FunctionGroup	6[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_6)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(Symbols	6
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000005e0eead0)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/31/06,14:01:18)
+
+							(User	nandinig)
+
+							(Path	my_lib.p4_3ghz_sym)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_2
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000374924f7)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/31/06,14:01:18)
+
+							(User	nandinig)
+
+							(Path	my_lib.p4_3ghz_sym)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_3
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000062aaeae9)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/31/06,14:01:18)
+
+							(User	nandinig)
+
+							(Path	my_lib.p4_3ghz_sym)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_4
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000008b6a008d)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/31/06,14:01:18)
+
+							(User	nandinig)
+
+							(Path	my_lib.p4_3ghz_sym)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_5
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000002da7c351)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/31/06,14:01:18)
+
+							(User	nandinig)
+
+							(Path	my_lib.p4_3ghz_sym)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_6
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000088dd2c30)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/31/06,14:01:18)
+
+							(User	nandinig)
+
+							(Path	my_lib.p4_3ghz_sym)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c8c03b5)
+
+		)
+
+		(Checksum	000000001c9e03aa)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-d038)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cd803d8)
+
+)
+

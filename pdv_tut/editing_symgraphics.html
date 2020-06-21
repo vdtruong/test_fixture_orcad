@@ -1,0 +1,511 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+<meta name="GENERATOR" content="Quadralay WebWorks Publisher AutoMap 6.0.7">
+<meta name="TEMPLATEBASE" content="CadencePubs_HelpTopics">
+<meta name="LASTUPDATED" content="Fri Sep 26 14:43:46 2008">
+
+<script TYPE="text/javascript" LANGUAGE="JavaScript" >
+  <!--
+  // Dummy script statement to get rid of Netscape timing errors which may
+  // print garbage JavaScript code at the top in Unix 4.x Netscape browser.
+  // -->
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Browser.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Cookies.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Search.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript">
+  <!--
+  function window_resized(){
+    window.location.reload();
+  }
+  window.onresize=window_resized;
+                                                                                                                                                                
+  /*
+  * Initializes before submitting query
+  */
+  function initOnSubmit() {
+    storeStateAndQuery();
+  }
+                                                                                                                                                                
+  setCookie("DocumentTitle", "Part Developer Tutorial");
+  setCookie("Chapter", "N/A");
+  setCookie("Keyword", "search");
+  setCookie("Version", "Product Version 2.2");
+
+  // -->
+  </script>
+
+
+<title>Part Developer Tutorial -- 12. Editing Symbol Graphics</title>
+<META NAME="Approver" CONTENT="Technical Publications">
+<META NAME="Author" CONTENT="Technical Publications">
+<META NAME="CreateDate" CONTENT="2008-09-26">
+<META NAME="CreateTime" CONTENT="1222420433">
+<META NAME="DataType" CONTENT="Manuals">
+<META NAME="Description" CONTENT="Describes key library-creation tasks in Part Developer">
+<META NAME="DocTitle" CONTENT="Part Developer Tutorial">
+<META NAME="DocType" CONTENT="Manual">
+<META NAME="FileTitle" CONTENT="12. Editing Symbol Graphics">
+<META NAME="FileType" CONTENT="Chapter">
+<META NAME="Keyword" CONTENT="pdv_tut">
+<META NAME="Language" CONTENT="English">
+<META NAME="ModifiedDate" CONTENT="2008-09-26">
+<META NAME="ModifiedTime" CONTENT="1222420433">
+<META NAME="NextFile" CONTENT="import_export.html">
+<META NAME="PageCount" CONTENT="10">
+<META NAME="Platform" CONTENT="ALL">
+<META NAME="PrevFile" CONTENT="modifying_symbols.html">
+<META NAME="Product" CONTENT="Concept, PCB Design Infrastructure, TDD">
+<META NAME="ProductFamily" CONTENT="PCB Design, PCB Design, PCB Design">
+<META NAME="ProductVersion" CONTENT="16.2">
+<META NAME="RightsManagement" CONTENT="Copyright 1998-2008 Cadence Design Systems Inc.">
+<META NAME="Title" CONTENT="Part Developer Tutorial -- 12. Editing Symbol Graphics">
+<META NAME="TopicTags" CONTENT="FALSE">
+<META NAME="Version" CONTENT="16.2">
+</head>
+
+<body bgcolor="#ffffff">
+<a name="firstpage"></a>
+<a name="pagetop"></a>
+
+<p>
+<!-- Begin Buttons -->
+
+<form name="advancedform" action="/vtopic.isapi" method="GET" onSubmit="initOnSubmit()">
+<input type=hidden name="action" value="FilterSearch">
+<input type=hidden name="Filter" value="altsearchfilter.hts">
+<input type=hidden name="resulttemplate" value="altsearchresults.hts">
+<input type=hidden name="resultcount" value="10">
+<input type=hidden name="resultmaxdocs" value="-1">
+<input type=hidden name="queryhidden" value="null">
+<input type=hidden name="queryitemselected" value="no">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="36" width="650" colspan="10"><img src="../support/header_doc.gif" WIDTH="650" HEIGHT="36"></td>
+</tr>
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="modifying_symbols.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="import_export.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><img src="../support/nav2_black.gif" height="20" width="61"></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+ <tr>
+    <td colspan="10">
+      <script type="text/javascript">
+      <!--// We wrap all this inside javascript because we only want to display  -->
+      <!--// the search bar if the http server is running. If it is not running  -->
+      <!--// the search bar should not be visible to the user                    -->
+      <!-- BEGIN SEARCH BAR -->
+      var isloaded = isLoaded();
+      var enteredquery = getCookie("enteredquery");
+      if(enteredquery) {
+        enteredquery = enteredquery.replace(/</g,"&lt ");
+        enteredquery = enteredquery.replace(/>/g,"&gt ");
+      } else {
+         enteredquery = "";
+      }
+                                                                                                                                                                
+      <!-- Only display search bar if server is running -->
+      if(isloaded) {
+                                                                                                                                                                
+        display_search_bar(enteredquery);
+                                                                                                                                                                
+      }
+      <!-- END SEARCH BAR -->
+      </script>
+    </td>
+  </tr>
+</table>
+</form>
+
+<!-- End Buttons -->
+<p>
+<p>
+<hr>
+<p>
+<h3><center>Part Developer Tutorial&#0044; Product Version 16.2</center></h3><br>
+<p>
+
+
+<blockquote>
+
+  
+<div align="right">
+<h1 align="left">
+  <a name="1032955"> </a>12</h1>
+</div>
+
+<hr>
+<h1>
+  <a name="1035484"> </a>Editing Symbol Graphics</h1>
+
+
+
+
+
+
+<br><br><br>
+<h2>
+  <a name="1035485"> </a>Objective</h2>
+
+
+<p>
+  <a name="1035489"> </a>To become familiar with the steps in editing symbol graphics by using the Symbol Editor.</p>
+
+
+<p>
+  <a name="1035565"> </a>In this chapter, you will learn to:</p>
+
+<ul>
+  <a name="1038083"></a><li><p>Perform zoom and pan operations on a symbol</p>
+
+  <a name="1035569"></a><li><p>Draw graphical objects to add to a symbol</p>
+
+  <a name="1035608"></a><li><p>Create a group of symbol objects</p>
+
+  <a name="1035609"></a><li><p>Rotate an object</p>
+
+  <a name="1035588"></a><li><p>Align objects</p>
+
+  <a name="1035603"></a><li><p>Add a bitmap to a symbol</p>
+
+  <a name="1035606"></a><li><p>Perform move and stretch operations on symbol objects</p>
+</ul>
+<br><br><br>
+<h2>
+  <a name="1035652"> </a>Overview</h2>
+
+
+<p>
+  <a name="1035702"> </a>In Part Developer, you can modify a symbol in two ways, by changing the values of various fields in the Symbol Pins panel or by modifying the symbol text and graphics on the Symbol Editor canvas. While some symbol modification tasks, such as changing the location of a pin from left to right, can be done using either the Symbol Pins panel or the Symbol Editor, some other tasks, such as adding graphics to indicate the functionality of the symbol, can be done only using the Symbol Editor. This chapter covers various Symbol Editor features, which you can use to edit symbol graphics. You will use the library part <code>sample_part</code> in the <code>my_lib</code> library.</p>
+
+
+<p>
+  <a name="1037452"> </a>The part <code>sample_part</code> has six symbols.</p>
+
+
+<br><br><br>
+<h2>
+  <a name="1038095"> </a>Performing Zoom and Pan Operations on a Symbol</h2>
+
+
+<p>
+  <a name="1038096"> </a>Zoom in on the switch graphics associated with the <code>PIN1</code> pin in <code>sym_6</code>. After the object has been magnified according to your specification, pan the Symbol Editor canvas to display only the <code>PIN+</code> and <code>PIN-</code> pins.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1038100"> </a>Click the <em>Zoom By Points</em> tool button <img src="images/zoomtool.gif">
+.</p>
+<dl>
+<p>
+  <a name="1038101"> </a>Notice that the mouse pointer changes to a magnifying glass.</p>
+
+</dl>  <li value="2"><p><a name="1038102"> </a>Using the mouse, drag and select an area that encloses the switch associated with the <code>PIN1</code> pin.</p>
+<dl>
+<p>
+  <a name="1038113"> </a>The switch is magnified.</p>
+
+</dl></ol>
+
+<p>
+  <a name="1038117"> </a><img src="images/enlargedsym.gif">
+</p>
+
+
+<p>
+<strong>Note:&nbsp;</strong>
+<a name="1038118"> </a>If you want to edit the graphics, first press Esc to exit the zoom mode.
+</p>
+<ol type="1">
+  <li value="3"><p><a name="1038131"> </a>To pan the canvas so that the <code>PIN+</code> and <code>PIN- </code>pins can be viewed, click the <em>Pan</em> tool button <img src="images/pan_tool.gif">
+.</p>
+<dl>
+<p>
+  <a name="1038136"> </a>The mouse pointer changes to a hand.</p>
+
+</dl>  <li value="4"><p><a name="1038125"> </a>Click and release the mouse button only after the <code>PIN+</code> and <code>PIN-</code> pins are displayed at the desired location on the Symbol Editor canvas.</p>
+</ol>
+
+  <a name="1038126"> </a><table border="0"><tr><td valign="top"><img src="../support/tip.gif"></td><td>If you are using a three-button mouse, you can pan using the middle mouse button.</td></table>
+
+
+<br><br><br>
+<h2>
+  <a name="1036967"> </a>Drawing Graphical Objects to Add to a Symbol</h2>
+
+
+<p>
+  <a name="1037024"> </a>Draw the following graphic in the <code>sym_1</code> symbol of <code>sample_part</code> to indicate that pins <code>PIN6</code>, <code>PIN1</code>, and <code>PIN10</code> are associated with a buffer and a switch.</p>
+
+
+<p>
+  <a name="1037098"> </a><img src="images/add_graphics.gif">
+</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1037102"> </a>To begin drawing the buffer, click the <em>Add Line</em> tool button <img src="images/add_line.gif">
+.</p>
+  <li value="2"><p><a name="1037103"> </a>Click below the <code>PIN6</code> text label and drag the mouse pointer to draw a horizontal line of the desired length.</p>
+  <li value="3"><p><a name="1037052"> </a>To draw the triangle, click the <em>Add Polygon</em> tool button <img src="images/add_polygon.gif">
+.</p>
+  <li value="4"><p><a name="1036974"> </a>To draw a straight vertical line that is bisected by one end of the <code>PIN6</code> horizontal line, click at the desired location in the symbol and drag the mouse pointer vertically until the line is of the desired length.</p>
+  <li value="5"><p><a name="1036975"> </a>Click and drag the mouse pointer to the apex of the triangle.</p>
+  <li value="6"><p><a name="1036976"> </a>Double-click to complete the triangle.</p>
+  <li value="7"><p><a name="1036977"> </a>To complete the buffer, click the <em>Add Polyline</em> tool button <img src="images/add_polyline.gif">
+.</p>
+  <li value="8"><p><a name="1036978"> </a>Click at the apex of the triangle and drag horizontally up to the desired length.</p>
+  <li value="9"><p><a name="1036980"> </a>Click and drag vertically down up to the desired length.</p>
+  <li value="10"><p><a name="1036981"> </a>Double-click to complete the shape.</p>
+  <li value="11"><p><a name="1037153"> </a>To draw the switch, first draw a horizontal line of the desired length below the <code>PIN1</code> text label.</p>
+  <li value="12"><p><a name="1037166"> </a>To draw a circle at the end of the horizontal line, click the <em>Add Circle</em> tool button <img src="images/add_circle.gif">
+.</p>
+  <li value="13"><p><a name="1037171"> </a>Click on the desired location and drag the mouse pointer to draw the diameter of the circle.</p>
+  <li value="14"><p><a name="1037161"> </a>Release the mouse pointer.</p>
+<dl>
+<p>
+  <a name="1037190"> </a>The circle is drawn.</p>
+
+</dl>  <li value="15"><p><a name="1037195"> </a>Using the <em>Add Line</em> tool button, draw a slanted line from the circle.</p>
+  <li value="16"><p><a name="1037200"> </a>Using the <em>Add Polygon</em> tool button, draw a small triangle, the apex of which touches the slanted line. </p>
+  <li value="17"><p><a name="1037189"> </a>Draw a horizontal line below the <code>PIN10</code> text label and drag it vertically up and then horizontally left to connect to the small triangle.</p>
+<dl>
+<p>
+  <a name="1037282"> </a>The graphic is complete.</p>
+
+</dl></ol>
+
+  <a name="1037229"> </a><table border="0"><tr><td valign="top"><img src="../support/tip.gif"></td><td>When drawing objects, you can either copy/paste or use the <em>Make components the same width</em> and <em>Make components the same height</em> tool buttons to create objects of identical dimensions.</td></table>
+
+
+  <a name="1037754"> </a><table border="0"><tr><td valign="top"><img src="../support/tip.gif"></td><td>To draw objects that should not be snapped to fit into the grid, make sure the <em>Snap to Grid</em> option is not selected. You can access this option from the <em>Canvas</em> menu item on the <em>Graphic Editor </em>menu or from the toolbar using the <em>Snap to Grid</em> tool button <img src="images/snap_to_grid.gif">
+.</td></table>
+
+
+<br><br><br>
+<h2>
+  <a name="1037238"> </a>Creating a Group of Symbol Objects</h2>
+
+
+<p>
+  <a name="1037239"> </a>In <code>sym_1</code>, create a group of the two pins <code>PIN+</code> and <code>PIN-</code> so that the pins can be moved together.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1037240"> </a>To select the <code>PIN+</code> pin along with its name and text label, click the pin when the mouse pointer changes to the move icon. You will notice that the same pin gets selected in the Symbol Pins panel.</p>
+  <li value="2"><p><a name="1037241"> </a>Keeping the Ctrl key pressed, click the <code>PIN-</code> pin.</p>
+<dl>
+<p>
+  <a name="1037242"> </a>Both the pins are selected. Notice that each selected pin is displayed in a separate box.</p>
+
+</dl>  <li value="3"><p><a name="1037243"> </a>Right-click on the selection.</p>
+  <li value="4"><p><a name="1037244"> </a>Click the Group option.</p>
+<dl>
+<p>
+  <a name="1037245"> </a>Notice that all the selected objects are now displayed in a single box. This indicates that the group is created. You can now do any operation on the grouped object.</p>
+
+</dl></ol>
+
+  <a name="1037246"> </a><table border="0"><tr><td valign="top"><img src="../support/tip.gif"></td><td>You can also select pins from the Symbol Pins panel by clicking the row number in the first column of the Logical Pins grid. This method of selection cannot be used if you want to select symbol objects other than pins.</td></table>
+
+
+<br><br><br>
+<h2>
+  <a name="1037256"> </a>Rotating an Object</h2>
+
+
+<p>
+  <a name="1037257"> </a>In the <code>sym_2</code> symbol, rotate the first triangle to make it inverted.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1037258"> </a>Create a group of the three lines that constitute the first triangle.</p>
+</ol>
+
+<p>
+  <a name="1037259"> </a></p>
+
+<ol type="1">
+  <li value="2"><p><a name="1037953"> </a>Click the <em>Rotate 90 degrees counter clockwise</em> tool button <img src="images/rotate_tool.gif">
+ two times.</p>
+<dl>
+<p>
+  <a name="1037260"> </a>The triangle is inverted.</p>
+
+</dl></ol>
+
+<p>
+  <a name="1037264"> </a><img src="images/inverted_traingle.gif">
+</p>
+
+
+<br><br><br>
+<h2>
+  <a name="1037265"> </a>Aligning Objects</h2>
+
+
+<p>
+  <a name="1037266"> </a>In the <code>sym_3</code> symbol, left-align the first horizontal line with the second horizontal line.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1037267"> </a>Select the first horizontal line.</p>
+  <li value="2"><p><a name="1037268"> </a>Keeping the Ctrl key pressed, select the second horizontal line.</p>
+  <li value="3"><p><a name="1037269"> </a>Click the <em>Align Left</em> tool button <img src="images/align_left.gif">
+.</p>
+<dl>
+<p>
+  <a name="1037820"> </a>The line selected first is left-aligned with the line selected next. In the case of more than two objects, all objects are aligned with the last selected object.</p>
+
+</dl></ol>
+
+<p>
+  <a name="1037824"> </a><img src="images/align_lines.gif">
+</p>
+
+
+  <a name="1038045"> </a><table border="0"><tr><td valign="top"><img src="../support/tip.gif"></td><td>To make a set of circles concentric, select all the circles and then click the <em>Align Middle</em> tool button and the <em>Align Center</em> tool button.</td></table>
+
+
+<br><br><br>
+<h2>
+  <a name="1037825"> </a>Adding a Bitmap to a Symbol</h2>
+
+
+<p>
+  <a name="1037300"> </a>Add the bitmap <code>logo.bmp</code> to the <code>sym_4</code> symbol.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1037301"> </a>Click the <em>Add Image</em> tool button <img src="images/add_image.gif">
+.</p>
+<dl>
+<p>
+  <a name="1037737"> </a>The Open dialog box displays.</p>
+
+</dl></ol>
+
+<p>
+  <a name="1037845"> </a><img src="images/opendialog.gif">
+</p>
+
+<ol type="1">
+  <li value="2"><p><a name="1037846"> </a>The path of the <code>logo.bmp </code>file is <code><em>&lt;your_work_area&gt;</code></em><code>/library_project/my_lib/sample_part/images</code>. Browse the <code>my_lib</code> folder to select the bitmap <code>logo.bmp</code> and click the <em>Open</em> button.</p>
+<dl>
+<p>
+  <a name="1037308"> </a>Notice that the mouse pointer changes to indicate that an image is being added.</p>
+
+</dl>  <li value="3"><p><a name="1037309"> </a>To add the image, click at the desired location on the canvas.</p>
+</ol>
+
+<p>
+  <a name="1037310"> </a>The image is added to the symbol. You can stretch the image to increase its size.</p>
+
+
+  <a name="1037311"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>Make sure that the image to be added is stored in a <code>.bmp</code> file or a <code>.jpg</code> file.</td></table>
+
+
+<br><br><br>
+<h2>
+  <a name="1037368"> </a>Performing Move and Stretch Operations on Symbol Objects</h2>
+
+
+<p>
+  <a name="1037369"> </a>Move the group of <code>PIN+</code> and <code>PIN-</code> pins a few grid points down in the <code>sym_5</code> symbol. Increase the symbol size by dragging the symbol outline.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1037325"> </a>Create a group of <code>PIN+</code> and <code>PIN-</code> pins.</p>
+  <li value="2"><p><a name="1037386"> </a>Place the mouse pointer on either pin and drag the group to the desired location in the symbol.</p>
+<dl>
+<p>
+  <a name="1037326"> </a>The group is moved to the new location.</p>
+
+</dl>  <li value="3"><p><a name="1037327"> </a>To increase the length of the symbol, move the horizontal line at the base of the symbol down to the desired location.</p>
+<dl>
+<p>
+  <a name="1037328"> </a>Notice that a yellow dotted line indicating the existing symbol outline is displayed at the original location.</p>
+
+</dl>  <li value="4"><p><a name="1037329"> </a>Click the dotted line to display stretch handles and drag the middle handle until the outline merges with the horizontal line that you had moved to the new location.</p>
+<dl>
+<p>
+  <a name="1037330"> </a>The symbol size is increased according to your specification.</p>
+
+</dl></ol>
+
+  <a name="1037331"> </a><table border="0"><tr><td valign="top"><img src="../support/tip.gif"></td><td>To move an object by a fraction of a grid in any direction, you can use <em>Nudge Up</em>, <em>Nudge Down</em>, <em>Nudge Left</em>, or <em>Nudge Right</em> tool buttons.</td></table>
+
+
+  <a name="1037626"> </a><table border="0"><tr><td valign="top"><img src="../support/tip.gif"></td><td>To move pins from one side of the symbol to another, use the Symbol Pins panel instead of the Symbol Editor. Part Developer automatically adjusts the direction of a pin when the <em>Location</em> column value for the pin is changed in the<em> </em>Symbol Pins panel.</td></table>
+
+
+<br><br><br>
+<h2>
+  <a name="1036892"> </a>Summary</h2>
+
+
+<p>
+  <a name="1036688"> </a>In this chapter, you learned how to edit symbol graphics.</p>
+
+
+  
+
+</blockquote>
+
+<br>
+<a href="#pagetop">Return to top of page</a>
+<hr>
+<p>
+<!-- Begin Buttons -->
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="modifying_symbols.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="import_export.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><a href="/search.htm"><img src="../support/nav2_search.gif" border="0"  alt="Search Cadence Library" height="20" width="61"></a></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+</table>
+<!-- End Buttons -->
+<p>
+<p>
+
+
+<!-- NOTES; -->
+
+<!-- /address -->
+<p>
+<br>
+<font size="-1">
+For support, see <a href=http://www.cadence.com/support>http://www.cadence.com/support</a>
+or try Cadence's <a href=http://sourcelink.cadence.com target=_blank>SourceLink</a> service.
+<br><br>
+<i>Copyright &#169; 2008, <a href=http://www.cadence.com>Cadence Design Systems, Inc.</a></i> 
+<br>
+All rights reserved.
+<br>
+<a href="titlecopy.html">Legal notices and trademark attributions</a>
+<br>
+<!-- This file was created with Quadralay WebWorks Publisher AutoMap 6.0.7 -->
+<!-- -->
+<!-- Last updated: Fri Sep 26 14:43:46 2008 -->
+</font>
+</body>
+</html>
+
+

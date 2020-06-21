@@ -1,0 +1,606 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+<meta name="GENERATOR" content="Quadralay WebWorks Publisher AutoMap 6.0.7">
+<meta name="TEMPLATEBASE" content="CadencePubs_HelpTopics">
+<meta name="LASTUPDATED" content="Fri Sep 26 14:43:42 2008">
+
+<script TYPE="text/javascript" LANGUAGE="JavaScript" >
+  <!--
+  // Dummy script statement to get rid of Netscape timing errors which may
+  // print garbage JavaScript code at the top in Unix 4.x Netscape browser.
+  // -->
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Browser.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Cookies.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Search.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript">
+  <!--
+  function window_resized(){
+    window.location.reload();
+  }
+  window.onresize=window_resized;
+                                                                                                                                                                
+  /*
+  * Initializes before submitting query
+  */
+  function initOnSubmit() {
+    storeStateAndQuery();
+  }
+                                                                                                                                                                
+  setCookie("DocumentTitle", "Part Developer Tutorial");
+  setCookie("Chapter", "N/A");
+  setCookie("Keyword", "search");
+  setCookie("Version", "Product Version 2.2");
+
+  // -->
+  </script>
+
+
+<title>Part Developer Tutorial -- 10. Modifying Packages</title>
+<META NAME="Approver" CONTENT="Technical Publications">
+<META NAME="Author" CONTENT="Technical Publications">
+<META NAME="CreateDate" CONTENT="2008-09-26">
+<META NAME="CreateTime" CONTENT="1222420433">
+<META NAME="DataType" CONTENT="Manuals">
+<META NAME="Description" CONTENT="Describes key library-creation tasks in Part Developer">
+<META NAME="DocTitle" CONTENT="Part Developer Tutorial">
+<META NAME="DocType" CONTENT="Manual">
+<META NAME="FileTitle" CONTENT="10. Modifying Packages">
+<META NAME="FileType" CONTENT="Chapter">
+<META NAME="Keyword" CONTENT="pdv_tut">
+<META NAME="Language" CONTENT="English">
+<META NAME="ModifiedDate" CONTENT="2008-09-26">
+<META NAME="ModifiedTime" CONTENT="1222420433">
+<META NAME="NextFile" CONTENT="modifying_symbols.html">
+<META NAME="PageCount" CONTENT="12">
+<META NAME="Platform" CONTENT="ALL">
+<META NAME="PrevFile" CONTENT="creating_sizeable_symbols.html">
+<META NAME="Product" CONTENT="Concept, PCB Design Infrastructure, TDD">
+<META NAME="ProductFamily" CONTENT="PCB Design, PCB Design, PCB Design">
+<META NAME="ProductVersion" CONTENT="16.2">
+<META NAME="RightsManagement" CONTENT="Copyright 1998-2008 Cadence Design Systems Inc.">
+<META NAME="Title" CONTENT="Part Developer Tutorial -- 10. Modifying Packages">
+<META NAME="TopicTags" CONTENT="FALSE">
+<META NAME="Version" CONTENT="16.2">
+</head>
+
+<body bgcolor="#ffffff">
+<a name="firstpage"></a>
+<a name="pagetop"></a>
+
+<p>
+<!-- Begin Buttons -->
+
+<form name="advancedform" action="/vtopic.isapi" method="GET" onSubmit="initOnSubmit()">
+<input type=hidden name="action" value="FilterSearch">
+<input type=hidden name="Filter" value="altsearchfilter.hts">
+<input type=hidden name="resulttemplate" value="altsearchresults.hts">
+<input type=hidden name="resultcount" value="10">
+<input type=hidden name="resultmaxdocs" value="-1">
+<input type=hidden name="queryhidden" value="null">
+<input type=hidden name="queryitemselected" value="no">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="36" width="650" colspan="10"><img src="../support/header_doc.gif" WIDTH="650" HEIGHT="36"></td>
+</tr>
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="creating_sizeable_symbols.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="modifying_symbols.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><img src="../support/nav2_black.gif" height="20" width="61"></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+ <tr>
+    <td colspan="10">
+      <script type="text/javascript">
+      <!--// We wrap all this inside javascript because we only want to display  -->
+      <!--// the search bar if the http server is running. If it is not running  -->
+      <!--// the search bar should not be visible to the user                    -->
+      <!-- BEGIN SEARCH BAR -->
+      var isloaded = isLoaded();
+      var enteredquery = getCookie("enteredquery");
+      if(enteredquery) {
+        enteredquery = enteredquery.replace(/</g,"&lt ");
+        enteredquery = enteredquery.replace(/>/g,"&gt ");
+      } else {
+         enteredquery = "";
+      }
+                                                                                                                                                                
+      <!-- Only display search bar if server is running -->
+      if(isloaded) {
+                                                                                                                                                                
+        display_search_bar(enteredquery);
+                                                                                                                                                                
+      }
+      <!-- END SEARCH BAR -->
+      </script>
+    </td>
+  </tr>
+</table>
+</form>
+
+<!-- End Buttons -->
+<p>
+<p>
+<hr>
+<p>
+<h3><center>Part Developer Tutorial&#0044; Product Version 16.2</center></h3><br>
+<p>
+
+
+<blockquote>
+
+  
+<div align="right">
+<h1 align="left">
+  <a name="1032955"> </a>10</h1>
+</div>
+
+<hr>
+<h1>
+  <a name="1034744"> </a>Modifying Packages</h1>
+
+
+
+
+
+
+<br><br><br>
+<h2>
+  <a name="1039834"> </a>Objective</h2>
+
+
+<p>
+  <a name="1041029"> </a>To become familiar with the steps involved in modifying packages.</p>
+
+
+<p>
+  <a name="1041622"> </a>In this chapter, you will learn to:</p>
+
+<ul>
+  <a name="1042095"></a><li><p>Add pins to a package</p>
+
+  <a name="1042100"></a><li><p>Add properties to a package</p>
+
+  <a name="1042128"></a><li><p>Delete pins from a package</p>
+
+  <a name="1042137"></a><li><p>Delete pins from all packages and symbols</p>
+
+  <a name="1042472"></a><li><p>Modify pin types</p>
+
+  <a name="1042152"></a><li><p>Move global pins to logical pins</p>
+
+  <a name="1042153"></a><li><p>Move logical pins to global pins</p>
+
+  <a name="1042150"></a><li><p>Modify the footprint information</p>
+
+  <a name="1042175"></a><li><p>Add Package Pin properties</p>
+
+  <a name="1042176"></a><li><p>Specify pin swappability</p>
+</ul>
+<br><br><br>
+<h2>
+  <a name="1041644"> </a>Overview</h2>
+
+
+<p>
+  <a name="1042074"> </a>Often, you need to modify a package to meet changed requirements. Using Part Developer, part modifications can be done quickly and effectively. This chapter covers some of the common part-modification tasks. You will use the library part <code>mypart</code> in the <code>my_lib</code> library to perform the part-modification tasks.</p>
+
+
+<p>
+  <a name="1042273"> </a>The part has two packages, MYPART and MYPART_1, and two symbols, sym_1 and sym_2. The symbol sym_1 is associated with the package MYPART and sym_2 with the package MYPART_1.</p>
+
+
+<br><br><br>
+<h2>
+  <a name="1042166"> </a>Adding Pins to a Package</h2>
+
+
+<p>
+  <a name="1042174"> </a>Add an input pin, <code>my_pin</code>, to the MYPART package.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042167"> </a>Choose <em>File - Open - Cell.</em></p>
+<dl>
+<p>
+  <a name="1042251"> </a>The Open Cell dialog box appears.</p>
+
+</dl>  <li value="2"><p><a name="1042255"> </a>Select the <em>my_lib</em> library.</p>
+  <li value="3"><p><a name="1042265"> </a>Select the cell <em>mypart</em> and click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1042269"> </a>The part <code>mypart</code> loads in the Cell Editor.</p>
+
+</dl>  <li value="4"><p><a name="1042280"> </a>To select the MYPART package, click the <em>MYPART</em> entry under the <em>Packages</em> entry in the cell tree.</p>
+<dl>
+<p>
+  <a name="1042285"> </a>MYPART gets loaded in the Package Editor.</p>
+
+
+<p>
+  <a name="1042297"> </a><img src="images/mypart_mypkg.gif">
+</p>
+
+</dl>  <li value="5"><p><a name="1042305"> </a>Select the last row in the <em>Logical Pins</em> grid.</p>
+  <li value="6"><p><a name="1042309"> </a>Press Ctrl + I.</p>
+<dl>
+<p>
+  <a name="1042310"> </a>A blank row appears in the <em>Logical Pins</em> grid.</p>
+
+</dl>  <li value="7"><p><a name="1042318"> </a>Enter <code>my_pin</code> in the <em>Name</em> column and select <em>INPUT</em> from the <em>Type</em> drop-down list.</p>
+  <li value="8"><p><a name="1042339"> </a>Enter the physical pin number <code>15</code> under the column S1 and click on the Physical Pins grid.</p>
+  <li value="9"><p><a name="1042314"> </a>Save the part.</p>
+</ol>
+
+  <a name="1042343"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>The symbol <code>sym_1</code> is associated with the package <code>MYPART</code>. Therefore, when a pin is added to the package, the symbol pin list will also have to be updated to make sure that the symbol is in sync with the package. If the <em>Keep Symbols Associated </em>check box is selected, Part Developer automatically updates the symbol pin list whenever the package pin list is modified.</td></table>
+
+<ol type="1">
+  <li value="10"><p><a name="1042353"> </a>The <em>Keep Symbols Associated </em>check box is selected by default. To check that <code>my_pin</code> has been added to the symbol as well, select the symbol <em>sym_1</em>.</p>
+<dl>
+<p>
+  <a name="1042357"> </a>The symbol gets loaded in the Symbol Viewer. Notice that the pin appears in the top-left corner of the symbol outline.</p>
+
+
+<p>
+  <a name="1042361"> </a><img src="images/sym_1_after_my_pin.gif">
+</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1042180"> </a>Adding Properties to a Package</h2>
+
+
+<p>
+  <a name="1042381"> </a>Add the property <code>library_modified_date</code> with the value <code>? </code>to the MYPART package.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042372"> </a>Select the MYPART package.</p>
+  <li value="2"><p><a name="1042376"> </a>Click on the <em>General</em> tab.</p>
+<dl>
+<p>
+  <a name="1042377"> </a>The General page appears.</p>
+
+
+<p>
+  <a name="1042382"> </a><img src="images/mypart_pkg_gnrl.gif">
+</p>
+
+</dl>  <li value="3"><p><a name="1042396"> </a>Select the <code>BODY_NAME</code> property and press <code>Ctrl</code> + <code>I</code>.</p>
+<dl>
+<p>
+  <a name="1042400"> </a>A blank row gets created in the <em>Additional Properties</em> grid.</p>
+
+</dl>  <li value="4"><p><a name="1042404"> </a>Enter <code>LIBRARY_MODIFIED_DATE</code> in the <em>Name</em> column and <code>? </code>in the <em>Value</em> column.</p>
+  <li value="5"><p><a name="1042438"> </a>Save the part.</p>
+</ol>
+
+<br><br><br>
+<h2>
+  <a name="1042181"> </a>Deleting Pins from a Package</h2>
+
+
+<p>
+  <a name="1042456"> </a>Delete the pin <code>my_pin</code> from the <code>MYPART</code> package.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042459"> </a>Select the <em>MYPART</em> package.</p>
+  <li value="2"><p><a name="1042469"> </a>Right-click on the row in the <em>Logical Pins</em> grid that contains the pin <code>MY_PIN</code> and select <em>Delete Selected Rows</em>.</p>
+<dl>
+<p>
+  <a name="1042499"> </a>The pin is deleted from the package.</p>
+
+</dl></ol>
+
+  <a name="1043062"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>Because the <em>Keep Symbols Associated</em> option is selected, the pin will be automatically deleted from sym_1 as well.</td></table>
+
+<ol type="1">
+  <li value="3"><p><a name="1042503"> </a>Save the part.</p>
+<dl>
+<p>
+  <a name="1042685"> </a>On save, a warning is generated stating that pin MY_PIN is not present in any package or symbol. This is because when a pin is deleted from a package or symbol without using the <em>Global Delete</em> option or from the Add Pin dialog box, the pin is not deleted from the Part Developer database. It is stored so that it can be added to a package or symbol if required. To delete the pin completely:</p>
+
+</dl>  <ol type="a">
+    <li value="1"><p><a name="1042686"> </a>Open the Add Pin dialog box.</p>    <li value="2"><p><a name="1042687"> </a>Right-click on the pin and select <em>Delete Selected Rows.</em></p>    <li value="3"><p><a name="1043321"> </a>Click <em>OK</em>.</p>  </ol>
+</ol>
+
+<br><br><br>
+<h2>
+  <a name="1042182"> </a>Deleting Pins from All Packages and Symbols</h2>
+
+
+<p>
+  <a name="1042514"> </a>Delete the input pin A1 from all the packages and symbols.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042532"> </a>Select any package.</p>
+  <li value="2"><p><a name="1042540"> </a>Choose <em>Pins - Global Delete</em>.</p>
+<dl>
+<p>
+  <a name="1042541"> </a>The Delete Package Pin dialog box appears.</p>
+
+
+<p>
+  <a name="1042548"> </a><img src="images/delete_pkg_pin.gif">
+</p>
+
+</dl>  <li value="3"><p><a name="1042559"> </a>Select the pin A1 and click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1042563"> </a>Pin A1 is deleted from all the packages and symbols.</p>
+
+</dl>  <li value="4"><p><a name="1042567"> </a>Save the part.</p>
+</ol>
+
+  <a name="1042571"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>There is no undo action available for pin deletion operations done using the <em>Delete Package Pin</em> option. Pins deleted using the <em>Delete Package Pin</em> option are deleted from all packages and symbols.</td></table>
+
+
+<br><br><br>
+<h2>
+  <a name="1042476"> </a>Modifying Pin Types</h2>
+
+
+<p>
+  <a name="1042578"> </a>Modify the input pins in the MYPART package to BIDIR pins.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042579"> </a>Select the package <em>MYPART</em>.</p>
+  <li value="2"><p><a name="1042583"> </a>Select the input pins A2, A3, and A4 in the <em>Logical Pins </em>grid.</p>
+  <li value="3"><p><a name="1042584"> </a>Right-click on the selection and choose <em>Modify Values </em>from the pop-up menu.</p>
+<dl>
+<p>
+  <a name="1042585"> </a>The Modify Values dialog box appears.</p>
+
+
+<p>
+  <a name="1042602"> </a><img src="images/modify_values.gif">
+</p>
+
+</dl>  <li value="4"><p><a name="1042595"> </a>Select <em>BIDIR</em> from the <em>Type</em> drop-down list.</p>
+  <li value="5"><p><a name="1042614"> </a>Click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1042615"> </a>The pin types are modified to BIDIR.</p>
+
+
+<p>
+  <a name="1042619"> </a><img src="images/after_modifications.gif">
+</p>
+
+</dl>  <li value="6"><p><a name="1042670"> </a>Save the part.</p>
+<dl>
+<p>
+  <a name="1042674"> </a>A warning message is generated stating that a list of specified pins have different pin types in different packages.</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1042474"> </a>Moving Logical Pins to Global Pins</h2>
+
+
+<p>
+  <a name="1042637"> </a>Move the <code>NC</code> pins in the MYPART package to the <em>Global Pins</em> grid.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042638"> </a>Select the MYPART package.</p>
+  <li value="2"><p><a name="1042705"> </a>Select all the <code>NC</code> pins in the <em>Logical Pins</em> grid.</p>
+  <li value="3"><p><a name="1042704"> </a>Choose <em>Move - Logical Pins to Global</em>.</p>
+<dl>
+<p>
+  <a name="1042709"> </a>The <code>NC</code> pins move to the <em>Global Pins</em> grid.</p>
+
+
+<p>
+  <a name="1042716"> </a><img src="images/logical_2_global_mypart.gif">
+</p>
+
+</dl></ol>
+
+  <a name="1042727"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>The <code>NC</code> pins, which appeared as bits of vector pins, are collapsed and placed as a single pin in the <em>Global Pins</em> grid. The <em>Mapping</em> column displays the physical pins that are mapped to the <code>NC</code> pins.</td></table>
+
+
+<br><br><br>
+<h2>
+  <a name="1042184"> </a>Moving Global Pins to Logical Pins</h2>
+
+
+<p>
+  <a name="1042748"> </a>Move the <code>NC</code> pins in the MYPART package to the <em>Logical Pins</em> grid.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042749"> </a>Select the MYPART package.</p>
+  <li value="2"><p><a name="1042750"> </a>Select the <code>NC</code> pins in the <em>Global Pins</em> grid.</p>
+  <li value="3"><p><a name="1042751"> </a>Choose <em>Move - Global Pins to Logical</em>.</p>
+<dl>
+<p>
+  <a name="1042770"> </a>The <code>NC</code> pins move to the <em>Logical Pins</em> grid.</p>
+
+
+<p>
+  <a name="1042774"> </a><img src="images/global_2_logical.gif">
+</p>
+
+</dl></ol>
+
+  <a name="1042775"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>The <code>NC</code> pins, which appeared as a single pin in the <em>Global Pins</em> grid, appear as bits of a vector pin in the <em>Logical Pins</em> grid.</td></table>
+
+
+<br><br><br>
+<h2>
+  <a name="1042186"> </a>Adding Package Pin Properties</h2>
+
+
+<p>
+  <a name="1042800"> </a>Add the package pin property <code>my_pin_property</code> with value <code>val</code> <code>1</code> to the pins A2 and A3 of the MYPART package.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042801"> </a>Select the package MYPART.</p>
+  <li value="2"><p><a name="1042805"> </a>Choose <em>Properties - Add</em>.</p>
+<dl>
+<p>
+  <a name="1042806"> </a>The Add Properties dialog box appears.</p>
+
+
+<p>
+  <a name="1042813"> </a><img src="images/add_properties.gif">
+</p>
+
+</dl>  <li value="3"><p><a name="1042824"> </a>To specify the properties, enter <code>my_pin_property</code> in the <em>Name</em> column and <code>val1</code> in the <em>Value</em> column.</p>
+  <li value="4"><p><a name="1042856"> </a>Click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1042857"> </a>By default, the property gets added to all the pins. To remove the property from a specific pin, you need to delete the value of the property for that pin.</p>
+
+</dl>  <li value="5"><p><a name="1042864"> </a>To hide the unnecessary columns, right-click anywhere in the <em>Logical Pins</em> grid and select <em>Hide Load Cols</em>.</p>
+<dl>
+<p>
+  <a name="1042868"> </a>The columns are hidden.</p>
+
+
+<p>
+  <a name="1042880"> </a><img src="images/hidden_cols.gif">
+</p>
+
+</dl>  <li value="6"><p><a name="1042892"> </a>To delete the pin property from pins A4 to NC&lt;4&gt;, delete the property values.</p>
+<dl>
+<p>
+  <a name="1042896"> </a>After the property values are deleted, the <em>Logical Pins</em> grid should appear as follows:</p>
+
+
+<p>
+  <a name="1042900"> </a><img src="images/after_deletion_pkg_pin_prop.gif">
+</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1042187"> </a>Specifying Pin Swappability</h2>
+
+
+<p>
+  <a name="1042911"> </a>Pin swappability is determined by the <code>PIN_GROUP</code> pin property. The pins that have the same values for this property are considered swappable.</p>
+
+
+<p>
+  <a name="1042913"> </a>Make the pins A2 and A4 of the MYPART package swappable.</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1042914"> </a>Select the MYPART package.</p>
+  <li value="2"><p><a name="1042918"> </a>Choose <em>Properties - Add.</em></p>
+<dl>
+<p>
+  <a name="1042924"> </a>The Add Properties dialog box appears.</p>
+
+
+<p>
+  <a name="1042928"> </a><img src="images/add_properties.gif">
+</p>
+
+</dl>  <li value="3"><p><a name="1042929"> </a>Select <em>PIN_GROUP</em> from the <em>Name</em> drop-down list.</p>
+  <li value="4"><p><a name="1042930"> </a>Click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1042931"> </a>By default, the property gets added to all the pins.</p>
+
+</dl>  <li value="5"><p><a name="1042932"> </a>To hide the unnecessary columns, right-click anywhere in <em>Logical Pins</em> grid and select <em>Hide Load Cols</em>.</p>
+<dl>
+<p>
+  <a name="1042933"> </a>The columns are hidden.</p>
+
+
+<p>
+  <a name="1042959"> </a><img src="images/pin_swap.gif">
+</p>
+
+</dl>  <li value="6"><p><a name="1042919"> </a>To make pins A2 and A4 swappable, assign the value <code>1</code> for the <code>PIN_GROUP</code> property for pins A2 and A4.</p>
+<dl>
+<p>
+  <a name="1042970"> </a>The <em>Logical Pins</em> grid should appear as follows:</p>
+
+
+<p>
+  <a name="1042974"> </a><img src="images/after_pin_group.gif">
+</p>
+
+</dl>  <li value="7"><p><a name="1042912"> </a>Save the part.</p>
+</ol>
+
+<br><br><br>
+<h2>
+  <a name="1042158"> </a>Summary</h2>
+
+
+<p>
+  <a name="1043011"> </a>In this chapter, you learned how to modify packages.</p>
+
+
+  
+
+</blockquote>
+
+<br>
+<a href="#pagetop">Return to top of page</a>
+<hr>
+<p>
+<!-- Begin Buttons -->
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="creating_sizeable_symbols.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="modifying_symbols.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><a href="/search.htm"><img src="../support/nav2_search.gif" border="0"  alt="Search Cadence Library" height="20" width="61"></a></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+</table>
+<!-- End Buttons -->
+<p>
+<p>
+
+
+<!-- NOTES; -->
+
+<!-- /address -->
+<p>
+<br>
+<font size="-1">
+For support, see <a href=http://www.cadence.com/support>http://www.cadence.com/support</a>
+or try Cadence's <a href=http://sourcelink.cadence.com target=_blank>SourceLink</a> service.
+<br><br>
+<i>Copyright &#169; 2008, <a href=http://www.cadence.com>Cadence Design Systems, Inc.</a></i> 
+<br>
+All rights reserved.
+<br>
+<a href="titlecopy.html">Legal notices and trademark attributions</a>
+<br>
+<!-- This file was created with Quadralay WebWorks Publisher AutoMap 6.0.7 -->
+<!-- -->
+<!-- Last updated: Fri Sep 26 14:43:42 2008 -->
+</font>
+</body>
+</html>
+
+

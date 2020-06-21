@@ -1,0 +1,13 @@
+#This is the Layer Conversion File used for
+#importing DXF data into Allegro/APD.
+
+#CLASS!            SUBCLASS!                 DXF_LAYER!
+
+BOARD GEOMETRY!
+                   SOLDERMASK_TOP!           TITLE!
+                   SOLDERMASK_TOP!           PARTTEXT!
+                   SOLDERMASK_TOP!           PARTS!
+                   SOLDERMASK_TOP!           WIRE!
+                   SOLDERMASK_TOP!           COMMENTS!
+
+#END

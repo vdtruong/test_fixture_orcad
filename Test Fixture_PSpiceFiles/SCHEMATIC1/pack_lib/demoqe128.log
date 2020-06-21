@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : DEMOQE128.dra                                 )
+(    Software Version : 16.3p003                                      )
+(    Date/Time        : Sat Apr 29 03:22:00 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/Projects/Test Fixture-PSpiceFiles/SCHEMATIC1/pack_lib
+    Name      = demoqe128.psm
+    User      = Van
+    Machine   = COMPUTERROOM
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

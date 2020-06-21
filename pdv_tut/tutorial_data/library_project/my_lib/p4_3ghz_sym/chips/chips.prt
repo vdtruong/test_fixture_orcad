@@ -1,0 +1,1322 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'P4_3GHZ_SYM';
+  pin
+    '-A10':
+      PIN_NUMBER='(M3,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A11':
+      PIN_NUMBER='(M4,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A12':
+      PIN_NUMBER='(N1,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A13':
+      PIN_NUMBER='(M1,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A14':
+      PIN_NUMBER='(N2,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A15':
+      PIN_NUMBER='(N4,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A16':
+      PIN_NUMBER='(N5,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A17':
+      PIN_NUMBER='(T1,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A18':
+      PIN_NUMBER='(R2,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A19':
+      PIN_NUMBER='(P3,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A20':
+      PIN_NUMBER='(P4,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A20M':
+      PIN_NUMBER='(C6,0,0,0,0,0)';
+      SIGNAL_DESCRIPTION='ASYNCH GTL+';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-A21':
+      PIN_NUMBER='(R3,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A22':
+      PIN_NUMBER='(T2,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A23':
+      PIN_NUMBER='(U1,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A24':
+      PIN_NUMBER='(P6,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A25':
+      PIN_NUMBER='(U3,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A26':
+      PIN_NUMBER='(T4,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A27':
+      PIN_NUMBER='(V2,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A28':
+      PIN_NUMBER='(R6,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A29':
+      PIN_NUMBER='(W1,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A3':
+      PIN_NUMBER='(K2,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A30':
+      PIN_NUMBER='(T5,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A31':
+      PIN_NUMBER='(U4,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A32':
+      PIN_NUMBER='(V3,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A33':
+      PIN_NUMBER='(W2,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A34':
+      PIN_NUMBER='(Y1,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A35':
+      PIN_NUMBER='(AB1,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A4':
+      PIN_NUMBER='(K4,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A5':
+      PIN_NUMBER='(L6,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A6':
+      PIN_NUMBER='(K1,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A7':
+      PIN_NUMBER='(L3,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A8':
+      PIN_NUMBER='(M6,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-A9':
+      PIN_NUMBER='(L2,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-ADS':
+      PIN_NUMBER='(G1,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-ADSTB0':
+      PIN_NUMBER='(L5,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-ADSTB1':
+      PIN_NUMBER='(R5,0,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'BCLK0':
+      PIN_NUMBER='(0,AF22,0,0,0,0)';
+      SIGNAL_DESCRIPTION='BUS CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'BCLK1':
+      PIN_NUMBER='(0,AF23,0,0,0,0)';
+      SIGNAL_DESCRIPTION='BUS CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'BPM'<1>:
+      PIN_NUMBER='(0,AC6,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'BPM'<2>:
+      PIN_NUMBER='(0,AB5,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'BPM'<3>:
+      PIN_NUMBER='(0,AC4,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'BPM'<4>:
+      PIN_NUMBER='(0,Y6,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'BPM'<5>:
+      PIN_NUMBER='(0,AA5,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'BPM'<6>:
+      PIN_NUMBER='(0,AB4,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'BSEL0':
+      PIN_NUMBER='(0,AD6,0,0,0,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'BSEL1':
+      PIN_NUMBER='(0,AD5,0,0,0,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'COMP0':
+      PIN_NUMBER='(0,L24,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-AP0':
+      PIN_NUMBER='(0,AC1,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-AP1':
+      PIN_NUMBER='(0,V5,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-BINIT':
+      PIN_NUMBER='(0,AA3,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-BNR':
+      PIN_NUMBER='(0,G2,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-BPRI':
+      PIN_NUMBER='(0,D2,0,0,0,0)';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-BR0':
+      PIN_NUMBER='(0,H6,0,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'COMP1':
+      PIN_NUMBER='(0,0,P1,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D0':
+      PIN_NUMBER='(0,0,B21,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D1':
+      PIN_NUMBER='(0,0,B22,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D10':
+      PIN_NUMBER='(0,0,G22,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D11':
+      PIN_NUMBER='(0,0,H21,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D12':
+      PIN_NUMBER='(0,0,C26,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D13':
+      PIN_NUMBER='(0,0,D23,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D14':
+      PIN_NUMBER='(0,0,J21,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D15':
+      PIN_NUMBER='(0,0,D25,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D16':
+      PIN_NUMBER='(0,0,H22,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D17':
+      PIN_NUMBER='(0,0,E24,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D18':
+      PIN_NUMBER='(0,0,G23,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D19':
+      PIN_NUMBER='(0,0,F23,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D2':
+      PIN_NUMBER='(0,0,A23,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D20':
+      PIN_NUMBER='(0,0,F24,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D21':
+      PIN_NUMBER='(0,0,E25,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D22':
+      PIN_NUMBER='(0,0,F26,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D23':
+      PIN_NUMBER='(0,0,D26,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D24':
+      PIN_NUMBER='(0,0,L21,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D25':
+      PIN_NUMBER='(0,0,G26,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D26':
+      PIN_NUMBER='(0,0,H24,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D27':
+      PIN_NUMBER='(0,0,M21,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D28':
+      PIN_NUMBER='(0,0,L22,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D29':
+      PIN_NUMBER='(0,0,J24,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D3':
+      PIN_NUMBER='(0,0,A25,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D30':
+      PIN_NUMBER='(0,0,K23,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D31':
+      PIN_NUMBER='(0,0,H25,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D32':
+      PIN_NUMBER='(0,0,M23,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D33':
+      PIN_NUMBER='(0,0,N22,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D34':
+      PIN_NUMBER='(0,0,P21,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D35':
+      PIN_NUMBER='(0,0,M24,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D36':
+      PIN_NUMBER='(0,0,N23,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D37':
+      PIN_NUMBER='(0,0,M26,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D38':
+      PIN_NUMBER='(0,0,N26,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D39':
+      PIN_NUMBER='(0,0,N25,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D4':
+      PIN_NUMBER='(0,0,C21,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D40':
+      PIN_NUMBER='(0,0,R21,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D41':
+      PIN_NUMBER='(0,0,P24,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D42':
+      PIN_NUMBER='(0,0,R25,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D43':
+      PIN_NUMBER='(0,0,R24,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D44':
+      PIN_NUMBER='(0,0,T26,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D45':
+      PIN_NUMBER='(0,0,T25,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D46':
+      PIN_NUMBER='(0,0,T22,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D47':
+      PIN_NUMBER='(0,0,T23,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D48':
+      PIN_NUMBER='(0,0,U26,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D49':
+      PIN_NUMBER='(0,0,U24,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D5':
+      PIN_NUMBER='(0,0,D22,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D50':
+      PIN_NUMBER='(0,0,U23,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D51':
+      PIN_NUMBER='(0,0,V25,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D52':
+      PIN_NUMBER='(0,0,U21,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D53':
+      PIN_NUMBER='(0,0,V22,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D54':
+      PIN_NUMBER='(0,0,V24,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D55':
+      PIN_NUMBER='(0,0,W26,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D56':
+      PIN_NUMBER='(0,0,Y26,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D57':
+      PIN_NUMBER='(0,0,W25,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D58':
+      PIN_NUMBER='(0,0,Y23,0,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'GTLREF0':
+      PIN_NUMBER='(0,0,0,AA21,0,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'GTLREF1':
+      PIN_NUMBER='(0,0,0,AA6,0,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'GTLREF2':
+      PIN_NUMBER='(0,0,0,F20,0,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'GTLREF3':
+      PIN_NUMBER='(0,0,0,F6,0,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'ITP_CLK0':
+      PIN_NUMBER='(0,0,0,AC26,0,0)';
+      SIGNAL_DESCRIPTION='TAP';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'ITP_CLK1':
+      PIN_NUMBER='(0,0,0,AD26,0,0)';
+      SIGNAL_DESCRIPTION='TAP';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'ITPCLKOUT0':
+      PIN_NUMBER='(0,0,0,AA20,0,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'ITPCLKOUT1':
+      PIN_NUMBER='(0,0,0,AB22,0,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'LINT0':
+      PIN_NUMBER='(0,0,0,D1,0,0)';
+      SIGNAL_DESCRIPTION='ASYNCH GTL+';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'LINT1':
+      PIN_NUMBER='(0,0,0,E5,0,0)';
+      SIGNAL_DESCRIPTION='ASYNCH GTL+';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'P100':
+      PIN_NUMBER='(0,0,0,P100,0,0)';
+      SIGNAL_DESCRIPTION='ASYNCH GTL+';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-D59':
+      PIN_NUMBER='(0,0,0,Y24,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D6':
+      PIN_NUMBER='(0,0,0,B24,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D60':
+      PIN_NUMBER='(0,0,0,Y21,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D61':
+      PIN_NUMBER='(0,0,0,AA25,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D62':
+      PIN_NUMBER='(0,0,0,AA22,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D63':
+      PIN_NUMBER='(0,0,0,AA24,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D7':
+      PIN_NUMBER='(0,0,0,C23,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D8':
+      PIN_NUMBER='(0,0,0,C24,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-D9':
+      PIN_NUMBER='(0,0,0,B25,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DBI0':
+      PIN_NUMBER='(0,0,0,E21,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DBI1':
+      PIN_NUMBER='(0,0,0,G25,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DBI2':
+      PIN_NUMBER='(0,0,0,P26,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DBI3':
+      PIN_NUMBER='(0,0,0,V21,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DBR':
+      PIN_NUMBER='(0,0,0,AE25,0,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DBSY':
+      PIN_NUMBER='(0,0,0,H5,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DEFER':
+      PIN_NUMBER='(0,0,0,E2,0,0)';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-DP0':
+      PIN_NUMBER='(0,0,0,J26,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DP1':
+      PIN_NUMBER='(0,0,0,K25,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DP2':
+      PIN_NUMBER='(0,0,0,K26,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DP3':
+      PIN_NUMBER='(0,0,0,L25,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DRDY':
+      PIN_NUMBER='(0,0,0,H2,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DSTBN0':
+      PIN_NUMBER='(0,0,0,E22,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DSTBN1':
+      PIN_NUMBER='(0,0,0,K22,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DSTBN2':
+      PIN_NUMBER='(0,0,0,R22,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DSTBN3':
+      PIN_NUMBER='(0,0,0,W22,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DSTBP0':
+      PIN_NUMBER='(0,0,0,F21,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DSTBP1':
+      PIN_NUMBER='(0,0,0,J23,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DSTBP2':
+      PIN_NUMBER='(0,0,0,P23,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-DSTBP3':
+      PIN_NUMBER='(0,0,0,W23,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-FERR':
+      PIN_NUMBER='(0,0,0,B6,0,0)';
+      SIGNAL_DESCRIPTION='ASYNCH AGL+';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-HIT':
+      PIN_NUMBER='(0,0,0,F3,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-HITM':
+      PIN_NUMBER='(0,0,0,E3,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-IERR':
+      PIN_NUMBER='(0,0,0,AC3,0,0)';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-IGNNE':
+      PIN_NUMBER='(0,0,0,B2,0,0)';
+      SIGNAL_DESCRIPTION='ASYNCH GTL+';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-INIT':
+      PIN_NUMBER='(0,0,0,W5,0,0)';
+      SIGNAL_DESCRIPTION='ASYNCH GTL+';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-LOCK':
+      PIN_NUMBER='(0,0,0,G4,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-MCERR':
+      PIN_NUMBER='(0,0,0,V6,0,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'PWRGOOD':
+      PIN_NUMBER='(0,0,0,0,AB23,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TCK':
+      PIN_NUMBER='(0,0,0,0,D4,0)';
+      SIGNAL_DESCRIPTION='TAP';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TDI':
+      PIN_NUMBER='(0,0,0,0,C1,0)';
+      SIGNAL_DESCRIPTION='TAP';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TDO':
+      PIN_NUMBER='(0,0,0,0,D5,0)';
+      SIGNAL_DESCRIPTION='TAP';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'TESTHI0':
+      PIN_NUMBER='(0,0,0,0,AD24,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TESTHI1':
+      PIN_NUMBER='(0,0,0,0,AA2,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TESTHI10':
+      PIN_NUMBER='(0,0,0,0,Y3,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TESTHI11':
+      PIN_NUMBER='(0,0,0,0,A6,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TESTHI12':
+      PIN_NUMBER='(0,0,0,0,AD25,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TESTHI2':
+      PIN_NUMBER='(0,0,0,0,AC21,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TESTHI3':
+      PIN_NUMBER='(0,0,0,0,AC20,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TESTHI4':
+      PIN_NUMBER='(0,0,0,0,AC24,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TESTHI5':
+      PIN_NUMBER='(0,0,0,0,AC23,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TESTHI8':
+      PIN_NUMBER='(0,0,0,0,U6,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TESTHI9':
+      PIN_NUMBER='(0,0,0,0,W4,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-PROCHOT':
+      PIN_NUMBER='(0,0,0,0,C3,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='ASYNCH GTL+';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-REQ0':
+      PIN_NUMBER='(0,0,0,0,J1,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-REQ1':
+      PIN_NUMBER='(0,0,0,0,K5,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-REQ2':
+      PIN_NUMBER='(0,0,0,0,J4,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-REQ3':
+      PIN_NUMBER='(0,0,0,0,J3,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-REQ4':
+      PIN_NUMBER='(0,0,0,0,H3,0)';
+      BIDIRECTIONAL='TRUE';
+      SIGNAL_DESCRIPTION='SOURCE SYNCH';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-RESET':
+      PIN_NUMBER='(0,0,0,0,AB25,0)';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-RS0':
+      PIN_NUMBER='(0,0,0,0,F1,0)';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-RS1':
+      PIN_NUMBER='(0,0,0,0,G5,0)';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-RS2':
+      PIN_NUMBER='(0,0,0,0,F4,0)';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-RSP':
+      PIN_NUMBER='(0,0,0,0,AB2,0)';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-SKTOCC':
+      PIN_NUMBER='(0,0,0,0,AF26,0)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-SLP':
+      PIN_NUMBER='(0,0,0,0,AB26,0)';
+      SIGNAL_DESCRIPTION='ASYNCH GTL+';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-SMI':
+      PIN_NUMBER='(0,0,0,0,B5,0)';
+      SIGNAL_DESCRIPTION='ASYNCH GTL+';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-STPCLK':
+      PIN_NUMBER='(0,0,0,0,Y4,0)';
+      SIGNAL_DESCRIPTION='ASYNCH GTL+';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'TMS':
+      PIN_NUMBER='(0,0,0,0,0,F7)';
+      SIGNAL_DESCRIPTION='TAP';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'VCCSENSE':
+      PIN_NUMBER='(0,0,0,0,0,A5)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'VCCVID':
+      PIN_NUMBER='(0,0,0,0,0,AF4)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    'VID0':
+      PIN_NUMBER='(0,0,0,0,0,AE5)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'VID1':
+      PIN_NUMBER='(0,0,0,0,0,AE4)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'VID2':
+      PIN_NUMBER='(0,0,0,0,0,AE3)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'VID3':
+      PIN_NUMBER='(0,0,0,0,0,AE2)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'VID4':
+      PIN_NUMBER='(0,0,0,0,0,AE1)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    'VSSSENSE':
+      PIN_NUMBER='(0,0,0,0,0,A4)';
+      SIGNAL_DESCRIPTION='POWER/OTHER';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-THERMTRIP':
+      PIN_NUMBER='(0,0,0,0,0,A2)';
+      SIGNAL_DESCRIPTION='ASYNCH GTL+';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PIN_DELAY='0.002 ns';
+    '-TRDY':
+      PIN_NUMBER='(0,0,0,0,0,J6)';
+      SIGNAL_DESCRIPTION='COMMON CLOCK';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+    '-TRST':
+      PIN_NUMBER='(0,0,0,0,0,E6)';
+      SIGNAL_DESCRIPTION='TAP';
+      INPUT_LOAD='(-0.01,0.01)';
+      PIN_DELAY='0.002 ns';
+  end_pin;
+  body
+    BODY_NAME='P4_3GHZ_SYM';
+    PART_NAME='p4_3ghz_sym';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+    POWER_PINS='(THERMDA:B3)';
+    POWER_PINS='(THERMDC:C4)';
+    POWER_PINS='(VCCA:AD20)';
+    POWER_PINS='(VCCIOPLL:AE23)';
+    POWER_PINS='(VSSA:AD22)';
+    POWER_PINS='(VCC_1:A10,A12,A14,A16,A18,A20,A8,AA10,AA12,AA14,AA16,AA18,AA8)';
+    POWER_PINS='(VCC_1:AB11,AB13,AB15,AB17,AB19,AB7,AB9,AC10,AC12,AC14,AC16)';
+    POWER_PINS='(VCC_1:AC18,AC8,AD11,AD13,AD15,AD17,AD19,AD7,AD9,AE10,AE12,AE14)';
+    POWER_PINS='(VCC_1:AE16,AE18,AE20,AE6,AE8,AF11,AF13,AF15,AF17,AF19,AF2,AF21)';
+    POWER_PINS='(VCC_1:AF5,AF7,AF9,B11,B13,B15,B17,B19,B7,B9,C10,C12,C14,C16)';
+    POWER_PINS='(VCC_1:C18,C20,C8,D11,D13,D15,D17,D19,D7,D9,E10,E12,E14,E16)';
+    POWER_PINS='(VCC_1:E18,E20,E8,F11,F13,F15,F17,F19,F9)';
+    POWER_PINS='(VSS_1:D10,A11,A13,A15,A17,A19,A21,A24,A26,A3,A9,AA1,AA11,AA13)';
+    POWER_PINS='(VSS_1:AA15,AA17,AA19,AA23,AA26,AA4,AA7,AA9,AB10,AB12,AB14,AB16)';
+    POWER_PINS='(VSS_1:AB18,AB20,AB21,AB24,AB3,AB6,AB8,AC11,AC13,AC15,AC17,AC19)';
+    POWER_PINS='(VSS_1:AC2,AC22,AC25,AC5,AC7,AC9,AD1,AD10,AD12,AD14,AD16,AD18)';
+    POWER_PINS='(VSS_1:AD21,AD23,AD4,AD8,AE11,AE13,AE15,AE17,AE19,AE22,AE24)';
+    POWER_PINS='(VSS_1:AE26,AE7,AE9,AF1,AF10,AF12,AF14,AF16,AF18,AF20,AF6,AF8)';
+    POWER_PINS='(VSS_1:B10,B12,B14,B16,B18,B20,B23,B26,B4,B8,C11,C13,C15,C17)';
+    POWER_PINS='(VSS_1:C19,C2,C22,C25,C5,C7,C9,D12,D14,D16,D18,D20,D21,D24,D3)';
+    POWER_PINS='(VSS_1:D6,D8,E1,E11,E13,E15,E17,E19,E23,E26,E4,E7,E9,F10,F12)';
+    POWER_PINS='(VSS_1:F14,F16,F18,F2,F22,F25,F5,F8,G21,G24,G3,G6,H1,H23,H26)';
+    POWER_PINS='(VSS_1:H4,J2,J22,J25,J5,K21,K24,K3,K6,L1,L23,L26,L4,M2,M22,M25)';
+    POWER_PINS='(VSS_1:M5,N21,N24,N3,N6,P2,P22,P25,P5,R1,R23,R26,R4,T21,T24)';
+    POWER_PINS='(VSS_1:T3,T6,U2,U22,U25,U5,V1,V23,V26,V4,W21,W24,W3,W6,Y2,Y22)';
+    POWER_PINS='(VSS_1:Y25,Y5)';
+    NC_PINS='(A22,A7,AD2,AD3,AE21,AF3,AF24,AF25)';
+  end_body;
+end_primitive;
+
+END.

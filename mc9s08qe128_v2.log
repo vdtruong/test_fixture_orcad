@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : mc9s08qe128_v2.dra                            )
+(    Software Version : 16.3p003                                      )
+(    Date/Time        : Thu Oct 26 00:12:05 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/Projects
+    Name      = mc9s08qe128_v2.psm
+    User      = Owner
+    Machine   = SECOND_XP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,24 @@
+A!NET_NAME!NET_LOGICAL_PATH!NET_SHIELD_NET!NET_RELATIVE_PROPAGATION_DELAY!NET_NO_PIN_ESCAPE!NET_VOLTAGE_LAYER!NET_VOLTAGE!NET_RATSNEST_SCHEDULE!NET_CLOCK_NET!NET_ASSIGN_TOPOLOGY!NET_NET_PHYSICAL_TYPE!NET_MAX_FINAL_SETTLE!NET_NO_TEST!NET_MAX_EXPOSED_LENGTH!NET_ELECTRICAL_CONSTRAINT_SET!NET_FSP_BUS_INDEX!NET_STUB_LENGTH!NET_SHIELD_TYPE!NET_NO_RAT!NET_PROPAGATION_DELAY!NET_NO_RIPUP!NET_MIN_HOLD!NET_DIFFERENTIAL_PAIR!NET_MIN_SETUP!NET_MIN_NECK_WIDTH!NET_BUS_NAME!NET_FSP_NET!NET_MIN_NOISE_MARGIN!NET_MATCHED_DELAY!NET_ECL!NET_DIFFP_LENGTH_TOL!NET_DIFFP_2ND_LENGTH!NET_SUBNET_NAME!NET_MIN_BOND_LENGTH!NET_MAX_OVERSHOOT!NET_TS_ALLOWED!NET_MAX_VIA_COUNT!NET_EMC_CRITICAL_NET!NET_PROBE_NUMBER!NET_NO_ROUTE!NET_MIN_LINE_WIDTH!NET_ECL_TEMP!NET_NO_GLOSS!NET_ROUTE_PRIORITY!NET_NET_SPACING_TYPE!NET_IMPEDANCE_RULE!
+J!C:/Cadence/Projects/Tutorial/allegro/full_add.brd!Sun Aug 13 14:49:47 2017!0.00!0.00!34000.00!22000.00!0.01!mils!FULL_ADD!10.400000 mil!2!UP TO DATE!
+S!N00380!@full_add.fulladd(sch_1):n00380!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N00368!@full_add.fulladd(sch_1):n00368!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N00364!@full_add.fulladd(sch_1):n00364!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N00235!@full_add.fulladd(sch_1):n00235!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N00210!@full_add.fulladd(sch_1):n00210!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N02351_HALFADD_A0!@full_add.fulladd(sch_1):n02351_halfadd_a0!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N02338_HALFADD_A0!@full_add.fulladd(sch_1):n02338_halfadd_a0!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N02216_HALFADD_A0!@full_add.fulladd(sch_1):n02216_halfadd_a0!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N02209_HALFADD_A0!@full_add.fulladd(sch_1):n02209_halfadd_a0!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N02351_HALFADD_A1!@full_add.fulladd(sch_1):n02351_halfadd_a1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N02338_HALFADD_A1!@full_add.fulladd(sch_1):n02338_halfadd_a1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N02216_HALFADD_A1!@full_add.fulladd(sch_1):n02216_halfadd_a1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N02209_HALFADD_A1!@full_add.fulladd(sch_1):n02209_halfadd_a1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N00579!@full_add.fulladd(sch_1):n00579!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!0!@full_add.fulladd(sch_1):\0\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N00532!@full_add.fulladd(sch_1):n00532!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N00528!@full_add.fulladd(sch_1):n00528!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N00524!@full_add.fulladd(sch_1):n00524!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!CARRY_OUT!@full_add.fulladd(sch_1):carry_out!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N00424!@full_add.fulladd(sch_1):n00424!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!VCC!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!GND!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

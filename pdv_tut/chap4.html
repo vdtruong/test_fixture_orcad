@@ -1,0 +1,416 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+<meta name="GENERATOR" content="Quadralay WebWorks Publisher AutoMap 6.0.7">
+<meta name="TEMPLATEBASE" content="CadencePubs_HelpTopics">
+<meta name="LASTUPDATED" content="Fri Sep 26 14:43:33 2008">
+
+<script TYPE="text/javascript" LANGUAGE="JavaScript" >
+  <!--
+  // Dummy script statement to get rid of Netscape timing errors which may
+  // print garbage JavaScript code at the top in Unix 4.x Netscape browser.
+  // -->
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Browser.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Cookies.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Search.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript">
+  <!--
+  function window_resized(){
+    window.location.reload();
+  }
+  window.onresize=window_resized;
+                                                                                                                                                                
+  /*
+  * Initializes before submitting query
+  */
+  function initOnSubmit() {
+    storeStateAndQuery();
+  }
+                                                                                                                                                                
+  setCookie("DocumentTitle", "Part Developer Tutorial");
+  setCookie("Chapter", "N/A");
+  setCookie("Keyword", "search");
+  setCookie("Version", "Product Version 2.2");
+
+  // -->
+  </script>
+
+
+<title>Part Developer Tutorial -- 5. Creating Split Parts</title>
+<META NAME="Approver" CONTENT="Technical Publications">
+<META NAME="Author" CONTENT="Technical Publications">
+<META NAME="CreateDate" CONTENT="2008-09-26">
+<META NAME="CreateTime" CONTENT="1222420432">
+<META NAME="DataType" CONTENT="Manuals">
+<META NAME="Description" CONTENT="Describes key library-creation tasks in Part Developer">
+<META NAME="DocTitle" CONTENT="Part Developer Tutorial">
+<META NAME="DocType" CONTENT="Manual">
+<META NAME="FileTitle" CONTENT="5. Creating Split Parts">
+<META NAME="FileType" CONTENT="Chapter">
+<META NAME="Keyword" CONTENT="pdv_tut">
+<META NAME="Language" CONTENT="English">
+<META NAME="ModifiedDate" CONTENT="2008-09-26">
+<META NAME="ModifiedTime" CONTENT="1222420432">
+<META NAME="NextFile" CONTENT="creating_parts_from_PDF.html">
+<META NAME="PageCount" CONTENT="9">
+<META NAME="Platform" CONTENT="ALL">
+<META NAME="PrevFile" CONTENT="chap3.html">
+<META NAME="Product" CONTENT="Concept, PCB Design Infrastructure, TDD">
+<META NAME="ProductFamily" CONTENT="PCB Design, PCB Design, PCB Design">
+<META NAME="ProductVersion" CONTENT="16.2">
+<META NAME="RightsManagement" CONTENT="Copyright 1998-2008 Cadence Design Systems Inc.">
+<META NAME="Title" CONTENT="Part Developer Tutorial -- 5. Creating Split Parts">
+<META NAME="TopicTags" CONTENT="FALSE">
+<META NAME="Version" CONTENT="16.2">
+</head>
+
+<body bgcolor="#ffffff">
+<a name="firstpage"></a>
+<a name="pagetop"></a>
+
+<p>
+<!-- Begin Buttons -->
+
+<form name="advancedform" action="/vtopic.isapi" method="GET" onSubmit="initOnSubmit()">
+<input type=hidden name="action" value="FilterSearch">
+<input type=hidden name="Filter" value="altsearchfilter.hts">
+<input type=hidden name="resulttemplate" value="altsearchresults.hts">
+<input type=hidden name="resultcount" value="10">
+<input type=hidden name="resultmaxdocs" value="-1">
+<input type=hidden name="queryhidden" value="null">
+<input type=hidden name="queryitemselected" value="no">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="36" width="650" colspan="10"><img src="../support/header_doc.gif" WIDTH="650" HEIGHT="36"></td>
+</tr>
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="chap3.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="creating_parts_from_PDF.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><img src="../support/nav2_black.gif" height="20" width="61"></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+ <tr>
+    <td colspan="10">
+      <script type="text/javascript">
+      <!--// We wrap all this inside javascript because we only want to display  -->
+      <!--// the search bar if the http server is running. If it is not running  -->
+      <!--// the search bar should not be visible to the user                    -->
+      <!-- BEGIN SEARCH BAR -->
+      var isloaded = isLoaded();
+      var enteredquery = getCookie("enteredquery");
+      if(enteredquery) {
+        enteredquery = enteredquery.replace(/</g,"&lt ");
+        enteredquery = enteredquery.replace(/>/g,"&gt ");
+      } else {
+         enteredquery = "";
+      }
+                                                                                                                                                                
+      <!-- Only display search bar if server is running -->
+      if(isloaded) {
+                                                                                                                                                                
+        display_search_bar(enteredquery);
+                                                                                                                                                                
+      }
+      <!-- END SEARCH BAR -->
+      </script>
+    </td>
+  </tr>
+</table>
+</form>
+
+<!-- End Buttons -->
+<p>
+<p>
+<hr>
+<p>
+<h3><center>Part Developer Tutorial&#0044; Product Version 16.2</center></h3><br>
+<p>
+
+
+<blockquote>
+
+  
+<div align="right">
+<h1 align="left">
+  <a name="1032139"> </a>5</h1>
+</div>
+
+<hr>
+<h1>
+  <a name="1032140"> </a>Creating Split Parts</h1>
+
+
+
+
+
+
+<br><br><br>
+<h2>
+  <a name="1032719"> </a>Objective</h2>
+
+
+<p>
+  <a name="1032738"> </a>To become familiar with the steps in creating split parts.</p>
+
+
+<p>
+  <a name="1032747"> </a>In this chapter, you will learn:</p>
+
+<ul>
+  <a name="1032781"></a><li><p>About the methodology for creating split parts</p>
+
+  <a name="1035091"></a><li><p>How to create a split part by adding multiple slots</p>
+
+  <a name="1035086"></a><li><p>How to create symbols for each slot</p>
+</ul>
+<br><br><br>
+<h2>
+  <a name="1032789"> </a>Overview</h2>
+
+
+<p>
+  <a name="1035093"> </a>Parts are typically split for reasons such as:</p>
+
+<ul>
+  <a name="1035094"></a><li><p> To reflect the way part functionality is used in a schematic.</p>
+
+  <a name="1035067"></a><li><p>To display large pin-count parts better.</p>
+</ul>
+<br><br><br>
+<h2>
+  <a name="1035109"> </a>Methodology for Creating Split Parts</h2>
+
+
+<p>
+  <a name="1035121"> </a>The following methodology should be followed for creating split parts:</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1035485"> </a>Decide whether to use the SPLIT_INST and $LOCATION properties or the SPLIT_INST_NAME property for the split part.</p>
+  <li value="2"><p><a name="1035132"> </a>Create the package with a single slot.</p>
+  <li value="3"><p><a name="1035151"> </a>Do the logical-to-physical pin mapping for the first slot.</p>
+  <li value="4"><p><a name="1035122"> </a>Create the necessary slots.</p>
+  <li value="5"><p><a name="1035123"> </a>Distribute the pins across the slots.</p>
+</ol>
+
+<p>
+  <a name="1035124"> </a>The advantages of the above method are:</p>
+
+<ul>
+  <a name="1035125"></a><li><p>It is easy to do mappings for a single slot.</p>
+
+  <a name="1035126"></a><li><p>After distributing the pins, the slots that are left unmapped are automatically marked as -. This results in the pin number 0 getting added in <code>chips.prt</code> to the slots where the logical pin is not present.</p>
+</ul>
+<br><br>
+<h3>
+  <a name="1035172"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1035176"> </a>Split the <code>pentium4_3GHz _for_splitting</code> part in the <code>my_lib </code>library<code> </code>into four parts and create symbols for each part. Each slot should have 50 pins each.</p>
+
+
+<br><br>
+<h3>
+  <a name="1035177"> </a>Steps</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1035178"> </a>Open the <code>pentium4_3GHz _for_splitting </code>part from <code>my_lib</code>.</p>
+  <li value="2"><p><a name="1035189"> </a>Select the <em>PENTIUM4_3GHZ</em> package.</p>
+<dl>
+<p>
+  <a name="1035207"> </a>	 <img src="images/before_splitting.gif">
+</p>
+
+</dl>  <li value="3"><p><a name="1035215"> </a>Click <em>Functions/Slots</em>.</p>
+<dl>
+<p>
+  <a name="1035222"> </a>The Edit Functions dialog box appears.</p>
+
+
+<p>
+  <a name="1035226"> </a>	 <img src="images/edit_functions.gif">
+</p>
+
+</dl>  <li value="4"><p><a name="1035242"> </a>Enter <code>1</code> in the <em>SPLIT_INST_GROUP</em> field. The SPLIT_INST_GROUP property is used for split parts. The value enables Part Developer to determine which slots of a split part combine to form one logical group.</p>
+  <li value="5"><p><a name="1035257"> </a>To add more slots, click <em>Add</em>.</p>
+<dl>
+<p>
+  <a name="1035569"> </a>The Specify the number of slots dialog box appears.</p>
+
+</dl>  <li value="6"><p><a name="1035573"> </a>To create three more slots, type <code>3</code> in the <em>Slot Count</em> field and click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1035258"> </a>The four slots are created.</p>
+
+
+<p>
+  <a name="1035265"> </a>	 <img src="images/edit_functions_after_add.gif">
+</p>
+
+
+<p>
+  <a name="1035276"> </a>Next, you need to distribute the pins across the four slots.</p>
+
+</dl>  <li value="7"><p><a name="1035283"> </a>Click <em>Distribute Pins</em>.</p>
+<dl>
+<p>
+  <a name="1035287"> </a>The Distribute Pins dialog box appears.</p>
+
+
+<p>
+  <a name="1035298"> </a>	 <img src="images/distribute_pins.gif">
+</p>
+
+
+<p>
+  <a name="1035294"> </a>By default, all the 199 logical pins are present in the first slot. You need to distribute these pins across the four slots.</p>
+
+</dl>  <li value="8"><p><a name="1035308"> </a>Select the cells 51-100 under S1.</p>
+  <li value="9"><p><a name="1035316"> </a>Right-click on the selection and choose <em>Move To</em>.</p>
+<dl>
+<p>
+  <a name="1035317"> </a>The Move To Function dialog box appears. </p>
+
+
+<p>
+  <a name="1035328"> </a>	 <img src="images/move_2.gif">
+</p>
+
+
+<p>
+  <a name="1035329"> </a>This dialog box displays all the slots other than the slot from which it has been called.</p>
+
+</dl>  <li value="10"><p><a name="1035340"> </a>To move the pins to the second slot, click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1035324"> </a>The selected pins are moved to the second slot.</p>
+
+
+<p>
+  <a name="1035344"> </a>	 <img src="images/after_2_slot.gif">
+</p>
+
+</dl>  <li value="11"><p><a name="1035352"> </a>Similarly, move pins 101-150 and pins 151-199 to the third and fourth slots, respectively.</p>
+<dl>
+<p>
+  <a name="1035383"> </a>After all the pins are distributed, the Distribute Pins dialog box should appear as follows:</p>
+
+
+<p>
+  <a name="1035387"> </a>	 <img src="images/after_distribution.gif">
+</p>
+
+</dl>  <li value="12"><p><a name="1035359"> </a>Click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1035399"> </a>The pins are distributed across the four slots. The slots in which a logical pin is not present is mapped to <code>-</code>.</p>
+
+
+<p>
+  <a name="1035406"> </a>	 <img src="images/pkg_pin_after_slot_creation.gif">
+</p>
+
+
+<p>
+  <a name="1035417"> </a>Next, you will create the symbols for the four slots.</p>
+
+</dl>  <li value="13"><p><a name="1035424"> </a>Click <em>Generate Symbol(s)</em>.</p>
+<dl>
+<p>
+  <a name="1035428"> </a>The Generate Symbol(s) for Package PENTIUM4_3GHZ dialog box appears.</p>
+
+
+<p>
+  <a name="1035438"> </a>	 <img src="images/generate_symbols_pentium.gif">
+</p>
+
+</dl>  <li value="14"><p><a name="1035453"> </a>To create symbols for all functions, click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1035457"> </a>The symbols are created for all the function groups.</p>
+
+
+<p>
+  <a name="1035466"> </a>	 <img src="images/symbols.gif">
+</p>
+
+</dl>  <li value="15"><p><a name="1035608"> </a>Choose <em>File - Save </em>to save the part.</p>
+</ol>
+
+<br><br><br>
+<h2>
+  <a name="1035474"> </a>Summary</h2>
+
+
+<p>
+  <a name="1035492"> </a>In this chapter, you learned how to create split parts.</p>
+
+
+  
+
+</blockquote>
+
+<br>
+<a href="#pagetop">Return to top of page</a>
+<hr>
+<p>
+<!-- Begin Buttons -->
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="chap3.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="creating_parts_from_PDF.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><a href="/search.htm"><img src="../support/nav2_search.gif" border="0"  alt="Search Cadence Library" height="20" width="61"></a></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+</table>
+<!-- End Buttons -->
+<p>
+<p>
+
+
+<!-- NOTES; -->
+
+<!-- /address -->
+<p>
+<br>
+<font size="-1">
+For support, see <a href=http://www.cadence.com/support>http://www.cadence.com/support</a>
+or try Cadence's <a href=http://sourcelink.cadence.com target=_blank>SourceLink</a> service.
+<br><br>
+<i>Copyright &#169; 2008, <a href=http://www.cadence.com>Cadence Design Systems, Inc.</a></i> 
+<br>
+All rights reserved.
+<br>
+<a href="titlecopy.html">Legal notices and trademark attributions</a>
+<br>
+<!-- This file was created with Quadralay WebWorks Publisher AutoMap 6.0.7 -->
+<!-- -->
+<!-- Last updated: Fri Sep 26 14:43:33 2008 -->
+</font>
+</body>
+</html>
+
+

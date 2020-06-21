@@ -1,0 +1,111 @@
+\t (00:00:11) allegro 16.3 p006 (v16-3-85F) i86
+\t (00:00:11) 
+
+\t (00:00:13) Starting new drawing...
+\i (00:00:15) trapsize 1132
+\i (00:00:15) trapsize 1086
+\i (00:00:15) trapsize 1086
+\i (00:00:17) generaledit 
+\i (01:53:10) xhilite 
+\i (01:53:10) xname_flush 
+\i (01:53:10) done 
+\i (01:53:11) generaledit 
+\i (01:54:18) xhilite 
+\i (01:54:18) xname_flush 
+\i (01:54:18) done 
+\i (01:54:18) generaledit 
+\i (01:55:00) open 
+\f (01:55:01) Do you want to save the changes you made to test fixture.brd?
+\i (01:55:05) fillin menu_cancel 
+\i (01:55:05) generaledit 
+\i (01:55:07) zoom out 1 
+\i (01:55:07) setwindow pcb
+\i (01:55:07) zoom out 10551.7 10551.7
+\i (01:55:07) trapsize 1086
+\i (01:55:07) zoom out 1 
+\i (01:55:07) setwindow pcb
+\i (01:55:07) zoom out 10551.7 10551.7
+\i (01:55:07) trapsize 1086
+\i (01:55:08) zoom out 1 
+\i (01:55:08) setwindow pcb
+\i (01:55:08) zoom out 10551.7 10551.7
+\i (01:55:08) trapsize 1086
+\i (01:55:08) zoom out 1 
+\i (01:55:08) setwindow pcb
+\i (01:55:08) zoom out 10551.7 10551.7
+\i (01:55:08) trapsize 1086
+\i (01:55:08) zoom in 1 
+\i (01:55:08) setwindow pcb
+\i (01:55:08) zoom in 10551.7 10551.7
+\i (01:55:08) trapsize 543
+\i (01:55:08) zoom in 1 
+\i (01:55:08) setwindow pcb
+\i (01:55:08) zoom in 10551.8 10551.8
+\i (01:55:08) trapsize 271
+\i (01:55:08) zoom in 1 
+\i (01:55:08) setwindow pcb
+\i (01:55:08) zoom in 10551.8 10551.8
+\i (01:55:08) trapsize 136
+\i (01:55:08) zoom in 1 
+\i (01:55:08) setwindow pcb
+\i (01:55:08) zoom in 10551.9 10551.9
+\i (01:55:08) trapsize 68
+\i (01:55:08) zoom out 1 
+\i (01:55:08) setwindow pcb
+\i (01:55:08) zoom out 10551.9 10551.9
+\i (01:55:08) trapsize 136
+\i (01:55:08) zoom out 1 
+\i (01:55:08) setwindow pcb
+\i (01:55:08) zoom out 10551.9 10551.9
+\i (01:55:08) trapsize 271
+\i (01:55:08) zoom out 1 
+\i (01:55:08) setwindow pcb
+\i (01:55:08) zoom out 10551.9 10551.9
+\i (01:55:08) trapsize 543
+\i (01:55:09) zoom out 1 
+\i (01:55:09) setwindow pcb
+\i (01:55:09) zoom out 10551.9 10551.9
+\i (01:55:09) trapsize 1086
+\i (01:55:09) zoom in 1 
+\i (01:55:09) setwindow pcb
+\i (01:55:09) zoom in 10551.7 10551.7
+\i (01:55:09) trapsize 543
+\i (01:55:09) zoom in 1 
+\i (01:55:09) setwindow pcb
+\i (01:55:09) zoom in 10551.8 10551.8
+\i (01:55:09) trapsize 271
+\i (01:55:10) zoom out 1 
+\i (01:55:10) setwindow pcb
+\i (01:55:10) zoom out 10551.8 10551.8
+\i (01:55:10) trapsize 543
+\i (01:55:10) zoom out 1 
+\i (01:55:10) setwindow pcb
+\i (01:55:10) zoom out 10551.9 10551.9
+\i (01:55:10) trapsize 1086
+\i (01:55:10) zoom out 1 
+\i (01:55:10) setwindow pcb
+\i (01:55:10) zoom out 10551.7 10551.7
+\i (01:55:10) trapsize 1086
+\i (01:55:11) zoom in 1 
+\i (01:55:11) setwindow pcb
+\i (01:55:11) zoom in 10551.7 10551.7
+\i (01:55:11) trapsize 543
+\i (01:55:11) zoom in 1 
+\i (01:55:11) setwindow pcb
+\i (01:55:11) zoom in 10551.8 10551.8
+\i (01:55:11) trapsize 271
+\i (01:55:11) zoom in 1 
+\i (01:55:11) setwindow pcb
+\i (01:55:11) zoom in 10551.8 10551.8
+\i (01:55:11) trapsize 136
+\i (01:55:11) zoom out 1 
+\i (01:55:11) setwindow pcb
+\i (01:55:11) zoom out 10551.9 10551.9
+\i (01:55:11) trapsize 271
+\i (01:55:12) zoom out 1 
+\i (01:55:12) setwindow pcb
+\i (01:55:12) zoom out 10551.9 10551.9
+\i (01:55:12) trapsize 543
+\i (01:57:43) exit 
+\f (01:57:43) Do you want to save the changes you made to test fixture.brd?
+\i (01:57:44) fillin no 

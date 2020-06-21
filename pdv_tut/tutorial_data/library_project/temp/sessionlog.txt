@@ -1,0 +1,4 @@
+09/16/17  11:09:49		Opening project C:/Cadence/Projects/pdv_tut/tutorial_data/library_project/tutorial_project.cpm
+09/16/17  11:09:50		cdslib C:/Cadence/Projects/pdv_tut/tutorial_data/library_project/cds.lib opened
+09/16/17  11:09:50		Project C:/Cadence/Projects/pdv_tut/tutorial_data/library_project/tutorial_project.cpm opened
+09/16/17  11:10:02		Project C:/Cadence/Projects/pdv_tut/tutorial_data/library_project/tutorial_project.cpm is closed.

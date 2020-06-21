@@ -1,0 +1,115 @@
+\t (00:00:27) apd 16.3 p006 (v16-3-85F) i86
+\t (00:00:27) 
+
+\t (00:00:29) Opening existing drawing...
+\d (00:00:30) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/SCHEMATIC1/pack_lib/DEMOQE128_PAK.dra
+\i (00:00:31) trapsize 8
+\i (00:00:32) trapsize 7
+\i (00:00:32) trapsize 7
+\i (00:00:33) generaledit 
+\i (00:00:56) open 
+\i (00:01:22) fillin "menu_cancel"
+\i (00:01:22) generaledit 
+\i (00:01:26) file_property 
+\i (00:01:32) setwindow form.fileprop
+\i (00:01:32) FORM fileprop cancel  
+\i (00:01:32) setwindow pcb
+\i (00:01:32) generaledit 
+\i (00:01:35) open 
+\i (00:01:39) fillin "DEMOQE128_M.dra"
+\t (00:01:39) Opening existing drawing...
+\t (00:01:40) Grids are drawn 1.600, 1.600 apart for enhanced viewability.
+\i (00:01:40) trapsize 798
+\d (00:01:40) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/SCHEMATIC1/pack_lib/DEMOQE128_M.dra
+\i (00:01:40) generaledit 
+\i (00:01:47) zoom out 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom out 12.201 13.167
+\i (00:01:47) trapsize 798
+\i (00:01:48) zoom out 1 
+\i (00:01:48) setwindow pcb
+\i (00:01:48) zoom out 12.201 13.167
+\i (00:01:48) trapsize 798
+\i (00:01:50) open 
+\i (00:01:53) fillin "DEMOQE128_PAK.dra"
+\t (00:01:53) Opening existing drawing...
+\i (00:01:53) trapsize 7
+\d (00:01:53) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/SCHEMATIC1/pack_lib/DEMOQE128_PAK.dra
+\i (00:01:54) generaledit 
+\i (00:02:00) open 
+\i (00:02:53) fillin "C:\Cadence\Projects\Test Fixture-PSpiceFiles\symbol\mc9s08qe128_v2.dra"
+\i (00:02:53) cd "C:\Cadence\Projects\Test Fixture-PSpiceFiles\symbol"
+\t (00:02:53) Opening existing drawing...
+\i (00:02:53) trapsize 1508
+\d (00:02:53) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/mc9s08qe128_v2.dra
+\i (00:02:53) generaledit 
+\i (00:03:05) cdsdoc allegro apdlaunch 
+\i (00:05:48) open 
+\i (00:07:10) fillin "mc9s08qe128_fp.dra"
+\t (00:07:10) Opening existing drawing...
+\i (00:07:11) trapsize 222
+\d (00:07:11) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/mc9s08qe128_fp.dra
+\i (00:07:11) generaledit 
+\i (00:07:18) open 
+\i (00:07:22) fillin "R0603_1.dra"
+\t (00:07:22) Opening existing drawing...
+\i (00:07:23) trapsize 14049
+\d (00:07:23) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/R0603_1.dra
+\i (00:07:23) generaledit 
+\i (00:07:30) zoom fit 
+\i (00:07:30) trapsize 42
+\i (00:07:40) zoom out 1 
+\i (00:07:40) setwindow pcb
+\i (00:07:40) zoom out 12231.78 17339.09
+\i (00:07:40) trapsize 84
+\i (00:07:41) zoom out 1 
+\i (00:07:41) setwindow pcb
+\i (00:07:41) zoom out 12231.79 17339.09
+\i (00:07:41) trapsize 168
+\i (00:07:43) open 
+\i (00:08:10) fillin "mc9s08qe128_v2.dra"
+\t (00:08:10) Opening existing drawing...
+\i (00:08:10) trapsize 1508
+\d (00:08:10) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/mc9s08qe128_v2.dra
+\i (00:08:10) generaledit 
+\i (00:08:17) zoom in 1 
+\i (00:08:17) setwindow pcb
+\i (00:08:17) zoom in 724.80 -194.89
+\i (00:08:17) trapsize 754
+\i (57:16:00) open 
+\i (57:16:08) fillin "R0603_1.dra"
+\t (57:16:10) Opening existing drawing...
+\i (57:16:17) trapsize 14049
+\d (57:16:17) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/R0603_1.dra
+\i (57:16:18) generaledit 
+\i (57:16:26) open 
+\i (57:16:34) fillin "32_pins_cir_conn_right_angle.dra"
+\t (57:16:34) Opening existing drawing...
+\i (57:16:35) trapsize 1357
+\d (57:16:35) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/32_pins_cir_conn_right_angle.dra
+\i (57:16:35) generaledit 
+\i (57:17:05) pick grid 8248.08 8733.03
+\t (57:17:05) last pick:  8267.70  8740.14
+\i (57:17:06) zoom in 1 
+\i (57:17:06) setwindow pcb
+\i (57:17:06) zoom in 8766.50 8410.03
+\i (57:17:06) trapsize 679
+\i (57:17:06) zoom in 1 
+\i (57:17:06) setwindow pcb
+\i (57:17:06) zoom in 8766.50 8410.03
+\i (57:17:06) trapsize 339
+\i (57:17:08) pick grid 8742.07 8422.25
+\t (57:17:08) last pick:  8740.14  8425.18
+\i (57:17:10) pick grid 8826.22 8319.11
+\t (57:17:10) last pick:  8818.88  8346.44
+\i (57:17:11) zoom out 1 
+\i (57:17:11) setwindow pcb
+\i (57:17:11) zoom out 8780.75 8413.43
+\i (57:17:11) trapsize 679
+\i (57:17:12) zoom out 1 
+\i (57:17:12) setwindow pcb
+\i (57:17:12) zoom out 8780.75 8413.43
+\i (57:17:12) trapsize 1357
+\i (57:17:25) pick grid 10336.04 7235.42
+\t (57:17:25) last pick:  10314.94  7244.08
+\i (57:18:23) exit 

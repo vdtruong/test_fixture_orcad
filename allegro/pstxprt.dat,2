@@ -1,0 +1,297 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.3.0 p002Oct-21-2017 at 21:19:52 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='TEST FIXTURE';
+ POST_TIME='Nov 17 2009 03:09:43';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19785@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19785@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19785@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'C_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS63906@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins63906@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins63906@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'C_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS63922@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins63922@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins63922@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'C_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS63938@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins63938@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins63938@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'C_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS63954@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins63954@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins63954@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'C_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS55404@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins55404@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page3_ins55404@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'C_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS55429@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins55429@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page3_ins55429@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_CAPCK05_10U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19562@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19562@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19562@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19016@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19016@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19016@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19192@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19192@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19192@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19514@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19514@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19514@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_CAPCK05_10U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19530@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19530@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19530@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19546@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19546@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19546@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS4772@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins4772@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins4772@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS63890@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins63890@analog.\c.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins63890@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'HEADER 32_32_PINS_CIR_CONN_RIGH':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS22587@CONNECTOR.HEADER 32.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins22587@connector.\header 32.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins22587@connector.\header 32.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_CAPCK05_100K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS18887@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins18887@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins18887@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_CAPCK05_1.26K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19424@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19424@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19424@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_CAPCK05_100K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS18903@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins18903@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins18903@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_CAPCK05_22.17K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19440@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19440@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19440@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_CAPCK05_11.1K':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19456@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19456@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19456@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_CAPCK05_100':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS49652@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins49652@analog.\r.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page3_ins49652@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_VAR_RESADJ_162':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS49668@ANALOG.R_VAR.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins49668@analog.\r_var.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page3_ins49668@analog.\r_var.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'LM124A_DIP14_3_LM124A':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS18848@OPAMP.LM124A.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins18848@opamp.\lm124a.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins18848@opamp.\lm124a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS19290@OPAMP.LM124A.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins19290@opamp.\lm124a.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page1_ins19290@opamp.\lm124a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U2 'CAT24C02_DIP8_3_CAT24C02':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS5279@MY_LIBRARY_1.CAT24C02.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins5279@my_library_1.\cat24c02.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins5279@my_library_1.\cat24c02.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'MAX3222_2_DIP18_3_MAX3222':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS14884@TEST FIXTURE.MAX3222_2.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins14884@\test fixture\.\max3222_2.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins14884@\test fixture\.\max3222_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'MC9S08QE128_5_MC9S08QE128_V2_MC':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS4358@TEST FIXTURE.MC9S08QE128_5.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins4358@\test fixture\.\mc9s08qe128_5.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page2_ins4358@\test fixture\.\mc9s08qe128_5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'LM317L/TO_0_TO220AB_LM317L/TO':;
+
+SECTION_NUMBER 1
+ '@TEST FIXTURE.SCHEMATIC1(SCH_1):INS49634@TEST FIXTURE.LM317L/TO_0.NORMAL(CHIPS)':
+ C_PATH='@\test fixture\.schematic1(sch_1):ins49634@\test fixture\.\lm317l/to_0.normal\(chips)',
+ P_PATH='@test fixture.schematic1(sch_1):page3_ins49634@\test fixture\.\lm317l/to_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

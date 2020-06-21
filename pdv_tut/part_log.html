@@ -1,0 +1,535 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+<meta name="GENERATOR" content="Quadralay WebWorks Publisher AutoMap 6.0.7">
+<meta name="TEMPLATEBASE" content="CadencePubs_HelpTopics">
+<meta name="LASTUPDATED" content="Fri Sep 26 14:43:48 2008">
+
+<script TYPE="text/javascript" LANGUAGE="JavaScript" >
+  <!--
+  // Dummy script statement to get rid of Netscape timing errors which may
+  // print garbage JavaScript code at the top in Unix 4.x Netscape browser.
+  // -->
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Browser.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Cookies.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript" src="/Search.js">
+  </script>
+                                                                                                                                                                
+  <script type="text/javascript" language="JavaScript">
+  <!--
+  function window_resized(){
+    window.location.reload();
+  }
+  window.onresize=window_resized;
+                                                                                                                                                                
+  /*
+  * Initializes before submitting query
+  */
+  function initOnSubmit() {
+    storeStateAndQuery();
+  }
+                                                                                                                                                                
+  setCookie("DocumentTitle", "Part Developer Tutorial");
+  setCookie("Chapter", "N/A");
+  setCookie("Keyword", "search");
+  setCookie("Version", "Product Version 2.2");
+
+  // -->
+  </script>
+
+
+<title>Part Developer Tutorial -- 14. Part Logging and Versioning</title>
+<META NAME="Approver" CONTENT="Technical Publications">
+<META NAME="Author" CONTENT="Technical Publications">
+<META NAME="CreateDate" CONTENT="2008-09-26">
+<META NAME="CreateTime" CONTENT="1222420433">
+<META NAME="DataType" CONTENT="Manuals">
+<META NAME="Description" CONTENT="Describes key library-creation tasks in Part Developer">
+<META NAME="DocTitle" CONTENT="Part Developer Tutorial">
+<META NAME="DocType" CONTENT="Manual">
+<META NAME="FileTitle" CONTENT="14. Part Logging and Versioning">
+<META NAME="FileType" CONTENT="Chapter">
+<META NAME="Keyword" CONTENT="pdv_tut">
+<META NAME="Language" CONTENT="English">
+<META NAME="ModifiedDate" CONTENT="2008-09-26">
+<META NAME="ModifiedTime" CONTENT="1222420433">
+<META NAME="NextFile" CONTENT="Interface_Comparator.html">
+<META NAME="PageCount" CONTENT="10">
+<META NAME="Platform" CONTENT="ALL">
+<META NAME="PrevFile" CONTENT="import_export.html">
+<META NAME="Product" CONTENT="Concept, PCB Design Infrastructure, TDD">
+<META NAME="ProductFamily" CONTENT="PCB Design, PCB Design, PCB Design">
+<META NAME="ProductVersion" CONTENT="16.2">
+<META NAME="RightsManagement" CONTENT="Copyright 1998-2008 Cadence Design Systems Inc.">
+<META NAME="Title" CONTENT="Part Developer Tutorial -- 14. Part Logging and Versioning">
+<META NAME="TopicTags" CONTENT="FALSE">
+<META NAME="Version" CONTENT="16.2">
+</head>
+
+<body bgcolor="#ffffff">
+<a name="firstpage"></a>
+<a name="pagetop"></a>
+
+<p>
+<!-- Begin Buttons -->
+
+<form name="advancedform" action="/vtopic.isapi" method="GET" onSubmit="initOnSubmit()">
+<input type=hidden name="action" value="FilterSearch">
+<input type=hidden name="Filter" value="altsearchfilter.hts">
+<input type=hidden name="resulttemplate" value="altsearchresults.hts">
+<input type=hidden name="resultcount" value="10">
+<input type=hidden name="resultmaxdocs" value="-1">
+<input type=hidden name="queryhidden" value="null">
+<input type=hidden name="queryitemselected" value="no">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="36" width="650" colspan="10"><img src="../support/header_doc.gif" WIDTH="650" HEIGHT="36"></td>
+</tr>
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="import_export.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="Interface_Comparator.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><img src="../support/nav2_black.gif" height="20" width="61"></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+ <tr>
+    <td colspan="10">
+      <script type="text/javascript">
+      <!--// We wrap all this inside javascript because we only want to display  -->
+      <!--// the search bar if the http server is running. If it is not running  -->
+      <!--// the search bar should not be visible to the user                    -->
+      <!-- BEGIN SEARCH BAR -->
+      var isloaded = isLoaded();
+      var enteredquery = getCookie("enteredquery");
+      if(enteredquery) {
+        enteredquery = enteredquery.replace(/</g,"&lt ");
+        enteredquery = enteredquery.replace(/>/g,"&gt ");
+      } else {
+         enteredquery = "";
+      }
+                                                                                                                                                                
+      <!-- Only display search bar if server is running -->
+      if(isloaded) {
+                                                                                                                                                                
+        display_search_bar(enteredquery);
+                                                                                                                                                                
+      }
+      <!-- END SEARCH BAR -->
+      </script>
+    </td>
+  </tr>
+</table>
+</form>
+
+<!-- End Buttons -->
+<p>
+<p>
+<hr>
+<p>
+<h3><center>Part Developer Tutorial&#0044; Product Version 16.2</center></h3><br>
+<p>
+
+
+<blockquote>
+
+  
+<div align="right">
+<h1 align="left">
+  <a name="1032955"> </a>14</h1>
+</div>
+
+<hr>
+<h1>
+  <a name="1033512"> </a>Part Logging and Versioning</h1>
+
+
+
+
+
+
+<br><br><br>
+<h2>
+  <a name="1038472"> </a>Overview</h2>
+
+
+<p>
+  <a name="1041608"> </a><a name="dbx_Revision"></a>Part logging and versioning enables you to store and view the following information about a part:</p>
+
+<ul>
+  <a name="1038479"></a><li><p>A log of all actions done on a part, such as symbol creation and pin modifications</p>
+
+  <a name="1038494"></a><li><p>Major and minor revision numbers of all the views</p>
+</ul>
+<p>
+  <a name="1041274"> </a>By default, whenever you start part logging, Part Developer assigns the major revision number for all views and the cell as 1. The minor revision number is 0. Then, depending upon the types of changes you make to the part or views, the major or minor number of the part or the views are updated automatically by Part Developer.</p>
+
+
+<p>
+  <a name="1038972"> </a>Whenever a major or minor revision number of a view is incremented, the major or minor revision number of the cell is also incremented. For example, a part and its package and symbol views have a major revision number 1 and a minor revision number 0. Now, the package undergoes a modification, resulting in a major revision number change for the package. This will cause the major revision number of the part to be incremented as well. So, the part and the package will have the major revision number as 2. Now, the symbol is modified, resulting in the major revision number of the symbol to be incremented. This will also result in the major revision number of the part to be incremented. So, the part will now have the major revision number as 3 while the major revision numbers of the package and the symbol continue to be 2. See <a href="part_log.html#1039166">Modifications that Result in Major and Minor Number Changes</a> for details.</p>
+
+
+<p>
+  <a name="1041298"> </a>The part log and version information is stored in the metadata view of the part. The metadata view contains the following files:</p>
+
+   <ul><ul>
+  <a name="1041299"> </a><li><p>master.tag
+</p>
+<dl>
+<p>
+  <a name="1041300"> </a>The <code>master.tag</code> file is the control file that ensures that Part Developer treats this directory as a valid view.</p>
+
+</dl>
+  <a name="1041301"> </a><li><p>revision.dat
+</p>
+<dl>
+<p>
+  <a name="1041302"> </a>The <code>revision.dat</code> file stores the version information for a part. The information stored includes the name of the view, the type of the view, major and minor revision numbers, the date and time of creation, the name of the creator, the library to which the part belongs, and the modification history.</p>
+
+</dl>
+  <a name="1041303"> </a><li><p>revision.log
+</p>
+<dl>
+<p>
+  <a name="1041304"> </a>The <code>revision.log</code> file logs all the activities that are done on the part. The information stored includes the time of the modification, the name of the modifier, the type of modification, and a detailed description of the type of change.</p>
+
+
+<p>
+  <a name="1041574"> </a>Both <code>revision.dat</code> and <code>revision.log</code> files are written when the part is saved.</p>
+
+</dl>
+  <a name="1041624"> </a><li><p>pinlist.txt
+</p>
+<dl>
+<p>
+  <a name="1041628"> </a>The <code>pinlist.txt</code> file stores the list of pins that have been added to the part.</p>
+
+</dl></ul><dl>
+<p>
+  <a name="1041305"> </a>Part Developer will start logging all the changes that you make on the part and also automatically increment the major or minor version of the views and parts as required.</p>
+
+</dl></ul>
+  <a name="1041309"> </a><table border="0"><tr><td valign="top"><img src="../support/caution.gif"></td><td><strong><i>Do not manually edit the revision.dat and revision.log files outside of Part Developer. If these files are manually edited, Part Developer might fail to give you the correct version information or logging information for the part.</i></strong></td></table>
+
+
+<br><br><br>
+<h2>
+  <a name="1038510"> </a>Starting Part Logging and Versioning</h2>
+
+
+<br><br>
+<h3>
+  <a name="1041828"> </a>Task Overview</h3>
+
+
+<p>
+  <a name="1041822"> </a>Load the <code>for_baselining</code> part from the <code>my_lib</code> library and baseline it. Modify the package by deleting the input pin A1. View the version numbers after the changes are made to the part.</p>
+
+
+<br><br>
+<h3>
+  <a name="1041357"> </a>Steps</h3>
+
+<ol type="1">
+  <li value="1"><p><a name="1041842"> </a>Select <em>File - Open - Cell.</em></p>
+<dl>
+<p>
+  <a name="1041847"> </a>The Open Cell dialog box appears.</p>
+
+</dl>  <li value="2"><p><a name="1041859"> </a>Select the<em> for_baselining</em> part from the <em>my_lib</em> library and click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1041871"> </a>The part is loaded in the Cell Editor. Notice that by default, the <em>Major</em> revision number is assigned as 1 for the existing views. Also, the <em>Major</em> status appears as <em>Created</em>.</p>
+
+
+<p>
+  <a name="1041878"> </a><img src="images/before_baseline.gif">
+</p>
+
+</dl>  <li value="3"><p><a name="1041353"> </a>Select the <em>BaseLine on Save</em> option.</p>
+  <li value="4"><p><a name="1039111"> </a>Save the part.</p>
+  <li value="5"><p><a name="1039122"> </a>To view the change log and revision numbers in Part Developer, close the part and reload it. </p>
+<dl>
+<p>
+  <a name="1041669"> </a>The Revision Editor appears with the major version appearing as <code>Baselined</code> for the cell and all its views. Now, whenever any change is made to the cell, the revision number will get updated as required. </p>
+
+</dl><dl>
+<p>
+<strong>Note:&nbsp;</strong>
+<a name="1041570"> </a>The changes are not dynamically reflected in the Revision Editor. You will need to reload the part to see the revision history.
+</p>
+
+</dl><dl>
+<p>
+  <a name="1041886"> </a><img src="images/after_baselined.gif">
+</p>
+
+</dl></ol>
+
+  <a name="1041677"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>The <em>BaseLine on Save</em> option is deselected when a part is reloaded. You will need to select the <em>BaseLine on Save</em> option before saving the part to ensure that the revision numbers are updated.</td></table>
+
+     <dl><dl>
+<p>
+  <a name="1041694"> </a>In case a baselined part is saved with the <em>BaseLine on Save</em> option checked, a <code>.baselined</code> file is created in all the views. For example, <code>chips.prt.baselined</code> is created in the chips view. Now, if the part is saved with the <em>BaseLine on Save</em> option checked, the views are compared against the <code>.baselined</code> files and revision numbers are updated accordingly.</p>
+
+</dl>     </dl>
+  <a name="1041811"> </a><table border="0"><tr><td valign="top"><img src="../support/important.gif"></td><td>Part logging is possible only for error-free parts.</td></table>
+
+<ol type="1">
+  <li value="6"><p><a name="1041918"> </a>Select the <em>FOR_BASELINING</em> package in the cell tree.</p>
+  <li value="7"><p><a name="1041905"> </a>Delete the input pin <em>A1</em>.</p>
+  <li value="8"><p><a name="1041930"> </a>Click on the root of the cell tree.</p>
+  <li value="9"><p><a name="1041933"> </a>Select <em>BaseLine on Save</em>.</p>
+  <li value="10"><p><a name="1041932"> </a>Save the part.</p>
+  <li value="11"><p><a name="1041916"> </a>Close and reload the part.</p>
+<dl>
+<p>
+  <a name="1041917"> </a>The major version is updated for the part.</p>
+
+
+<p>
+  <a name="1041942"> </a><img src="images/version_update.gif">
+</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1039169"> </a>Viewing the Revision Log</h2>
+
+<ol type="1">
+  <li value="1"><p><a name="1041653"> </a>To view the revision log file, click <em>Change log</em>.</p>
+<dl>
+<p>
+  <a name="1041654"> </a>The Revision Log dialog box appears displaying the log of changes made to the part and its views.</p>
+
+
+<p>
+  <a name="1041775"> </a><img src="images/revision_log.gif">
+</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1041648"> </a>Adding Your Comments to the Revision Log</h2>
+
+
+<p>
+  <a name="1039207"> </a>Part Developer allows you to write to the revision log of a part. To do so:</p>
+
+<ol type="1">
+  <li value="1"><p><a name="1039218"> </a>Click <em>Add User Comment</em>.</p>
+<dl>
+<p>
+  <a name="1039222"> </a>The Add User Comment dialog box appears.</p>
+
+
+<p>
+  <a name="1041781"> </a><img src="images/add_user_comment.gif">
+</p>
+
+</dl>  <li value="2"><p><a name="1039226"> </a>Enter the comment that you want to add to the log file and click <em>OK</em>.</p>
+<dl>
+<p>
+  <a name="1041379"> </a>The comment is written to the <code>revision.log</code> file and appears in the Revision Log dialog box.</p>
+
+
+<p>
+  <a name="1042013"> </a><img src="images/after_comment.gif">
+</p>
+
+</dl></ol>
+
+<br><br><br>
+<h2>
+  <a name="1042015"> </a>Stopping Part Logging and Versioning</h2>
+
+
+<table border="0" cellpadding="0">
+<tr>
+<td valign="top"><img src=../chars/arrwrite.gif>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><a name="1042016"> </a>	 To stop part logging and versioning, deselect the <em>BaseLine on Save</em> option.</td>
+</table>
+
+
+<br><br><br>
+<h2>
+  <a name="1041385"> </a>Restarting Part Logging and Versioning</h2>
+
+
+<table border="0" cellpadding="0">
+<tr>
+<td valign="top"><img src=../chars/arrwrite.gif>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><a name="1041419"> </a>	 To start part logging and versioning, select the <em>BaseLine on Save</em> option.</td>
+</table>
+
+
+<br><br><br>
+<h2>
+  <a name="1039166"> </a>Modifications that Result in Major and Minor Number Changes</h2>
+
+
+<p>
+  <a name="1039291"> </a>The changes that impact the design flow are considered major changes, leading to an increment in the major revision number. All other changes are treated as minor changes and result in incrementing the minor revision number.</p>
+
+
+<br><br>
+<h3>
+  <a name="1039156"> </a>Modifications that Result in a Major Number Change for a Part or a View</h3>
+
+
+<p>
+  <a name="1038670"> </a>The following modifications cause a change in the major revision number:</p>
+
+<ul>
+  <a name="1038671"></a><li><p>Addition, deletion, or renaming of any view</p>
+
+  <a name="1038672"></a><li><p>Modification of the JEDEC_TYPE property</p>
+
+  <a name="1038673"></a><li><p>Addition or deletion of pins from packages and symbols</p>
+
+  <a name="1038674"></a><li><p>Modification of the pin type for an existing pin</p>
+
+  <a name="1038707"></a><li><p>Renaming of pins in the package and symbols</p>
+
+  <a name="1038676"></a><li><p>Addition, deletion, or renaming of symbol text</p>
+
+  <a name="1038677"></a><li><p>Modification of a symbol pin position</p>
+
+  <a name="1038720"></a><li><p>Addition or deletion of slots from a package</p>
+
+  <a name="1038721"></a><li><p>Change in the low-assertion character setup for a part, resulting in the change of how the low-assertion character is stored in the chips and the symbol view</p>
+
+  <a name="1038722"></a><li><p>Change in the distribution of pins among slots</p>
+
+  <a name="1038681"></a><li><p>Change in the mapping information of existing pins</p>
+
+  <a name="1038682"></a><li><p>Global renaming of pins</p>
+
+  <a name="1038683"></a><li><p>Global deletion of pins</p>
+
+  <a name="1038684"></a><li><p>Addition or deletion of a model for a wrapper</p>
+
+  <a name="1038685"></a><li><p>Modification of a model for an existing wrapper</p>
+
+  <a name="1038686"></a><li><p>Mapping or unmapping of pin to m-port mapping in a mapfile or a wrapper</p>
+
+  <a name="1038751"></a><li><p>Addition, deletion, or modification of the binding statement for a VHDL wrapper or mapfile</p>
+
+  <a name="1038752"></a><li><p>Addition or deletion of pin-to-model port mapping for primitives from Verilog/VHDL mapfiles</p>
+
+  <a name="1038753"></a><li><p>Modification of the <code>default_model</code> property for a primitive in the map view</p>
+
+  <a name="1038754"></a><li><p>Addition, deletion, or modification of a model for a primitive entry in the mapfile</p>
+
+  <a name="1038755"></a><li><p>Annotation of parameters or generics onto symbols</p>
+
+  <a name="1038756"></a><li><p>Deletion of annotated parameters or generics from the symbols</p>
+
+  <a name="1038758"></a><li><p>Updating pin mode or port type of pins during Verilog/VHDL mapfile/wrapper creation</p>
+
+  <a name="1038759"></a><li><p>Modification of the <code>UPPERCASE</code> property of primitives</p>
+</ul>
+<br><br>
+<h3>
+  <a name="1038843"> </a>Modifications that Result in a Minor Number Change for a Part or a View</h3>
+
+<ul>
+  <a name="1038649"></a><li><p>Addition, deletion, or renaming of an additional package property</p>
+
+  <a name="1038850"></a><li><p>Addition, deletion, or renaming of a package pin property</p>
+
+  <a name="1038851"></a><li><p>Addition, deletion, or renaming of a package alias</p>
+
+  <a name="1038853"></a><li><p>Modification of the electrical class of a package</p>
+
+  <a name="1038854"></a><li><p>Modification of the reference designator prefix of a package</p>
+
+  <a name="1038856"></a><li><p>Addition, deletion, or renaming of a symbol property</p>
+
+  <a name="1038858"></a><li><p>Addition, deletion, or renaming of a symbol pin property</p>
+
+  <a name="1038650"></a><li><p>Modification of the symbol outline (thickness/width/height)</p>
+
+  <a name="1038651"></a><li><p>Modification of the color of the symbol outline</p>
+
+  <a name="1038652"></a><li><p>Change of pin shapes</p>
+
+  <a name="1038653"></a><li><p>Modification of symbol and symbol pin attributes</p>
+
+  <a name="1038654"></a><li><p>Addition or deletion of the model alias from the primitive in the mapfile</p>
+</ul>
+<br><br><br>
+<h2>
+  <a name="1034347"> </a>Summary</h2>
+
+
+<p>
+  <a name="1041998"> </a>In this chapter, you learned how to create and maintain part versions and change logs.</p>
+
+
+  
+
+</blockquote>
+
+<br>
+<a href="#pagetop">Return to top of page</a>
+<hr>
+<p>
+<!-- Begin Buttons -->
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+<tr>
+  <td height="20" width="59"><a href="javascript:openLibrary()"><img src="../support/nav2_library.gif" border="0" alt="View Library" height="20" width="59"></a></td>
+  <td height="20" width="73"><a href="pdv_tutTOC.html"><img src="../support/nav2_toc.gif" border="0" alt="View Table Of Contents" height="20" width="73"></a></td>
+  <td height="20" width="46"><img src="../support/nav2_index_b.gif" border="0" height="20" width="46"></a></td>
+  <td height="20" width="83"><a href="import_export.html"><img src="../support/nav2_previous.gif" border="0" alt="View Previous Chapter in Book" height="20" width="83"></a></td>
+  <td height="20" width="59"><a href="Interface_Comparator.html"><img src="../support/nav2_next.gif" border="0" alt="View Next Chapter in Book" height="20" width="59"></a></td>
+  <td height="20" width="114"><a href="pdv_tut.pdf"><img src="../support/nav2_print.gif" border="0" alt="Open PDF to print book" height="20" width="114"></a></td>
+  <td height="20" width="61"><a href="/search.htm"><img src="../support/nav2_search.gif" border="0"  alt="Search Cadence Library" height="20" width="61"></a></td>
+  <td height="20" width="76"><a href="/feedback.htm"><img src="../support/nav2_feedback.gif" border="0" alt="Email Comments" height="20" width="76"></a></td>
+  <td height="20" width="43"><a href="../cdsuser/help.html"><img src="../support/nav2_help.gif" border="0" alt="Help Using Documentation" height="20" width="43"></a></td>
+  <td height="20" width="37"><a href="/exitsearch.htm"><img src="../support/nav2_exit.gif" border="0" alt="Shut Down Cadence Documentation Server" height="20" width="37"></a></td>
+</tr>
+</table>
+<!-- End Buttons -->
+<p>
+<p>
+
+
+<!-- NOTES; -->
+
+<!-- /address -->
+<p>
+<br>
+<font size="-1">
+For support, see <a href=http://www.cadence.com/support>http://www.cadence.com/support</a>
+or try Cadence's <a href=http://sourcelink.cadence.com target=_blank>SourceLink</a> service.
+<br><br>
+<i>Copyright &#169; 2008, <a href=http://www.cadence.com>Cadence Design Systems, Inc.</a></i> 
+<br>
+All rights reserved.
+<br>
+<a href="titlecopy.html">Legal notices and trademark attributions</a>
+<br>
+<!-- This file was created with Quadralay WebWorks Publisher AutoMap 6.0.7 -->
+<!-- -->
+<!-- Last updated: Fri Sep 26 14:43:48 2008 -->
+</font>
+</body>
+</html>
+
+

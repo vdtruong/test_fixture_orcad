@@ -1,0 +1,14 @@
+#Allegro PCB Router v16-3-85 made 2009/11/03 at 11:55:32
+#Host 
+#ROUTING STATUS <<< C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD\test_fixture_3.dsn >>>
+Start  Time: Report Time: Fri Jun 05 02:46:56 2020
+
+Nets         =       87   Connections         =      136
+Current Wire =       36   Reroute wires       =       36
+Completion   =   26.47%   Unconnections       =      100
+| ROUTING HISTORY ================================================================
+|     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+|   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+|----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+| Fanout   |  1|     0|     0|   0|  100|   45|    0|   0|   |  0:00:00|  0:00:00|
+| Conflicts between polygon wires and fixed objects:   0

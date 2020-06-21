@@ -1,0 +1,255 @@
+\t (00:00:13) apd 16.3 p006 (v16-3-85F) i86
+\t (00:00:13) 
+
+\t (00:00:14) Opening existing drawing...
+\d (00:00:14) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/R0603_1.dra
+\i (00:00:15) trapsize 16765
+\i (00:00:15) trapsize 16284
+\i (00:00:17) trapsize 14049
+\i (00:00:17) trapsize 14049
+\i (00:00:19) generaledit 
+\i (00:00:22) open 
+\i (00:00:36) fillin "32_pins_cir_conn_right_angle.dra"
+\t (00:00:36) Opening existing drawing...
+\i (00:00:37) trapsize 1357
+\d (00:00:37) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/32_pins_cir_conn_right_angle.dra
+\i (00:00:37) generaledit 
+\i (00:00:39) zoom fit 
+\i (00:00:39) trapsize 541
+\i (00:00:43) zoom out 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom out 8190.26 8963.27
+\i (00:00:43) trapsize 1082
+\i (00:00:43) zoom out 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom out 8190.26 8963.27
+\i (00:00:43) trapsize 2164
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 8190.26 8963.28
+\i (00:00:44) trapsize 4328
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 8190.26 8963.28
+\i (00:00:44) trapsize 8657
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 6388.58 9937.80
+\t (00:00:45) Grids are drawn 314.96, 314.96 apart for enhanced viewability.
+\i (00:00:45) trapsize 10856
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out 8033.21 12462.32
+\i (00:00:46) trapsize 10856
+\i (00:00:48) drag_start grid 11159.64 6187.74
+\i (00:00:48) drag_stop 5862.07 10204.34
+\i (00:00:55) move 
+\i (00:00:57) pick grid 8424.01 8445.72
+\t (00:00:57) last pick:  8425.18  8425.18
+\t (00:00:57) Element has no origin, using pick.
+\t (00:00:57) Pick new location for the element(s).
+\i (00:01:01) pick grid 977.01 347.38
+\t (00:01:01) last pick:  944.88  314.96
+\i (00:01:01) generaledit 
+\i (00:01:03) zoom fit 
+\i (00:01:03) trapsize 541
+\i (00:01:05) zoom out 1 
+\i (00:01:05) setwindow pcb
+\i (00:01:05) zoom out 622.32 824.92
+\i (00:01:05) trapsize 1082
+\i (00:01:10) drag_start grid 1952.07 129.85
+\i (00:01:11) drag_stop 181.79 718.50
+\i (00:01:13) drag_start grid 170.97 686.04
+\i (00:01:13) drag_stop 1787.59 116.86
+\i (00:01:15) pick grid 1644.76 757.45
+\t (00:01:15) last pick:  1653.54  787.40
+\i (00:01:16) drag_start grid 142.83 740.14
+\i (00:01:17) drag_stop 1863.34 49.78
+\i (00:01:21) move 
+\i (00:01:23) pick grid 1452.15 525.89
+\t (00:01:23) last pick:  1417.32  551.18
+\t (00:01:23) Element has no origin, using pick.
+\t (00:01:23) Pick new location for the element(s).
+\i (00:01:25) pick grid 1218.42 415.52
+\t (00:01:25) last pick:  1181.10  393.70
+\i (00:01:25) generaledit 
+\i (00:01:29) zoom fit 
+\i (00:01:29) trapsize 541
+\i (00:01:31) zoom out 1 
+\i (00:01:31) setwindow pcb
+\i (00:01:31) zoom out 457.51 748.59
+\i (00:01:31) trapsize 1082
+\i (00:01:31) zoom out 1 
+\i (00:01:31) setwindow pcb
+\i (00:01:31) zoom out 766.11 1348.27
+\i (00:01:31) trapsize 2164
+\i (00:01:32) zoom out 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom out 1532.22 2696.53
+\i (00:01:32) trapsize 4328
+\i (00:01:32) zoom out 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom out 3064.44 5393.07
+\i (00:01:32) trapsize 8657
+\i (00:01:32) zoom out 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom out 6128.89 10786.15
+\i (00:01:32) trapsize 10856
+\i (00:01:34) zoom in 1 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) zoom in 7685.82 13526.18
+\i (00:01:34) trapsize 5428
+\i (00:01:34) zoom in 1 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) zoom in 7685.82 13526.18
+\i (00:01:34) trapsize 2714
+\i (00:01:35) zoom fit 
+\i (00:01:35) trapsize 541
+\i (00:01:38) save 
+\f (00:01:39) C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/32_pins_cir_conn_right_angle.dra: File Exists. Overwrite? 
+\i (00:01:51) fillin yes 
+\t (00:01:53) Symbol '32_pins_cir_conn_right_angle.psm' created.
+\i (00:01:53) generaledit 
+\i (00:20:20) file_property 
+\i (00:20:29) setwindow form.fileprop
+\i (00:20:29) FORM fileprop cancel  
+\i (00:20:29) setwindow pcb
+\i (00:20:29) generaledit 
+\i (00:20:31) open 
+\i (00:20:47) fillin "mc9s08qe128_fp.dra"
+\t (00:20:47) Opening existing drawing...
+\i (00:20:47) trapsize 222
+\d (00:20:47) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/mc9s08qe128_fp.dra
+\i (00:20:47) generaledit 
+\i (00:20:56) pick grid 9.505 0.793
+\t (00:20:56) last pick:  10.160  0.000
+\i (00:21:22) open 
+\i (00:21:27) fillin "32_pins_cir_conn_right_angle.dra"
+\t (00:21:27) Opening existing drawing...
+\i (00:21:27) trapsize 541
+\d (00:21:27) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/32_pins_cir_conn_right_angle.dra
+\i (00:21:28) generaledit 
+\i (00:21:31) zoom out 1 
+\i (00:21:31) setwindow pcb
+\i (00:21:31) zoom out 420.72 665.27
+\i (00:21:31) trapsize 1082
+\i (00:21:31) zoom out 1 
+\i (00:21:31) setwindow pcb
+\i (00:21:31) zoom out 692.53 1181.63
+\i (00:21:31) trapsize 2164
+\i (00:21:32) zoom out 1 
+\i (00:21:32) setwindow pcb
+\i (00:21:32) zoom out 1385.06 2363.25
+\i (00:21:32) trapsize 4328
+\i (00:21:32) zoom in 1 
+\i (00:21:32) setwindow pcb
+\i (00:21:32) zoom in 2770.12 4752.48
+\i (00:21:32) trapsize 2164
+\i (00:21:33) zoom out 1 
+\i (00:21:33) setwindow pcb
+\i (00:21:33) zoom out 2770.12 4752.48
+\i (00:21:33) trapsize 4328
+\i (00:21:34) zoom out 1 
+\i (00:21:34) setwindow pcb
+\i (00:21:34) zoom out 2770.12 4752.48
+\i (00:21:34) trapsize 8657
+\i (00:21:34) zoom out 1 
+\i (00:21:34) setwindow pcb
+\i (00:21:34) zoom out 5540.24 9504.97
+\t (00:21:34) Grids are drawn 314.96, 314.96 apart for enhanced viewability.
+\i (00:21:34) trapsize 10856
+\i (00:21:34) zoom out 1 
+\i (00:21:34) setwindow pcb
+\i (00:21:34) zoom out 6947.64 11962.96
+\i (00:21:34) trapsize 10856
+\i (00:21:34) zoom out 1 
+\i (00:21:34) setwindow pcb
+\i (00:21:34) zoom out 6947.64 11962.96
+\i (00:21:34) trapsize 10856
+\i (00:21:36) zoom fit 
+\i (00:21:36) trapsize 541
+\i (00:21:43) open 
+\i (00:21:52) fillin "mc9s08qe128_fp_man.dra"
+\t (00:21:52) Opening existing drawing...
+\i (00:21:53) trapsize 409
+\d (00:21:53) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/mc9s08qe128_fp_man.dra
+\i (00:21:53) generaledit 
+\i (00:21:55) open 
+\i (00:22:00) fillin "mc9s08qe128_v2.dra"
+\t (00:22:00) Opening existing drawing...
+\i (00:22:00) trapsize 1508
+\d (00:22:00) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/mc9s08qe128_v2.dra
+\i (00:22:01) generaledit 
+\i (00:22:08) zoom out 1 
+\i (00:22:08) setwindow pcb
+\i (00:22:08) zoom out 380.88 -13.88
+\i (00:22:08) trapsize 1508
+\i (00:22:08) zoom out 1 
+\i (00:22:08) setwindow pcb
+\i (00:22:08) zoom out 380.88 -13.88
+\i (00:22:08) trapsize 1508
+\i (00:22:08) zoom out 1 
+\i (00:22:08) setwindow pcb
+\i (00:22:08) zoom out 380.88 -13.88
+\i (00:22:08) trapsize 1508
+\i (00:22:09) zoom in 1 
+\i (00:22:09) setwindow pcb
+\i (00:22:09) zoom in 380.88 -13.88
+\i (00:22:09) trapsize 754
+\i (00:22:09) zoom in 1 
+\i (00:22:09) setwindow pcb
+\i (00:22:09) zoom in 380.88 -13.88
+\i (00:22:09) trapsize 377
+\i (00:22:09) zoom out 1 
+\i (00:22:09) setwindow pcb
+\i (00:22:09) zoom out 380.88 -13.88
+\i (00:22:09) trapsize 754
+\i (00:22:09) zoom out 1 
+\i (00:22:09) setwindow pcb
+\i (00:22:09) zoom out 380.89 -13.88
+\i (00:22:09) trapsize 1508
+\i (00:22:09) zoom out 1 
+\i (00:22:09) setwindow pcb
+\i (00:22:09) zoom out 380.88 -13.88
+\i (00:22:09) trapsize 1508
+\i (00:22:09) zoom out 1 
+\i (00:22:09) setwindow pcb
+\i (00:22:09) zoom out 380.88 -13.88
+\i (00:22:09) trapsize 1508
+\i (00:22:10) zoom out 1 
+\i (00:22:10) setwindow pcb
+\i (00:22:10) zoom out 380.88 -13.88
+\i (00:22:10) trapsize 1508
+\i (00:22:10) zoom out 1 
+\i (00:22:10) setwindow pcb
+\i (00:22:10) zoom out 380.88 -13.88
+\i (00:22:10) trapsize 1508
+\i (00:22:17) open 
+\i (00:22:20) fillin "32_pins_cir_conn_right_angle.dra"
+\t (00:22:20) Opening existing drawing...
+\i (00:22:20) trapsize 541
+\d (00:22:20) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/32_pins_cir_conn_right_angle.dra
+\i (00:22:21) generaledit 
+\i (00:22:23) zoom out 1 
+\i (00:22:23) setwindow pcb
+\i (00:22:23) zoom out 329.83 708.55
+\i (00:22:23) trapsize 1082
+\i (00:22:23) zoom out 1 
+\i (00:22:23) setwindow pcb
+\i (00:22:23) zoom out 510.74 1268.19
+\i (00:22:23) trapsize 2164
+\i (00:22:23) zoom out 1 
+\i (00:22:23) setwindow pcb
+\i (00:22:23) zoom out 1021.48 2536.39
+\i (00:22:23) trapsize 4328
+\i (00:22:23) zoom out 1 
+\i (00:22:23) setwindow pcb
+\i (00:22:23) zoom out 2042.96 5072.78
+\i (00:22:23) trapsize 8657
+\i (00:22:24) zoom in 1 
+\i (00:22:24) setwindow pcb
+\i (00:22:24) zoom in 4085.92 10145.56
+\i (00:22:24) trapsize 4328
+\i (00:22:26) zoom fit 
+\i (00:22:26) trapsize 541
+\i (00:22:33) exit 

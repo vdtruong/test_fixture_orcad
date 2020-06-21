@@ -1,0 +1,4 @@
+DEFINE tutorial_project_lib worklib
+DEFINE my_lib my_lib
+DEFINE dp_proj_lib dp_lib
+

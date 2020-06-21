@@ -1,0 +1,32 @@
+********************************************************************************
+*
+* Netlisting the design 
+*
+********************************************************************************
+Design Name:
+C:\CADENCE\PROJECTS\test fixture.dsn
+Netlist Directory:
+C:\CADENCE\PROJECTS\allegro
+Configuration File:
+C:\Cadence\SPB_16.3\tools\capture\allegro.cfg
+
+Spawning... "C:\Cadence\SPB_16.3\tools\capture\pstswp.exe" -pst -d "C:\CADENCE\PROJECTS\test fixture.dsn" -n "C:\CADENCE\PROJECTS\allegro" -c "C:\Cadence\SPB_16.3\tools\capture\allegro.cfg" -v 3   -l 31 -s "" -j "PCB Footprint"
+#1 Error   [ALG0082] Illegal character "*" found in Pin "*CS" in Instance U5: SCHEMATIC1, Microcontroller (7.70, 6.90).
+#2 Error   [ALG0082] Illegal character "*" found in Pin "*LDAC" in Instance U5: SCHEMATIC1, Microcontroller (7.70, 6.90).
+#3 Aborting Netlisting... Please correct the above errors and retry.
+
+Exiting... "C:\Cadence\SPB_16.3\tools\capture\pstswp.exe" -pst -d "C:\CADENCE\PROJECTS\test fixture.dsn" -n "C:\CADENCE\PROJECTS\allegro" -c "C:\Cadence\SPB_16.3\tools\capture\allegro.cfg" -v 3   -l 31 -s "" -j "PCB Footprint"
+
+
+*** Done ***
+
+********************************************************************************
+*
+* Spawning Allegro PCB Editor 
+*
+********************************************************************************
+Spawing "C:\Cadence\SPB_16.3\tools\pcb\bin\allegro.exe" -mpssession Owner "C:\Cadence\Projects\Test Fixture-PSpiceFiles\board\test_fixture.brd" 
+
+
+*** Done ***
+

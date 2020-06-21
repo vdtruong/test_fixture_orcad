@@ -1,0 +1,136 @@
+\t (00:00:23) allegro 16.3 p006 (v16-3-85F) i86
+\t (00:00:23) 
+
+\t (00:00:26) Opening existing drawing...
+\d (00:00:26) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/R0603_1.dra
+\i (00:00:26) trapsize 20718
+\i (00:00:26) trapsize 20010
+\i (00:00:27) trapsize 19715
+\i (00:00:27) trapsize 16272
+\i (00:00:27) trapsize 16272
+\i (00:00:29) generaledit 
+\i (00:00:45) padeditdb 
+\i (00:01:59) pick grid 715.98 7420.12
+\t (00:01:59) last pick:  700.00  7400.00
+\i (00:02:04) add pin 
+\i (00:02:08) trapsize 14050
+\i (00:02:23) enved 
+\i (00:02:31) setwindow form.prfedit
+\i (00:02:31) FORM prfedit treelist  Placement 
+\i (00:02:34) FORM prfedit treelist  Config Paths 
+\i (00:02:35) FORM prfedit treelist  Editor Paths 
+\i (00:02:37) FORM prfedit treelist  Library Paths 
+\i (00:02:43) FORM prfedit padpath  
+\i (00:02:52) FORM prfedit done  
+\i (00:03:30) setwindow pcb
+\i (00:03:30) enved 
+\i (00:03:34) setwindow form.prfedit
+\i (00:03:34) FORM prfedit padpath  
+\i (00:03:55) FORM prfedit apply  
+\i (00:03:55) FORM prfedit done  
+\i (00:04:02) setwindow pcb
+\i (00:04:02) refresh padstack 
+\t (00:04:02) Exiting from Add Pin.
+\i (00:04:05) setwindow form.rf_pad
+\i (00:04:05) FORM rf_pad viewlog  
+\i (00:04:13) setwindow text
+\i (00:04:13) close 
+\i (00:04:15) setwindow form.rf_pad
+\i (00:04:15) FORM rf_pad padstack_list YES 
+\i (00:04:16) FORM rf_pad browse  
+\i (00:04:32) fillin "menu_cancel"
+\i (00:04:33) FORM rf_pad cancel  
+\i (00:04:33) setwindow pcb
+\i (00:04:33) generaledit 
+\i (00:04:46) padeditdb 
+\i (00:04:56) refresh padstack 
+\i (00:04:59) setwindow form.rf_pad
+\i (00:04:59) FORM rf_pad execute  
+\t (00:04:59) Starting Refreshing padstacks...
+\t (00:05:03) Opening existing drawing...
+\i (00:05:03) setwindow pcb
+\i (00:05:03) trapsize 14050
+\i (00:05:05) setwindow form.rf_pad
+\i (00:05:05) FORM rf_pad cancel  
+\i (00:05:06) setwindow pcb
+\i (00:05:06) generaledit 
+\i (00:05:45) add pin 
+\i (00:05:59) label refdes 
+\t (00:05:59) Exiting from Add Pin.
+\t (00:05:59) Pick text location.
+\i (00:06:01) pick grid 12166.94 17335.54
+\t (00:06:01) last pick:  12200.00  17300.00
+\t (00:06:01) Enter text string.
+\i (00:06:06) setwindow pcb
+\i (00:06:06) pick grid 18348.76 17082.65
+\t (00:06:06) last pick:  18300.00  17100.00
+\i (00:06:06) setwindow pcb
+\i (00:06:06) pick 12200.00 17300.00
+\i (00:06:14) undo 
+\i (00:06:16) generaledit 
+\i (00:06:27) viewlog -last 
+\i (00:06:31) setwindow text
+\i (00:06:31) close 
+\i (00:09:04) setwindow pcb
+\i (00:09:04) enved 
+\i (00:09:05) generaledit 
+\i (00:09:14) setwindow form.prfedit
+\i (00:09:14) FORM prfedit treelist  File_management 
+\i (00:09:15) FORM prfedit treelist  Autosave File_management 
+\i (00:09:37) FORM prfedit cancel  
+\i (00:10:30) setwindow pcb
+\i (00:10:30) delete 
+\i (00:10:46) open 
+\f (00:10:46) Do you want to save the changes you made to C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/R0603_1.dra?
+\i (00:10:56) fillin yes 
+\t (00:10:58) Symbol 'r0603_1.psm' created.
+\i (00:11:05) fillin "R0603_1.dra"
+\t (00:11:05) Opening existing drawing...
+\i (00:11:05) trapsize 14050
+\d (00:11:05) Database opened: C:/Cadence/Projects/Test Fixture-PSpiceFiles/symbol/R0603_1.dra
+\i (00:11:06) generaledit 
+\i (00:11:15) open 
+\i (00:11:19) fillin "menu_cancel"
+\i (00:11:19) generaledit 
+\i (00:11:22) new 
+\i (00:11:38) newdrawfillin "menu_cancel"
+\i (00:11:38) generaledit 
+\i (00:12:18) about 
+\i (00:13:29) padeditlib 
+\f (00:13:29) Select Library Padstack
+\i (00:13:40) fillin "menu_cancel"
+\f (00:13:40) This will exit the command and discard any padstacks updated to design. 
+Continue?
+\i (00:13:43) fillin yes 
+\i (00:13:43) generaledit 
+\i (00:13:48) padeditdb 
+\i (00:14:08) opencd C:/Cadence/Projects/Tutorial/allegro/full_add.brd 
+\t (00:14:09) Opening existing drawing...
+\w (00:14:09) WARNING(SPMHDB-214): Allegro PCB Design XL opening an Allegro Librarian design.
+\w (00:14:09) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (00:14:10) WARNING(SPMHOD-34): Database was last saved by lower tier tool ... Allegro Librarian. DRC is set out-of-date so you may wish to update DRC to insure design rules are being followed.
+\i (00:14:16) fillin confirm
+\t (00:14:17) Grids are drawn 400.00, 400.00 apart for enhanced viewability.
+\i (00:14:17) trapsize 750
+\i (00:14:17) trapsize 770
+\i (00:14:17) trapsize 960
+\d (00:14:18) Database opened: C:/Cadence/Projects/Tutorial/allegro/full_add.brd
+\i (00:14:18) generaledit 
+\i (00:14:33) pick grid 11653.71 14087.25
+\t (00:14:33) last pick:  11650.00  14075.00
+\i (00:14:39) padeditdb 
+\i (00:15:00) toolswap 
+\i (00:15:27) exit 
+\i (00:15:43) fillin PCB_design_studio  
+\w (00:15:43) WARNING(SPMHDB-214): Allegro PCB Design L opening an Allegro Expert design.
+\t (00:15:44) Opening existing drawing...
+\w (00:15:44) WARNING(SPMHDB-214): Allegro PCB Design L opening an Allegro Expert design.
+\w (00:15:44) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (00:15:44) WARNING(SPMHOD-33): Database was last saved by a higher tier tool ... Allegro Expert. There may be constraints, rules and other design data that may be ignored in this tool.
+\i (00:15:46) fillin confirm
+\t (00:15:47) Grids are drawn 400.00, 400.00 apart for enhanced viewability.
+\i (00:15:47) trapsize 936
+\i (00:15:47) trapsize 1187
+\i (00:15:47) trapsize 1187
+\f (00:15:47) Do you want to save the changes you made to C:/Cadence/Projects/Tutorial/allegro/full_add.brd?
+\i (00:15:50) fillin no 

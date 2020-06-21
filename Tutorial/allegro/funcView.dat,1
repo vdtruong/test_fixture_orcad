@@ -1,0 +1,24 @@
+A!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!REFDES!FUNC_PRIM_FILE!COMP_PARENT_PPT!COMP_PARENT_PPT_PART!COMP_PARENT_PART_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!FUNC_GROUP!FUNC_ROOM!FUNC_NO_SWAP_PIN!FUNC_HARD_LOCATION!FUNC_NO_SWAP_GATE_EXT!FUNC_ROOM!FUNC_GROUP!FUNC_NO_SWAP_GATE!
+J!C:/Cadence/Projects/Tutorial/allegro/full_add.brd!Sun Aug 13 14:49:47 2017!0.00!0.00!34000.00!22000.00!0.01!mils!FULL_ADD!10.400000 mil!2!UP TO DATE!
+S!@full_add.fulladd(sch_1):ins613@connector.\con2.normal\(chips)!CON2_JUMPER2_CON2!J1!.\pstchip.dat!!!!!!F16!!!!!!!!!
+S!@full_add.fulladd(sch_1):ins506@bipolar.\q2n2222.normal\(chips)!Q2N2222_TO18_Q2N2222!Q1!.\pstchip.dat!!!!!!F15!!!!!!!!!
+S!@full_add.fulladd(sch_1):ins479@analog.\r.normal\(chips)!R_RES500_1K!R1!.\pstchip.dat!!!!!!F14!!!!!!!!!
+S!@full_add.fulladd(sch_1):ins463@analog.\r.normal\(chips)!R_RES500_1K!R2!.\pstchip.dat!!!!!!F13!!!!!!!!!
+S!@full_add.fulladd(sch_1):ins184@\7400\.\7432.normal\(chips)!7432_SOIC14_7432!U1!.\pstchip.dat!!!!!!F12!!!!!!!!!
+S!@full_add.fulladd(sch_1):halfadd_a1@full_add.halfadd(sch_1):ins2181@\7400\.\7432.normal\(chips)!7432_SOIC14_7432!U1!.\pstchip.dat!!!!!!F11!!!!!!!!!
+S!@full_add.fulladd(sch_1):halfadd_a0@full_add.halfadd(sch_1):ins2181@\7400\.\7432.normal\(chips)!7432_SOIC14_7432!U1!.\pstchip.dat!!!!!!F10!!!!!!!!!
+S!!7432_SOIC14_7432!U1!!!!!!!TF-15!!!!!!!!!
+S!@full_add.fulladd(sch_1):halfadd_a1@full_add.halfadd(sch_1):ins2006@\7400\.\7408.normal\(chips)!7408_SOIC14_7408!U2!.\pstchip.dat!!!!!!F9!!!!!!!!!
+S!@full_add.fulladd(sch_1):halfadd_a1@full_add.halfadd(sch_1):ins2037@\7400\.\7408.normal\(chips)!7408_SOIC14_7408!U2!.\pstchip.dat!!!!!!F8!!!!!!!!!
+S!@full_add.fulladd(sch_1):halfadd_a1@full_add.halfadd(sch_1):ins2068@\7400\.\7408.normal\(chips)!7408_SOIC14_7408!U2!.\pstchip.dat!!!!!!F7!!!!!!!!!
+S!@full_add.fulladd(sch_1):halfadd_a0@full_add.halfadd(sch_1):ins2006@\7400\.\7408.normal\(chips)!7408_SOIC14_7408!U2!.\pstchip.dat!!!!!!F6!!!!!!!!!
+S!@full_add.fulladd(sch_1):halfadd_a0@full_add.halfadd(sch_1):ins2037@\7400\.\7408.normal\(chips)!7408_SOIC14_7408!U4!.\pstchip.dat!!!!!!F5!!!!!!!!!
+S!@full_add.fulladd(sch_1):halfadd_a0@full_add.halfadd(sch_1):ins2068@\7400\.\7408.normal\(chips)!7408_SOIC14_7408!U4!.\pstchip.dat!!!!!!F4!!!!!!!!!
+S!!7408_SOIC14_7408!U4!!!!!!!TF-8!!!!!!!!!
+S!!7408_SOIC14_7408!U4!!!!!!!TF-7!!!!!!!!!
+S!@full_add.fulladd(sch_1):halfadd_a1@full_add.halfadd(sch_1):ins2295@\7400\.\7404.normal\(chips)!7404_SOIC14_7404!U3!.\pstchip.dat!!!!!!F3!!!!!!!!!
+S!@full_add.fulladd(sch_1):halfadd_a1@full_add.halfadd(sch_1):ins2269@\7400\.\7404.normal\(chips)!7404_SOIC14_7404!U3!.\pstchip.dat!!!!!!F2!!!!!!!!!
+S!@full_add.fulladd(sch_1):halfadd_a0@full_add.halfadd(sch_1):ins2295@\7400\.\7404.normal\(chips)!7404_SOIC14_7404!U3!.\pstchip.dat!!!!!!F1!!!!!!!!!
+S!@full_add.fulladd(sch_1):halfadd_a0@full_add.halfadd(sch_1):ins2269@\7400\.\7404.normal\(chips)!7404_SOIC14_7404!U3!.\pstchip.dat!!!!!!F0!!!!!!!!!
+S!!7404_SOIC14_7404!U3!!!!!!!TF-2!!!!!!!!!
+S!!7404_SOIC14_7404!U3!!!!!!!TF-1!!!!!!!!!
