@@ -5,20 +5,20 @@
 # ===============================================================================
 # 
 # Software licensed for sale by Cadence Design Systems, Inc.
-# Current time = Thu Jun 04 00:51:20 2020
+# Current time = Fri Jun 05 02:45:17 2020
 # 
 # Allegro PCB Router v16-3-85 made 2009/11/03 at 11:55:32
 # Running on: second_xp, OS Version: WindowsNT 5.1.2600, Architecture: Intel Pentium II, III, or 4
 # Licensing: The program will not obey any unlicensed rules
 # No graphics will be displayed.
-# Design Name C:/Cadence/Projects/Test Fixture-PSpiceFiles/board\test_fixture_3.dsn
+# Design Name C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD\test_fixture_3.dsn
 # Batch File Name: pasde.do
-# Did File Name: C:/Cadence/Projects/Test Fixture-PSpiceFiles/board/specctra.did
-# Current time = Thu Jun 04 00:51:21 2020
-# PCB C:/Cadence/Projects/Test Fixture-PSpiceFiles/board
+# Did File Name: C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD/specctra.did
+# Current time = Fri Jun 05 02:45:17 2020
+# PCB C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD
 # Master Unit set up as: MIL 1000
 # PCB Limits xlo= 60.0000 ylo=-200.0000 xhi=3140.0000 yhi=4400.0000
-# Total 38 Images Consolidated.
+# Total 39 Images Consolidated.
 # Via VIA z=1, 3 xlo=-12.0000 ylo=-12.0000 xhi= 12.0000 yhi= 12.0000
 # 
 #    VIA     TOP  MIDDLE  BOTTOM
@@ -27,19 +27,19 @@
 # MIDDLE   VIA    ------   VIA  
 # BOTTOM   VIA     VIA    ------
 # 
-# Wires Processed 3, Vias Processed 3
+# Wires Processed 0, Vias Processed 0
 # Using colormap in design file.
 # Layers Processed: Signal Layers 3
 # Layers Processed: Power Layers 2
-# Components Placed 48, Images Processed 57, Padstacks Processed 11
-# Nets Processed 86, Net Terminals 252
+# Components Placed 48, Images Processed 58, Padstacks Processed 11
+# Nets Processed 87, Net Terminals 249
 # PCB Area=11200000.000  EIC=18  Area/EIC=622222.222  SMDs=0
 # Total Pin Count: 264
-# Net GND uses split power plane.
+# Net GND_POWER uses split power plane.
 # Net V3_3 uses split power plane.
 # Net V5_5 uses split power plane.
 # Net VCC uses split power plane.
-# Signal Connections Created 29
+# Signal Connections Created 100
 # 
 # Design Rules --------------------------------------------
 # Via Grid 0.0100 with offset 0.0000
@@ -48,21 +48,21 @@
 # Layer BOTTOM Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
 # Cpu Time = 0:00:00  Elapsed Time = 0:00:00
 # 
-# Wiring Statistics ----------------- C:/Cadence/Projects/Test Fixture-PSpiceFiles/board\test_fixture_3.dsn
-# Nets 86 Connections 166 Unroutes 29
+# Wiring Statistics ----------------- C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD\test_fixture_3.dsn
+# Nets 87 Connections 136 Unroutes 136
 # Signal Layers 3 Power Layers 2
-# Wire Junctions 0, at vias 0 Total Vias 3
-# Percent Connected   82.53
-# Manhattan Length 12679.0400 Horizontal 5520.1640 Vertical 7158.8760
-# Routed Length 530.0600 Horizontal 492.5600 Vertical  37.5000
-# Ratio Actual / Manhattan   0.0418
-# Unconnected Length 12679.0400 Horizontal 6419.0000 Vertical 6260.0400
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 148688.8400 Horizontal 95749.9610 Vertical 52938.8790
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 148688.8400 Horizontal 95170.7400 Vertical 53518.1000
 # Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
 # Cpu Time = 0:00:00  Elapsed Time = 0:00:02
 # Loading Do File pasde.do ...
-# Loading Do File C:/Cadence/Projects/Test Fixture-PSpiceFiles/board\test_fixture_3_rules.do ...
+# Loading Do File C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD\test_fixture_3_rules.do ...
 # Colormap Written to File _notify.std
-# Enter command <# Loading Do File C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaaf05868.tmp ...
+# Enter command <# Loading Do File C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaag16752.tmp ...
 # All Components Unselected.
 # All Nets Unselected.
 set route_diagonal 0
@@ -108,7 +108,7 @@ fanout 5 (direction In_out) (location Anywhere) (pin_type power)
 # Fanout in any direction.
 # Fanout inside and outside component outline.
 # Fanout..Power Nets.
-# Current time = Thu Jun 04 00:51:59 2020
+# Current time = Fri Jun 05 02:46:55 2020
 # 
 #    VIA     TOP  MIDDLE  BOTTOM
 # 
@@ -123,112 +123,37 @@ fanout 5 (direction In_out) (location Anywhere) (pin_type power)
 # Layer MIDDLE Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
 # Layer BOTTOM Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
 # 
-# Wiring Statistics ----------------- C:/Cadence/Projects/Test Fixture-PSpiceFiles/board\test_fixture_3.dsn
-# Nets 86 Connections 166 Unroutes 29
+# Wiring Statistics ----------------- C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD\test_fixture_3.dsn
+# Nets 87 Connections 136 Unroutes 136
 # Signal Layers 3 Power Layers 2
-# Wire Junctions 0, at vias 0 Total Vias 3
-# Percent Connected   82.53
-# Manhattan Length 12679.0400 Horizontal 5520.1640 Vertical 7158.8760
-# Routed Length 530.0600 Horizontal 492.5600 Vertical  37.5000
-# Ratio Actual / Manhattan   0.0418
-# Unconnected Length 12679.0400 Horizontal 6419.0000 Vertical 6260.0400
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 148688.8400 Horizontal 95749.9610 Vertical 52938.8790
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 148688.8400 Horizontal 95170.7400 Vertical 53518.1000
 # Start Fanout Pass 1 of 5
-# Attempts 0 Successes 0 Failures 0 Vias 3
-# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
-# 
-# Wiring Statistics ----------------- C:/Cadence/Projects/Test Fixture-PSpiceFiles/board\test_fixture_3.dsn
-# Nets 86 Connections 166 Unroutes 29
-# Signal Layers 3 Power Layers 2
-# Wire Junctions 0, at vias 0 Total Vias 3
-# Percent Connected   82.53
-# Manhattan Length 12679.0400 Horizontal 5520.1640 Vertical 7158.8760
-# Routed Length 530.0600 Horizontal 492.5600 Vertical  37.5000
-# Ratio Actual / Manhattan   0.0418
-# Unconnected Length 12679.0400 Horizontal 6419.0000 Vertical 6260.0400
-write routes (changed_only) (reset_changed) C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaag05868.tmp
-# Routing Written to File C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaag05868.tmp
-# Loading Do File C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaai05868.tmp ...
-# All Components Unselected.
-# All Nets Unselected.
-set route_diagonal 0
-grid wire 0.010000 (direction x) (offset 0.000000)
-grid wire 0.010000 (direction y) (offset 0.000000)
-grid via 0.010000 (direction x) (offset 0.000000)
-grid via 0.010000 (direction y) (offset 0.000000)
-protect all wires
-# All Wires Protected.
-direction TOP horizontal
-select layer TOP
-unprotect layer_wires TOP
-# Wires on layer TOP were Unprotected.
-direction MIDDLE vertical
-select layer MIDDLE
-unprotect layer_wires MIDDLE
-# Wires on layer MIDDLE were Unprotected.
-direction BOTTOM horizontal
-select layer BOTTOM
-unprotect layer_wires BOTTOM
-# Wires on layer BOTTOM were Unprotected.
-cost via -1
-# System default cost will be used.
-set turbo_stagger off
-limit outside -1
-rule pcb (patterns_allowed  trombone accordion)
-set pattern_stacking on
-rule pcb (sawtooth_amplitude -1 -1)
-rule pcb (sawtooth_gap -1)
-rule pcb (accordion_amplitude -1 -1)
-rule pcb (accordion_gap -1)
-rule pcb (trombone_run_length -1)
-rule pcb (trombone_gap -1)
-unprotect selected
-# All Selected Wires Unprotected.
-fanout 5 (direction In_out) (location Anywhere) (pin_type power)
-# Command fanout detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# Attempts 36 Successes 36 Failures 0 Vias 45
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 1 of 5
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
 # All unlicensed rules are being ignored.
-# Command fanout will ignore pcb layer rule(s), mcm via rule(s)
-# Command Fanout detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
-# All unlicensed rules are being ignored.
-# Command Fanout will ignore pcb layer rule(s), mcm via rule(s)
-# Fanout in any direction.
-# Fanout inside and outside component outline.
-# Fanout..Power Nets.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
 # 
-#    VIA     TOP  MIDDLE  BOTTOM
-# 
-#    TOP  ------   VIA     VIA  
-# MIDDLE   VIA    ------   VIA  
-# BOTTOM   VIA     VIA    ------
-# 
-# 
-# Design Rules --------------------------------------------
-# Via Grid 0.0100 with offset 0.0000
-# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
-# Layer MIDDLE Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
-# Layer BOTTOM Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
-# 
-# Wiring Statistics ----------------- C:/Cadence/Projects/Test Fixture-PSpiceFiles/board\test_fixture_3.dsn
-# Nets 86 Connections 166 Unroutes 29
+# Wiring Statistics ----------------- C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD\test_fixture_3.dsn
+# Nets 87 Connections 136 Unroutes 100
 # Signal Layers 3 Power Layers 2
-# Wire Junctions 0, at vias 0 Total Vias 3
-# Percent Connected   82.53
-# Manhattan Length 12679.0400 Horizontal 5520.1640 Vertical 7158.8760
-# Routed Length 530.0600 Horizontal 492.5600 Vertical  37.5000
-# Ratio Actual / Manhattan   0.0418
-# Unconnected Length 12679.0400 Horizontal 6419.0000 Vertical 6260.0400
-# Start Fanout Pass 1 of 5
-# Attempts 0 Successes 0 Failures 0 Vias 3
-# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
-# 
-# Wiring Statistics ----------------- C:/Cadence/Projects/Test Fixture-PSpiceFiles/board\test_fixture_3.dsn
-# Nets 86 Connections 166 Unroutes 29
-# Signal Layers 3 Power Layers 2
-# Wire Junctions 0, at vias 0 Total Vias 3
-# Percent Connected   82.53
-# Manhattan Length 12679.0400 Horizontal 5520.1640 Vertical 7158.8760
-# Routed Length 530.0600 Horizontal 492.5600 Vertical  37.5000
-# Ratio Actual / Manhattan   0.0418
-# Unconnected Length 12679.0400 Horizontal 6419.0000 Vertical 6260.0400
-write routes (changed_only) (reset_changed) C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaaj05868.tmp
-# Routing Written to File C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaaj05868.tmp
+# Wire Junctions 0, at vias 0 Total Vias 45
+# Percent Connected   26.47
+# Manhattan Length 148688.8400 Horizontal 95749.9610 Vertical 52938.8790
+# Routed Length 10166.7300 Horizontal 6426.1900 Vertical 3740.5400
+# Ratio Actual / Manhattan   0.0684
+# Unconnected Length 148688.8400 Horizontal 95170.7400 Vertical 53518.1000
+write routes (changed_only) (reset_changed) C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaah16752.tmp
+# Routing Written to File C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaah16752.tmp
 quit

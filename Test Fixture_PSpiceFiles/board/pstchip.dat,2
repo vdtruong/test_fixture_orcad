@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.3.0 p002Jun-10-2020 at 04:03:32}
+{ Using PSTWRITER 16.3.0 p002Jun-17-2020 at 14:42:21}
 primitive 'C_RES400_0.1U';
   pin
     '1':
@@ -696,7 +696,7 @@ primitive 'MC9S08QE128_11_MC9S08QE128_V2_M';
     VALUE='MC9S08QE128_64';
   end_body;
 end_primitive;
-primitive 'CAT24C02_2_DIP8_3_CAT24C02';
+primitive 'CAT24C02_3_DIP8_3_CAT24C02';
   pin
     'A0':
       PIN_NUMBER='(1)';
@@ -721,8 +721,8 @@ primitive 'CAT24C02_2_DIP8_3_CAT24C02';
   end_pin;
   body
     POWER_PINS='(VSS:4)';
-    POWER_PINS='(VCC:8)';
-    PART_NAME='CAT24C02_2';
+    POWER_PINS='(V3_3:8)';
+    PART_NAME='CAT24C02_3';
     JEDEC_TYPE='DIP8_3';
     VALUE='CAT24C02';
   end_body;

@@ -50,11 +50,11 @@
     (width_End "80")
     ("Create Allegro Netlist" "TRUE")
     ("Allegro Netlist Directory"
-       "C:\CADENCE\PROJECTS\TEST FIXTURE-PSPICEFILES\BOARD")
+       "C:\CADENCE\PROJECTS\TEST FIXTURE_PSPICEFILES\BOARD")
     ("View Allegro Netlist Files" "FALSE")
     ("Update Allegro Board" "TRUE")
     ("Allegro Netlist Output Board File"
-       "C:\Cadence\Projects\Test Fixture-PSpiceFiles\board\test_fixture_3.brd")
+       "C:\Cadence\Projects\Test Fixture_PSpiceFiles\board\test_fixture_3.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ORCAD")
@@ -123,7 +123,7 @@
     (OTHER_Switch5 "FALSE")
     (OTHER_Switch6 "FALSE")
     ("Allegro Netlist Input Board File"
-       "C:\Cadence\Projects\Test Fixture-PSpiceFiles\board\test_fixture_3.brd"))
+       "C:\Cadence\Projects\Test Fixture_PSpiceFiles\board\test_fixture_3.brd"))
   (Folder "Outputs"
     (File ".\test fixture.v"
       (Type "Report"))
@@ -141,7 +141,18 @@
       (DisplayName "pstxprt.dat"))
     (File ".\test fixture-pspicefiles\board\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\test fixture_pspicefiles\board\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\test fixture_pspicefiles\board\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\test fixture_pspicefiles\board\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\test fixture_pspicefiles\board\session log"
+      (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
     (Folder "Model Libraries"
@@ -247,7 +258,9 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "Library"))
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources" ".\test fixture.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -268,8 +281,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -30 44 1121 58 467")
-        (Scroll "1254 180")
-        (Zoom "160")
+        (Scroll "-84 0")
+        (Zoom "43")
         (Occurrence "/"))
       (Path "C:\CADENCE\PROJECTS\TEST FIXTURE.DSN")
       (Schematic "SCHEMATIC1")

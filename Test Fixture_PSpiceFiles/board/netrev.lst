@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : test_fixture_3.brd                            )
 (    Software Version : 16.3p004                                      )
-(    Date/Time        : Sun Jun 21 01:05:25 2020                      )
+(    Date/Time        : Wed Jul 01 02:12:56 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -14,21 +14,21 @@
 RIPUP_ETCH FALSE;
 RIPUP_SYMBOLS ALWAYS;
 Missing symbol has error FALSE;
-SCHEMATIC_DIRECTORY 'C:\CADENCE\PROJECTS\TEST FIXTURE-PSPICEFILES\BOARD';
-BOARD_DIRECTORY 'C:/Cadence/Projects/Test Fixture-PSpiceFiles/board';
-OLD_BOARD_NAME 'C:/Cadence/Projects/Test Fixture-PSpiceFiles/board/test_fixture_3.brd';
-NEW_BOARD_NAME 'C:/Cadence/Projects/Test Fixture-PSpiceFiles/board/test_fixture_3.brd';
+SCHEMATIC_DIRECTORY 'C:\CADENCE\PROJECTS\TEST FIXTURE_PSPICEFILES\BOARD';
+BOARD_DIRECTORY 'C:/Cadence/Projects/Test Fixture_PSpiceFiles/board';
+OLD_BOARD_NAME 'C:/Cadence/Projects/Test Fixture_PSpiceFiles/board/test_fixture_3.brd';
+NEW_BOARD_NAME 'C:/Cadence/Projects/Test Fixture_PSpiceFiles/board/test_fixture_3.brd';
 
-CmdLine: netrev.exe -5 -y 1 -i C:\CADENCE\PROJECTS\TEST FIXTURE-PSPICEFILES\BOARD C:\Cadence\Projects\Test Fixture-PSpiceFiles\board\test_fixture_3.brd C:\Cadence\Projects\Test Fixture-PSpiceFiles\board\test_fixture_3.brd
+CmdLine: netrev.exe -5 -y 1 -i C:\CADENCE\PROJECTS\TEST FIXTURE_PSPICEFILES\BOARD C:\Cadence\Projects\Test Fixture_PSpiceFiles\board\test_fixture_3.brd C:\Cadence\Projects\Test Fixture_PSpiceFiles\board\test_fixture_3.brd
 
 ------ Preparing to read pst files ------
 
-Starting to read C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD/pstchip.dat 
-   Finished reading C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD/pstchip.dat (00:00:00.09)
-Starting to read C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD/pstxprt.dat 
-   Finished reading C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD/pstxprt.dat (00:00:00.00)
-Starting to read C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD/pstxnet.dat 
-   Finished reading C:/CADENCE/PROJECTS/TEST FIXTURE-PSPICEFILES/BOARD/pstxnet.dat (00:00:00.00)
+Starting to read C:/CADENCE/PROJECTS/TEST FIXTURE_PSPICEFILES/BOARD/pstchip.dat 
+   Finished reading C:/CADENCE/PROJECTS/TEST FIXTURE_PSPICEFILES/BOARD/pstchip.dat (00:00:00.15)
+Starting to read C:/CADENCE/PROJECTS/TEST FIXTURE_PSPICEFILES/BOARD/pstxprt.dat 
+   Finished reading C:/CADENCE/PROJECTS/TEST FIXTURE_PSPICEFILES/BOARD/pstxprt.dat (00:00:00.00)
+Starting to read C:/CADENCE/PROJECTS/TEST FIXTURE_PSPICEFILES/BOARD/pstxnet.dat 
+   Finished reading C:/CADENCE/PROJECTS/TEST FIXTURE_PSPICEFILES/BOARD/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -57,7 +57,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jun 21 1:05:25 2020
+netrev run on Jul 1 2:12:56 2020
    DESIGN NAME : 'TEST FIXTURE'
    PACKAGING ON Nov 17 2009 03:09:43
 
@@ -82,6 +82,6 @@ netrev run on Jun 21 1:05:25 2020
  No oversight detected
  No warning detected
 
-cpu time      0:01:54
+cpu time      0:02:55
 elapsed time  0:00:01
 

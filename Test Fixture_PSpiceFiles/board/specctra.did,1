@@ -5,10 +5,10 @@
 # 
 #            Command Line Parameters
 #            -----------------------
-# Design File Name : C:/Cadence/Projects/Test Fixture-PSpiceFiles/board\test_fixture_3.dsn
+# Design File Name : C:/CADENCE/PROJECTS/TEST FIXTURE_PSPICEFILES/BOARD\test_fixture_3.dsn
 # Initialization options:
 #   -do pasde.do
-# Status File Name : C:/Cadence/Projects/Test Fixture-PSpiceFiles/board\monitor.sts
+# Status File Name : C:/CADENCE/PROJECTS/TEST FIXTURE_PSPICEFILES/BOARD\monitor.sts
 # -nog specified. Graphics not utilized.
 # Use Colormap In Design File.
 #
@@ -99,6 +99,10 @@ rule PCB (clearance 0 (type mhole_mhole))
 set mhole_mhole off
 rule PCB (clearance 5 (type bbvia_bondpad))
 set bbvia_bondpad on
+rule net AGND (width 10)
+rule net V3_3 (width 7)
+rule net V5_5 (width 7)
+rule net VCC (width 7)
 rule PCB (clearance -1 same_net (type wire_wire))
 rule PCB (clearance -1 same_net (type wire_smd))
 rule PCB (clearance -1 same_net (type wire_pin))
@@ -175,7 +179,7 @@ rule PCB (turn_under_pad off)
 rule layer TOP (restricted_layer_length_factor 1)
 rule layer BOTTOM (restricted_layer_length_factor 1)
 write colormap _notify.std
-# do C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaab12112.tmp
+# do C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaae07752.tmp
 unselect all routing
 set route_diagonal 0
 grid wire 0.010000 (direction x) (offset 0.000000)
@@ -204,6 +208,6 @@ rule pcb (accordion_gap -1)
 rule pcb (trombone_run_length -1)
 rule pcb (trombone_gap -1)
 unprotect selected
-fanout 5 (direction In_out) (location Anywhere) (pin_type power) (pin_type signal)
-write routes (changed_only) (reset_changed) C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaac12112.tmp
+fanout 5 (direction In_out) (location Anywhere) (pin_type power)
+write routes (changed_only) (reset_changed) C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaaf07752.tmp
 quit -c

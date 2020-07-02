@@ -1,6 +1,6 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.3.0 p002Jun-17-2020 at 14:42:21}
-primitive 'C_RES400_0.1U';
+{ Using PSTWRITER 16.3.0 p002Jun-21-2020 at 01:05:22}
+primitive 'C_CAP196_0.1U';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -11,7 +11,7 @@ primitive 'C_RES400_0.1U';
   end_pin;
   body
     PART_NAME='C';
-    JEDEC_TYPE='res400';
+    JEDEC_TYPE='cap196';
     VALUE='0.1u';
   end_body;
 end_primitive;
@@ -43,21 +43,6 @@ primitive 'CAP_CAP196_1N';
     PART_NAME='CAP';
     JEDEC_TYPE='cap196';
     VALUE='1n';
-  end_body;
-end_primitive;
-primitive 'C_CAP196_0.1U';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='C';
-    JEDEC_TYPE='cap196';
-    VALUE='0.1u';
   end_body;
 end_primitive;
 primitive 'C_CAP196_2U';
