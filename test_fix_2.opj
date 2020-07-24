@@ -31,7 +31,7 @@
       (File ".\library1.olb"
         (Type "Schematic Library")))
     (NoModify)
-    (File ".\test fixture.dsn"
+    (File ".\test_fix_2.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
@@ -81,7 +81,7 @@
     (DRC_View_Output "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
-    (DRC_Report_File "C:\CADENCE\PROJECTS\TEST FIXTURE.DRC")
+    (DRC_Report_File "C:\CADENCE\PROJECTS\test_fix_2.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -151,7 +151,7 @@
     (File ".\test fixture_pspicefiles\board\pstchip.dat"
       (Type "Report")
       (DisplayName "pstchip.dat"))
-    (File ".\test fixture_pspicefiles\board\session log"
+    (File ".\test_fix_2.drc"
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -163,6 +163,26 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    ("HEADER 8"
+      (FullPartName "HEADER 8.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 8/SM"
+      (FullPartName "HEADER 8/SM.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4"
+      (FullPartName "HEADER 4.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON6
+      (FullPartName "CON6.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON10C
+      (FullPartName "CON10C.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (GND_SIGNAL
       (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -237,32 +257,13 @@
       (DeviceIndex "0"))
     (PORTLEFT-R
       (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (CON5
-      (FullPartName "CON5.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (LM317A/TO220
-      (FullPartName "LM317A/TO220.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (PORTRIGHT-R
-      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (VCC_CIRCLE
-      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\test fixture.dsn")
-      (Path "Design Resources" ".\test fixture.dsn" "SCHEMATIC1")
-      (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources"))
+      (Path "Design Resources" ".\test_fix_2.dsn")
+      (Path "Design Resources" ".\test_fix_2.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\test_fix_2.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -273,20 +274,20 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -30 44 798 58 489")
-        (Scroll "72 230")
-        (Zoom "132")
+        (Scroll "257 462")
+        (Zoom "178")
         (Occurrence "/"))
-      (Path "C:\CADENCE\PROJECTS\TEST FIXTURE.DSN")
+      (Path "C:\CADENCE\PROJECTS\TEST_FIX_2.DSN")
       (Schematic "SCHEMATIC1")
       (Page "Friend_BPF"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -30 44 1121 58 467")
-        (Scroll "1338 775")
-        (Zoom "192")
+        (Scroll "-3 0")
+        (Zoom "51")
         (Occurrence "/"))
-      (Path "C:\CADENCE\PROJECTS\TEST FIXTURE.DSN")
+      (Path "C:\CADENCE\PROJECTS\TEST_FIX_2.DSN")
       (Schematic "SCHEMATIC1")
       (Page "Microcontroller")))
   (MPSSessionName "Owner")

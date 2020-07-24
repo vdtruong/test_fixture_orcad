@@ -1,0 +1,81 @@
+
+--------------------------------------------------
+Checking Schematic:  SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict VREFL Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (14.50, 4.30) 
+ERROR:  [DRC0004]  Possible pin type conflict VREFL Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (17.70, 4.20) 
+ERROR:  [DRC0004]  Possible pin type conflict VSSAD Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (17.70, 4.30) 
+ERROR:  [DRC0004]  Possible pin type conflict VSSAD Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (14.50, 4.40) 
+ERROR:  [DRC0004]  Possible pin type conflict VSS_2 Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (14.50, 4.50) 
+ERROR:  [DRC0004]  Possible pin type conflict VSS_2 Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (17.70, 4.40) 
+ERROR:  [DRC0004]  Possible pin type conflict U1A,V- Power Connected to Output Port
+                    SCHEMATIC1, Friend_BPF  (3.30, 4.30) 
+ERROR:  [DRC0004]  Possible pin type conflict U1B,V- Power Connected to Output Port
+                    SCHEMATIC1, Friend_BPF  (6.10, 4.50) 
+ERROR:  [DRC0004]  Possible pin type conflict U3,GND Power Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (4.40, 5.50) 
+ERROR:  [DRC0004]  Possible pin type conflict U7,GND Power Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (5.60, 9.90) 
+ERROR:  [DRC0004]  Possible pin type conflict U8,GND Power Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (5.60, 11.60) 
+WARNING:  [DRC0004]  Possible pin type conflict U4,PTA2/KBI1P2/SDA11/ADP2 Bidirectional Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (9.40, 4.20) 
+WARNING:  [DRC0004]  Possible pin type conflict U4,PTA1/KBI1P1/TPM2CH0/ADP1/ACMP1 Bidirectional Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (9.40, 4.30) 
+WARNING:  [DRC0004]  Possible pin type conflict U4,PTC6/RxD2/ACMP2+ Bidirectional Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (9.40, 4.70) 
+ERROR:  [DRC0004]  Possible pin type conflict VDD Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (17.70, 3.60) 
+ERROR:  [DRC0004]  Possible pin type conflict VDD Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (13.40, 4.00) 
+ERROR:  [DRC0004]  Possible pin type conflict VDDAD Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (13.40, 4.10) 
+ERROR:  [DRC0004]  Possible pin type conflict VDDAD Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (17.70, 3.70) 
+ERROR:  [DRC0004]  Possible pin type conflict VREFH Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (13.40, 4.20) 
+ERROR:  [DRC0004]  Possible pin type conflict VREFH Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (17.70, 3.80) 
+ERROR:  [DRC0004]  Possible pin type conflict U5,V3_3 Power Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (14.00, 2.40) 
+ERROR:  [DRC0004]  Possible pin type conflict U4,VDD Power Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (12.40, 4.00) 
+ERROR:  [DRC0004]  Possible pin type conflict U6,VDD Power Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (4.40, 2.60) 
+ERROR:  [DRC0004]  Possible pin type conflict U8,OUT Power Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (6.20, 11.40) 
+ERROR:  [DRC0004]  Possible pin type conflict VSS Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (7.70, 6.10) 
+ERROR:  [DRC0004]  Possible pin type conflict VSS Output Port Connected to Power
+                    SCHEMATIC1, Microcontroller  (9.30, 5.60) 
+ERROR:  [DRC0004]  Possible pin type conflict U5,VSS Power Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (14.30, 3.00) 
+ERROR:  [DRC0004]  Possible pin type conflict U4,PTC5/TPM3CH5/ACMP2O Power Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (9.40, 6.50) 
+WARNING:  [DRC0004]  Possible pin type conflict U4,PTC7/TxD2/ACMP2- Bidirectional Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (9.40, 4.60) 
+WARNING:  [DRC0004]  Possible pin type conflict U4,PTE3/S\S\1\ Bidirectional Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (9.40, 4.80) 
+ERROR:  [DRC0004]  Possible pin type conflict U4,PTC4/TPM3CH4/R\S\T\O\ Power Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (9.40, 6.40) 
+WARNING:  [DRC0004]  Possible pin type conflict U4,PTA3/KBI1P3/SCL1/ADP3 Bidirectional Connected to Output Port
+                    SCHEMATIC1, Microcontroller  (9.40, 4.10) 
+WARNING:  [DRC0005]  Unconnected pin U6,LDAC_N
+                    SCHEMATIC1, Microcontroller  (4.40, 2.80) 
+WARNING:  [DRC0007]  Net has no driving source R2IN
+                    SCHEMATIC1, Microcontroller  (3.70, 3.90) 
+WARNING:  [DRC0007]  Net has no driving source R1IN
+                    SCHEMATIC1, Microcontroller  (3.70, 3.80) 
+WARNING:  [DRC0007]  Net has no driving source SS1_N
+                    SCHEMATIC1, Microcontroller  (3.00, 2.80) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
