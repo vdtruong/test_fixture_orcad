@@ -818,4 +818,40 @@
 \i (00:45:33) setwindow pcb
 \i (00:45:33) zoom out 2660.49 2743.81
 \i (00:45:33) trapsize 1363
-\i (00:45:33) zoom 
+\i (00:45:33) zoom out 1 
+\i (00:45:33) setwindow pcb
+\i (00:45:33) zoom out 2660.49 2743.81
+\i (00:45:33) trapsize 2725
+\i (00:45:36) zoom fit 
+\i (00:45:36) trapsize 2847
+\i (00:52:56) zoom fit 
+\i (00:52:56) trapsize 2847
+\i (10:01:02) prmed 
+\i (10:01:06) setwindow form.prmedit
+\i (10:01:06) FORM prmedit design  
+\i (10:01:08) FORM prmedit text  
+\i (10:01:09) FORM prmedit shapes  
+\i (10:01:10) FORM prmedit route  
+\i (10:01:10) FORM prmedit mfg_applications  
+\i (10:01:12) FORM prmedit cancel  
+\i (10:01:12) setwindow pcb
+\i (10:01:12) generaledit 
+\i (10:02:44) xsection 
+   (10:02:45) Loading floor.cxt 
+   (10:02:45) Loading skillExt.cxt 
+   (10:02:45) Loading fputil.cxt 
+\i (10:02:58) setwindow form.fplyrstack
+\i (10:02:58) FORM fplyrstack lsgrid cell 6,name 
+\i (10:02:59) FORM fplyrstack lsgrid lprepopup 6,type 
+\i (10:02:59) FORM fplyrstack lsgrid cell 6,type 
+\i (10:03:02) FORM fplyrstack lsgrid rprepopup 6,name 
+\i (10:03:04) FORM fplyrstack lsgrid rpopup 6,name 'Remove Layer' 
+   (10:03:04) "You cannot remove a layer containing etch."
+\i (10:03:08) fillin confirm
+\i (10:03:24) setwindow text
+\i (10:03:24) close 
+\i (10:08:42) setwindow form.fplyrstack
+\i (10:08:42) FORM fplyrstack cancel  
+\i (10:08:42) setwindow pcb
+\i (10:08:42) generaledit 
+\i (10:22:30) exit 
