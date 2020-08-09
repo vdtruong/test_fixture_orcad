@@ -1,0 +1,58 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : i2c_switch.brd                                )
+(    Software Version : 16.3p006                                      )
+(    Date/Time        : Sat Aug 08 14:23:13 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for the top of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.00
+Max Text displacement is 100.00
+Min Line Length is 0.00
+Allowing 0, 90, 180 and 270 degree text rotations.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : Silkscreen
+ Component Value      : None
+ Device Type          : None
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : None
+ User Part Number     : None
+
+Text string 'J26' is not at a suitable location
+(location: 1653.00, 2782.00)
+Text string 'J25' is not at a suitable location
+(location: 2103.00, 2782.00)
+Text string 'J24' is not at a suitable location
+(location: 2553.00, 2782.00)
+Text string 'J23' is not at a suitable location
+(location: 3003.00, 2782.00)
+Text string 'J17' is not at a suitable location
+(location: 1853.00, 4602.00)
+Text string 'J13' is not at a suitable location
+(location: 3693.00, 4602.00)
+Text string 'J11' is not at a suitable location
+(location: 3938.00, 3533.00)
+Text string 'J18' is not at a suitable location
+(location: 1393.00, 4602.00)
+Text string 'J16' is not at a suitable location
+(location: 2313.00, 4602.00)
+Text string 'J15' is not at a suitable location
+(location: 2773.00, 4602.00)
+Text string 'J14' is not at a suitable location
+(location: 3233.00, 4602.00)
+Text string 'C8' is not at a suitable location
+(location: 3430.00, 2110.00)
+
+Total Failures: 12
+
+Log End
+

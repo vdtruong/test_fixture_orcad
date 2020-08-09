@@ -1,0 +1,45 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Database Objects Preventing Layer From Being Deleted             )
+(                                                                     )
+(    Drawing          : i2c_switch.brd                                )
+(    Software Version : 16.3p006                                      )
+(    Date/Time        : Sun Aug 09 00:05:22 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Layer being deleted: ETCH/MIDDLE
+
+    (3140.00 3670.00) CONNECT LINE: Agnd, Etch/Middle 
+    (4000.00 3540.00) CONNECT LINE: Agnd, Etch/Middle 
+    (3270.00 3410.00) CONNECT LINE: Agnd, Etch/Middle 
+    (2590.00 3310.00) CONNECT LINE: Agnd, Etch/Middle 
+    (3830.00 3160.00) CONNECT LINE: Agnd, Etch/Middle 
+    (1710.00 3750.00) CONNECT LINE: Agnd, Etch/Middle 
+    (2950.00 3230.00) CONNECT LINE: Agnd, Etch/Middle 
+    (3270.00 3130.00) CONNECT LINE: Agnd, Etch/Middle 
+    (3110.00 2870.00) CONNECT LINE: Agnd, Etch/Middle 
+    (2210.00 2870.00) CONNECT LINE: Agnd, Etch/Middle 
+    (1760.00 2870.00) CONNECT LINE: Agnd, Etch/Middle 
+    (2780.00 4540.00) CONNECT LINE: Agnd, Etch/Middle 
+    (2350.00 3750.00) CONNECT LINE: Agnd, Etch/Middle 
+    (1760.00 2720.00) CONNECT LINE: Agnd, Etch/Middle 
+    (2660.00 2720.00) CONNECT LINE: Agnd, Etch/Middle 
+    (1860.00 4540.00) CONNECT LINE: Agnd, Etch/Middle 
+    (3640.00 1630.00) CONNECT LINE: Agnd, Etch/Middle 
+    (2740.00 3780.00) CONNECT LINE: Agnd, Etch/Middle 
+    (2350.00 3650.00) CONNECT LINE: N211814, Etch/Middle 
+    (3070.00 1910.00) CONNECT LINE: N212975, Etch/Middle 
+    (3070.00 850.00) CONNECT LINE: N212979, Etch/Middle 
+    (3850.00 1270.00) CONNECT LINE: Pta3, Etch/Middle 
+    (2737.00 1275.00) CONNECT LINE: Pta6, Etch/Middle 
+    (3850.00 2290.00) CONNECT LINE: Pta7, Etch/Middle 
+    (3850.00 2750.00) CONNECT LINE: Ptb2, Etch/Middle 
+    (2083.00 880.00) CONNECT LINE: Ptb4, Etch/Middle 
+    (1210.00 2650.00) CONNECT LINE: Ptc1, Etch/Middle 
+    (1310.00 2190.00) CONNECT LINE: Ptc3, Etch/Middle 
+    (2083.00 1802.00) CONNECT LINE: Ptc4, Etch/Middle 
+    (1210.00 2390.00) CONNECT LINE: Ptd6, Etch/Middle 
+
+... 75 total objects preventing delete layer

@@ -1,0 +1,273 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2006 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Sat Jul 25 04:28:15 2020
+# 
+# Allegro PCB Router v16-3-85 made 2009/11/03 at 11:55:32
+# Running on: second_xp, OS Version: WindowsNT 5.1.2600, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/Cadence/Projects/i2c_switch/specctra.did
+# Current time = Sat Jul 25 04:28:15 2020
+# PCB C:/Cadence/Projects/i2c_switch
+# Master Unit set up as: MIL 1000
+# PCB Limits xlo=897.0000 ylo=227.0000 xhi=4263.0000 yhi=4861.5000
+# Total 42 Images Consolidated.
+# Via VIA z=1, 3 xlo=-12.0000 ylo=-12.0000 xhi= 12.0000 yhi= 12.0000
+# 
+#    VIA     TOP  MIDDLE  BOTTOM
+# 
+#    TOP  ------   VIA     VIA  
+# MIDDLE   VIA    ------   VIA  
+# BOTTOM   VIA     VIA    ------
+# 
+# Wires Processed 184, Vias Processed 71
+# Using colormap in design file.
+# Layers Processed: Signal Layers 3
+# Layers Processed: Power Layers 2
+# Components Placed 52, Images Processed 61, Padstacks Processed 20
+# Nets Processed 92, Net Terminals 343
+# PCB Area=12331800.000  EIC=19  Area/EIC=649042.105  SMDs=0
+# Total Pin Count: 272
+# Net VCC uses split power plane.
+# Net V5_5 uses split power plane.
+# Net V3_3 uses split power plane.
+# Net AGND uses split power plane.
+# Signal Connections Created 0
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer MIDDLE Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Nets 92 Connections 180 Unroutes 3
+# Signal Layers 3 Power Layers 2
+# Wire Junctions 5, at vias 1 Total Vias 71
+# Percent Connected   98.33
+# Manhattan Length 150589.0000 Horizontal 87467.0060 Vertical 63121.9940
+# Routed Length 172625.7100 Horizontal 95777.9000 Vertical 76847.8100
+# Ratio Actual / Manhattan   1.1463
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:02
+# Loading Do File pasde.do ...
+# Loading Do File C:/Cadence/Projects/i2c_switch\i2c_switch_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaad04452.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction MIDDLE vertical
+select layer MIDDLE
+unprotect layer_wires MIDDLE
+# Wires on layer MIDDLE were Unprotected.
+direction BOTTOM horizontal
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+route 25 1
+# Command route detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command route will ignore pcb layer rule(s), mcm via rule(s)
+# Current time = Sat Jul 25 04:28:32 2020
+# 
+#    VIA     TOP  MIDDLE  BOTTOM
+# 
+#    TOP  ------   VIA     VIA  
+# MIDDLE   VIA    ------   VIA  
+# BOTTOM   VIA     VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer MIDDLE Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Nets 92 Connections 180 Unroutes 3
+# Signal Layers 3 Power Layers 2
+# Wire Junctions 5, at vias 1 Total Vias 71
+# Percent Connected   98.33
+# Manhattan Length 150589.0000 Horizontal 87467.0060 Vertical 63121.9940
+# Routed Length 172625.7100 Horizontal 95777.9000 Vertical 76847.8100
+# Ratio Actual / Manhattan   1.1463
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Route Pass 1 of 25
+# Routing 187 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 186 Successes 184 Failures 2 Vias 78
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:02
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 25
+# 5 bend points have been removed.
+# 12 bend points have been removed.
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 5.0000
+# Layer MIDDLE Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 5.0000
+# Layer BOTTOM Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 7.0000, Clearance= 5.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   2|    0|   78|    0|   0|  0|  0:00:01|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Nets 92 Connections 180 Unroutes 0
+# Signal Layers 3 Power Layers 2
+# Wire Junctions 5, at vias 2 Total Vias 78
+# Percent Connected  100.00
+# Manhattan Length 150589.0000 Horizontal 87529.7820 Vertical 63059.2180
+# Routed Length 170533.5500 Horizontal 94199.8800 Vertical 76333.6700
+# Ratio Actual / Manhattan   1.1324
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+clean 2
+# Command clean detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command clean will ignore pcb layer rule(s), mcm via rule(s)
+# Current time = Sat Jul 25 04:28:34 2020
+# 
+#    VIA     TOP  MIDDLE  BOTTOM
+# 
+#    TOP  ------   VIA     VIA  
+# MIDDLE   VIA    ------   VIA  
+# BOTTOM   VIA     VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer MIDDLE Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Nets 92 Connections 180 Unroutes 0
+# Signal Layers 3 Power Layers 2
+# Wire Junctions 5, at vias 2 Total Vias 78
+# Percent Connected  100.00
+# Manhattan Length 150589.0000 Horizontal 87529.7820 Vertical 63059.2180
+# Routed Length 170533.5500 Horizontal 94199.8800 Vertical 76333.6700
+# Ratio Actual / Manhattan   1.1324
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 191 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 186 Successes 184 Failures 2 Vias 72
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:02
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 190 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 185 Successes 183 Failures 2 Vias 72
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:02
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Cpu Time = 0:00:03  Elapsed Time = 0:00:04
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 9.0000, Clearance= 5.0000
+# Layer MIDDLE Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 9.0000, Clearance= 5.0000
+# Layer BOTTOM Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 9.0000, Clearance= 5.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   2|    0|   78|    0|   0|  0|  0:00:01|  0:00:01|
+# Clean    |  2|     0|     0|   2|    0|   72|    0|   0|   |  0:00:02|  0:00:03|
+# Clean    |  3|     0|     0|   2|    0|   72|    0|   0|   |  0:00:01|  0:00:04|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:04
+# 
+# Wiring Statistics ----------------- C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Nets 92 Connections 180 Unroutes 0
+# Signal Layers 3 Power Layers 2
+# Wire Junctions 3, at vias 1 Total Vias 72
+# Percent Connected  100.00
+# Manhattan Length 150551.5000 Horizontal 87452.9000 Vertical 63098.6000
+# Routed Length 170613.8600 Horizontal 93981.7500 Vertical 76632.1100
+# Ratio Actual / Manhattan   1.1333
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+write routes (changed_only) (reset_changed) C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaae04452.tmp
+# Routing Written to File C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaae04452.tmp
+quit

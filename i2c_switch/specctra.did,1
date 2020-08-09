@@ -1,0 +1,284 @@
+# Cadence Design Systems, Inc.
+# Allegro PCB Router Automatic Router
+# Allegro PCB Router v16-3-85 made 2009/11/03 at 11:55:32
+# Running on host 
+# 
+#            Command Line Parameters
+#            -----------------------
+# Design File Name : C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Initialization options:
+#   -do pasde.do
+# Status File Name : C:/Cadence/Projects/i2c_switch\monitor.sts
+# -nog specified. Graphics not utilized.
+# Use Colormap In Design File.
+#
+#
+#
+#
+# do $/i2c_switch_rules.do
+rule PCB (width 5)
+rule PCB (clearance 5 (type buried_via_gap))
+rule PCB (clearance 5 (type wire_wire))
+rule PCB (clearance 5 (type wire_smd))
+rule PCB (clearance 5 (type wire_pin))
+rule PCB (clearance 5 (type wire_via))
+rule PCB (clearance 5 (type smd_smd))
+rule PCB (clearance 5 (type smd_pin))
+rule PCB (clearance 5 (type smd_via))
+rule PCB (clearance 5 (type pin_pin))
+rule PCB (clearance 5 (type pin_via))
+rule PCB (clearance 5 (type via_via))
+rule PCB (clearance 5 (type test_test))
+rule PCB (clearance 5 (type test_wire))
+rule PCB (clearance 5 (type test_smd))
+rule PCB (clearance 5 (type test_pin))
+rule PCB (clearance 5 (type test_via))
+rule PCB (clearance 0 (type area_wire))
+rule PCB (clearance 0 (type area_smd))
+rule PCB (clearance 0 (type area_area))
+rule PCB (clearance 0 (type area_pin))
+rule PCB (clearance 0 (type area_via))
+rule PCB (clearance 0 (type area_test))
+rule PCB (clearance 5 (type microvia_microvia))
+set microvia_microvia on
+rule PCB (clearance 5 (type microvia_thrupin))
+set microvia_thrupin on
+rule PCB (clearance 5 (type microvia_smdpin))
+set microvia_smdpin on
+rule PCB (clearance 5 (type microvia_thruvia))
+set microvia_thruvia on
+rule PCB (clearance 5 (type microvia_bbvia))
+set microvia_bbvia on
+rule PCB (clearance 5 (type microvia_wire))
+set microvia_wire on
+rule PCB (clearance 5 (type bbvia_bbvia))
+set bbvia_bbvia on
+rule PCB (clearance 5 (type microvia_testpin))
+set microvia_testpin on
+rule PCB (clearance 5 (type bbvia_thrupin))
+set bbvia_thrupin on
+rule PCB (clearance 5 (type microvia_testvia))
+set microvia_testvia on
+rule PCB (clearance 5 (type bbvia_smdpin))
+set bbvia_smdpin on
+rule PCB (clearance 5 (type microvia_bondpad))
+set microvia_bondpad on
+rule PCB (clearance 5 (type bbvia_thruvia))
+set bbvia_thruvia on
+rule PCB (clearance 5 (type microvia_area))
+set microvia_area on
+rule PCB (clearance 5 (type bbvia_wire))
+set bbvia_wire on
+rule PCB (clearance 8 (type nhole_pin))
+set nhole_pin off
+rule PCB (clearance 8 (type nhole_via))
+set nhole_via off
+rule PCB (clearance 5 (type bbvia_area))
+set bbvia_area on
+rule PCB (clearance 8 (type nhole_wire))
+set nhole_wire off
+rule PCB (clearance 8 (type nhole_area))
+set nhole_area off
+rule PCB (clearance 8 (type nhole_nhole))
+set nhole_nhole off
+rule PCB (clearance 0 (type mhole_pin))
+set mhole_pin off
+rule PCB (clearance 5 (type bbvia_testpin))
+set bbvia_testpin on
+rule PCB (clearance 0 (type mhole_via))
+set mhole_via off
+rule PCB (clearance 5 (type bbvia_testvia))
+set bbvia_testvia on
+rule PCB (clearance 0 (type mhole_wire))
+set mhole_wire off
+rule PCB (clearance 0 (type mhole_area))
+set mhole_area off
+rule PCB (clearance 0 (type mhole_nhole))
+set mhole_nhole off
+rule PCB (clearance 0 (type mhole_mhole))
+set mhole_mhole off
+rule PCB (clearance 5 (type bbvia_bondpad))
+set bbvia_bondpad on
+rule net TXD2 (width 5)
+rule net PTA7 (width 5)
+rule net PTA4 (width 5)
+rule net TXD1 (width 5)
+rule net VCC (width 7)
+rule net PTA5 (width 5)
+rule net MOSI1 (width 5)
+rule net PTG3 (width 5)
+rule net R1IN (width 5)
+rule net PTA1 (width 5)
+rule net MOSI2 (width 5)
+rule net T2OUT (width 5)
+rule net PTA2 (width 5)
+rule net PTA3 (width 5)
+rule net N211814 (width 5)
+rule net N211830 (width 5)
+rule net SS1_N (width 5)
+rule net N211806 (width 5)
+rule net SPSCK2 (width 5)
+rule net R2IN (width 5)
+rule net T1OUT (width 5)
+rule net PTD4 (width 5)
+rule net SS2_N (width 5)
+rule net PTF2 (width 5)
+rule net R1OUT (width 5)
+rule net PTF3 (width 5)
+rule net PTA6 (width 5)
+rule net PTE2 (width 5)
+rule net PTG0 (width 5)
+rule net PTG1 (width 5)
+rule net PTG2 (width 5)
+rule net PTF7 (width 5)
+rule net PTC0 (width 5)
+rule net PTC1 (width 5)
+rule net PTD5 (width 5)
+rule net PTD6 (width 5)
+rule net PTD7 (width 5)
+rule net PTC2 (width 5)
+rule net PTC3 (width 5)
+rule net PTB4 (width 5)
+rule net PTB5 (width 5)
+rule net PTE5 (width 5)
+rule net PTE6 (width 5)
+rule net PTH0 (width 5)
+rule net PTH1 (width 5)
+rule net SDA1 (width 5)
+rule net SCL1 (width 5)
+rule net VREFL (width 9)
+rule net PTE7 (width 5)
+rule net SCL2 (width 5)
+rule net SDA2 (width 5)
+rule net V5_5 (width 7)
+rule net VOUT (width 5)
+rule net VIN (width 5)
+rule net PTC5 (width 5)
+rule net N212947 (width 5)
+rule net N212943 (width 5)
+rule net N212979 (width 5)
+rule net PTC4 (width 5)
+rule net N212975 (width 5)
+rule net N212923 (width 5)
+rule net N212927 (width 5)
+rule net PTB2 (width 5)
+rule net PTB3 (width 5)
+rule net PTF0 (width 5)
+rule net PTF4 (width 5)
+rule net R2OUT (width 5)
+rule net PTF1 (width 5)
+rule net PTE4 (width 5)
+rule net MISO2 (width 5)
+rule net SPSCK1 (width 5)
+rule net PTF5 (width 5)
+rule net PTF6 (width 5)
+rule net V3_3 (width 7)
+rule net AGND (width 9)
+rule PCB (clearance -1 same_net (type wire_wire))
+rule PCB (clearance -1 same_net (type wire_smd))
+rule PCB (clearance -1 same_net (type wire_pin))
+rule PCB (clearance -1 same_net (type wire_via))
+rule PCB (clearance -1 same_net (type smd_smd))
+rule PCB (clearance -1 same_net (type smd_pin))
+rule PCB (clearance -1 same_net (type smd_via))
+rule PCB (clearance -1 same_net (type pin_pin))
+rule PCB (clearance -1 same_net (type pin_via))
+rule PCB (clearance -1 same_net (type via_via))
+rule PCB (clearance -1 same_net (type test_test))
+rule PCB (clearance -1 same_net (type test_wire))
+rule PCB (clearance -1 same_net (type test_smd))
+rule PCB (clearance -1 same_net (type test_pin))
+rule PCB (clearance -1 same_net (type test_via))
+rule PCB (clearance 0 same_net (type area_wire))
+rule PCB (clearance 0 same_net (type area_smd))
+rule PCB (clearance 0 same_net (type area_area))
+rule PCB (clearance 0 same_net (type area_pin))
+rule PCB (clearance 0 same_net (type area_via))
+rule PCB (clearance 0 same_net (type area_test))
+rule PCB (clearance 5 same_net (type microvia_microvia))
+set microvia_microvia same_net off
+rule PCB (clearance 5 same_net (type microvia_thrupin))
+set microvia_thrupin same_net off
+rule PCB (clearance 5 same_net (type microvia_smdpin))
+set microvia_smdpin same_net off
+rule PCB (clearance 5 same_net (type microvia_thruvia))
+set microvia_thruvia same_net off
+rule PCB (clearance 5 same_net (type microvia_bbvia))
+set microvia_bbvia same_net off
+rule PCB (clearance 5 same_net (type microvia_wire))
+set microvia_wire same_net off
+rule PCB (clearance 5 same_net (type microvia_testpin))
+set microvia_testpin same_net off
+rule PCB (clearance 5 same_net (type microvia_testvia))
+set microvia_testvia same_net off
+rule PCB (clearance 5 same_net (type microvia_bondpad))
+set microvia_bondpad same_net off
+rule PCB (clearance 5 same_net (type microvia_area))
+set microvia_area same_net off
+rule PCB (clearance 8 same_net (type nhole_pin))
+set nhole_pin same_net off
+rule PCB (clearance 8 same_net (type nhole_via))
+set nhole_via same_net off
+rule PCB (clearance 8 same_net (type nhole_wire))
+set nhole_wire same_net off
+rule PCB (clearance 8 same_net (type nhole_area))
+set nhole_area same_net off
+rule PCB (clearance 8 same_net (type nhole_nhole))
+set nhole_nhole same_net off
+rule PCB (clearance 5 same_net (type bbvia_bbvia))
+set bbvia_bbvia same_net off
+rule PCB (clearance 5 same_net (type bbvia_thrupin))
+set bbvia_thrupin same_net off
+rule PCB (clearance 5 same_net (type bbvia_smdpin))
+set bbvia_smdpin same_net off
+rule PCB (clearance 5 same_net (type bbvia_thruvia))
+set bbvia_thruvia same_net off
+rule PCB (clearance 5 same_net (type bbvia_wire))
+set bbvia_wire same_net off
+rule PCB (clearance 5 same_net (type bbvia_area))
+set bbvia_area same_net off
+rule PCB (clearance 5 same_net (type bbvia_testpin))
+set bbvia_testpin same_net off
+rule PCB (clearance 5 same_net (type bbvia_testvia))
+set bbvia_testvia same_net off
+rule PCB (clearance 5 same_net (type bbvia_bondpad))
+set bbvia_bondpad same_net off
+rule pcb (tjunction on)(junction_type all)
+rule pcb (staggered_via on (min_gap 5))
+rule pcb (via_at_smd off)
+rule PCB (turn_under_pad off)
+rule layer TOP (restricted_layer_length_factor 1)
+rule layer BOTTOM (restricted_layer_length_factor 1)
+write colormap _notify.std
+# do C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaaw05472.tmp
+unselect all routing
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+direction TOP horizontal
+unselect layer TOP
+unprotect layer_wires TOP
+direction MIDDLE vertical
+unselect layer MIDDLE
+unprotect layer_wires MIDDLE
+direction BOTTOM horizontal
+unselect layer BOTTOM
+unprotect layer_wires BOTTOM
+cost via -1
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+fanout 5 (direction In_out) (location Anywhere) (pin_type power)
+write routes (changed_only) (reset_changed) C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaax05472.tmp
+quit -c
