@@ -1,0 +1,20 @@
+M48
+INCH,LZ
+T01C.013
+T02C.036
+T03C.042
+T04C.055
+T05C.125
+;LEADER: 12 
+;HEADER: i2c_switch 
+;CODE  : ASCII 
+;FILE  : i2c_switch-1-5-np.drl for board i2c_switch.brd ... layers TOP and BOTTOM
+;T05 Holesize 1. = 125.000000 Tolerance = +0.000000/-0.000000 NON_PLATED MILS Quantity = 4
+%
+G90
+T05
+X0095Y0053
+X0421Y0053
+X0421Y0476
+X0095Y0476
+M30

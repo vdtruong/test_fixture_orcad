@@ -1,0 +1,347 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : i2c_switch.brd                                )
+(    Software Version : 16.3p003                                      )
+(    Date/Time        : Sat Aug 08 14:24:34 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                5.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/Cadence/Projects/i2c_switch/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                8.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00700                                  DARK 
+  CIRCLE     0.00900                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.06500                                  DARK 
+  CIRCLE     0.08000                                  DARK 
+  SQUARE     0.06000                     0.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < POWER >
+     TO FILE < C:/Cadence/Projects/i2c_switch/POWER.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                8.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00700                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.06500                                  DARK 
+
+     POWER created.
+
+
+================================================================
+     PROCESSING FILM < MIDDLE >
+     TO FILE < C:/Cadence/Projects/i2c_switch/MIDDLE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                8.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00700                                  DARK 
+  CIRCLE     0.00900                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.06500                                  DARK 
+
+     MIDDLE created.
+
+
+================================================================
+     PROCESSING FILM < GND >
+     TO FILE < C:/Cadence/Projects/i2c_switch/GND.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                8.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00900                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.06500                                  DARK 
+
+     GND created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < C:/Cadence/Projects/i2c_switch/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                8.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00700                                  DARK 
+  CIRCLE     0.00900                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.06500                                  DARK 
+  CIRCLE     0.08000                                  DARK 
+  SQUARE     0.06000                     0.000 NO     DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < soldermask_bottom >
+     TO FILE < C:/Cadence/Projects/i2c_switch/soldermask_bottom.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                8.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04400                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  CIRCLE     0.08000                                  DARK 
+  CIRCLE     0.09500                                  DARK 
+  CIRCLE     0.14500                                  DARK 
+  SQUARE     0.07500                     0.000 NO     DARK 
+
+     soldermask_bottom created.
+
+
+================================================================
+     PROCESSING FILM < soldermask_top >
+     TO FILE < C:/Cadence/Projects/i2c_switch/soldermask_top.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                8.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04400                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  CIRCLE     0.08000                                  DARK 
+  CIRCLE     0.09500                                  DARK 
+  CIRCLE     0.14500                                  DARK 
+  SQUARE     0.07500                     0.000 NO     DARK 
+
+     soldermask_top created.
+
+
+================================================================
+     PROCESSING FILM < silkscreen_top >
+     TO FILE < C:/Cadence/Projects/i2c_switch/silkscreen_top.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                8.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+    WARNING: text composed 0 width line found at (1135.00 970.00)
+           ... using undefined line width of 8.00
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 8.00
+
+    WARNING: 0 width line found at (1160.00 920.00)
+           ... using undefined line width of 8.00
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 8.00
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+
+     silkscreen_top created with warnings
+
+
+================================================================
+     PROCESSING FILM < silkscreen_bottom >
+     TO FILE < C:/Cadence/Projects/i2c_switch/silkscreen_bottom.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                8.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:  NONE
+     silkscreen_bottom created.
+
+
+================================================================
+     PROCESSING FILM < manuf_photoplot >
+     TO FILE < C:/Cadence/Projects/i2c_switch/manuf_photoplot.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                8.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00800                                  DARK 
+
+     manuf_photoplot created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created.
+        POWER created.
+        MIDDLE created.
+        GND created.
+        BOTTOM created.
+        soldermask_bottom created.
+        soldermask_top created.
+        silkscreen_top created with warnings
+        silkscreen_bottom created.
+        manuf_photoplot created.
+
+ ARTWORK finished

@@ -1,0 +1,63 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : i2c_switch.brd                                )
+(    Software Version : 16.3p006                                      )
+(    Date/Time        : Sat Aug 08 12:40:08 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for the top of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 5.00
+Max Text displacement is 100.00
+Min Line Length is 8.00
+Allowing 0, 90, 180 and 270 degree text rotations.
+No Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : Silkscreen
+ Component Value      : None
+ Device Type          : None
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : None
+ User Part Number     : None
+
+Line segment from (3380.00, 1880.00) --> (3380.00, 1872.49) is too small.
+Text string 'J26' is not at a suitable location
+(location: 1653.00, 2782.00)
+Text string 'J25' is not at a suitable location
+(location: 2103.00, 2782.00)
+Text string 'J24' is not at a suitable location
+(location: 2553.00, 2782.00)
+Text string 'J23' is not at a suitable location
+(location: 3003.00, 2782.00)
+Text string 'J17' is not at a suitable location
+(location: 1853.00, 4602.00)
+Text string 'J13' is not at a suitable location
+(location: 3693.00, 4602.00)
+Text string 'J11' is not at a suitable location
+(location: 3938.00, 3533.00)
+Text string 'J18' is not at a suitable location
+(location: 1393.00, 4602.00)
+Text string 'U8' is not at a suitable location
+(location: 3040.00, 4480.00)
+Text string 'C9' is not at a suitable location
+(location: 2170.00, 4150.00)
+Text string 'C8' is not at a suitable location
+(location: 3430.00, 2110.00)
+Text string 'C31' is not at a suitable location
+(location: 3130.00, 2030.00)
+Text string 'U2' is not at a suitable location
+(location: 1846.00, 1670.00)
+Total segments less than 8.00, not copied: 1
+
+
+Total Failures: 13
+
+Log End
+

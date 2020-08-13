@@ -1,0 +1,590 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.3.0 p002Aug-07-2020 at 04:00:13 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='I2C_SWITCH';
+ POST_TIME='Nov 17 2009 03:09:43';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C14 'C_CAP196_2U':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS211908@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins211908@analog.\c.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page4_ins211908@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C22 'C_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS210395@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins210395@analog.\c.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page3_ins210395@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C26 'C_CAP196_10U':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS212038@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins212038@analog.\c.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page4_ins212038@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C27 'C_CAP196_0.47U':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS212080@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins212080@analog.\c.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page4_ins212080@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C28 'C_CAP196_33U':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS212104@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins212104@analog.\c.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page4_ins212104@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C29 'CAP_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS213021@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins213021@discrete.\cap.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page2_ins213021@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C30 'CAP_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS213037@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins213037@discrete.\cap.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page2_ins213037@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C31 'CAP_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS213053@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins213053@discrete.\cap.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page2_ins213053@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C32 'CAP_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS213069@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins213069@discrete.\cap.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page2_ins213069@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C33 'CAP_CAP196_1N':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS213085@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins213085@discrete.\cap.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page2_ins213085@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C34 'CAP_CAP196_10U':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS210733@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins210733@discrete.\cap.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page3_ins210733@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS210627@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins210627@analog.\c.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page3_ins210627@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS210463@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins210463@analog.\c.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page3_ins210463@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C_CAP196_0.1U':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS216723@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins216723@analog.\c.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page2_ins216723@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS211740@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins211740@discrete.\led.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page4_ins211740@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D5 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS211760@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins211760@discrete.\led.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page4_ins211760@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D6 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS211776@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins211776@discrete.\led.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page4_ins211776@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS211928@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins211928@connector.\con2.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page4_ins211928@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J10 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS226806@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins226806@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins226806@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J11 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215804@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215804@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215804@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J12 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215824@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215824@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215824@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J13 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215844@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215844@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215844@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J14 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215864@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215864@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215864@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J15 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215884@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215884@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215884@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J16 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215904@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215904@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215904@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J17 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215924@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215924@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215924@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J18 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215944@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215944@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215944@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J19 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS223298@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins223298@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins223298@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'HEADER 8_JUMPER8_HEADER 8':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215454@CONNECTOR.HEADER 8.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215454@connector.\header 8.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215454@connector.\header 8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J20 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS223318@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins223318@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins223318@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J21 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS223338@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins223338@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins223338@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J22 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS223358@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins223358@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins223358@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J23 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS223378@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins223378@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins223378@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J24 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS223398@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins223398@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins223398@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J25 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS223418@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins223418@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins223418@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J26 '4 HEADER_JUMPER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS223438@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins223438@connector.\4 header.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins223438@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J27 'CON2_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS228277@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins228277@connector.\con2.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page2_ins228277@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'HEADER 8_JUMPER8_HEADER 8':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215482@CONNECTOR.HEADER 8.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215482@connector.\header 8.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215482@connector.\header 8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'HEADER 8_JUMPER8_HEADER 8':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215510@CONNECTOR.HEADER 8.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215510@connector.\header 8.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215510@connector.\header 8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'HEADER 8_JUMPER8_HEADER 8':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215538@CONNECTOR.HEADER 8.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215538@connector.\header 8.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215538@connector.\header 8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'HEADER 8_JUMPER8_HEADER 8':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215030@CONNECTOR.HEADER 8.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215030@connector.\header 8.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215030@connector.\header 8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'HEADER 8_JUMPER8_HEADER 8':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215058@CONNECTOR.HEADER 8.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215058@connector.\header 8.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215058@connector.\header 8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'HEADER 8_JUMPER8_HEADER 8':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215094@CONNECTOR.HEADER 8.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215094@connector.\header 8.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215094@connector.\header 8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J9 'HEADER 8_JUMPER8_HEADER 8':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS215130@CONNECTOR.HEADER 8.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins215130@connector.\header 8.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page1_ins215130@connector.\header 8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'RESISTOR_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS210761@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins210761@discrete.\resistor.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page3_ins210761@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'RESISTOR_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS210789@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins210789@discrete.\resistor.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page3_ins210789@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'RESISTOR_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS210829@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins210829@discrete.\resistor.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page3_ins210829@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'RESISTOR_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS210845@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins210845@discrete.\resistor.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page3_ins210845@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'RESISTOR_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS210447@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins210447@discrete.\resistor.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page3_ins210447@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'RESISTOR_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS216707@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins216707@discrete.\resistor.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page2_ins216707@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS212164@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins212164@analog.\r.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page4_ins212164@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS212180@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins212180@analog.\r.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page4_ins212180@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS211886@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins211886@analog.\r.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page4_ins211886@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'MC9S08QE128_1_MC9S08QE128_V2_MC':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS210487@I2C_SWITCH.MC9S08QE128_1.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins210487@i2c_switch.\mc9s08qe128_1.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page3_ins210487@i2c_switch.\mc9s08qe128_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'LT323/TO220_0_TO220AB_LT323/TO2':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS211982@TEST FIXTURE.LT323/TO220_0.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins211982@\test fixture\.\lt323/to220_0.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page4_ins211982@\test fixture\.\lt323/to220_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'LM3940/TO220_0_TO220AB_LM3940/T':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS212004@TEST FIXTURE.LM3940/TO220_0.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins212004@\test fixture\.\lm3940/to220_0.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page4_ins212004@\test fixture\.\lm3940/to220_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'MAX3222_2_DIP18_3_MAX3222':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS212845@TEST FIXTURE.MAX3222_2.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins212845@\test fixture\.\max3222_2.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page2_ins212845@\test fixture\.\max3222_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'ADAFRT_TCA9548APWR_DIP24_6_ADAF':;
+
+SECTION_NUMBER 1
+ '@I2C_SWITCH.SCHEMATIC1(SCH_1):INS213351@LIBRARY1.ADAFRT_TCA9548APWR.NORMAL(CHIPS)':
+ C_PATH='@i2c_switch.schematic1(sch_1):ins213351@library1.\adafrt_tca9548apwr.normal\(chips)',
+ P_PATH='@i2c_switch.schematic1(sch_1):page2_ins213351@library1.\adafrt_tca9548apwr.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

@@ -1,0 +1,810 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2006 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Sat Aug 08 02:09:56 2020
+# 
+# Allegro PCB Router v16-3-85 made 2009/11/03 at 11:55:32
+# Running on: second_xp, OS Version: WindowsNT 5.1.2600, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/Cadence/Projects/i2c_switch/specctra.did
+# Current time = Sat Aug 08 02:09:56 2020
+# PCB C:/Cadence/Projects/i2c_switch
+# Master Unit set up as: MIL 1000
+# PCB Limits xlo=897.0000 ylo=227.0000 xhi=4263.0000 yhi=4861.5000
+# Total 52 Images Consolidated.
+# Via VIA z=1, 3 xlo=-12.0000 ylo=-12.0000 xhi= 12.0000 yhi= 12.0000
+# 
+#    VIA     TOP  MIDDLE  BOTTOM
+# 
+#    TOP  ------   VIA     VIA  
+# MIDDLE   VIA    ------   VIA  
+# BOTTOM   VIA     VIA    ------
+# 
+# Wires Processed 177, Vias Processed 32
+# Using colormap in design file.
+# Layers Processed: Signal Layers 3
+# Layers Processed: Power Layers 2
+# Components Placed 62, Images Processed 71, Padstacks Processed 20
+# Nets Processed 93, Net Terminals 336
+# PCB Area=12331800.000  EIC=21  Area/EIC=587228.571  SMDs=0
+# Total Pin Count: 304
+# Net VCC uses split power plane.
+# Net V5_5 uses split power plane.
+# Net V3_3 uses split power plane.
+# Net AGND uses split power plane.
+# Signal Connections Created 35
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer MIDDLE Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Nets 93 Connections 212 Unroutes 93
+# Signal Layers 3 Power Layers 2
+# Wire Junctions 2, at vias 0 Total Vias 32
+# Percent Connected   48.58
+# Manhattan Length 159759.0000 Horizontal 93244.7500 Vertical 66514.2500
+# Routed Length 164848.2400 Horizontal 89437.0300 Vertical 76126.5900
+# Ratio Actual / Manhattan   1.0319
+# Unconnected Length 22201.4600 Horizontal 14957.9800 Vertical 7243.4800
+# Total Conflicts: 44 (Cross: 0, Clear: 44, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Loading Do File pasde.do ...
+# Loading Do File C:/Cadence/Projects/i2c_switch\i2c_switch_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaac05472.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+unselect layer TOP
+# <<WARNING:>> IRoute: Interactive layer(s) disabled for autorouting: TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction MIDDLE vertical
+unselect layer MIDDLE
+# <<WARNING:>> IRoute: Interactive layer(s) disabled for autorouting: MIDDLE
+unprotect layer_wires MIDDLE
+# Wires on layer MIDDLE were Unprotected.
+direction BOTTOM horizontal
+unselect layer BOTTOM
+# <<WARNING:>> IRoute: Interactive layer(s) disabled for autorouting: BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+fanout 5 (direction In_out) (location Anywhere) (pin_type power)
+# Command fanout detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command fanout will ignore pcb layer rule(s), mcm via rule(s)
+# Command Fanout detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command Fanout will ignore pcb layer rule(s), mcm via rule(s)
+# Fanout in any direction.
+# Fanout inside and outside component outline.
+# Fanout..Power Nets.
+# Current time = Sat Aug 08 02:10:30 2020
+# 
+#    VIA     TOP  MIDDLE  BOTTOM
+# 
+#    TOP  ------   VIA     VIA  
+# MIDDLE   VIA    ------   VIA  
+# BOTTOM   VIA     VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer MIDDLE Off  Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Off  Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Nets 93 Connections 212 Unroutes 93
+# Signal Layers 3 Power Layers 2
+# Wire Junctions 2, at vias 0 Total Vias 32
+# Percent Connected   48.58
+# Manhattan Length 159759.0000 Horizontal 93244.7500 Vertical 66514.2500
+# Routed Length 164848.2400 Horizontal 89437.0300 Vertical 76126.5900
+# Ratio Actual / Manhattan   1.0319
+# Unconnected Length 22201.4600 Horizontal 14957.9800 Vertical 7243.4800
+# Start Fanout Pass 1 of 5
+# Attempts 35 Successes 0 Failures 35 Vias 32
+# 10 bend points have been removed.
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 5
+# Start Fanout Pass 2 of 5
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Attempts 35 Successes 0 Failures 35 Vias 32
+# 0 bend points have been removed.
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 5
+# Start Fanout Pass 3 of 5
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Attempts 35 Successes 0 Failures 35 Vias 32
+# 0 bend points have been removed.
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 3 of 5
+# Start Fanout Pass 4 of 5
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Attempts 35 Successes 0 Failures 35 Vias 32
+# 0 bend points have been removed.
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 4 of 5
+# Start Fanout Pass 5 of 5
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Attempts 35 Successes 0 Failures 35 Vias 32
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 2 (Cross: 0, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 5 of 5
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Nets 93 Connections 212 Unroutes 93
+# Signal Layers 3 Power Layers 2
+# Wire Junctions 2, at vias 0 Total Vias 32
+# Percent Connected   55.19
+# Manhattan Length 159759.0000 Horizontal 93486.0090 Vertical 66272.9910
+# Routed Length 165185.2400 Horizontal 89757.0300 Vertical 76143.5900
+# Ratio Actual / Manhattan   1.0340
+# Unconnected Length 22201.4600 Horizontal 14957.9800 Vertical 7243.4800
+write routes (changed_only) (reset_changed) C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaad05472.tmp
+# Routing Written to File C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaad05472.tmp
+# Loading Do File C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaae05472.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction MIDDLE vertical
+select layer MIDDLE
+unprotect layer_wires MIDDLE
+# Wires on layer MIDDLE were Unprotected.
+direction BOTTOM horizontal
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+route 25 1
+# Command route detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command route will ignore pcb layer rule(s), mcm via rule(s)
+# Current time = Sat Aug 08 02:28:50 2020
+# 
+#    VIA     TOP  MIDDLE  BOTTOM
+# 
+#    TOP  ------   VIA     VIA  
+# MIDDLE   VIA    ------   VIA  
+# BOTTOM   VIA     VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer MIDDLE Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Nets 93 Connections 212 Unroutes 93
+# Signal Layers 3 Power Layers 2
+# Wire Junctions 2, at vias 0 Total Vias 32
+# Percent Connected   55.19
+# Manhattan Length 159759.0000 Horizontal 93486.0090 Vertical 66272.9910
+# Routed Length 165185.2400 Horizontal 89757.0300 Vertical 76143.5900
+# Ratio Actual / Manhattan   1.0340
+# Unconnected Length 22201.4600 Horizontal 14957.9800 Vertical 7243.4800
+# Start Route Pass 1 of 25
+# Routing 256 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 6 bend points have been removed.
+# 5 bend points have been removed.
+# Total Conflicts: 13 (Cross: 11, Clear: 2, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 249 Successes 248 Failures 1 Vias 119
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:02
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 25
+# Start Route Pass 2 of 25
+# Routing 240 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 6 (Cross: 6, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 224 Successes 222 Failures 2 Vias 97
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:02
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Conflict Reduction  0.5385
+# End Pass 2 of 25
+# 6 bend points have been removed.
+# 10 bend points have been removed.
+# Start Route Pass 3 of 25
+# Routing 8 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 8 Successes 8 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 3 of 25
+# Start Route Pass 4 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 4 of 25
+# Start Route Pass 5 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 5 of 25
+# Start Route Pass 6 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 6 of 25
+# Start Route Pass 7 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 85 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 7 of 25
+# Start Route Pass 8 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 8 of 25
+# Start Route Pass 9 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 9 of 25
+# Start Route Pass 10 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 10 of 25
+# Start Route Pass 11 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 11 of 25
+# Start Route Pass 12 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 78 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 12 of 25
+# Start Route Pass 13 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 13 of 25
+# Start Route Pass 14 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 14 of 25
+# Start Route Pass 15 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 15 of 25
+# Start Route Pass 16 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 16 of 25
+# Start Route Pass 17 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 77 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 17 of 25
+# Start Route Pass 18 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 18 of 25
+# Start Route Pass 19 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 19 of 25
+# Start Route Pass 20 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 20 of 25
+# Start Route Pass 21 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 21 of 25
+# Start Route Pass 22 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 77 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 22 of 25
+# Start Route Pass 23 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 23 of 25
+# Start Route Pass 24 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 24 of 25
+# Start Route Pass 25 of 25
+# Routing 2 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 77 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 2 (Cross: 2, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 99
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 25 of 25
+# Cpu Time = 0:00:05  Elapsed Time = 0:00:10
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 9.0000, Clearance= 5.0000
+# Layer MIDDLE Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 9.0000, Clearance= 5.0000
+# Layer BOTTOM Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 9.0000, Clearance= 5.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Fanout   |  1|     0|     2|  35|   93|   32|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  2|     0|     2|  35|   93|   32|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  3|     0|     2|  35|   93|   32|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  4|     0|     2|  35|   93|   32|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  5|     0|     2|  35|   93|   32|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  6|    11|     2|   1|    0|  119|    0|   0|  0|  0:00:02|  0:00:02|
+# Route    |  7|     6|     0|   2|    0|   97|    0|   0| 53|  0:00:02|  0:00:04|
+# Route    |  8|     2|     0|   0|    0|   99|    0|   0| 66|  0:00:00|  0:00:04|
+# Route    |  9|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 10|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 11|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 12|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    | 13|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 14|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 15|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 16|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 17|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 18|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 19|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 20|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 21|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 22|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 23|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 24|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 25|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 26|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 27|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 28|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 29|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 30|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:05
+# 
+# Wiring Statistics ----------------- C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Nets 93 Connections 212 Unroutes 0
+# Signal Layers 3 Power Layers 2
+# Wire Junctions 12, at vias 6 Total Vias 99
+# Percent Connected   99.06
+# Manhattan Length 157787.7600 Horizontal 92766.3220 Vertical 65021.4380
+# Routed Length 199703.0404 Horizontal 124912.3000 Vertical 75113.6200
+# Ratio Actual / Manhattan   1.2656
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+clean 2
+# Command clean detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command clean will ignore pcb layer rule(s), mcm via rule(s)
+# Current time = Sat Aug 08 02:29:00 2020
+# 
+#    VIA     TOP  MIDDLE  BOTTOM
+# 
+#    TOP  ------   VIA     VIA  
+# MIDDLE   VIA    ------   VIA  
+# BOTTOM   VIA     VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer MIDDLE Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Nets 93 Connections 212 Unroutes 0
+# Signal Layers 3 Power Layers 2
+# Wire Junctions 12, at vias 6 Total Vias 99
+# Percent Connected   99.06
+# Manhattan Length 157787.7600 Horizontal 92766.3220 Vertical 65021.4380
+# Routed Length 199703.0404 Horizontal 124912.3000 Vertical 75113.6200
+# Ratio Actual / Manhattan   1.2656
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 237 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 1 (Cross: 1, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 225 Successes 224 Failures 1 Vias 96
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:02
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 235 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 1 bend points have been removed.
+# Total Conflicts: 1 (Cross: 1, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 224 Successes 222 Failures 2 Vias 96
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:02
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Cpu Time = 0:00:04  Elapsed Time = 0:00:05
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 9.0000, Clearance= 5.0000
+# Layer MIDDLE Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 9.0000, Clearance= 5.0000
+# Layer BOTTOM Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 9.0000, Clearance= 5.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Fanout   |  1|     0|     2|  35|   93|   32|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  2|     0|     2|  35|   93|   32|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  3|     0|     2|  35|   93|   32|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  4|     0|     2|  35|   93|   32|    0|   0|   |  0:00:00|  0:00:00|
+# Fanout   |  5|     0|     2|  35|   93|   32|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  6|    11|     2|   1|    0|  119|    0|   0|  0|  0:00:02|  0:00:02|
+# Route    |  7|     6|     0|   2|    0|   97|    0|   0| 53|  0:00:02|  0:00:04|
+# Route    |  8|     2|     0|   0|    0|   99|    0|   0| 66|  0:00:00|  0:00:04|
+# Route    |  9|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 10|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 11|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:04|
+# Route    | 12|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:01|  0:00:05|
+# Route    | 13|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 14|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 15|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 16|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 17|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 18|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 19|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 20|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 21|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 22|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 23|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 24|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 25|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 26|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 27|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 28|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 29|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Route    | 30|     2|     0|   0|    0|   99|    0|   0|  0|  0:00:00|  0:00:05|
+# Clean    | 31|     1|     0|   1|    0|   96|    0|   0|   |  0:00:02|  0:00:07|
+# Clean    | 32|     1|     0|   2|    0|   96|    0|   0|   |  0:00:02|  0:00:09|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:09
+# 
+# Wiring Statistics ----------------- C:/Cadence/Projects/i2c_switch\i2c_switch.dsn
+# Nets 93 Connections 212 Unroutes 0
+# Signal Layers 3 Power Layers 2
+# Wire Junctions 13, at vias 6 Total Vias 96
+# Percent Connected   99.53
+# Manhattan Length 157541.2400 Horizontal 92541.2360 Vertical 65000.0040
+# Routed Length 199853.6004 Horizontal 125352.0300 Vertical 74824.4500
+# Ratio Actual / Manhattan   1.2686
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+write routes (changed_only) (reset_changed) C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaaf05472.tmp
+# Routing Written to File C:/DOCUME~1/Owner/LOCALS~1/Temp/#Taaaaaf05472.tmp
+quit

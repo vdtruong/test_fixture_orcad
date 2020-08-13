@@ -1,0 +1,281 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/Cadence/Projects/i2c_switch/i2c_switch.brd                               |
+|                                                    Fri Aug 07 04:00:17 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  AGND         pins MOVED FROM this net (to net name listed on right)
+                                 J10.1           3530.00 3160.00
+                                                                           V3_3
+                                 J11.2           2430.00 4330.00
+                                                                           V3_3
+                                 J19.1           1700.00 4540.00
+                                                                           V3_3
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J20.2                          
+                                 J21.2                          
+                                 J22.2                          
+                                 J23.2                          
+                                 J24.2                          
+                                 J25.2                          
+                                 J26.2                          
+                                 J27.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N192355      net RENAMED (to net name listed on right)           N211806      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N192363      net RENAMED (to net name listed on right)           N211814      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N192379      net RENAMED (to net name listed on right)           N211830      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N195591      net RENAMED (to net name listed on right)           N212923      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N195595      net RENAMED (to net name listed on right)           N212927      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N195611      net RENAMED (to net name listed on right)           N212943      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N195615      net RENAMED (to net name listed on right)           N212947      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N195643      net RENAMED (to net name listed on right)           N212975      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N195647      net RENAMED (to net name listed on right)           N212979      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N199768      pins MOVED FROM this net (to net name listed on right)
+                                 C9.2            2370.00 4110.00
+                                                                        N216787
+                                 J11.1           2330.00 4330.00
+                                                                           AGND
+                                 R15.2           2160.00 3900.00
+                                                                        N216787
+                                 U8.5            3020.00 3740.00
+                                                                        N216787
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/Cadence/Projects/i2c_switch/i2c_switch.brd                               |
+|                                                    Fri Aug 07 04:00:17 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N216787      pins ADDED TO this new net
+                                 J27.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SC0          pins MOVED FROM this net (to net name listed on right)
+                                 J12.4           4000.00 3840.00
+                                                                            SC1
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J11.4           2630.00 4330.00
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SC1          pins MOVED FROM this net (to net name listed on right)
+                                 J13.4           4000.00 4300.00
+                                                                            SC2
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SC2          pins MOVED FROM this net (to net name listed on right)
+                                 J14.4           3700.00 4540.00
+                                                                            SC3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SC3          pins MOVED FROM this net (to net name listed on right)
+                                 J15.4           3240.00 4540.00
+                                                                            SC4
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SC4          pins MOVED FROM this net (to net name listed on right)
+                                 J16.4           2780.00 4540.00
+                                                                            SC5
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SC5          pins MOVED FROM this net (to net name listed on right)
+                                 J17.4           2320.00 4540.00
+                                                                            SC6
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SC6          pins MOVED FROM this net (to net name listed on right)
+                                 J18.4           1860.00 4540.00
+                                                                            SC7
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SC7          pins MOVED FROM this net (to net name listed on right)
+                                 J19.4           1400.00 4540.00
+                                                                           SCL1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCL1         pins ADDED TO this existing net (pins not previously on any net)
+                                 J20.4                          
+                                 J21.4                          
+                                 J22.4                          
+                                 J23.4                          
+                                 J24.4                          
+                                 J25.4                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Cadence/Projects/i2c_switch/i2c_switch.brd                               |
+|                                                    Fri Aug 07 04:00:17 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J26.4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCL2         pins ADDED TO this existing net (pins not previously on any net)
+                                 R13.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD0          pins MOVED FROM this net (to net name listed on right)
+                                 J12.3           4000.00 3740.00
+                                                                            SD1
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J11.3           2530.00 4330.00
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD1          pins MOVED FROM this net (to net name listed on right)
+                                 J13.3           4000.00 4200.00
+                                                                            SD2
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD2          pins MOVED FROM this net (to net name listed on right)
+                                 J14.3           3800.00 4540.00
+                                                                            SD3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD3          pins MOVED FROM this net (to net name listed on right)
+                                 J15.3           3340.00 4540.00
+                                                                            SD4
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD4          pins MOVED FROM this net (to net name listed on right)
+                                 J16.3           2880.00 4540.00
+                                                                            SD5
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD5          pins MOVED FROM this net (to net name listed on right)
+                                 J17.3           2420.00 4540.00
+                                                                            SD6
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD6          pins MOVED FROM this net (to net name listed on right)
+                                 J18.3           1960.00 4540.00
+                                                                            SD7
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD7          pins MOVED FROM this net (to net name listed on right)
+                                 J19.3           1500.00 4540.00
+                                                                           SDA1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDA1         pins ADDED TO this existing net (pins not previously on any net)
+                                 J20.3                          
+                                 J21.3                          
+                                 J22.3                          
+                                 J23.3                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/Cadence/Projects/i2c_switch/i2c_switch.brd                               |
+|                                                    Fri Aug 07 04:00:17 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J24.3                          
+                                 J25.3                          
+                                 J26.3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDA2         pins ADDED TO this existing net (pins not previously on any net)
+                                 R12.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  V3_3         pins MOVED FROM this net (to net name listed on right)
+                                 J10.3           3730.00 3160.00
+                                                                           V5_5
+                                 J10.4           3830.00 3160.00
+                                                                           AGND
+                                 J19.2           1600.00 4540.00
+                                                                           AGND
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J20.1                          
+                                 J21.1                          
+                                 J22.1                          
+                                 J23.1                          
+                                 J24.1                          
+                                 J25.1                          
+                                 J26.1                          
+                                 R12.2                          
+                                 R13.2                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:/Cadence/Projects/i2c_switch/i2c_switch.brd                               |
+|                                                    Fri Aug 07 04:00:17 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ ADAFRT_TCA9548APWR_DIP24_6_ADAF
+ MC9S08QE128_1_MC9S08QE128_V2_MC
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:/Cadence/Projects/i2c_switch/i2c_switch.brd                               |
+|                                                    Fri Aug 07 04:00:17 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J20                 4 HEADER_JUMPER4_4 HEADER 
+ J21                 4 HEADER_JUMPER4_4 HEADER 
+ J22                 4 HEADER_JUMPER4_4 HEADER 
+ J23                 4 HEADER_JUMPER4_4 HEADER 
+ J24                 4 HEADER_JUMPER4_4 HEADER 
+ J25                 4 HEADER_JUMPER4_4 HEADER 
+ J26                 4 HEADER_JUMPER4_4 HEADER 
+ J27                 CON2_JUMPER2_CON2     
+ R12                 RESISTOR_RES400_10K   
+ R13                 RESISTOR_RES400_10K   
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  C:/Cadence/Projects/i2c_switch/i2c_switch.brd                               |
+|                                                    Fri Aug 07 04:00:17 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in board drawing          |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J10                 4 HEADER_JUMPER4_4 HEADER 3530.00 3160.00 HEADER 8_JUMPER8_HEADER 8
+ J11                 4 HEADER_JUMPER4_4 HEADER 2330.00 4330.00 CON2_JUMPER2_CON2
+ U2                  MC9S08QE128_1_MC9S08QE128_V2_MC 1530.00 1670.00 MC9S08QE128_0_MC9S08QE128_V2_MC
+ U8                  ADAFRT_TCA9548APWR_DIP24_6_ADAF 2620.00 3740.00 ADAFRT_TCA9548APWR_0_DIP24_6_AD
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  C:/Cadence/Projects/i2c_switch/i2c_switch.brd                               |
+|                                                    Fri Aug 07 04:00:17 2020  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J10.4          3530.00 3160.00 PRIM_FILE      .\pstchip.dat
+ J11.4          2330.00 4330.00 PRIM_FILE      .\pstchip.dat
+ J20.4                          PRIM_FILE      .\pstchip.dat
+ J21.4                          PRIM_FILE      .\pstchip.dat
+ J22.4                          PRIM_FILE      .\pstchip.dat
+ J23.4                          PRIM_FILE      .\pstchip.dat
+ J24.4                          PRIM_FILE      .\pstchip.dat
+ J25.4                          PRIM_FILE      .\pstchip.dat
+ J26.4                          PRIM_FILE      .\pstchip.dat
+ J27.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ U2.11          1530.00 1670.00 PRIM_FILE      .\pstchip.dat
+ U8.1           2620.00 3740.00 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  101                                            |
+|------------------------------------------------------------------------------|

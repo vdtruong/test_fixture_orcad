@@ -1,0 +1,81 @@
+Sat Aug 08 14:24:13 2020				Page     1
+
+Photoplot log file
+Results from aperture table.
+
+
+INPUT-UNITS     INCHES
+
+WHEEL     1
+
+LINE               4            D69
+LINE               5            D66
+LINE               6            D70
+LINE               7            D74
+LINE               8            D71
+LINE               9            D67
+LINE              10            D72
+LINE           19.69            D68
+LINE              25            D73
+CIRCLE            24            D49
+CIRCLE            25            D64
+CIRCLE            30            D48
+CIRCLE            40            D38
+CIRCLE            44            D50
+CIRCLE            50            D65
+CIRCLE            55            D54
+CIRCLE            60            D52
+CIRCLE            65            D56
+CIRCLE            68            D37
+CIRCLE            75            D53
+CIRCLE            80            D57
+CIRCLE            85            D14
+CIRCLE            88            D51
+CIRCLE            93            D55
+CIRCLE            95            D62
+CIRCLE           108            D61
+CIRCLE           109            D47
+CIRCLE           119            D46
+CIRCLE           125            D15
+CIRCLE           129            D44
+CIRCLE           135            D40
+CIRCLE           145            D63
+CIRCLE           150            D16
+CIRCLE           160            D39
+CIRCLE           170            D42
+CIRCLE           190            D30
+CIRCLE           200            D41
+CIRCLE           220            D29
+CIRCLE           300            D43
+CIRCLE           400            D31
+SQUARE            55   0.00000            D35
+SQUARE            60   0.00000            D59
+SQUARE            62   0.00000            D33
+SQUARE            72   0.00000            D36
+SQUARE            75   0.00000            D60
+SQUARE            80   0.00000            D34
+SQUARE            88   0.00000            D58
+Sat Aug 08 14:24:13 2020				Page     2
+
+Photoplot log file
+Results from aperture table.
+
+SQUARE           105   0.00000            D32
+RECTANGLE         13        65   0.00000  D11
+RECTANGLE         18        75   0.00000  D13
+RECTANGLE         35       262   0.00000  D26
+RECTANGLE         50       280   0.00000  D28
+RECTANGLE         55       425   0.00000  D17
+RECTANGLE         63       300   0.00000  D24
+RECTANGLE         65        13   0.00000  D10
+RECTANGLE         75        18   0.00000  D12
+RECTANGLE         75       425   0.00000  D22
+RECTANGLE         85       445   0.00000  D19
+RECTANGLE        262        35   0.00000  D25
+RECTANGLE        280        50   0.00000  D27
+RECTANGLE        300        63   0.00000  D23
+RECTANGLE        425        55   0.00000  D18
+RECTANGLE        425        75   0.00000  D21
+RECTANGLE        445        85   0.00000  D20
+FLASH     AB00                 0.00000  D45
+

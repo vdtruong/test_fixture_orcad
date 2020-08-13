@@ -1,0 +1,19 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DRILL LEGEND                                                     )
+(                                                                     )
+(    Drawing          : i2c_switch.brd                                )
+(    Software Version : 16.3p006                                      )
+(    Date/Time        : Sat Aug 08 14:37:01 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Begin processing of drill legend template file 'C:/Cadence/SPB_16.3/share/pcb/text/nclegend/default-mil.dlt' ...
+End of drill legend template file processing.
+Begin processing of drill legend template file 'C:/Cadence/SPB_16.3/share/pcb/text/nclegend/default-mil.dlt' ...
+End of drill legend template file processing.
+
+Begin processing drill holes.
+No errors detected in processing holes.
+End processing drill holes.

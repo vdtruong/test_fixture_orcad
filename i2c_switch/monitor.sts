@@ -1,0 +1,17 @@
+#Allegro PCB Router v16-3-85 made 2009/11/03 at 11:55:32
+#Host 
+#ROUTING STATUS <<< C:/Cadence/Projects/i2c_switch\i2c_switch.dsn >>>
+Start  Time: Report Time: Sat Aug 08 04:38:29 2020
+
+Nets         =       92   Connections         =      212
+Current Wire =      225   Reroute wires       =      225
+Completion   =  100.00%   Unconnections       =        0
+| ROUTING HISTORY ================================================================
+|     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+|   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+|----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+| Route    |  1|     1|     6|  14|    0|  102|    0|   0|  0|  0:00:04|  0:00:04|
+| Route    |  2|     0|     0|   1|    0|  101|    0|   0|100|  0:00:00|  0:00:04|
+| Clean    |  3|     0|     0|   1|    0|   93|    0|   0|   |  0:00:04|  0:00:08|
+| Clean    |  4|     0|     0|   1|    0|   90|    0|   0|   |  0:00:04|  0:00:12|
+| Conflicts between polygon wires and fixed objects:   0

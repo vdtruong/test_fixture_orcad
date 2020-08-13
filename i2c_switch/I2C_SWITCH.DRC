@@ -1,0 +1,58 @@
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING:  [DRC0006]  Net has fewer than two connections Vin
+                    SCHEMATIC1, connectors  (1.40, 4.50) 
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+WARNING:  [DRC0009]  No matching off-page connector Vin
+                    SCHEMATIC1, connectors  (1.40, 4.50) 
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: I2C_SWITCH 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+
+Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+
+Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+Check High Speed Properties Syntax
+
+Check Power Ground Mismatch
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? GND AGND  GND  
+                    SCHEMATIC1, power  (2.70, 3.40) 
+WARNING:  [DRC0037]  Net has two or more aliases - possible short? U8,GND GND  AGND
+                    SCHEMATIC1, digital  (6.60, 3.90) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
